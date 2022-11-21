@@ -5,10 +5,8 @@ if __name__ == '__main__':
     genbank_file_path = 'input_files/unknown_virus.gb'
 
     genbank_file = open(genbank_file_path, 'r')
-    genbank_count = 1
 
     for genebank in SeqIO.parse(genbank_file, 'genbank'):
-        print(f'------------- Genbank record #{genbank_count} -------------')
         neuclotide_sequence = genebank.seq
         neuclotide_sequence_complementary = genebank.seq.reverse_complement()
 
@@ -35,15 +33,17 @@ if __name__ == '__main__':
                     protein = protein[start_position:]
                     proteins_complementary_by_orf[orf].append(protein)
 
-        output_path = f'output_files/Ejercicio1_{genbank_count}.fasta'
+        output_path = f'output_files/all_proteins_longer_than_30.fasta'
 
         all_proteins = []
         for orf, proteins_in_orf in proteins_by_orf.items():
             for protein in proteins_in_orf:
-                all_proteins.append((protein, orf))
+                if len(protein) >= 30:
+                    all_proteins.append((protein, orf))
         for orf, proteins_in_orf in proteins_complementary_by_orf.items():
             for protein in proteins_in_orf:
-                all_proteins.append((protein, (-1) * orf))
+                if len(protein) >= 30:
+                    all_proteins.append((protein, (-1) * orf))
 
         sorted_proteins = sorted(
             all_proteins,
@@ -58,5 +58,3 @@ if __name__ == '__main__':
                                              description=f'Protein #{i+1} translated from {genebank.id} with ORF = {orf}'))
 
         SeqIO.write(protein_records, output_path, 'fasta')
-
-        genbank_count += 1

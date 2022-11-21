@@ -1,0 +1,34 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Mon 21 Nov 2022 13:47:07
+# Commandline: patmatmotifs
+#    -sequence output_files/second_protein.fasta
+#    -outfile output_files/motifs.patmatmotifs
+# Report_format: dbmotif
+# Report_file: output_files/motifs.patmatmotifs
+########################################
+
+#=======================================
+#
+# Sequence: <unknown     from: 1   to: 986
+# HitCount: 1
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 9
+Start = position 656 of sequence
+End = position 664 of sequence
+
+Motif = DNA_POLYMERASE_B
+
+KFNVLYGDTDSTFVLPTFN
+     |       |
+   656       664
+
+
+#---------------------------------------
+#---------------------------------------
