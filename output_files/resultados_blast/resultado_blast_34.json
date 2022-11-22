@@ -1,0 +1,248 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_34",
+          "query_title": "<unknown id> Protein #34 translated from XX894275 with ORF = 1",
+          "query_len": 58,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|173693",
+                  "accession": "173693",
+                  "title": "A3CSJ6.1 RecName: Full=50S ribosomal protein L1 [Methanoculleus marisnigri JR1]"
+                }
+              ],
+              "len": 213,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 3.21947,
+                  "identity": 14,
+                  "positive": 31,
+                  "query_from": 2,
+                  "query_to": 53,
+                  "hit_from": 35,
+                  "hit_to": 83,
+                  "align_len": 52,
+                  "gaps": 3,
+                  "qseq": "NINLYYPRNRLDKILTISVPASANSINLFVFNYRDDLSSSNSLAIWNIIISP",
+                  "hseq": "NIDMSQPKNRIDE--TIHLPNGFDNVKIAVLGKGDIVTQAKEVNV-DLIIGP",
+                  "midline": "NI++  P+NR+D+  TI +P   +++ + V    D ++ +  + + ++II P"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|336009",
+                  "accession": "336009",
+                  "title": "Q6AVI0.1 RecName: Full=Zinc finger BED domain-containing protein RICESLEEPER 2; AltName: Full=Transposase-like protein RICESLEEPER 2 [Oryza sativa Japonica Group]"
+                }
+              ],
+              "len": 722,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 5.12228,
+                  "identity": 13,
+                  "positive": 23,
+                  "query_from": 10,
+                  "query_to": 46,
+                  "hit_from": 296,
+                  "hit_to": 332,
+                  "align_len": 37,
+                  "gaps": 0,
+                  "qseq": "NRLDKILTISVPASANSINLFVFNYRDDLSSSNSLAI",
+                  "hseq": "NMKDKLFTITLDNDCSSHDIYSANLRDYLSNKNNLML",
+                  "midline": "N  DK+ TI++    +S +++  N RD LS+ N+L +"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|51571",
+                  "accession": "51571",
+                  "title": "Q55ER8.1 RecName: Full=Glutamyl-tRNA(Gln) amidotransferase subunit B, mitochondrial; Short=Glu-AdT subunit B [Dictyostelium discoideum]"
+                }
+              ],
+              "len": 538,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 5.66858,
+                  "identity": 14,
+                  "positive": 23,
+                  "query_from": 10,
+                  "query_to": 51,
+                  "hit_from": 8,
+                  "hit_to": 49,
+                  "align_len": 42,
+                  "gaps": 0,
+                  "qseq": "NRLDKILTISVPASANSINLFVFNYRDDLSSSNSLAIWNIII",
+                  "hseq": "NKINNKLFYSTTSSSNGIKNVVINNKDYLKSLKTNEIWELIV",
+                  "midline": "N+++  L  S  +S+N I   V N +D L S  +  IW +I+"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|310556",
+                  "accession": "310556",
+                  "title": "B9FJG3.1 RecName: Full=Zinc finger BED domain-containing protein RICESLEEPER 1; AltName: Full=Transposase-like protein RICESLEEPER 1 [Oryza sativa Japonica Group]"
+                }
+              ],
+              "len": 722,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 5.71402,
+                  "identity": 13,
+                  "positive": 23,
+                  "query_from": 10,
+                  "query_to": 46,
+                  "hit_from": 296,
+                  "hit_to": 332,
+                  "align_len": 37,
+                  "gaps": 0,
+                  "qseq": "NRLDKILTISVPASANSINLFVFNYRDDLSSSNSLAI",
+                  "hseq": "NMKDKLFTITLDNDCSSHDIYSANLRDYLSNKNNLML",
+                  "midline": "N  DK+ TI++    +S +++  N RD LS+ N+L +"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|204055",
+                  "accession": "204055",
+                  "title": "Q99677.1 RecName: Full=Lysophosphatidic acid receptor 4; Short=LPA receptor 4; Short=LPA-4; AltName: Full=G-protein coupled receptor 23; AltName: Full=P2Y purinoceptor 9; Short=P2Y9; AltName: Full=P2Y5-like receptor; AltName: Full=Purinergic receptor 9 [Homo sapiens]"
+                }
+              ],
+              "len": 370,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 6.04991,
+                  "identity": 12,
+                  "positive": 21,
+                  "query_from": 24,
+                  "query_to": 56,
+                  "hit_from": 56,
+                  "hit_to": 88,
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "ANSINLFVFNYRDDLSSSNSLAIWNIIISPHIF",
+                  "hseq": "TNSVSLFVFCFRMKMRSETAIFITNLAVSDLLF",
+                  "midline": " NS++LFVF +R  + S  ++ I N+ +S  +F"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|244626",
+                  "accession": "244626",
+                  "title": "Q9XHE6.1 RecName: Full=Cytochrome P450 71D15; AltName: Full=(-)-(4S)-Limonene-3-hydroxylase; AltName: Full=Cytochrome P450 isoform PM2 [Mentha x piperita]"
+                }
+              ],
+              "len": 498,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 8.5842,
+                  "identity": 12,
+                  "positive": 21,
+                  "query_from": 11,
+                  "query_to": 47,
+                  "hit_from": 273,
+                  "hit_to": 310,
+                  "align_len": 38,
+                  "gaps": 1,
+                  "qseq": "RLDKILTISVPASANSINLFVFN-YRDDLSSSNSLAIW",
+                  "hseq": "RMQKDTQIKVPITTNSIKAFIFDTFSAGTETSSTTTLW",
+                  "midline": "R+ K   I VP + NSI  F+F+ +     +S++  +W"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|350555",
+                  "accession": "350555",
+                  "title": "Q67YI9.1 RecName: Full=Clathrin interactor EPSIN 2; AltName: Full=EPSIN-related 2 [Arabidopsis thaliana]"
+                }
+              ],
+              "len": 895,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 9.62632,
+                  "identity": 11,
+                  "positive": 21,
+                  "query_from": 15,
+                  "query_to": 46,
+                  "hit_from": 389,
+                  "hit_to": 420,
+                  "align_len": 32,
+                  "gaps": 0,
+                  "qseq": "ILTISVPASANSINLFVFNYRDDLSSSNSLAI",
+                  "hseq": "VTSMSAPTTSNSVEMDLLGSLADVFSSNALAI",
+                  "midline": "+ ++S P ++NS+ + +     D+ SSN+LAI"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 31,
+            "eff_space": 4521451455,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

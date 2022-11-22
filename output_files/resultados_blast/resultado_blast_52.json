@@ -1,0 +1,248 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_52",
+          "query_title": "<unknown id> Protein #52 translated from XX894275 with ORF = 1",
+          "query_len": 47,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|336910",
+                  "accession": "336910",
+                  "title": "Q18253.1 RecName: Full=Dipeptidyl peptidase family member 2 [Caenorhabditis elegans]"
+                }
+              ],
+              "len": 829,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.4166,
+                  "score": 67,
+                  "evalue": 0.29365,
+                  "identity": 12,
+                  "positive": 21,
+                  "query_from": 17,
+                  "query_to": 46,
+                  "hit_from": 25,
+                  "hit_to": 50,
+                  "align_len": 30,
+                  "gaps": 4,
+                  "qseq": "RSCSILFILLICACISSMFIFSKSFSYISS",
+                  "hseq": "RSCCVVFILIICV----IFVFSVIFTFMQN",
+                  "midline": "RSC ++FIL+IC     +F+FS  F+++ +"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|236745",
+                  "accession": "236745",
+                  "title": "P33865.1 RecName: Full=36 kDa major membrane protein F5; Flags: Precursor [Variola virus human/India/Ind3/1967]"
+                }
+              ],
+              "len": 322,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 7.15625,
+                  "identity": 9,
+                  "positive": 15,
+                  "query_from": 11,
+                  "query_to": 32,
+                  "hit_from": 1,
+                  "hit_to": 22,
+                  "align_len": 22,
+                  "gaps": 0,
+                  "qseq": "LATETIRSCSILFILLICACIS",
+                  "hseq": "MGTNTIRAFIILYLLAVCGCVE",
+                  "midline": "+ T TIR+  IL++L +C C+ "
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|296370",
+                  "accession": "296370",
+                  "title": "P0CAE6.1 RecName: Full=Transmembrane protein I329L; Flags: Precursor [African swine fever virus warthog/Namibia/Wart80/1980]"
+                }
+              ],
+              "len": 333,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 7.16293,
+                  "identity": 12,
+                  "positive": 20,
+                  "query_from": 13,
+                  "query_to": 37,
+                  "hit_from": 231,
+                  "hit_to": 256,
+                  "align_len": 26,
+                  "gaps": 1,
+                  "qseq": "TETIRSC-SILFILLICACISSMFIF",
+                  "hseq": "TERYKSCYPLVFISILCSCISFLFLF",
+                  "midline": "TE  +SC  ++FI ++C+CIS +F+F"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|374535",
+                  "accession": "374535",
+                  "title": "P0CAE5.1 RecName: Full=Transmembrane protein I329L; Flags: Precursor [African swine fever virus tick/South Africa/Pretoriuskop Pr4/1996]"
+                }
+              ],
+              "len": 329,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 7.60152,
+                  "identity": 12,
+                  "positive": 20,
+                  "query_from": 13,
+                  "query_to": 37,
+                  "hit_from": 231,
+                  "hit_to": 256,
+                  "align_len": 26,
+                  "gaps": 1,
+                  "qseq": "TETIRSC-SILFILLICACISSMFIF",
+                  "hseq": "TERYKSCYPLVFISILCSCISFLFLF",
+                  "midline": "TE  +SC  ++FI ++C+CIS +F+F"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|133085",
+                  "accession": "133085",
+                  "title": "A9JM73.1 RecName: Full=Transmembrane protein I329L; Flags: Precursor [African swine fever virus OURT 88/3] P27945.1 RecName: Full=Transmembrane protein I329L; Flags: Precursor [African swine fever virus BA71V]"
+                }
+              ],
+              "len": 329,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 7.60152,
+                  "identity": 12,
+                  "positive": 20,
+                  "query_from": 13,
+                  "query_to": 37,
+                  "hit_from": 231,
+                  "hit_to": 256,
+                  "align_len": 26,
+                  "gaps": 1,
+                  "qseq": "TETIRSC-SILFILLICACISSMFIF",
+                  "hseq": "TERYKSCYPLVFISILCSCISFLFLF",
+                  "midline": "TE  +SC  ++FI ++C+CIS +F+F"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|75343",
+                  "accession": "75343",
+                  "title": "Q6YQV1.1 RecName: Full=Ribonuclease Y; Short=RNase Y [Onion yellows phytoplasma OY-M]"
+                }
+              ],
+              "len": 528,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 8.40186,
+                  "identity": 11,
+                  "positive": 14,
+                  "query_from": 13,
+                  "query_to": 38,
+                  "hit_from": 8,
+                  "hit_to": 33,
+                  "align_len": 26,
+                  "gaps": 0,
+                  "qseq": "TETIRSCSILFILLICACISSMFIFS",
+                  "hseq": "THCIMDCSLLVFALICGSIIGYFLYS",
+                  "midline": "T  I  CS+L   LIC  I   F++S"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|444644",
+                  "accession": "444644",
+                  "title": "Q5HQA9.1 RecName: Full=Probable quinol oxidase subunit 2; AltName: Full=Quinol oxidase polypeptide II; Flags: Precursor [Staphylococcus epidermidis RP62A] Q8CPP6.1 RecName: Full=Probable quinol oxidase subunit 2; AltName: Full=Quinol oxidase polypeptide II; Flags: Precursor [Staphylococcus epidermidis ATCC 12228]"
+                }
+              ],
+              "len": 374,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 9.40214,
+                  "identity": 14,
+                  "positive": 20,
+                  "query_from": 20,
+                  "query_to": 47,
+                  "hit_from": 43,
+                  "hit_to": 71,
+                  "align_len": 29,
+                  "gaps": 1,
+                  "qseq": "SILFILLICACISSMF-IFSKSFSYISSS",
+                  "hseq": "SIIFMLVIVAVVLSMFAIFIFKYSYKKNS",
+                  "midline": "SI+F+L+I A + SMF IF   +SY  +S"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 21,
+            "eff_space": 4478884150,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

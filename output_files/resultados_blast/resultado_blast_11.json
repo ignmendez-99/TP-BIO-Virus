@@ -1,0 +1,128 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_11",
+          "query_title": "<unknown id> Protein #11 translated from XX894275 with ORF = 2",
+          "query_len": 103,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|97214",
+                  "accession": "97214",
+                  "title": "P56154.1 RecName: Full=Phosphoglycerate kinase [Helicobacter pylori 26695]"
+                }
+              ],
+              "len": 402,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 31.9574,
+                  "score": 71,
+                  "evalue": 0.613524,
+                  "identity": 18,
+                  "positive": 27,
+                  "query_from": 6,
+                  "query_to": 55,
+                  "hit_from": 311,
+                  "hit_to": 358,
+                  "align_len": 50,
+                  "gaps": 2,
+                  "qseq": "YTESVANAPVVIANVQWFVVDHQQFVIGFVFLTTLIFAADTVTFARIGGA",
+                  "hseq": "FSEVIESAPTILWNGPLGVHEKQEFARGTTFLAHKI--ADTYAFSLIGGG",
+                  "midline": "++E + +AP ++ N    V + Q+F  G  FL   I  ADT  F+ IGG "
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|374926",
+                  "accession": "374926",
+                  "title": "Q9ZJP1.1 RecName: Full=Phosphoglycerate kinase [Helicobacter pylori J99]"
+                }
+              ],
+              "len": 402,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.0314,
+                  "score": 66,
+                  "evalue": 2.83657,
+                  "identity": 17,
+                  "positive": 27,
+                  "query_from": 6,
+                  "query_to": 55,
+                  "hit_from": 311,
+                  "hit_to": 358,
+                  "align_len": 50,
+                  "gaps": 2,
+                  "qseq": "YTESVANAPVVIANVQWFVVDHQQFVIGFVFLTTLIFAADTVTFARIGGA",
+                  "hseq": "FSEVIESAPTILWNGPLGVHEKQEFARGTTFLAHKI--ANTYAFSLIGGG",
+                  "midline": "++E + +AP ++ N    V + Q+F  G  FL   I  A+T  F+ IGG "
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|86589",
+                  "accession": "86589",
+                  "title": "P21932.1 RecName: Full=Adenylate cyclase type 3; AltName: Full=ATP pyrophosphate-lyase 3; AltName: Full=Adenylate cyclase type III; Short=AC-III; AltName: Full=Adenylate cyclase, olfactive type; AltName: Full=Adenylyl cyclase 3; Short=AC3 [Rattus norvegicus]"
+                }
+              ],
+              "len": 1144,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 6.78137,
+                  "identity": 14,
+                  "positive": 24,
+                  "query_from": 22,
+                  "query_to": 68,
+                  "hit_from": 654,
+                  "hit_to": 697,
+                  "align_len": 47,
+                  "gaps": 3,
+                  "qseq": "WFVVDHQQFVIGFVFLTTLIFAADTVTFARIGGAFEKRIVTFFEFVN",
+                  "hseq": "WLMTNYVTFVVGEVLLLILTICSMAAIFPR---AFPKKLVAFSSWID",
+                  "midline": "W + ++  FV+G V L  L   +    F R   AF K++V F  +++"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 72,
+            "eff_space": 4580757284,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

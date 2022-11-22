@@ -1,0 +1,338 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "<unknown id> Protein #1 translated from XX894275 with ORF = -1",
+          "query_len": 1253,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|252122",
+                  "accession": "252122",
+                  "title": "P24307.2 RecName: Full=DNA replication helicase; AltName: Full=P143 [Autographa californica nucleopolyhedrovirus]"
+                }
+              ],
+              "len": 1221,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 957.977,
+                  "score": 2475,
+                  "evalue": 0,
+                  "identity": 521,
+                  "positive": 782,
+                  "query_from": 38,
+                  "query_to": 1253,
+                  "hit_from": 10,
+                  "hit_to": 1221,
+                  "align_len": 1251,
+                  "gaps": 74,
+                  "qseq": "LKNSATQEKFLIKSYQILEKLIVAVSTKQTRCNYKSCNNNSAIANNNLVHVNEIFGVVDADSGGAAAS-----SSKDHVKSIDSHDWCVQGNYFAIKIRPFILQRYYEAVRDSISFSEFVMSNAEEYANKTESAGDYVYWPNI----EISYFGWRLYLKLKFDIDIGEYVPLPHNRSLGNVNLFVWYPEHFLNVELCMTCNRN---TLFVNGHSIFNDSNDTLFTIRMSDGSKGVCKILPKLVYSSKDLFEYIRDDIHLQECVTAPKFSDIVQIDLRSMRVFDDKTF--SNYETVKVQKFSPTIIKNITSSSENYELIKNEIDISLDKIKTSMIEGLQNQENV-DGDVLIRYLSESNYFNFDYLIIVVWKMVSR-QRFEFCETDIKLYLELLCLALYKNDAESLVKVRARCDPYVQLSTRVYKKFCDSLHFFSMENPCVLLGYYYAIHYCIYL--NSLNDDMSFNERWAYTYERVMTCKLPPNVLCLGFLKKLES--QGSFYVFNGKHYVPVKKDDELFKVTETGPSVKLSTIKFNNWKYLCFAEQGVFNVFINHYHNSCPFIIGNCLVNPFRYIDENEFLPKETIDYMLNNAKYEMEIFKTYHVAKVCRDIKVIKTNMSIINSFDNCRQCKNAEHSKLNQYFHEIWNSSPNELIIYGIYLNDTKMSDLIKNLRCVECKEA-GTTQTSCSCVAQMNVNIKAFKLTLIFELFCDNAQLVELIWCLHYAPETYTKILGAQTNDVIIEKYAPIVYERRLQLIDQLYNKLDTID-IDMLLYEFSSANILLKILTMEDSTVAAIDSNVVVTAADNYDYDDFAKTPKNNCNDDGNSDYISGNSNEQYFDHFYKNYANTIVILRKYSVWWDKLIVARPSDDLAKWLTRFYMRVIMSRIDVKTYSPLFVKQVVRGYLYFRLFTNFNVKNSLLMMHFGASLGIPTDYEKCCIYLNGEPGSGKSSFFDLLESIIVVHKRDADKYTL-SKKETDEMEANKLISQLYVINELKECNDSFFKSTADSSKSNSVCRKYQGSQKYEANYKLLVVNNKPLHISDYDRGVRNRFCVVYTDHEFLESMQFNGSIYFHAKNKKYPQEKAYFEDLTKPVRLFLSHILMYKRNPRDGYVYYKEILKSDSIHEHNLKCLDLNNSPLEAIVYILKVKS-RPGAKPIDETKVDKAIELAVPFLDKFLHALLRKRNYQK-----------FYETTLCAEFRKAFEKHYRPYDKVFVNLDMSFNKNDFNLNVPSFKC",
+                  "hseq": "LKNVPQDKTYEINNLQDANHLIIRNTRTGTRRLFEYVNNFQQFLN---TIRNNFNGPCAKHDMGASCEDTEEPAEKHAAQTLDGHDWVLESNDFCIFVKPFILKKHYDIIQKYINFEDFFKSTDPGYINKCVQAGDYYYWPNWPKKQAFSFNGWQLFLNIKFGIVIEPTIPIIHNKKLGPVDLFVFDPKCFLNVELSLRTNHDPPQTLFVNGKTKFDDSHEDLFILKMADGTVATCKVNGELVNSDKNFFNYIRDDINLEECITVPKYKHIVNVNLKSLRVFENNNFDKNDVDLSDTRSRKPRIVPIISASSENADYIQTQINLGLIAIHENMVKVLATHERANDPNLLQQYFEKSKFKNFDFLIYVLWKILTKNENFSYRETDIKLFLELLCESLFACDKEALNEALKRCEPYKKQEKIVFNRACNHWFDFDDTKLCVSLGYYFGIHYMIYLTQSAKNEILDHDELWAYTYENVMALNLPPDIVCKGFFRKLENVVTGVNLVFNGKHYQIVKKEDDLFKLTKSN-CYKLSNIKFNNWKYLYLTTHGVYNVFTNSFHSSCPFLLGTTLPQTFKKPTDEKYLPEDAFNYMLSTSADELSIYRTYHIAKMCRDVKMLKTNTAIVNYMGNCNTCQADMRVALNNLFRDLWNLDDENLITLALYVNKNRVSDMLHNLKCKPCRSTVSGSRPKCKCYKKIKINRKALKVCLMADMFGNDAELSELIWMLIFTNKTYVSTTLIRTNSEFVNQHGEFFSKEHNKIIQYLYRTIHKIEYVDMLMDKFNDKRLFLTELR-----------------------DDVAREPDVQFEE---SDNISK---------FYTHHADALMILKKYNVWWDKIILARSTDDLPTWLTRFYMRIIMSKVDLKEYSYNYLKKIVEGYLYFKRFTNFNHANAIMLMHFAASLAIPVDYGKKAIYMPGEPGSGKSSFFELLDYLVLMHKFDDDNHSGESNKETSDKEVSKLNSQLYTINELKQCSESYFKKHADSSKSDSKSRKYQGLLKYEANYKMLIVNNKPLYVDDYDDGVQDRFLIVYTNHKFVDSVKFAGSVYEHIKSKQFPIESMYYESLVTPVRLFLSHVLMYRRDPKTGFVVYKTLLSNDPMHKHNLMCLSTNNSPLYALIYILNIKTVRSATITIGEDKMEEMIGIAVQHFKNFLHPSFVQYNYKKNINASSSKSFVFNEQVLLQQIKNKFKNNYNKTTNVFYNMTMALNRNDLNTSVPNFVC",
+                  "midline": "LKN    + + I + Q    LI+  +   TR  ++  NN     N      N   G       GA+       + K   +++D HDW ++ N F I ++PFIL+++Y+ ++  I+F +F  S    Y NK   AGDY YWPN       S+ GW+L+L +KF I I   +P+ HN+ LG V+LFV+ P+ FLNVEL +  N +   TLFVNG + F+DS++ LF ++M+DG+   CK+  +LV S K+ F YIRDDI+L+EC+T PK+  IV ++L+S+RVF++  F  ++ +    +   P I+  I++SSEN + I+ +I++ L  I  +M++ L   E   D ++L +Y  +S + NFD+LI V+WK++++ + F + ETDIKL+LELLC +L+  D E+L +   RC+PY +    V+ + C+    F     CV LGYY+ IHY IYL  ++ N+ +  +E WAYTYE VM   LPP+++C GF +KLE+   G   VFNGKHY  VKK+D+LFK+T++    KLS IKFNNWKYL     GV+NVF N +H+SCPF++G  L   F+   + ++LP++  +YML+ +  E+ I++TYH+AK+CRD+K++KTN +I+N   NC  C+      LN  F ++WN     LI   +Y+N  ++SD++ NL+C  C+     ++  C C  ++ +N KA K+ L+ ++F ++A+L ELIW L +  +TY      +TN   + ++     +   ++I  LY  +  I+ +DML+ +F+   + L  L                        DD A+ P     +   SD IS          FY ++A+ ++IL+KY+VWWDK+I+AR +DDL  WLTRFYMR+IMS++D+K YS  ++K++V GYLYF+ FTNFN  N++++MHF ASL IP DY K  IY+ GEPGSGKSSFF+LL+ ++++HK D D ++  S KET + E +KL SQLY INELK+C++S+FK  ADSSKS+S  RKYQG  KYEANYK+L+VNNKPL++ DYD GV++RF +VYT+H+F++S++F GS+Y H K+K++P E  Y+E L  PVRLFLSH+LMY+R+P+ G+V YK +L +D +H+HNL CL  NNSPL A++YIL +K+ R     I E K+++ I +AV     FLH    + NY+K           F E  L  + +  F+ +Y     VF N+ M+ N+ND N +VP+F C"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|390373",
+                  "accession": "390373",
+                  "title": "Q83950.1 RecName: Full=ATP-dependent DNA helicase P143 [Orgyia pseudotsugata multiple nucleopolyhedrovirus]"
+                }
+              ],
+              "len": 1223,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 840.491,
+                  "score": 2170,
+                  "evalue": 0,
+                  "identity": 453,
+                  "positive": 691,
+                  "query_from": 113,
+                  "query_to": 1253,
+                  "hit_from": 85,
+                  "hit_to": 1223,
+                  "align_len": 1177,
+                  "gaps": 74,
+                  "qseq": "SIDSHDWCVQGNYFAIKIRPFILQRYYEAVRDSISFSEFVMSNAEEYANKTESAGDYVYWPNI----EISYFGWRLYLKLKFDIDIGEYVPLPHNRSLGNVNLFVWYPEHFLNVELCMTCNRNT---LFVNGHSIF-------NDSNDTLFTIRMSDGSKGVCKILPKLVYSSKDLFEYIRDDIHLQECVTAPKFSDIVQIDLRSMRVFDDKTFSNYETVKVQKFSPTIIKNITSSSENYELIKNEIDISLDKIKTSMIEGLQN-QENVDGDVLIRYLSESNYFNFDYLIIVVWKMVS-RQRFEFCETDIKLYLELLCLALYKNDAESLVKVRARCDPYVQLSTRVYKKFCDSLHFFSMENPCVLLGYYYAIHYCIYLN-SLNDDMSFNERWAYTYERVMTCKLPPNVLCLGFLKKLE---SQGSFYVFNGKHYVPVKKDDELFKVTETGPSVKLSTIKFNNWKYLCFAEQGVFNVFINHYHNSCPFIIGNCLVNPFRYIDENEFLPKETIDYMLNNAKYEMEIFKTYHVAKVCRDIKVIKTNMSIINSFDNCRQCKNAEHSKLNQYFHEIWNSSPNELIIYGIYLNDTKMSDLIKNLRCVECKEAGTTQTSCSCVAQMNVNIKAFKLTLIFELFCDNAQLVELIWCLHYAP-ETYTKILGAQTNDVIIEKYAPIVYERRLQLIDQLYNKLDTID-IDMLLYEFSSANILLKILTMEDSTVAAIDSNVVVTAADNYDYDDFAKTPKNNCNDDGNSDYISGNSNEQYFDHFYKNYANTIVILRKY-SVWWDKLIVARPSDDLAKWLTRFYMRVIMSRIDVKTYSPLFVKQVVRGYLYFRLFTNFNVKNSLLMMHFGASLGIPTDYEKCCIYLNGEPGSGKSSFFDLLESIIVVHKRDADKYTLSKKETDEMEANKLISQLYVINELKECNDSFFKSTADSSKSNSVCRKYQGSQKYEANYKLLVVNNKPLHISDYDRGVRNRFCVVYTDHEFLESMQFNGSIYFHAKNKKYPQEKAYFEDLTKPVRLFLSHILMYKRNPRDGYVYYKEILKSDSIHEHNLKCLDLNNSPLEAIVYILKVKSRPGAKP--IDETKVDKAIELAVPFLDKFLHALLRKRNYQK-----------FYETTLCAEFRKAFEKHYRPYDKVFVNLDMSFNKNDFNLNVPSFKC",
+                  "hseq": "SFAGHSLVLENNDFCVFVKPFLLKRHYDEIKNYLKLDRFFKSDNPEHTNMCVQAGDYCYWPNWPASQAVSFTGWQLYLYVEFGIVVESTVPIIHNRRLGPVDLFVFNPRTFLNIEMNLSTNEAPPVKLFVNGKFDFEKKVAESGKAVESLFEIKMANGATATCKMIANLVNSNKNLFEVIRDNINLEECVTTPKYRHIIDVNLTKLRQFAHDGAVLAPPVERAFRAPTVTTILSASSENAEVIQSEIDAALVKVREGMVKVMAEFNRSDDPDLLQAYFKESGFKNFHFLLFNVWKQITKRDKKSFRETDMKLFFELVCETLFGNDSDALATALVKCEPFTTRGVATFNSLCDHWHCFKGVNPYTLLGSYYGAHYFIYLKLTSSDAHECDDPWAFNYKNAMECKVPPKALGEAFFIKVENVVTQVTL-VFNGEHYQIVKKDDELYKLVETNP-YKLQNIKFNNWKYMYHTKYGVYNVVTDDFYSNCPFLLGTTMPGTFKRPDDPPYLPEAVFAHMLATSAEERDILRTYHIAKLCRDVKMVKVNLGTVNLLGDCAPCKLDARLRLNDLFRELWNLDDDSLVTLALYVNKLRVEDIVHNFKCGACR-ASVQERKCRCVQKIKINRQALKTCLIFDLFVGDPELTQLMWMLIFATNKLYINTALIVTTSKLVAQHAHFFTKEHIKIAAILHRDLHKIEFVDTLMADVCNHDAFLAYLQHAVANEPAAAPAADNAVAK-----------------------------------FYAHYANAANILHKYKNLWWDKIILARDSDTLSSWLTRFYLRVILSKMDVQNYPVAYLTQVVEGYLYFKRYTNFNHASSYMLMHFAASLSVPTDYGRKAVYLPGVPLSGKSTFFELLDFLVLMHKFDDDTHTGASKETSDKEVSNLNSEVYTINELKKCSESFFKKHADSSKSDSKSRKYQGLLKYEANYKMLIVNNNPLYVDDYDDGVQNRFLIVYTDHKFLPHVRFSGSVYHHILTKQYPQEPMVVDALKDSVRVFLAHVVRYQREPQTGLVPYKTLLDSDPVHQHNLTRLSVNNSPMYAVIYILNIKTAPRSANTFVTEEKMQEMIGYATLHLKSFLHPSFTQYNAAKNINAGTARSFVFDEKILLQQIKDKFKNNYDERGCKFNNLTMALNKLDININVPQFKC",
+                  "midline": "S   H   ++ N F + ++PF+L+R+Y+ +++ +    F  S+  E+ N    AGDY YWPN      +S+ GW+LYL ++F I +   VP+ HNR LG V+LFV+ P  FLN+E+ ++ N      LFVNG   F         + ++LF I+M++G+   CK++  LV S+K+LFE IRD+I+L+ECVT PK+  I+ ++L  +R F          V+    +PT+   +++SSEN E+I++EID +L K++  M++ +     + D D+L  Y  ES + NF +L+  VWK ++ R +  F ETD+KL+ EL+C  L+ ND+++L     +C+P+       +   CD  H F   NP  LLG YY  HY IYL  + +D    ++ WA+ Y+  M CK+PP  L   F  K+E   +Q +  VFNG+HY  VKKDDEL+K+ ET P  KL  IKFNNWKY+   + GV+NV  + ++++CPF++G  +   F+  D+  +LP+    +ML  +  E +I +TYH+AK+CRD+K++K N+  +N   +C  CK     +LN  F E+WN   + L+   +Y+N  ++ D++ N +C  C+ A   +  C CV ++ +N +A K  LIF+LF  + +L +L+W L +A  + Y       T   ++ ++A    +  +++   L+  L  I+ +D L+ +  + +  L  L    +   A         A                                    FY +YAN   IL KY ++WWDK+I+AR SD L+ WLTRFY+RVI+S++DV+ Y   ++ QVV GYLYF+ +TNFN  +S ++MHF ASL +PTDY +  +YL G P SGKS+FF+LL+ ++++HK D D +T + KET + E + L S++Y INELK+C++SFFK  ADSSKS+S  RKYQG  KYEANYK+L+VNN PL++ DYD GV+NRF +VYTDH+FL  ++F+GS+Y H   K+YPQE    + L   VR+FL+H++ Y+R P+ G V YK +L SD +H+HNL  L +NNSP+ A++YIL +K+ P +    + E K+ + I  A   L  FLH    + N  K           F E  L  + +  F+ +Y      F NL M+ NK D N+NVP FKC"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|272759",
+                  "accession": "272759",
+                  "title": "A1RXH6.1 RecName: Full=Probable translation initiation factor IF-2 [Thermofilum pendens Hrk 5]"
+                }
+              ],
+              "len": 601,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 36.5798,
+                  "score": 83,
+                  "evalue": 1.41317,
+                  "identity": 30,
+                  "positive": 45,
+                  "query_from": 1137,
+                  "query_to": 1227,
+                  "hit_from": 394,
+                  "hit_to": 472,
+                  "align_len": 92,
+                  "gaps": 14,
+                  "qseq": "ILKSDSIHEHNLKCLDLNNSPLEAIVYILKVKSRPGAKPIDETKVDKAIELAVP-FLDKFLHALLRKRNYQKFYETTLCAEFRKAFEKHYRP",
+                  "hseq": "VVKRDVVQASMVKEKD----PLYAAILAFNVKILPEAQ-------DEAARHGIPVFQERIMYKLVE--NYQKWLQETRDAEVRKAFEKITPP",
+                  "midline": "++K D +    +K  D    PL A +    VK  P A+       D+A    +P F ++ ++ L+   NYQK+ + T  AE RKAFEK   P"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|316869",
+                  "accession": "316869",
+                  "title": "P54811.1 RecName: Full=Transitional endoplasmic reticulum ATPase homolog 1; AltName: Full=Cell division cycle-related protein 48.1; AltName: Full=p97/CDC48 homolog 1 [Caenorhabditis elegans]"
+                }
+              ],
+              "len": 809,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 36.5798,
+                  "score": 83,
+                  "evalue": 1.48741,
+                  "identity": 31,
+                  "positive": 57,
+                  "query_from": 34,
+                  "query_to": 181,
+                  "hit_from": 61,
+                  "hit_to": 192,
+                  "align_len": 148,
+                  "gaps": 16,
+                  "qseq": "DTIVLKNSATQEKFLIKSYQILEKLIVAVSTKQTRCNYKSCNNNSAIANNNLVHVNEIFGVVDADSGGAAASSSKDHVKSIDSHDWCVQGNYFAIKIRPFILQRYYEAVRDSISFSEFVMSNAEEYANKTESAGDYVYWPNIEISYFG",
+                  "hseq": "DAVILKGKKRKES-------------VAIIVSDESCPNEKVRMNRVVRNNLRIRLGDVVSITPAPN---LSYGTRIHVLPIDDTIEGLTGNLFDVFLKPYFLEAYRPLHKGDIFTVQAAMRTVEFKVVETEPAPACIVSPDTMIHYEG",
+                  "midline": "D ++LK    +E              VA+      C  +    N  + NN  + + ++  +  A +    +  ++ HV  ID     + GN F + ++P+ L+ Y    +  I   +  M   E    +TE A   +  P+  I Y G"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|237426",
+                  "accession": "237426",
+                  "title": "Q5V143.1 RecName: Full=3-dehydroquinate synthase; Short=DHQ synthase; AltName: Full=3-dehydroquinate synthase II [Haloarcula marismortui ATCC 43049]"
+                }
+              ],
+              "len": 388,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 34.6538,
+                  "score": 78,
+                  "evalue": 4.84784,
+                  "identity": 31,
+                  "positive": 49,
+                  "query_from": 1066,
+                  "query_to": 1186,
+                  "hit_from": 223,
+                  "hit_to": 337,
+                  "align_len": 126,
+                  "gaps": 16,
+                  "qseq": "GVRNRFCV-----VYTDHEFLESMQFNGSIYFHAKNKKYPQEKAYFEDLTKPVRLFLSHILMYKRNPRDGYVYYKEILKSDSIHEHNLKCLDLNNSPLEAIVYILKVKSRPGAKPIDETKVDKAIE",
+                  "hseq": "GSADRVCIDTGSLMEHDEGMLVGSMARGLFFVHAETAESPYVA------SRPFRVNAGAVHAYVRTPDGGTKYLSELQSGDEV-----QIVDANGRTREAIVGRAKIEKRPMFRVQAETEDSDRIE",
+                  "midline": "G  +R C+     +  D   L      G  + HA+  + P         ++P R+    +  Y R P  G  Y  E+   D +     + +D N    EAIV   K++ RP  +   ET+    IE"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|293376",
+                  "accession": "293376",
+                  "title": "Q58669.1 RecName: Full=N(4)-bis(aminopropyl)spermidine synthase; AltName: Full=Branched-chain polyamine synthase A [Methanocaldococcus jannaschii DSM 2661]"
+                }
+              ],
+              "len": 350,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 34.6538,
+                  "score": 78,
+                  "evalue": 5.29665,
+                  "identity": 21,
+                  "positive": 31,
+                  "query_from": 1013,
+                  "query_to": 1074,
+                  "hit_from": 68,
+                  "hit_to": 135,
+                  "align_len": 68,
+                  "gaps": 6,
+                  "qseq": "ELKECNDSFFKSTADSSKSNSVCRKYQGSQKYEANYKLL------VVNNKPLHISDYDRGVRNRFCVV",
+                  "hseq": "EFTEKGNEFIKSYGIGAKDNSVCECCEGRGVSLKNYQDLLERFKEIVKNRPMPKHEYDQGFVTPECTI",
+                  "midline": "E  E  + F KS    +K NSVC   +G      NY+ L      +V N+P+   +YD+G     C +"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|19512",
+                  "accession": "19512",
+                  "title": "Q976L5.1 RecName: Full=Putative adenylate kinase; Short=AK; AltName: Full=ATP-AMP transphosphorylase [Sulfurisphaera tokodaii str. 7]"
+                }
+              ],
+              "len": 188,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 33.8834,
+                  "score": 76,
+                  "evalue": 5.36172,
+                  "identity": 24,
+                  "positive": 33,
+                  "query_from": 958,
+                  "query_to": 1023,
+                  "hit_from": 3,
+                  "hit_to": 67,
+                  "align_len": 68,
+                  "gaps": 5,
+                  "qseq": "IYLNGEPGSGKSSFFDLLESIIVVHKRDADKYTLSKKETDEMEANKLISQLYVINELK--ECNDSFFK",
+                  "hseq": "IIITGTPGSGKSTIVDLLSKKLGFEKLHVSSFLIQNKAFSEYDE---LRQSYVIDEEKAFQLIDSFIK",
+                  "midline": "I + G PGSGKS+  DLL   +   K     + +  K   E +    + Q YVI+E K  +  DSF K"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|16504",
+                  "accession": "16504",
+                  "title": "Q60662.1 RecName: Full=A-kinase anchor protein 4; Short=AKAP-4; AltName: Full=A-kinase anchor protein 82 kDa; Short=AKAP 82; Short=mAKAP82; AltName: Full=FSC1; AltName: Full=Major sperm fibrous sheath protein; AltName: Full=Protein kinase A-anchoring protein 4; Short=PRKA4; AltName: Full=p82; Flags: Precursor [Mus musculus]"
+                }
+              ],
+              "len": 849,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 34.6538,
+                  "score": 78,
+                  "evalue": 6.1294,
+                  "identity": 23,
+                  "positive": 36,
+                  "query_from": 831,
+                  "query_to": 916,
+                  "hit_from": 668,
+                  "hit_to": 755,
+                  "align_len": 88,
+                  "gaps": 2,
+                  "qseq": "FAKTPKNNCNDDGNSDYISG--NSNEQYFDHFYKNYANTIVILRKYSVWWDKLIVARPSDDLAKWLTRFYMRVIMSRIDVKTYSPLFV",
+                  "hseq": "MAKRPEEQCQDNAELDFISGMKQMNRQFIDQLVESVMKLCLIMAKYSNNGAALAELEEQAALVGSGSRCGRDAMMSQNYSETPGPEVI",
+                  "midline": " AK P+  C D+   D+ISG    N Q+ D   ++     +I+ KYS     L        L    +R     +MS+   +T  P  +"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|309423",
+                  "accession": "309423",
+                  "title": "Q18DY6.1 RecName: Full=3-dehydroquinate synthase; Short=DHQ synthase; AltName: Full=3-dehydroquinate synthase II [Haloquadratum walsbyi DSM 16790]"
+                }
+              ],
+              "len": 399,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 34.2686,
+                  "score": 77,
+                  "evalue": 6.51899,
+                  "identity": 30,
+                  "positive": 54,
+                  "query_from": 1060,
+                  "query_to": 1171,
+                  "hit_from": 228,
+                  "hit_to": 334,
+                  "align_len": 119,
+                  "gaps": 19,
+                  "qseq": "ISDYDR-GVRNRFCV------VYTDHEFLESMQFNGSIYFHAKNKKYPQEKAYFEDLTKPVRLFLSHILMYKRNPRDGYVYYKEILKSDSIHEHNLKCLDLNNSPLEAIVYILKVKSRP",
+                  "hseq": "VIDIERAGMADRVCVDTANLMQHNEGMLIGSMS-RGLIFVHAETAESP----YIA--SRPFRVNAGAVHAYLRTPDGGTAYLSELQSGDTV-----QVVNTDGQTREAIVGRVKIEKRP",
+                  "midline": "+ D +R G+ +R CV       + +   + SM   G I+ HA+  + P    Y    ++P R+    +  Y R P  G  Y  E+   D++     + ++ +    EAIV  +K++ RP"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|468402",
+                  "accession": "468402",
+                  "title": "A6ZN61.1 RecName: Full=Ferric/cupric reductase transmembrane component 7; AltName: Full=Ferric-chelate reductase 7 [Saccharomyces cerevisiae YJM789]"
+                }
+              ],
+              "len": 620,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 34.6538,
+                  "score": 78,
+                  "evalue": 6.76783,
+                  "identity": 32,
+                  "positive": 47,
+                  "query_from": 752,
+                  "query_to": 856,
+                  "hit_from": 434,
+                  "hit_to": 551,
+                  "align_len": 118,
+                  "gaps": 13,
+                  "qseq": "GAQTNDVIIEKYAPIVYERRLQLIDQLYNKLDTIDIDMLLYE-----------FSSANILLKILTMEDSTVAAIDSNVVVTAADNYDYDDFAKTPKNN--CNDDGNSDYISGNSNEQY",
+                  "hseq": "GISTCLPFLQKYGPILHKTNLEVITLDWVVRHREDISWIRDEICTLSNNLRQLFLDGTIVVRIYVCSDSTVPGIIKTFPQTADTASDQSDLAKREKDTEFGQDDTESNSTFDKSNNEY",
+                  "midline": "G  T    ++KY PI+++  L++I   +      DI  +  E           F    I+++I    DSTV  I      TA    D  D AK  K+     DD  S+     SN +Y"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 129,
+            "eff_space": 135313624588,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

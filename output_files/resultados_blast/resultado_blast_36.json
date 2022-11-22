@@ -1,0 +1,218 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_36",
+          "query_title": "<unknown id> Protein #36 translated from XX894275 with ORF = 1",
+          "query_len": 55,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|106280",
+                  "accession": "106280",
+                  "title": "Q9YJU5.1 RecName: Full=RNA1 polyprotein; AltName: Full=Genome polyprotein B; AltName: Full=P1; Contains: RecName: Full=Protease cofactor; AltName: Full=32 kDa protein; Contains: RecName: Full=Putative helicase; AltName: Full=58 kDa protein; AltName: Full=Membrane-binding protein; AltName: Full=NTP-binding protein; Short=NTB; Contains: RecName: Full=Viral genome-linked protein; AltName: Full=VPg; Contains: RecName: Full=Picornain 3C-like protease; Short=3C-like protease; AltName: Full=24 kDa protein; Contains: RecName: Full=RNA-directed RNA polymerase; AltName: Full=87 kDa protein [Bean-pod mottle virus (strain Kentucky G7)]"
+                }
+              ],
+              "len": 1850,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 2.17123,
+                  "identity": 11,
+                  "positive": 16,
+                  "query_from": 12,
+                  "query_to": 42,
+                  "hit_from": 1331,
+                  "hit_to": 1361,
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "CCPRLIAMKFPKSNAWPRLRAFVRPWRRALT",
+                  "hseq": "CVPTLVGIECPKDEKLPRRKIFDKPKTRCFT",
+                  "midline": "C P L+ ++ PK    PR + F +P  R  T"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|244339",
+                  "accession": "244339",
+                  "title": "A6ZRI9.1 RecName: Full=Restriction of telomere capping protein 4 [Saccharomyces cerevisiae YJM789]"
+                }
+              ],
+              "len": 401,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 2.62682,
+                  "identity": 9,
+                  "positive": 11,
+                  "query_from": 37,
+                  "query_to": 51,
+                  "hit_from": 275,
+                  "hit_to": 289,
+                  "align_len": 15,
+                  "gaps": 0,
+                  "qseq": "WRRALTHNSPTVTKW",
+                  "hseq": "YKRALTHNQPATLKW",
+                  "midline": "++RALTHN P   KW"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|96186",
+                  "accession": "96186",
+                  "title": "B5VQF5.1 RecName: Full=Restriction of telomere capping protein 4 [Saccharomyces cerevisiae AWRI1631] C7GPA7.1 RecName: Full=Restriction of telomere capping protein 4 [Saccharomyces cerevisiae JAY291] C8ZFY3.1 RecName: Full=Restriction of telomere capping protein 4 [Saccharomyces cerevisiae EC1118]"
+                }
+              ],
+              "len": 401,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 2.62682,
+                  "identity": 9,
+                  "positive": 11,
+                  "query_from": 37,
+                  "query_to": 51,
+                  "hit_from": 275,
+                  "hit_to": 289,
+                  "align_len": 15,
+                  "gaps": 0,
+                  "qseq": "WRRALTHNSPTVTKW",
+                  "hseq": "YKRALTHNQPATLKW",
+                  "midline": "++RALTHN P   KW"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|51790",
+                  "accession": "51790",
+                  "title": "P53850.1 RecName: Full=Restriction of telomere capping protein 4 [Saccharomyces cerevisiae S288C]"
+                }
+              ],
+              "len": 401,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 2.62682,
+                  "identity": 9,
+                  "positive": 11,
+                  "query_from": 37,
+                  "query_to": 51,
+                  "hit_from": 275,
+                  "hit_to": 289,
+                  "align_len": 15,
+                  "gaps": 0,
+                  "qseq": "WRRALTHNSPTVTKW",
+                  "hseq": "YKRALTHNQPATLKW",
+                  "midline": "++RALTHN P   KW"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|331043",
+                  "accession": "331043",
+                  "title": "P30181.1 RecName: Full=DNA topoisomerase 1 alpha; AltName: Full=DNA topoisomerase 1; AltName: Full=DNA topoisomerase I; AltName: Full=Protein FASCIATA 5; AltName: Full=Protein MGOUN1 [Arabidopsis thaliana]"
+                }
+              ],
+              "len": 916,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 4.63126,
+                  "identity": 13,
+                  "positive": 19,
+                  "query_from": 14,
+                  "query_to": 49,
+                  "hit_from": 314,
+                  "hit_to": 349,
+                  "align_len": 36,
+                  "gaps": 0,
+                  "qseq": "PRLIAMKFPKSNAWPRLRAFVRPWRRALTHNSPTVT",
+                  "hseq": "PKAVKLNSTSSAAKPKARNVVSPRSRAMTKNTKKVT",
+                  "midline": "P+ + +    S A P+ R  V P  RA+T N+  VT"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|253878",
+                  "accession": "253878",
+                  "title": "Q8C186.1 RecName: Full=BPI fold-containing family C protein; AltName: Full=Bactericidal/permeability-increasing protein-like 2; Flags: Precursor [Mus musculus]"
+                }
+              ],
+              "len": 509,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 7.82441,
+                  "identity": 10,
+                  "positive": 11,
+                  "query_from": 22,
+                  "query_to": 43,
+                  "hit_from": 488,
+                  "hit_to": 509,
+                  "align_len": 22,
+                  "gaps": 0,
+                  "qseq": "PKSNAWPRLRAFVRPWRRALTH",
+                  "hseq": "PNLNSWGDLNLVHRPWREQPTH",
+                  "midline": "P  N+W  L    RPWR   TH"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 28,
+            "eff_space": 4560360696,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

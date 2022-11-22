@@ -1,0 +1,188 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_90",
+          "query_title": "<unknown id> Protein #90 translated from XX894275 with ORF = -1",
+          "query_len": 30,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|332266",
+                  "accession": "332266",
+                  "title": "Q8BYW1.2 RecName: Full=Rho GTPase-activating protein 25; AltName: Full=Rho-type GTPase-activating protein 25 [Mus musculus]"
+                }
+              ],
+              "len": 648,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 1.54504,
+                  "identity": 11,
+                  "positive": 15,
+                  "query_from": 4,
+                  "query_to": 24,
+                  "hit_from": 240,
+                  "hit_to": 259,
+                  "align_len": 21,
+                  "gaps": 1,
+                  "qseq": "VNDLPEPGVPWINTHTGSVLC",
+                  "hseq": "LRDLPEPVVPW-SQYEGFLLC",
+                  "midline": "+ DLPEP VPW + + G +LC"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|184068",
+                  "accession": "184068",
+                  "title": "P42331.2 RecName: Full=Rho GTPase-activating protein 25; AltName: Full=Rho-type GTPase-activating protein 25 [Homo sapiens]"
+                }
+              ],
+              "len": 645,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 1.54508,
+                  "identity": 11,
+                  "positive": 15,
+                  "query_from": 4,
+                  "query_to": 24,
+                  "hit_from": 239,
+                  "hit_to": 258,
+                  "align_len": 21,
+                  "gaps": 1,
+                  "qseq": "VNDLPEPGVPWINTHTGSVLC",
+                  "hseq": "LRDLPEPVVPW-SQYEGFLLC",
+                  "midline": "+ DLPEP VPW + + G +LC"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|463097",
+                  "accession": "463097",
+                  "title": "C1DPP2.1 RecName: Full=Cobyric acid synthase [Azotobacter vinelandii DJ]"
+                }
+              ],
+              "len": 485,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 3.35436,
+                  "identity": 9,
+                  "positive": 11,
+                  "query_from": 7,
+                  "query_to": 20,
+                  "hit_from": 203,
+                  "hit_to": 216,
+                  "align_len": 14,
+                  "gaps": 0,
+                  "qseq": "LPEPGVPWINTHTG",
+                  "hseq": "LLEPGLDWLETHTG",
+                  "midline": "L EPG+ W+ THTG"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|19328",
+                  "accession": "19328",
+                  "title": "Q3SJC6.1 RecName: Full=Molybdenum import ATP-binding protein ModC [Thiobacillus denitrificans ATCC 25259]"
+                }
+              ],
+              "len": 362,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 3.64092,
+                  "identity": 14,
+                  "positive": 17,
+                  "query_from": 1,
+                  "query_to": 30,
+                  "hit_from": 22,
+                  "hit_to": 51,
+                  "align_len": 30,
+                  "gaps": 0,
+                  "qseq": "MDVVNDLPEPGVPWINTHTGSVLCLLLNCI",
+                  "hseq": "LDVDLDLPGQGVTALFGHSGSGKTTLLRCI",
+                  "midline": "+DV  DLP  GV  +  H+GS    LL CI"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|385804",
+                  "accession": "385804",
+                  "title": "O53468.1 RecName: Full=Putative toxin HigB2 [Mycobacterium tuberculosis H37Rv]"
+                }
+              ],
+              "len": 201,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.7942,
+                  "score": 55,
+                  "evalue": 6.26546,
+                  "identity": 8,
+                  "positive": 11,
+                  "query_from": 12,
+                  "query_to": 26,
+                  "hit_from": 3,
+                  "hit_to": 17,
+                  "align_len": 15,
+                  "gaps": 0,
+                  "qseq": "VPWINTHTGSVLCLL",
+                  "hseq": "VPWENAHGGALYCLI",
+                  "midline": "VPW N H G++ CL+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 5,
+            "eff_space": 4498763775,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

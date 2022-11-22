@@ -1,0 +1,128 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_72",
+          "query_title": "<unknown id> Protein #72 translated from XX894275 with ORF = -2",
+          "query_len": 38,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|444048",
+                  "accession": "444048",
+                  "title": "B8MTH6.1 RecName: Full=Probable dipeptidyl-aminopeptidase B; Short=DPAP B [Talaromyces stipitatus ATCC 10500]"
+                }
+              ],
+              "len": 900,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 2.24282,
+                  "identity": 10,
+                  "positive": 12,
+                  "query_from": 1,
+                  "query_to": 19,
+                  "hit_from": 352,
+                  "hit_to": 370,
+                  "align_len": 19,
+                  "gaps": 0,
+                  "qseq": "MPRLPSEYLVSRFSRSHPS",
+                  "hseq": "VPEFPIEYYMSRLSGKHPS",
+                  "midline": "+P  P EY +SR S  HPS"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|374361",
+                  "accession": "374361",
+                  "title": "Q4WRC2.1 RecName: Full=Endoribonuclease ysh1; AltName: Full=mRNA 3'-end-processing protein ysh1 [Aspergillus fumigatus Af293]"
+                }
+              ],
+              "len": 872,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.7942,
+                  "score": 55,
+                  "evalue": 8.85846,
+                  "identity": 10,
+                  "positive": 18,
+                  "query_from": 2,
+                  "query_to": 32,
+                  "hit_from": 734,
+                  "hit_to": 764,
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "PRLPSEYLVSRFSRSHPSIQCPCRSGSGAEG",
+                  "hseq": "PRIPSGIRANRTTKADPSVSAAVKTKSDAAG",
+                  "midline": "PR+PS    +R +++ PS+    ++ S A G"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|437434",
+                  "accession": "437434",
+                  "title": "O13921.2 RecName: Full=MutS protein homolog 1 [Schizosaccharomyces pombe 972h-]"
+                }
+              ],
+              "len": 941,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.7942,
+                  "score": 55,
+                  "evalue": 8.86039,
+                  "identity": 9,
+                  "positive": 11,
+                  "query_from": 8,
+                  "query_to": 25,
+                  "hit_from": 319,
+                  "hit_to": 336,
+                  "align_len": 18,
+                  "gaps": 0,
+                  "qseq": "YLVSRFSRSHPSIQCPCR",
+                  "hseq": "YIADRLQNSHPNIQPPIR",
+                  "midline": "Y+  R   SHP+IQ P R"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 12,
+            "eff_space": 4591288624,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

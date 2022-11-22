@@ -1,0 +1,458 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_80",
+          "query_title": "<unknown id> Protein #80 translated from XX894275 with ORF = 2",
+          "query_len": 34,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|375400",
+                  "accession": "375400",
+                  "title": "P41701.2 RecName: Full=Protein E18; Short=E18 [Autographa californica nucleopolyhedrovirus]"
+                }
+              ],
+              "len": 90,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 32.7278,
+                  "score": 73,
+                  "evalue": 0.0127655,
+                  "identity": 15,
+                  "positive": 15,
+                  "query_from": 13,
+                  "query_to": 28,
+                  "hit_from": 1,
+                  "hit_to": 16,
+                  "align_len": 16,
+                  "gaps": 0,
+                  "qseq": "MIYTDPTTGATTSTDV",
+                  "hseq": "MIYTDPTTGATTSTDA",
+                  "midline": "MIYTDPTTGATTSTD "
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|148213",
+                  "accession": "148213",
+                  "title": "O10371.1 RecName: Full=Occlusion-derived virus envelope protein E18; Short=ODV-E18 [Orgyia pseudotsugata multiple nucleopolyhedrovirus]"
+                }
+              ],
+              "len": 85,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.0314,
+                  "score": 66,
+                  "evalue": 0.13571,
+                  "identity": 13,
+                  "positive": 14,
+                  "query_from": 13,
+                  "query_to": 29,
+                  "hit_from": 1,
+                  "hit_to": 17,
+                  "align_len": 17,
+                  "gaps": 0,
+                  "qseq": "MIYTDPTTGATTSTDVV",
+                  "hseq": "MIYTDPATGATTNTDAA",
+                  "midline": "MIYTDP TGATT+TD  "
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|214416",
+                  "accession": "214416",
+                  "title": "Q28TK3.1 RecName: Full=Hydroxyacylglutathione hydrolase; AltName: Full=Glyoxalase II; Short=Glx II [Jannaschia sp. CCS1]"
+                }
+              ],
+              "len": 256,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 0.768188,
+                  "identity": 12,
+                  "positive": 15,
+                  "query_from": 6,
+                  "query_to": 28,
+                  "hit_from": 11,
+                  "hit_to": 33,
+                  "align_len": 23,
+                  "gaps": 0,
+                  "qseq": "CLQDSNNMIYTDPTTGATTSTDV",
+                  "hseq": "CLQDNYAFLLHDPSTGATACIDV",
+                  "midline": "CLQD+   +  DP+TGAT   DV"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|218412",
+                  "accession": "218412",
+                  "title": "Q13671.4 RecName: Full=Ras and Rab interactor 1; AltName: Full=Ras inhibitor JC99; AltName: Full=Ras interaction/interference protein 1 [Homo sapiens]"
+                }
+              ],
+              "len": 783,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 1.14816,
+                  "identity": 11,
+                  "positive": 17,
+                  "query_from": 4,
+                  "query_to": 32,
+                  "hit_from": 621,
+                  "hit_to": 649,
+                  "align_len": 29,
+                  "gaps": 0,
+                  "qseq": "TNCLQDSNNMIYTDPTTGATTSTDVVRPQ",
+                  "hseq": "THCFQHLLRVAYQDPSSGCTSKTLAVPPE",
+                  "midline": "T+C Q    + Y DP++G T+ T  V P+"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|58247",
+                  "accession": "58247",
+                  "title": "Q07VA9.1 RecName: Full=Hydroxyacylglutathione hydrolase; AltName: Full=Glyoxalase II; Short=Glx II [Rhodopseudomonas palustris BisA53]"
+                }
+              ],
+              "len": 255,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 2.00801,
+                  "identity": 11,
+                  "positive": 13,
+                  "query_from": 6,
+                  "query_to": 27,
+                  "hit_from": 10,
+                  "hit_to": 31,
+                  "align_len": 22,
+                  "gaps": 0,
+                  "qseq": "CLQDSNNMIYTDPTTGATTSTD",
+                  "hseq": "CLNDNFGYLIHDPATGATASVD",
+                  "midline": "CL D+   +  DP TGAT S D"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|463239",
+                  "accession": "463239",
+                  "title": "A5ETG1.1 RecName: Full=Hydroxyacylglutathione hydrolase; AltName: Full=Glyoxalase II; Short=Glx II [Bradyrhizobium sp. BTAi1]"
+                }
+              ],
+              "len": 255,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 2.08923,
+                  "identity": 11,
+                  "positive": 13,
+                  "query_from": 6,
+                  "query_to": 27,
+                  "hit_from": 10,
+                  "hit_to": 31,
+                  "align_len": 22,
+                  "gaps": 0,
+                  "qseq": "CLQDSNNMIYTDPTTGATTSTD",
+                  "hseq": "CLSDNFGYLIHDPATGATASVD",
+                  "midline": "CL D+   +  DP TGAT S D"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|87782",
+                  "accession": "87782",
+                  "title": "A4YKS8.1 RecName: Full=Hydroxyacylglutathione hydrolase; AltName: Full=Glyoxalase II; Short=Glx II [Bradyrhizobium sp. ORS 278]"
+                }
+              ],
+              "len": 255,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 2.08923,
+                  "identity": 11,
+                  "positive": 13,
+                  "query_from": 6,
+                  "query_to": 27,
+                  "hit_from": 10,
+                  "hit_to": 31,
+                  "align_len": 22,
+                  "gaps": 0,
+                  "qseq": "CLQDSNNMIYTDPTTGATTSTD",
+                  "hseq": "CLSDNFGYLIHDPATGATASVD",
+                  "midline": "CL D+   +  DP TGAT S D"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|97414",
+                  "accession": "97414",
+                  "title": "Q6NC62.1 RecName: Full=Hydroxyacylglutathione hydrolase; AltName: Full=Glyoxalase II; Short=Glx II [Rhodopseudomonas palustris CGA009]"
+                }
+              ],
+              "len": 255,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 3.07572,
+                  "identity": 11,
+                  "positive": 13,
+                  "query_from": 6,
+                  "query_to": 27,
+                  "hit_from": 10,
+                  "hit_to": 31,
+                  "align_len": 22,
+                  "gaps": 0,
+                  "qseq": "CLQDSNNMIYTDPTTGATTSTD",
+                  "hseq": "CLTDNFGYLVHDPATGATASID",
+                  "midline": "CL D+   +  DP TGAT S D"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|132491",
+                  "accession": "132491",
+                  "title": "A0R5R7.1 RecName: Full=Putative aminotransferase MSMEG_6286/MSMEI_6121 [Mycolicibacterium smegmatis MC2 155]"
+                }
+              ],
+              "len": 428,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 4.34767,
+                  "identity": 13,
+                  "positive": 18,
+                  "query_from": 1,
+                  "query_to": 30,
+                  "hit_from": 183,
+                  "hit_to": 203,
+                  "align_len": 30,
+                  "gaps": 9,
+                  "qseq": "MWCTNCLQDSNNMIYTDPTTGATTSTDVVR",
+                  "hseq": "IWCVP--------VYSNPT-GATYSTDVIR",
+                  "midline": "+WC          +Y++PT GAT STDV+R"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|182675",
+                  "accession": "182675",
+                  "title": "Q3SVQ1.1 RecName: Full=Hydroxyacylglutathione hydrolase; AltName: Full=Glyoxalase II; Short=Glx II [Nitrobacter winogradskyi Nb-255]"
+                }
+              ],
+              "len": 255,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 4.66605,
+                  "identity": 10,
+                  "positive": 14,
+                  "query_from": 6,
+                  "query_to": 27,
+                  "hit_from": 10,
+                  "hit_to": 31,
+                  "align_len": 22,
+                  "gaps": 0,
+                  "qseq": "CLQDSNNMIYTDPTTGATTSTD",
+                  "hseq": "CLTDNFGVLIHDPATGATAAID",
+                  "midline": "CL D+  ++  DP TGAT + D"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|450105",
+                  "accession": "450105",
+                  "title": "Q13F06.1 RecName: Full=Hydroxyacylglutathione hydrolase; AltName: Full=Glyoxalase II; Short=Glx II [Rhodopseudomonas palustris BisB5]"
+                }
+              ],
+              "len": 255,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 5.8631,
+                  "identity": 10,
+                  "positive": 14,
+                  "query_from": 6,
+                  "query_to": 27,
+                  "hit_from": 10,
+                  "hit_to": 31,
+                  "align_len": 22,
+                  "gaps": 0,
+                  "qseq": "CLQDSNNMIYTDPTTGATTSTD",
+                  "hseq": "CLTDNFGYLIHDPSSGATASID",
+                  "midline": "CL D+   +  DP++GAT S D"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|25431",
+                  "accession": "25431",
+                  "title": "Q2J429.1 RecName: Full=Hydroxyacylglutathione hydrolase; AltName: Full=Glyoxalase II; Short=Glx II [Rhodopseudomonas palustris HaA2]"
+                }
+              ],
+              "len": 255,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 5.8631,
+                  "identity": 10,
+                  "positive": 14,
+                  "query_from": 6,
+                  "query_to": 27,
+                  "hit_from": 10,
+                  "hit_to": 31,
+                  "align_len": 22,
+                  "gaps": 0,
+                  "qseq": "CLQDSNNMIYTDPTTGATTSTD",
+                  "hseq": "CLTDNFGYLIHDPSSGATASID",
+                  "midline": "CL D+   +  DP++GAT S D"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|165475",
+                  "accession": "165475",
+                  "title": "P39816.2 RecName: Full=Putative PTS system glucosamine-specific EIICBA component; Includes: RecName: Full=Glucosamine permease IIC component; AltName: Full=PTS system glucosamine-specific EIIC component; Includes: RecName: Full=Glucosamine-specific phosphotransferase enzyme IIB component; AltName: Full=PTS system glucosamine-specific EIIB component; Includes: RecName: Full=Glucosamine-specific phosphotransferase enzyme IIA component; AltName: Full=PTS system glucosamine-specific EIIA component [Bacillus subtilis subsp. subtilis str. 168]"
+                }
+              ],
+              "len": 631,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.7942,
+                  "score": 55,
+                  "evalue": 6.9343,
+                  "identity": 9,
+                  "positive": 12,
+                  "query_from": 15,
+                  "query_to": 30,
+                  "hit_from": 217,
+                  "hit_to": 232,
+                  "align_len": 16,
+                  "gaps": 0,
+                  "qseq": "YTDPTTGATTSTDVVR",
+                  "hseq": "YTDPSTGNTVTGDLTR",
+                  "midline": "YTDP+TG T + D+ R"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|18269",
+                  "accession": "18269",
+                  "title": "Q8TDG4.2 RecName: Full=Helicase POLQ-like; AltName: Full=Mus308-like helicase; AltName: Full=POLQ-like helicase [Homo sapiens]"
+                }
+              ],
+              "len": 1101,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.7942,
+                  "score": 55,
+                  "evalue": 7.88997,
+                  "identity": 9,
+                  "positive": 14,
+                  "query_from": 5,
+                  "query_to": 24,
+                  "hit_from": 347,
+                  "hit_to": 366,
+                  "align_len": 20,
+                  "gaps": 0,
+                  "qseq": "NCLQDSNNMIYTDPTTGATT",
+                  "hseq": "NSVQERKNLIYSLPTSGGKT",
+                  "midline": "N +Q+  N+IY+ PT+G  T"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 9,
+            "eff_space": 4450727675,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

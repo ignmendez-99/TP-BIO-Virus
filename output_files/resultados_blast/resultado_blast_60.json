@@ -1,0 +1,128 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_60",
+          "query_title": "<unknown id> Protein #60 translated from XX894275 with ORF = -2",
+          "query_len": 44,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|17816",
+                  "accession": "17816",
+                  "title": "Q8EW66.2 RecName: Full=GTPase Era [Malacoplasma penetrans HF-2]"
+                }
+              ],
+              "len": 298,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 3.61001,
+                  "identity": 16,
+                  "positive": 23,
+                  "query_from": 4,
+                  "query_to": 43,
+                  "hit_from": 61,
+                  "hit_to": 102,
+                  "align_len": 42,
+                  "gaps": 2,
+                  "qseq": "NLYYPRNRLDKILTISVPAS--ANSINLFVFNYRDDLSSSDE",
+                  "hseq": "GLHNPKNKLDLFLNSQVKASLKKSDLVLFLFDLSRDFDSEDE",
+                  "midline": " L+ P+N+LD  L   V AS   + + LF+F+   D  S DE"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|210085",
+                  "accession": "210085",
+                  "title": "O10375.1 RecName: Full=Uncharacterized 21.8 kDa protein [Orgyia pseudotsugata multiple nucleopolyhedrovirus]"
+                }
+              ],
+              "len": 197,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 6.04205,
+                  "identity": 10,
+                  "positive": 18,
+                  "query_from": 1,
+                  "query_to": 32,
+                  "hit_from": 1,
+                  "hit_to": 32,
+                  "align_len": 32,
+                  "gaps": 0,
+                  "qseq": "MNINLYYPRNRLDKILTISVPASANSINLFVF",
+                  "hseq": "MNVYLYQPDGEQDNDVTFYMPHATNGVIVYLF",
+                  "midline": "MN+ LY P    D  +T  +P + N + +++F"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|165999",
+                  "accession": "165999",
+                  "title": "P41704.1 RecName: Full=Uncharacterized 22.9 kDa protein in IE0-IE1 intergenic region [Autographa californica nucleopolyhedrovirus]"
+                }
+              ],
+              "len": 201,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 6.48348,
+                  "identity": 10,
+                  "positive": 20,
+                  "query_from": 1,
+                  "query_to": 32,
+                  "hit_from": 1,
+                  "hit_to": 32,
+                  "align_len": 32,
+                  "gaps": 0,
+                  "qseq": "MNINLYYPRNRLDKILTISVPASANSINLFVF",
+                  "hseq": "MNVNLYCPNGEHDNNISFIMPSKTNAVIVYLF",
+                  "midline": "MN+NLY P    D  ++  +P+  N++ +++F"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 18,
+            "eff_space": 4516352308,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

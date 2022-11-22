@@ -1,0 +1,188 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_21",
+          "query_title": "<unknown id> Protein #21 translated from XX894275 with ORF = 1",
+          "query_len": 79,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|57061",
+                  "accession": "57061",
+                  "title": "Q6UFZ8.1 RecName: Full=14-3-3 protein beta/alpha-2; Short=Protein 14-3-3B2 [Oncorhynchus mykiss]"
+                }
+              ],
+              "len": 244,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 7.40969,
+                  "identity": 12,
+                  "positive": 28,
+                  "query_from": 15,
+                  "query_to": 69,
+                  "hit_from": 150,
+                  "hit_to": 202,
+                  "align_len": 55,
+                  "gaps": 2,
+                  "qseq": "EQIFDLSQRQGEPEHPSKDRVAVTVMMSLRFLTTITRADKSFIMFPTTLSTTVSE",
+                  "hseq": "QDAFDISKKEMQPTHPI--RLGLALNFSVFFYEILNNPEKACTLAKTAFDEAIAE",
+                  "midline": "+  FD+S+++ +P HP   R+ + +  S+ F   +   +K+  +  T     ++E"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|9521",
+                  "accession": "9521",
+                  "title": "A9IRQ9.1 RecName: Full=Cysteine--tRNA ligase; AltName: Full=Cysteinyl-tRNA synthetase; Short=CysRS [Bartonella tribocorum CIP 105476]"
+                }
+              ],
+              "len": 503,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 8.85878,
+                  "identity": 14,
+                  "positive": 21,
+                  "query_from": 39,
+                  "query_to": 72,
+                  "hit_from": 1,
+                  "hit_to": 35,
+                  "align_len": 35,
+                  "gaps": 1,
+                  "qseq": "VMMSLRFLTTITRADKSFI-MFPTTLSTTVSEPTI",
+                  "hseq": "MMKELRFYNTLTRKKENFIPIDPTKVRLYVCGPTV",
+                  "midline": "+M  LRF  T+TR  ++FI + PT +   V  PT+"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|100283",
+                  "accession": "100283",
+                  "title": "P13874.1 RecName: Full=Polymerase acidic protein; AltName: Full=RNA-directed RNA polymerase subunit P2 [Influenza B virus (B/Ann Arbor/1/1966 [wild- type])]"
+                }
+              ],
+              "len": 726,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 9.30346,
+                  "identity": 14,
+                  "positive": 20,
+                  "query_from": 17,
+                  "query_to": 50,
+                  "hit_from": 381,
+                  "hit_to": 414,
+                  "align_len": 34,
+                  "gaps": 0,
+                  "qseq": "IFDLSQRQGEPEHPSKDRVAVTVMMSLRFLTTIT",
+                  "hseq": "IDDETMYQEEPKIPNKCRVAAWVQTEMNLLSTLT",
+                  "midline": "I D +  Q EP+ P+K RVA  V   +  L+T+T"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|222138",
+                  "accession": "222138",
+                  "title": "Q9QLI9.1 RecName: Full=Polymerase acidic protein; AltName: Full=RNA-directed RNA polymerase subunit P2 [Influenza B virus (B/Lee/1940)]"
+                }
+              ],
+              "len": 726,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 9.39543,
+                  "identity": 14,
+                  "positive": 20,
+                  "query_from": 17,
+                  "query_to": 50,
+                  "hit_from": 381,
+                  "hit_to": 414,
+                  "align_len": 34,
+                  "gaps": 0,
+                  "qseq": "IFDLSQRQGEPEHPSKDRVAVTVMMSLRFLTTIT",
+                  "hseq": "IDDETMYQEEPKIPNKCRVAAWVQAEMNLLSTLT",
+                  "midline": "I D +  Q EP+ P+K RVA  V   +  L+T+T"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|296338",
+                  "accession": "296338",
+                  "title": "P13873.1 RecName: Full=Polymerase acidic protein; AltName: Full=RNA-directed RNA polymerase subunit P2 [Influenza B virus (B/Ann Arbor/1/1966 [cold-adapted])]"
+                }
+              ],
+              "len": 726,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 9.5821,
+                  "identity": 14,
+                  "positive": 20,
+                  "query_from": 17,
+                  "query_to": 50,
+                  "hit_from": 381,
+                  "hit_to": 414,
+                  "align_len": 34,
+                  "gaps": 0,
+                  "qseq": "IFDLSQRQGEPEHPSKDRVAVTVMMSLRFLTTIT",
+                  "hseq": "IDDETMYQEEPKIPNKCRVAAWVQTEMNLLSTLT",
+                  "midline": "I D +  Q EP+ P+K RVA  V   +  L+T+T"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 50,
+            "eff_space": 4591694874,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

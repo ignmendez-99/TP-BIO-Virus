@@ -1,0 +1,248 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_49",
+          "query_title": "<unknown id> Protein #49 translated from XX894275 with ORF = -1",
+          "query_len": 50,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|231332",
+                  "accession": "231332",
+                  "title": "Q7M7H8.1 RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Photorhabdus laumondii subsp. laumondii TTO1]"
+                }
+              ],
+              "len": 316,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 3.53469,
+                  "identity": 15,
+                  "positive": 20,
+                  "query_from": 2,
+                  "query_to": 40,
+                  "hit_from": 21,
+                  "hit_to": 63,
+                  "align_len": 43,
+                  "gaps": 4,
+                  "qseq": "SFCKLFKHPRRSWRRNTCSMADL----NATRINTGMSFLTNHP",
+                  "hseq": "SFAMLLEAQRRSWELHYMEMSDLYLHQGEARARTRLLQVENHP",
+                  "midline": "SF  L +  RRSW  +   M+DL       R  T +  + NHP"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|18177",
+                  "accession": "18177",
+                  "title": "A7F075.1 RecName: Full=Metacaspase-1; Flags: Precursor [Sclerotinia sclerotiorum 1980 UF-70]"
+                }
+              ],
+              "len": 432,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 5.00412,
+                  "identity": 14,
+                  "positive": 24,
+                  "query_from": 8,
+                  "query_to": 49,
+                  "hit_from": 391,
+                  "hit_to": 432,
+                  "align_len": 42,
+                  "gaps": 0,
+                  "qseq": "KHPRRSWRRNTCSMADLNATRINTGMSFLTNHPLNTILPLLL",
+                  "hseq": "KNPQQSYVQLLNSIRDELATKYTQKPQLSCSHPLSMVPPLLL",
+                  "midline": "K+P++S+ +   S+ D  AT+         +HPL+ + PLLL"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|467469",
+                  "accession": "467469",
+                  "title": "P20466.2 RecName: Full=Rhodotorucin-A peptides type 3; Contains: RecName: Full=Rhodotorucin-A; AltName: Full=Rhodotorucine-A; Flags: Precursor [Rhodotorula toruloides]"
+                }
+              ],
+              "len": 47,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.7942,
+                  "score": 55,
+                  "evalue": 5.46215,
+                  "identity": 9,
+                  "positive": 13,
+                  "query_from": 4,
+                  "query_to": 22,
+                  "hit_from": 29,
+                  "hit_to": 47,
+                  "align_len": 19,
+                  "gaps": 0,
+                  "qseq": "CKLFKHPRRSWRRNTCSMA",
+                  "hseq": "CTVSKYPEISWTRNGCTVA",
+                  "midline": "C + K+P  SW RN C++A"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|77555",
+                  "accession": "77555",
+                  "title": "Q8SVJ2.2 RecName: Full=Cytosolic Fe-S cluster assembly factor NAR1; AltName: Full=Nuclear architecture-related protein 1 [Encephalitozoon cuniculi GB-M1]"
+                }
+              ],
+              "len": 357,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 5.66458,
+                  "identity": 13,
+                  "positive": 19,
+                  "query_from": 3,
+                  "query_to": 34,
+                  "hit_from": 195,
+                  "hit_to": 231,
+                  "align_len": 37,
+                  "gaps": 5,
+                  "qseq": "FCKL-----FKHPRRSWRRNTCSMADLNATRINTGMS",
+                  "hseq": "FCKALDSLGFRRPARASGKSLCSMEEAETTQWNIGTS",
+                  "midline": "FCK      F+ P R+  ++ CSM +   T+ N G S"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|408060",
+                  "accession": "408060",
+                  "title": "B1Y6P0.1 RecName: Full=Glycerol-3-phosphate dehydrogenase [NAD(P)+]; AltName: Full=NAD(P)H-dependent glycerol-3-phosphate dehydrogenase [Leptothrix cholodnii SP-6]"
+                }
+              ],
+              "len": 337,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 7.54639,
+                  "identity": 10,
+                  "positive": 14,
+                  "query_from": 7,
+                  "query_to": 30,
+                  "hit_from": 21,
+                  "hit_to": 44,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "FKHPRRSWRRNTCSMADLNATRIN",
+                  "hseq": "LRHPTLLWGRDPAQMAEIAATRRN",
+                  "midline": " +HP   W R+   MA++ ATR N"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|89639",
+                  "accession": "89639",
+                  "title": "P07907.2 RecName: Full=Rhodotorucin-A peptides type 1; Contains: RecName: Full=Rhodotorucin-A; AltName: Full=Rhodotorucine-A; Flags: Precursor [Rhodotorula toruloides]"
+                }
+              ],
+              "len": 62,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.7942,
+                  "score": 55,
+                  "evalue": 8.17259,
+                  "identity": 9,
+                  "positive": 13,
+                  "query_from": 4,
+                  "query_to": 22,
+                  "hit_from": 44,
+                  "hit_to": 62,
+                  "align_len": 19,
+                  "gaps": 0,
+                  "qseq": "CKLFKHPRRSWRRNTCSMA",
+                  "hseq": "CTVSKYPEISWTRNGCTVA",
+                  "midline": "C + K+P  SW RN C++A"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|219038",
+                  "accession": "219038",
+                  "title": "O97817.1 RecName: Full=Adhesion G protein-coupled receptor L2; AltName: Full=Calcium-independent alpha-latrotoxin receptor 2; Short=CIRL-2; AltName: Full=Latrophilin-2; Flags: Precursor [Bos taurus]"
+                }
+              ],
+              "len": 1478,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 9.64135,
+                  "identity": 12,
+                  "positive": 16,
+                  "query_from": 4,
+                  "query_to": 38,
+                  "hit_from": 792,
+                  "hit_to": 830,
+                  "align_len": 39,
+                  "gaps": 4,
+                  "qseq": "CKLFKHPRRS----WRRNTCSMADLNATRINTGMSFLTN",
+                  "hseq": "CSFWNYSERTMMGYWSTQGCKLVDTNKTRTTCACSHLTN",
+                  "midline": "C  + +  R+    W    C + D N TR     S LTN"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 23,
+            "eff_space": 4625209431,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

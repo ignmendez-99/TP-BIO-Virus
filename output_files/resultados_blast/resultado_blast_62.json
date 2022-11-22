@@ -1,0 +1,158 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_62",
+          "query_title": "<unknown id> Protein #62 translated from XX894275 with ORF = 1",
+          "query_len": 42,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|348503",
+                  "accession": "348503",
+                  "title": "P41722.1 RecName: Full=Major envelope glycoprotein; AltName: Full=gp64 [Bombyx mori nucleopolyhedrovirus]"
+                }
+              ],
+              "len": 37,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 50.8322,
+                  "score": 120,
+                  "evalue": 4.51126e-10,
+                  "identity": 27,
+                  "positive": 27,
+                  "query_from": 12,
+                  "query_to": 38,
+                  "hit_from": 10,
+                  "hit_to": 36,
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "KCNNKNCIIICNKKNCIVFNCIFNYKI",
+                  "hseq": "KCNNKNCIIICNKKNCIVFNCIFNYKI",
+                  "midline": "KCNNKNCIIICNKKNCIVFNCIFNYKI"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|314466",
+                  "accession": "314466",
+                  "title": "Q7YM30.1 RecName: Full=Maturase K; AltName: Full=Intron maturase [Cananga odorata]"
+                }
+              ],
+              "len": 507,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 1.32849,
+                  "identity": 10,
+                  "positive": 18,
+                  "query_from": 16,
+                  "query_to": 41,
+                  "hit_from": 196,
+                  "hit_to": 221,
+                  "align_len": 26,
+                  "gaps": 0,
+                  "qseq": "KNCIIICNKKNCIVFNCIFNYKIYEA",
+                  "hseq": "KKSIFVCSKENRRFFSFIYNFHVYES",
+                  "midline": "K  I +C+K+N   F+ I+N+ +YE+"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|380627",
+                  "accession": "380627",
+                  "title": "P57349.1 RecName: Full=tRNA-specific 2-thiouridylase MnmA [Buchnera aphidicola str. APS (Acyrthosiphon pisum)]"
+                }
+              ],
+              "len": 368,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 6.83078,
+                  "identity": 17,
+                  "positive": 20,
+                  "query_from": 3,
+                  "query_to": 40,
+                  "hit_from": 84,
+                  "hit_to": 119,
+                  "align_len": 38,
+                  "gaps": 2,
+                  "qseq": "FINCLLKLNKCNNKNCIIICNKKNCIVFNCIFNYKIYE",
+                  "hseq": "FENFLKEYKKGNTPNPDILCNKE--IKFNMFLNYSIQE",
+                  "midline": "F N L +  K N  N  I+CNK+  I FN   NY I E"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|117601",
+                  "accession": "117601",
+                  "title": "Q7K556.1 RecName: Full=TRPL translocation defect protein 14 [Drosophila melanogaster]"
+                }
+              ],
+              "len": 475,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 7.80101,
+                  "identity": 8,
+                  "positive": 14,
+                  "query_from": 5,
+                  "query_to": 24,
+                  "hit_from": 138,
+                  "hit_to": 157,
+                  "align_len": 20,
+                  "gaps": 0,
+                  "qseq": "NCLLKLNKCNNKNCIIICNK",
+                  "hseq": "NTYFELGNSSNRNCLIICDR",
+                  "midline": "N   +L   +N+NC+IIC++"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 16,
+            "eff_space": 4541331080,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

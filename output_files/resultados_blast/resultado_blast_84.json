@@ -1,0 +1,158 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_84",
+          "query_title": "<unknown id> Protein #84 translated from XX894275 with ORF = -3",
+          "query_len": 34,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|455038",
+                  "accession": "455038",
+                  "title": "Q1HVG4.2 RecName: Full=Epstein-Barr nuclear antigen 4; Short=EBNA-4; Short=EBV nuclear antigen 4; AltName: Full=Epstein-Barr nuclear antigen 3B; Short=EBNA-3B; Short=EBV nuclear antigen 3B [Epstein-barr virus strain ag876]"
+                }
+              ],
+              "len": 946,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.7942,
+                  "score": 55,
+                  "evalue": 6.33871,
+                  "identity": 8,
+                  "positive": 12,
+                  "query_from": 2,
+                  "query_to": 19,
+                  "hit_from": 137,
+                  "hit_to": 154,
+                  "align_len": 18,
+                  "gaps": 0,
+                  "qseq": "VDSFLYACNNVAHRCQNI",
+                  "hseq": "IEEFIWMCMTVRHRCQAI",
+                  "midline": "++ F++ C  V HRCQ I"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|426603",
+                  "accession": "426603",
+                  "title": "Q3KST1.1 RecName: Full=Epstein-Barr nuclear antigen 4; Short=EBNA-4; Short=EBV nuclear antigen 4; AltName: Full=Epstein-Barr nuclear antigen 3B; Short=EBNA-3B; Short=EBV nuclear antigen 3B [Human gammaherpesvirus 4]"
+                }
+              ],
+              "len": 938,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.7942,
+                  "score": 55,
+                  "evalue": 6.33874,
+                  "identity": 8,
+                  "positive": 12,
+                  "query_from": 2,
+                  "query_to": 19,
+                  "hit_from": 137,
+                  "hit_to": 154,
+                  "align_len": 18,
+                  "gaps": 0,
+                  "qseq": "VDSFLYACNNVAHRCQNI",
+                  "hseq": "IEEFIWMCMTVRHRCQAI",
+                  "midline": "++ F++ C  V HRCQ I"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|207364",
+                  "accession": "207364",
+                  "title": "P03203.3 RecName: Full=Epstein-Barr nuclear antigen 4; Short=EBNA-4; Short=EBV nuclear antigen 4; AltName: Full=Epstein-Barr nuclear antigen 3B; Short=EBNA-3B; Short=EBV nuclear antigen 3B [Human herpesvirus 4 strain B95-8]"
+                }
+              ],
+              "len": 938,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.7942,
+                  "score": 55,
+                  "evalue": 6.33874,
+                  "identity": 8,
+                  "positive": 12,
+                  "query_from": 2,
+                  "query_to": 19,
+                  "hit_from": 137,
+                  "hit_to": 154,
+                  "align_len": 18,
+                  "gaps": 0,
+                  "qseq": "VDSFLYACNNVAHRCQNI",
+                  "hseq": "IEEFIWMCMTVRHRCQAI",
+                  "midline": "++ F++ C  V HRCQ I"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|264169",
+                  "accession": "264169",
+                  "title": "Q6DBW0.1 RecName: Full=Zinc finger protein Pegasus; AltName: Full=Ikaros family zinc finger protein 5 [Danio rerio]"
+                }
+              ],
+              "len": 419,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.409,
+                  "score": 54,
+                  "evalue": 9.34889,
+                  "identity": 8,
+                  "positive": 12,
+                  "query_from": 7,
+                  "query_to": 28,
+                  "hit_from": 394,
+                  "hit_to": 415,
+                  "align_len": 22,
+                  "gaps": 0,
+                  "qseq": "YACNNVAHRCQNIFTAICETSR",
+                  "hseq": "FQCNICGHRCRNSYDFACHFAR",
+                  "midline": "+ CN   HRC+N +   C  +R"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 9,
+            "eff_space": 4450727675,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_28",
+          "query_title": "<unknown id> Protein #28 translated from XX894275 with ORF = 1",
+          "query_len": 66,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|458071",
+                  "accession": "458071",
+                  "title": "P32784.3 RecName: Full=Glycerol-3-phosphate O-acyltransferase 1; Short=G-3-P acyltransferase 1; Short=GPAT 1; AltName: Full=Dihydroxyacetone phosphate acyltransferase 1; Short=DHAP-AT 1; AltName: Full=Glycerol-3-phosphate / dihydroxyacetone phosphate acyltransferase 1; AltName: Full=Suppressor of choline-transport mutants 1 [Saccharomyces cerevisiae S288C]"
+                }
+              ],
+              "len": 759,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.4166,
+                  "score": 67,
+                  "evalue": 0.679976,
+                  "identity": 15,
+                  "positive": 20,
+                  "query_from": 20,
+                  "query_to": 51,
+                  "hit_from": 454,
+                  "hit_to": 485,
+                  "align_len": 32,
+                  "gaps": 0,
+                  "qseq": "LILYGPVFICALQCSAAKAECAAAKSTYKTIA",
+                  "hseq": "IIMFSPVFILAKRISQEKARTALSKSTVKIKA",
+                  "midline": "+I++ PVFI A + S  KA  A +KST K  A"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|361757",
+                  "accession": "361757",
+                  "title": "P18861.1 RecName: Full=Gap junction gamma-1 protein; AltName: Full=Connexin-45; Short=Cx45; AltName: Full=Gap junction alpha-7 protein [Gallus gallus]"
+                }
+              ],
+              "len": 394,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.0314,
+                  "score": 66,
+                  "evalue": 0.9259,
+                  "identity": 20,
+                  "positive": 33,
+                  "query_from": 9,
+                  "query_to": 64,
+                  "hit_from": 187,
+                  "hit_to": 249,
+                  "align_len": 64,
+                  "gaps": 9,
+                  "qseq": "SVSLGGVMSKFLILYG----PVFICALQCSAAKAECAAAKSTYKTIAPTI----SLVCFLSKPW",
+                  "hseq": "TFEVGFLIGQYL-LYGFEVSPVFVCSRKPCPHKIDCFISRPTEKTIFLLIMYGVSCMCLLLNVW",
+                  "midline": "+  +G ++ ++L LYG    PVF+C+ +    K +C  ++ T KTI   I    S +C L   W"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 38,
+            "eff_space": 4594761864,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

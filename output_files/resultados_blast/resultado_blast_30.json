@@ -1,0 +1,188 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_30",
+          "query_title": "<unknown id> Protein #30 translated from XX894275 with ORF = 1",
+          "query_len": 63,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|152815",
+                  "accession": "152815",
+                  "title": "O22161.1 RecName: Full=Protein ARABIDILLO 1; AltName: Full=F-box only protein 5 [Arabidopsis thaliana]"
+                }
+              ],
+              "len": 930,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.4166,
+                  "score": 67,
+                  "evalue": 0.607379,
+                  "identity": 16,
+                  "positive": 25,
+                  "query_from": 14,
+                  "query_to": 57,
+                  "hit_from": 132,
+                  "hit_to": 173,
+                  "align_len": 44,
+                  "gaps": 2,
+                  "qseq": "RSYISLSIKQCSRVTDSGLFLSSLMSRHAAFTWRVVNVDFCLRI",
+                  "hseq": "RNLIEVSGDYCKKITDATL--SMIVARHEALESLQLGPDFCERI",
+                  "midline": "R+ I +S   C ++TD+ L  S +++RH A     +  DFC RI"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|276159",
+                  "accession": "276159",
+                  "title": "Q9M224.1 RecName: Full=Protein ARABIDILLO 2 [Arabidopsis thaliana]"
+                }
+              ],
+              "len": 928,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.6462,
+                  "score": 65,
+                  "evalue": 0.986465,
+                  "identity": 16,
+                  "positive": 24,
+                  "query_from": 14,
+                  "query_to": 57,
+                  "hit_from": 125,
+                  "hit_to": 166,
+                  "align_len": 44,
+                  "gaps": 2,
+                  "qseq": "RSYISLSIKQCSRVTDSGLFLSSLMSRHAAFTWRVVNVDFCLRI",
+                  "hseq": "RSLLEISGDYCRKITDATL--SMIAARHEALESLQLGPDFCERI",
+                  "midline": "RS + +S   C ++TD+ L  S + +RH A     +  DFC RI"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|30089",
+                  "accession": "30089",
+                  "title": "B2SHS9.1 RecName: Full=Ubiquinone biosynthesis O-methyltransferase; AltName: Full=2-polyprenyl-6-hydroxyphenol methylase; AltName: Full=3-demethylubiquinone 3-O-methyltransferase [Xanthomonas oryzae pv. oryzae PXO99A] Q2P2C4.1 RecName: Full=Ubiquinone biosynthesis O-methyltransferase; AltName: Full=2-polyprenyl-6-hydroxyphenol methylase; AltName: Full=3-demethylubiquinone 3-O-methyltransferase [Xanthomonas oryzae pv. oryzae MAFF 311018] Q5GZB5.1 RecName: Full=Ubiquinone biosynthesis O-methyltransferase; AltName: Full=2-polyprenyl-6-hydroxyphenol methylase; AltName: Full=3-demethylubiquinone 3-O-methyltransferase [Xanthomonas oryzae pv. oryzae KACC 10331]"
+                }
+              ],
+              "len": 239,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 2.69594,
+                  "identity": 15,
+                  "positive": 23,
+                  "query_from": 21,
+                  "query_to": 58,
+                  "hit_from": 141,
+                  "hit_to": 180,
+                  "align_len": 40,
+                  "gaps": 2,
+                  "qseq": "IKQCSRVTDSG--LFLSSLMSRHAAFTWRVVNVDFCLRII",
+                  "hseq": "IRACARLLKPGGKLFLSTLNRTPAAFALAVVGAEYIARLL",
+                  "midline": "I+ C+R+   G  LFLS+L    AAF   VV  ++  R++"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|446633",
+                  "accession": "446633",
+                  "title": "B1HR71.1 RecName: Full=Adenine deaminase; Short=Adenase; Short=Adenine aminase [Lysinibacillus sphaericus C3-41]"
+                }
+              ],
+              "len": 581,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 3.60095,
+                  "identity": 11,
+                  "positive": 18,
+                  "query_from": 6,
+                  "query_to": 33,
+                  "hit_from": 542,
+                  "hit_to": 569,
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "LQFHVFLERSYISLSIKQCSRVTDSGLF",
+                  "hseq": "LDFHFLLTFSFVALPVIPALKLTDTGLF",
+                  "midline": "L FH  L  S+++L +    ++TD+GLF"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|377562",
+                  "accession": "377562",
+                  "title": "P33547.1 RecName: Full=Chaperone protein IpgA [Shigella flexneri]"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 9.57741,
+                  "identity": 10,
+                  "positive": 17,
+                  "query_from": 20,
+                  "query_to": 52,
+                  "hit_from": 32,
+                  "hit_to": 64,
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "SIKQCSRVTDSGLFLSSLMSRHAAFTWRVVNVD",
+                  "hseq": "QIPVCITDNDEYIFLTGLLNEHELFTENIINPE",
+                  "midline": " I  C    D  +FL+ L++ H  FT  ++N +"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 36,
+            "eff_space": 4456602720,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

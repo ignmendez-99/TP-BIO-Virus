@@ -1,0 +1,98 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_87",
+          "query_title": "<unknown id> Protein #87 translated from XX894275 with ORF = 1",
+          "query_len": 31,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|249420",
+                  "accession": "249420",
+                  "title": "Q7ZX22.1 RecName: Full=GATOR complex protein WDR24 [Xenopus laevis]"
+                }
+              ],
+              "len": 780,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 1.29592,
+                  "identity": 10,
+                  "positive": 17,
+                  "query_from": 10,
+                  "query_to": 31,
+                  "hit_from": 433,
+                  "hit_to": 457,
+                  "align_len": 25,
+                  "gaps": 3,
+                  "qseq": "DVNR---GRTWHMIHLMYCQVGSLP",
+                  "hseq": "DLNRWQVAQTWTMLRIIYCSPGTVP",
+                  "midline": "D+NR    +TW M+ ++YC  G++P"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|376389",
+                  "accession": "376389",
+                  "title": "B1AJ73.1 RecName: Full=Urease subunit alpha; AltName: Full=Urea amidohydrolase subunit alpha [Ureaplasma parvum serovar 3 str. ATCC 27815] P0C7K7.1 RecName: Full=Urease subunit alpha; AltName: Full=Urea amidohydrolase subunit alpha [Ureaplasma parvum serovar 3 str. ATCC 700970]"
+                }
+              ],
+              "len": 598,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 5.05083,
+                  "identity": 10,
+                  "positive": 10,
+                  "query_from": 15,
+                  "query_to": 30,
+                  "hit_from": 379,
+                  "hit_to": 394,
+                  "align_len": 16,
+                  "gaps": 0,
+                  "qseq": "RTWHMIHLMYCQVGSL",
+                  "hseq": "RTWQMAHKMKAQFGSL",
+                  "midline": "RTW M H M  Q GSL"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 6,
+            "eff_space": 4486754750,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_44",
+          "query_title": "<unknown id> Protein #44 translated from XX894275 with ORF = -1",
+          "query_len": 52,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|351714",
+                  "accession": "351714",
+                  "title": "Q9W3W5.2 RecName: Full=Protein shifted; AltName: Full=WIF-1-like protein; Flags: Precursor [Drosophila melanogaster]"
+                }
+              ],
+              "len": 456,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 5.63011,
+                  "identity": 13,
+                  "positive": 23,
+                  "query_from": 3,
+                  "query_to": 45,
+                  "hit_from": 218,
+                  "hit_to": 260,
+                  "align_len": 43,
+                  "gaps": 0,
+                  "qseq": "YMIFLKTRGIASLTDALNAKSSTKSRNGRPLGATTLEPSTQKE",
+                  "hseq": "FSIFLPCTGNSSGTASFNVGLKIQTRHNKPLSGTPIRLNFKKE",
+                  "midline": "+ IFL   G +S T + N     ++R+ +PL  T +  + +KE"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 25,
+            "eff_space": 4599269937,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

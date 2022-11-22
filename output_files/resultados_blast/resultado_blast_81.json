@@ -1,0 +1,248 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_81",
+          "query_title": "<unknown id> Protein #81 translated from XX894275 with ORF = -1",
+          "query_len": 34,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|188178",
+                  "accession": "188178",
+                  "title": "Q96RS6.2 RecName: Full=NudC domain-containing protein 1; AltName: Full=Chronic myelogenous leukemia tumor antigen 66; AltName: Full=Tumor antigen CML66 [Homo sapiens]"
+                }
+              ],
+              "len": 583,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 1.03022,
+                  "identity": 12,
+                  "positive": 16,
+                  "query_from": 5,
+                  "query_to": 34,
+                  "hit_from": 95,
+                  "hit_to": 124,
+                  "align_len": 30,
+                  "gaps": 0,
+                  "qseq": "LGNPRESNRYPRPLMYCQNRITMVIAMTNT",
+                  "hseq": "LGKPREVFRLPTDLTACDNRLCASIHFSSS",
+                  "midline": "LG PRE  R P  L  C NR+   I  +++"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|159858",
+                  "accession": "159858",
+                  "title": "C0LGJ9.1 RecName: Full=Probable LRR receptor-like serine/threonine-protein kinase At2g02780; Flags: Precursor [Arabidopsis thaliana]"
+                }
+              ],
+              "len": 742,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 2.41729,
+                  "identity": 11,
+                  "positive": 18,
+                  "query_from": 5,
+                  "query_to": 31,
+                  "hit_from": 312,
+                  "hit_to": 336,
+                  "align_len": 27,
+                  "gaps": 2,
+                  "qseq": "LGNPRESNRYPRPLMYCQNRITMVIAM",
+                  "hseq": "IGTP--NAKYQRPLSFCQNQASKAIAV",
+                  "midline": "+G P  + +Y RPL +CQN+ +  IA+"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|197085",
+                  "accession": "197085",
+                  "title": "Q7T0S2.1 RecName: Full=NudC domain-containing protein 1 [Xenopus laevis]"
+                }
+              ],
+              "len": 586,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 4.13493,
+                  "identity": 10,
+                  "positive": 13,
+                  "query_from": 5,
+                  "query_to": 25,
+                  "hit_from": 94,
+                  "hit_to": 114,
+                  "align_len": 21,
+                  "gaps": 0,
+                  "qseq": "LGNPRESNRYPRPLMYCQNRI",
+                  "hseq": "MGKPIEVFRFPRDLNACDNRL",
+                  "midline": "+G P E  R+PR L  C NR+"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|219170",
+                  "accession": "219170",
+                  "title": "A0R4Q2.1 RecName: Full=Medium/long-chain-fatty-acid--CoA/3-oxocholest-4-en-26-oate--CoA ligase; Short=FACL; AltName: Full=Acyl-CoA synthetase; AltName: Full=FACL19; AltName: Full=Steroid-CoA ligase; AltName: Full=Steroid-coenzyme A ligase [Mycolicibacterium smegmatis MC2 155]"
+                }
+              ],
+              "len": 551,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.7942,
+                  "score": 55,
+                  "evalue": 6.73112,
+                  "identity": 9,
+                  "positive": 12,
+                  "query_from": 19,
+                  "query_to": 31,
+                  "hit_from": 58,
+                  "hit_to": 70,
+                  "align_len": 13,
+                  "gaps": 0,
+                  "qseq": "MYCQNRITMVIAM",
+                  "hseq": "LYCRNRIEIVIAM",
+                  "midline": "+YC+NRI +VIAM"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|356350",
+                  "accession": "356350",
+                  "title": "B2HI05.1 RecName: Full=Medium/long-chain-fatty-acid--CoA/3-oxocholest-4-en-26-oate--CoA ligase; Short=FACL; AltName: Full=Acyl-CoA synthetase; AltName: Full=Steroid-CoA ligase; AltName: Full=Steroid-coenzyme A ligase [Mycobacterium marinum M]"
+                }
+              ],
+              "len": 550,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.7942,
+                  "score": 55,
+                  "evalue": 6.73113,
+                  "identity": 9,
+                  "positive": 12,
+                  "query_from": 19,
+                  "query_to": 31,
+                  "hit_from": 60,
+                  "hit_to": 72,
+                  "align_len": 13,
+                  "gaps": 0,
+                  "qseq": "MYCQNRITMVIAM",
+                  "hseq": "LYCRNRIEIVIAM",
+                  "midline": "+YC+NRI +VIAM"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|139310",
+                  "accession": "139310",
+                  "title": "P9WQ50.1 RecName: Full=Medium/long-chain-fatty-acid--CoA/3-oxocholest-4-en-26-oate--CoA ligase; Short=FACL; AltName: Full=Acyl-CoA synthetase; AltName: Full=Steroid-CoA ligase; AltName: Full=Steroid-coenzyme A ligase [Mycobacterium tuberculosis CDC1551] P9WQ51.1 RecName: Full=Medium/long-chain-fatty-acid--CoA/3-oxocholest-4-en-26-oate--CoA ligase; Short=FACL; AltName: Full=Acyl-CoA synthetase; AltName: Full=FACL19; AltName: Full=Steroid-CoA ligase; AltName: Full=Steroid-coenzyme A ligase [Mycobacterium tuberculosis H37Rv] Q7TWB7.1 RecName: Full=Medium/long-chain-fatty-acid--CoA/3-oxocholest-4-en-26-oate--CoA ligase; Short=FACL; AltName: Full=Acyl-CoA synthetase; AltName: Full=Steroid-CoA ligase; AltName: Full=Steroid-coenzyme A ligase [Mycobacterium tuberculosis variant bovis AF2122/97]"
+                }
+              ],
+              "len": 548,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.7942,
+                  "score": 55,
+                  "evalue": 6.73115,
+                  "identity": 9,
+                  "positive": 12,
+                  "query_from": 19,
+                  "query_to": 31,
+                  "hit_from": 60,
+                  "hit_to": 72,
+                  "align_len": 13,
+                  "gaps": 0,
+                  "qseq": "MYCQNRITMVIAM",
+                  "hseq": "LYCRNRIEIVIAM",
+                  "midline": "+YC+NRI +VIAM"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|278503",
+                  "accession": "278503",
+                  "title": "D1Z4K7.1 RecName: Full=Bifunctional lycopene cyclase/phytoene synthase; Includes: RecName: Full=Lycopene beta-cyclase; AltName: Full=Lycopene cyclase; Includes: RecName: Full=Phytoene synthase [Sordaria macrospora k-hell]"
+                }
+              ],
+              "len": 602,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.7942,
+                  "score": 55,
+                  "evalue": 7.36112,
+                  "identity": 9,
+                  "positive": 11,
+                  "query_from": 12,
+                  "query_to": 25,
+                  "hit_from": 257,
+                  "hit_to": 270,
+                  "align_len": 14,
+                  "gaps": 0,
+                  "qseq": "NRYPRPLMYCQNRI",
+                  "hseq": "NRYPTPLMLVQSRL",
+                  "midline": "NRYP PLM  Q+R+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 9,
+            "eff_space": 4450727675,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_17",
+          "query_title": "<unknown id> Protein #17 translated from XX894275 with ORF = -3",
+          "query_len": 89,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|133918",
+                  "accession": "133918",
+                  "title": "Q7M8W6.1 RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Wolinella succinogenes DSM 1740]"
+                }
+              ],
+              "len": 483,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 6.68657,
+                  "identity": 16,
+                  "positive": 22,
+                  "query_from": 9,
+                  "query_to": 43,
+                  "hit_from": 127,
+                  "hit_to": 160,
+                  "align_len": 35,
+                  "gaps": 1,
+                  "qseq": "SRLSFVIFSCTIHPFMRQYSRTSSESILARRSAIA",
+                  "hseq": "SKLTQILISLQTH-LGRQIDSKSFETILARQSAIA",
+                  "midline": "S+L+ ++ S   H   RQ    S E+ILAR+SAIA"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|460256",
+                  "accession": "460256",
+                  "title": "Q39068.2 RecName: Full=Cyclin-B2-1; AltName: Full=Cyc2a-At; AltName: Full=Cyclin-2a; AltName: Full=G2/mitotic-specific cyclin-B2-1; Short=CycB2;1 [Arabidopsis thaliana]"
+                }
+              ],
+              "len": 429,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 8.78584,
+                  "identity": 21,
+                  "positive": 36,
+                  "query_from": 6,
+                  "query_to": 89,
+                  "hit_from": 290,
+                  "hit_to": 368,
+                  "align_len": 84,
+                  "gaps": 5,
+                  "qseq": "TLRSRLSFVIFSCTIHPFMRQYSRTSSESILARRSAIAGGAGVSSLTSMRRGLNSGGPILRCVLIYTMSCTLDILRAWWPSSTC",
+                  "hseq": "TMLSTLQFNISLPTQYPFLKRFLKAAQAD---KKCEVLASFLIELALVEYEMLRFPPSLLAATSVYTAQCTLDGSRKW--NSTC",
+                  "midline": "T+ S L F I   T +PF++++ + +      ++  +     +         L     +L    +YT  CTLD  R W  +STC"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 60,
+            "eff_space": 4452390184,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

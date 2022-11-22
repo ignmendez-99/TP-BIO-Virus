@@ -1,0 +1,248 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_13",
+          "query_title": "<unknown id> Protein #13 translated from XX894275 with ORF = 2",
+          "query_len": 96,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|470472",
+                  "accession": "470472",
+                  "title": "C5D826.1 RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase; AltName: Full=Tetrahydrodipicolinate N-acetyltransferase; Short=THP acetyltransferase; Short=Tetrahydropicolinate acetylase [Geobacillus sp. WCH70]"
+                }
+              ],
+              "len": 236,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 31.5722,
+                  "score": 70,
+                  "evalue": 0.725274,
+                  "identity": 16,
+                  "positive": 29,
+                  "query_from": 12,
+                  "query_to": 75,
+                  "hit_from": 27,
+                  "hit_to": 90,
+                  "align_len": 64,
+                  "gaps": 0,
+                  "qseq": "RGSLGGQPGGPFTVSYVTIDRYITYGKWPAWLTAQRPPPIDVNNDVCSHSNANRDFPLTSMGGV",
+                  "hseq": "KGSLEGIDFGPSAKTFITGNTGVVFGEWQEIQAALEANKEKIDDYVIENDRRNSAIPLLDLKGV",
+                  "midline": "+GSL G   GP   +++T +  + +G+W     A       +++ V  +   N   PL  + GV"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|125299",
+                  "accession": "125299",
+                  "title": "Q9V3R8.1 RecName: Full=UbiA prenyltransferase domain-containing protein 1 homolog; AltName: Full=Protein heixuedian [Drosophila melanogaster]"
+                }
+              ],
+              "len": 359,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 31.5722,
+                  "score": 70,
+                  "evalue": 0.734667,
+                  "identity": 20,
+                  "positive": 28,
+                  "query_from": 42,
+                  "query_to": 96,
+                  "hit_from": 229,
+                  "hit_to": 286,
+                  "align_len": 58,
+                  "gaps": 3,
+                  "qseq": "WLTAQRPPPIDVNNDVCSHSNANRDFPLTSMGGVFTVNCPLGSTSS-VSYAK--YAPY",
+                  "hseq": "WTTMGYAIPLALNTEAILHSNNTRDADNDRRAGIVTLAILIGRTASHVLYAMLLFAPY",
+                  "midline": "W T     P+ +N +   HSN  RD       G+ T+   +G T+S V YA   +APY"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|312490",
+                  "accession": "312490",
+                  "title": "Q9VCX3.1 RecName: Full=Probable 39S ribosomal protein L45, mitochondrial; Short=L45mt; Short=MRP-L45; Flags: Precursor [Drosophila melanogaster]"
+                }
+              ],
+              "len": 361,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 31.5722,
+                  "score": 70,
+                  "evalue": 0.757002,
+                  "identity": 19,
+                  "positive": 27,
+                  "query_from": 6,
+                  "query_to": 51,
+                  "hit_from": 255,
+                  "hit_to": 309,
+                  "align_len": 55,
+                  "gaps": 9,
+                  "qseq": "IIDVNGRGSLGGQPGGPFTVSYVTIDRYIT--YGKW-------PAWLTAQRPPPI",
+                  "hseq": "IYDRFGRLMHGSEIITKDVLEYVVFEKHISNEYGKWRLHDKIIPDWLPAKQPAPI",
+                  "midline": "I D  GR   G +      + YV  +++I+  YGKW       P WL A++P PI"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|126988",
+                  "accession": "126988",
+                  "title": "Q8TQX8.1 RecName: Full=Probable S-methyl-5'-thioinosine phosphorylase; AltName: Full=5'-methylthioinosine phosphorylase; Short=MTI phosphorylase; Short=MTIP [Methanosarcina acetivorans C2A]"
+                }
+              ],
+              "len": 258,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.8018,
+                  "score": 68,
+                  "evalue": 1.2264,
+                  "identity": 20,
+                  "positive": 35,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 77,
+                  "hit_to": 150,
+                  "align_len": 78,
+                  "gaps": 5,
+                  "qseq": "MGTYVIIDVNGRGSLGGQPGGPFTVSYVTIDRYITYGK-WPAWLTAQRPPPIDVNNDVCSHSNANRDFPLTSMGGVFT",
+                  "hseq": "LGAKRVISTNSVGSMRGHPVG----SFVVLDDFIDFTRSRPSTFHDDKTVHVDVSEPYCPEIRASLRYSLEKRGISYT",
+                  "midline": "+G   +I  N  GS+ G P G    S+V +D +I + +  P+     +   +DV+   C    A+  + L   G  +T"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|183872",
+                  "accession": "183872",
+                  "title": "P17439.1 RecName: Full=Lysosomal acid glucosylceramidase; Short=Lysosomal acid GCase; AltName: Full=Acid beta-glucosidase; AltName: Full=Beta-glucocerebrosidase; AltName: Full=Cholesterol glucosyltransferase; Short=SGTase; AltName: Full=Cholesteryl-beta-glucosidase; AltName: Full=D-glucosyl-N-acylsphingosine glucohydrolase; AltName: Full=Lysosomal cholesterol glycosyltransferase; AltName: Full=Lysosomal galactosylceramidase; AltName: Full=Lysosomal glycosylceramidase; Flags: Precursor [Mus musculus]"
+                }
+              ],
+              "len": 515,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.0314,
+                  "score": 66,
+                  "evalue": 2.33958,
+                  "identity": 18,
+                  "positive": 24,
+                  "query_from": 9,
+                  "query_to": 49,
+                  "hit_from": 210,
+                  "hit_to": 255,
+                  "align_len": 46,
+                  "gaps": 5,
+                  "qseq": "VNGRGSLGGQPGGPFTVSYVT-----IDRYITYGKWPAWLTAQRPP",
+                  "hseq": "VNGKGSLKGQPGDIFHQTWANYFVKFLDAYAKYGLRFWAVTAENEP",
+                  "midline": "VNG+GSL GQPG  F  ++       +D Y  YG     +TA+  P"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|470450",
+                  "accession": "470450",
+                  "title": "B4EH54.1 RecName: Full=4-deoxy-L-threo-5-hexosulose-uronate ketol-isomerase; AltName: Full=5-keto-4-deoxyuronate isomerase; AltName: Full=DKI isomerase [Burkholderia cenocepacia J2315]"
+                }
+              ],
+              "len": 278,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 3.81044,
+                  "identity": 17,
+                  "positive": 25,
+                  "query_from": 23,
+                  "query_to": 74,
+                  "hit_from": 35,
+                  "hit_to": 85,
+                  "align_len": 52,
+                  "gaps": 1,
+                  "qseq": "FTVSYVTIDRYITYGKWPAWLTAQRPPPIDVNNDVCSHSNANRDFPLTSMGG",
+                  "hseq": "LSLTYSHIDRIIVGGAWPATRPVEVPASLGAEMGV-SHLLARRELGAINIGG",
+                  "midline": " +++Y  IDR I  G WPA    + P  +     V SH  A R+    ++GG"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|145629",
+                  "accession": "145629",
+                  "title": "Q9ZUV9.2 RecName: Full=Cation/H(+) antiporter 7; AltName: Full=Protein CATION/H+ EXCHANGER 7; Short=AtCHX7 [Arabidopsis thaliana]"
+                }
+              ],
+              "len": 801,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 7.2355,
+                  "identity": 15,
+                  "positive": 22,
+                  "query_from": 5,
+                  "query_to": 48,
+                  "hit_from": 234,
+                  "hit_to": 279,
+                  "align_len": 46,
+                  "gaps": 2,
+                  "qseq": "VIIDVNGRGSLGGQPGGPFTVSYVTIDRYITYGKWPA--WLTAQRP",
+                  "hseq": "IFIMVSGTVLLKGQKGLPHGIVIVLVIGFLVYIVWPVMLWIIKQTP",
+                  "midline": "+ I V+G   L GQ G P  +  V +  ++ Y  WP   W+  Q P"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 66,
+            "eff_space": 4519455900,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

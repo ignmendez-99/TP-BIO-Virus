@@ -1,0 +1,188 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_37",
+          "query_title": "<unknown id> Protein #37 translated from XX894275 with ORF = 2",
+          "query_len": 55,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|47786",
+                  "accession": "47786",
+                  "title": "Q3AZM3.1 RecName: Full=ATP synthase subunit b; AltName: Full=ATP synthase F(0) sector subunit b; AltName: Full=ATPase subunit I; AltName: Full=F-type ATPase subunit b; Short=F-ATPase subunit b [Synechococcus sp. CC9902]"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 0.999186,
+                  "identity": 10,
+                  "positive": 16,
+                  "query_from": 6,
+                  "query_to": 27,
+                  "hit_from": 5,
+                  "hit_to": 26,
+                  "align_len": 22,
+                  "gaps": 0,
+                  "qseq": "FITITTNIITIAIVIAIIFWCL",
+                  "hseq": "FNPLETNLVNLAIVIGVLFWFL",
+                  "midline": "F  + TN++ +AIVI ++FW L"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|249332",
+                  "accession": "249332",
+                  "title": "O89001.2 RecName: Full=Carboxypeptidase D; AltName: Full=Metallocarboxypeptidase D; AltName: Full=gp180; Flags: Precursor [Mus musculus]"
+                }
+              ],
+              "len": 1377,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 6.5953,
+                  "identity": 9,
+                  "positive": 16,
+                  "query_from": 5,
+                  "query_to": 30,
+                  "hit_from": 1297,
+                  "hit_to": 1322,
+                  "align_len": 26,
+                  "gaps": 0,
+                  "qseq": "LFITITTNIITIAIVIAIIFWCLCKI",
+                  "hseq": "LVVTVSGATMSALILTACIIWCICSI",
+                  "midline": "L +T++   ++  I+ A I WC+C I"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|20917",
+                  "accession": "20917",
+                  "title": "Q9JHW1.2 RecName: Full=Carboxypeptidase D; AltName: Full=Metallocarboxypeptidase D; AltName: Full=gp180; Flags: Precursor [Rattus norvegicus]"
+                }
+              ],
+              "len": 1378,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 6.59535,
+                  "identity": 9,
+                  "positive": 16,
+                  "query_from": 5,
+                  "query_to": 30,
+                  "hit_from": 1298,
+                  "hit_to": 1323,
+                  "align_len": 26,
+                  "gaps": 0,
+                  "qseq": "LFITITTNIITIAIVIAIIFWCLCKI",
+                  "hseq": "LVVTVSGATMSALILTACIIWCICSI",
+                  "midline": "L +T++   ++  I+ A I WC+C I"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|213192",
+                  "accession": "213192",
+                  "title": "O75976.2 RecName: Full=Carboxypeptidase D; AltName: Full=Metallocarboxypeptidase D; AltName: Full=gp180; Flags: Precursor [Homo sapiens]"
+                }
+              ],
+              "len": 1380,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 6.59545,
+                  "identity": 9,
+                  "positive": 16,
+                  "query_from": 5,
+                  "query_to": 30,
+                  "hit_from": 1300,
+                  "hit_to": 1325,
+                  "align_len": 26,
+                  "gaps": 0,
+                  "qseq": "LFITITTNIITIAIVIAIIFWCLCKI",
+                  "hseq": "LVVTVSGATMSALILTACIIWCICSI",
+                  "midline": "L +T++   ++  I+ A I WC+C I"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|371255",
+                  "accession": "371255",
+                  "title": "Q753L2.1 RecName: Full=Suppressor of lethality of KEX2 GAS1 double null mutant protein 1 [Eremothecium gossypii ATCC 10895]"
+                }
+              ],
+              "len": 307,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 9.64732,
+                  "identity": 7,
+                  "positive": 13,
+                  "query_from": 14,
+                  "query_to": 26,
+                  "hit_from": 18,
+                  "hit_to": 30,
+                  "align_len": 13,
+                  "gaps": 0,
+                  "qseq": "ITIAIVIAIIFWC",
+                  "hseq": "VSIAVLIALVFWC",
+                  "midline": "++IA++IA++FWC"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 28,
+            "eff_space": 4560360696,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

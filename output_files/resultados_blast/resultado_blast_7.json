@@ -1,0 +1,218 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7",
+          "query_title": "<unknown id> Protein #7 translated from XX894275 with ORF = -3",
+          "query_len": 119,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|70592",
+                  "accession": "70592",
+                  "title": "B2VG25.1 RecName: Full=Protein-L-isoaspartate O-methyltransferase; AltName: Full=L-isoaspartyl protein carboxyl methyltransferase; AltName: Full=Protein L-isoaspartyl methyltransferase; AltName: Full=Protein-beta-aspartate methyltransferase; Short=PIMT [Erwinia tasmaniensis Et1/99]"
+                }
+              ],
+              "len": 208,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 31.9574,
+                  "score": 71,
+                  "evalue": 0.797596,
+                  "identity": 20,
+                  "positive": 28,
+                  "query_from": 43,
+                  "query_to": 97,
+                  "hit_from": 147,
+                  "hit_to": 197,
+                  "align_len": 55,
+                  "gaps": 4,
+                  "qseq": "VVAAPLRTAETHVRAFNHGRLHVNPVGVTQKLVQSIRFFFVRTAVAFKLDHINLV",
+                  "hseq": "VTAAPPNIPDALMSQLDDGGVMVLPVGEDQQVLQRIR----RTADEFIVDTIEPV",
+                  "midline": "V AAP    +  +   + G + V PVG  Q+++Q IR    RTA  F +D I  V"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|424760",
+                  "accession": "424760",
+                  "title": "C3LR04.1 RecName: Full=Ribonuclease 3; AltName: Full=Ribonuclease III; Short=RNase III [Vibrio cholerae M66-2] Q9KPB2.1 RecName: Full=Ribonuclease 3; AltName: Full=Ribonuclease III; Short=RNase III [Vibrio cholerae O1 biovar El Tor str. N16961]"
+                }
+              ],
+              "len": 225,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 31.187,
+                  "score": 69,
+                  "evalue": 1.64139,
+                  "identity": 24,
+                  "positive": 34,
+                  "query_from": 13,
+                  "query_to": 73,
+                  "hit_from": 78,
+                  "hit_to": 153,
+                  "align_len": 76,
+                  "gaps": 15,
+                  "qseq": "NVITQRGRVHDLEICIKLFKCK-------RTRVVADAVVA--------APLRTAETHVRAFNHGRLHVNPVGVTQK",
+                  "hseq": "NTLAELGREFDLGDYLKLGPGELKSGGFRRDSILADAVEAIIGAIYLDSDLETARSIVLEWYHGRLEEIKPGASQK",
+                  "midline": "N + + GR  DL   +KL   +       R  ++ADAV A        + L TA + V  + HGRL     G +QK"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|395828",
+                  "accession": "395828",
+                  "title": "B5Y305.1 RecName: Full=50S ribosomal protein L9 [Klebsiella pneumoniae 342]"
+                }
+              ],
+              "len": 149,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 6.40907,
+                  "identity": 15,
+                  "positive": 20,
+                  "query_from": 29,
+                  "query_to": 59,
+                  "hit_from": 89,
+                  "hit_to": 119,
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "KLFKCKRTRVVADAVVAAPLRTAETHVRAFN",
+                  "hseq": "KLFGSIGTRDIADAVTAAGVKVAKSEVRLPN",
+                  "midline": "KLF    TR +ADAV AA ++ A++ VR  N"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|286582",
+                  "accession": "286582",
+                  "title": "A6THB4.1 RecName: Full=50S ribosomal protein L9 [Klebsiella pneumoniae subsp. pneumoniae MGH 78578]"
+                }
+              ],
+              "len": 149,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 6.53509,
+                  "identity": 15,
+                  "positive": 20,
+                  "query_from": 29,
+                  "query_to": 59,
+                  "hit_from": 89,
+                  "hit_to": 119,
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "KLFKCKRTRVVADAVVAAPLRTAETHVRAFN",
+                  "hseq": "KLFGSIGTRDIADAVTAAGVKVAKSEVRLPN",
+                  "midline": "KLF    TR +ADAV AA ++ A++ VR  N"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|397613",
+                  "accession": "397613",
+                  "title": "A4SIZ9.1 RecName: Full=50S ribosomal protein L9 [Aeromonas salmonicida subsp. salmonicida A449]"
+                }
+              ],
+              "len": 148,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 6.56805,
+                  "identity": 15,
+                  "positive": 19,
+                  "query_from": 29,
+                  "query_to": 59,
+                  "hit_from": 89,
+                  "hit_to": 119,
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "KLFKCKRTRVVADAVVAAPLRTAETHVRAFN",
+                  "hseq": "KLFGSIGTRDVADAITAAGVAVAKSEVRMGN",
+                  "midline": "KLF    TR VADA+ AA +  A++ VR  N"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|108438",
+                  "accession": "108438",
+                  "title": "A8G8W7.1 RecName: Full=50S ribosomal protein L9 [Serratia proteamaculans 568]"
+                }
+              ],
+              "len": 150,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 9.97236,
+                  "identity": 15,
+                  "positive": 19,
+                  "query_from": 29,
+                  "query_to": 59,
+                  "hit_from": 89,
+                  "hit_to": 119,
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "KLFKCKRTRVVADAVVAAPLRTAETHVRAFN",
+                  "hseq": "KLFGSIGTRDIADAVTAAGVEVAKSEVRLPN",
+                  "midline": "KLF    TR +ADAV AA +  A++ VR  N"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 87,
+            "eff_space": 4497950368,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_27",
+          "query_title": "<unknown id> Protein #27 translated from XX894275 with ORF = 1",
+          "query_len": 66,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|295584",
+                  "accession": "295584",
+                  "title": "Q9H845.1 RecName: Full=Complex I assembly factor ACAD9, mitochondrial; AltName: Full=Acyl-CoA dehydrogenase family member 9; Short=ACAD-9; Flags: Precursor [Homo sapiens]"
+                }
+              ],
+              "len": 621,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.4166,
+                  "score": 67,
+                  "evalue": 0.745768,
+                  "identity": 15,
+                  "positive": 18,
+                  "query_from": 8,
+                  "query_to": 36,
+                  "hit_from": 6,
+                  "hit_to": 37,
+                  "align_len": 32,
+                  "gaps": 3,
+                  "qseq": "MIWETCLATRACR---VCNASLRLLKTCPPTR",
+                  "hseq": "LFLRTTAAARACRGLVVSTANRRLLRTSPPVR",
+                  "midline": "+   T  A RACR   V  A+ RLL+T PP R"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|443942",
+                  "accession": "443942",
+                  "title": "Q06561.2 RecName: Full=Basement membrane proteoglycan; AltName: Full=Perlecan homolog; AltName: Full=Uncoordinated protein 52; Short=Protein unc-52; Flags: Precursor [Caenorhabditis elegans]"
+                }
+              ],
+              "len": 3375,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.0314,
+                  "score": 66,
+                  "evalue": 0.95423,
+                  "identity": 18,
+                  "positive": 22,
+                  "query_from": 18,
+                  "query_to": 62,
+                  "hit_from": 1078,
+                  "hit_to": 1117,
+                  "align_len": 47,
+                  "gaps": 9,
+                  "qseq": "ACRVCNASL--RLLKTCPPTRFVWAPSPKRSNMKAAKCCSPVPACTS",
+                  "hseq": "ACRICPAGLQGRLCNEC-------APGYTRSNKPAGRVCEPIGQVTN",
+                  "midline": "ACR+C A L  RL   C       AP   RSN  A + C P+   T+"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|273200",
+                  "accession": "273200",
+                  "title": "G5EGJ9.1 RecName: Full=Receptor-type tyrosine-protein phosphatase dep-1; AltName: Full=Density-enhanced phosphatase homolog 1; Flags: Precursor [Caenorhabditis elegans]"
+                }
+              ],
+              "len": 1367,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 3.93084,
+                  "identity": 11,
+                  "positive": 12,
+                  "query_from": 11,
+                  "query_to": 27,
+                  "hit_from": 845,
+                  "hit_to": 861,
+                  "align_len": 17,
+                  "gaps": 0,
+                  "qseq": "ETCLATRACRVCNASLR",
+                  "hseq": "ETCLEVRADRICNGPLR",
+                  "midline": "ETCL  RA R+CN  LR"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|115867",
+                  "accession": "115867",
+                  "title": "A2QBZ0.1 RecName: Full=Protein transport protein sec31 [Aspergillus niger CBS 513.88]"
+                }
+              ],
+              "len": 1259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 4.46481,
+                  "identity": 13,
+                  "positive": 16,
+                  "query_from": 34,
+                  "query_to": 63,
+                  "hit_from": 944,
+                  "hit_to": 973,
+                  "align_len": 30,
+                  "gaps": 0,
+                  "qseq": "PTRFVWAPSPKRSNMKAAKCCSPVPACTST",
+                  "hseq": "PEGFAKAPTPRRSTPAAATVASPFPNQSPT",
+                  "midline": "P  F  AP+P+RS   AA   SP P  + T"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|223244",
+                  "accession": "223244",
+                  "title": "Q09899.2 RecName: Full=Porphobilinogen deaminase; Short=PBG; AltName: Full=Hydroxymethylbilane synthase; Short=HMBS; AltName: Full=Pre-uroporphyrinogen synthase [Schizosaccharomyces pombe 972h-]"
+                }
+              ],
+              "len": 336,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 7.85214,
+                  "identity": 20,
+                  "positive": 25,
+                  "query_from": 1,
+                  "query_to": 46,
+                  "hit_from": 54,
+                  "hit_to": 106,
+                  "align_len": 53,
+                  "gaps": 7,
+                  "qseq": "MFTF---LTKMIW----ETCLATRACRVCNASLRLLKTCPPTRFVWAPSPKRS",
+                  "hseq": "LFEFKRQLAKSLWTRELEALLVTNQCRILVHSLKDLPSEMPDGMVIACIPKRS",
+                  "midline": "+F F   L K +W    E  L T  CR+   SL+ L +  P   V A  PKRS"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 38,
+            "eff_space": 4594761864,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

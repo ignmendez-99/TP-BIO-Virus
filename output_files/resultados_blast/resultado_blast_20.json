@@ -1,0 +1,218 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_20",
+          "query_title": "<unknown id> Protein #20 translated from XX894275 with ORF = -2",
+          "query_len": 85,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|240053",
+                  "accession": "240053",
+                  "title": "P41705.1 RecName: Full=Per os infectivity factor 5; Short=PIF5; AltName: Full=E56 [Autographa californica nucleopolyhedrovirus]"
+                }
+              ],
+              "len": 376,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1358,
+                  "score": 113,
+                  "evalue": 6.72607e-07,
+                  "identity": 22,
+                  "positive": 22,
+                  "query_from": 64,
+                  "query_to": 85,
+                  "hit_from": 355,
+                  "hit_to": 376,
+                  "align_len": 22,
+                  "gaps": 0,
+                  "qseq": "AATSPTPIVISMQNPTPTTAPR",
+                  "hseq": "AATSPTPIVISMQNPTPTTAPR",
+                  "midline": "AATSPTPIVISMQNPTPTTAPR"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|263417",
+                  "accession": "263417",
+                  "title": "Q9FFZ6.1 RecName: Full=Small RNA-binding protein 11, chloroplastic; Flags: Precursor [Arabidopsis thaliana]"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.6462,
+                  "score": 65,
+                  "evalue": 1.76067,
+                  "identity": 20,
+                  "positive": 31,
+                  "query_from": 8,
+                  "query_to": 82,
+                  "hit_from": 69,
+                  "hit_to": 143,
+                  "align_len": 75,
+                  "gaps": 0,
+                  "qseq": "HIAYSQHSFGFKNLSSVDISLQTLHSYKTKLSTNKFITLTVLLIVSSTGGGGGGVGAATSPTPIVISMQNPTPTT",
+                  "hseq": "RVSDRSKGFGFVTFASADEAQKALMEFNGQQLNGRTIFVDYAKAKQSLGGGGGYPIARGPPDPAVIAATRTTETS",
+                  "midline": " ++     FGF   +S D + + L  +  +    + I +       S GGGGG   A   P P VI+    T T+"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|457682",
+                  "accession": "457682",
+                  "title": "A4IJC6.1 RecName: Full=Bifunctional protein GlmU; Includes: RecName: Full=UDP-N-acetylglucosamine pyrophosphorylase; AltName: Full=N-acetylglucosamine-1-phosphate uridyltransferase; Includes: RecName: Full=Glucosamine-1-phosphate N-acetyltransferase [Geobacillus thermodenitrificans NG80-2]"
+                }
+              ],
+              "len": 459,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 4.48681,
+                  "identity": 15,
+                  "positive": 23,
+                  "query_from": 23,
+                  "query_to": 69,
+                  "hit_from": 382,
+                  "hit_to": 428,
+                  "align_len": 47,
+                  "gaps": 0,
+                  "qseq": "SVDISLQTLHSYKTKLSTNKFITLTVLLIVSSTGGGGGGVGAATSPT",
+                  "hseq": "SITVNYDGVHKYRTKIEDGAFIGCNANLIAPVTIGQGAYVAAGSTVT",
+                  "midline": "S+ ++   +H Y+TK+    FI     LI   T G G  V A ++ T"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|454421",
+                  "accession": "454421",
+                  "title": "O92500.1 RecName: Full=Occlusion-derived virus envelope protein E56; Short=ODV-E56; AltName: Full=ODVP-6E [Bombyx mori nucleopolyhedrovirus]"
+                }
+              ],
+              "len": 375,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 5.97035,
+                  "identity": 14,
+                  "positive": 16,
+                  "query_from": 67,
+                  "query_to": 85,
+                  "hit_from": 357,
+                  "hit_to": 374,
+                  "align_len": 19,
+                  "gaps": 1,
+                  "qseq": "SPTPIVISMQNPTPTTAPR",
+                  "hseq": "APTPIVI-MQHPASTTAPR",
+                  "midline": "+PTPIVI MQ+P  TTAPR"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|391568",
+                  "accession": "391568",
+                  "title": "B7XHQ4.1 RecName: Full=Probable aspartate--tRNA ligase, cytoplasmic; AltName: Full=Aspartyl-tRNA synthetase; Short=AspRS [Enterocytozoon bieneusi H348]"
+                }
+              ],
+              "len": 474,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 7.48753,
+                  "identity": 13,
+                  "positive": 24,
+                  "query_from": 22,
+                  "query_to": 62,
+                  "hit_from": 168,
+                  "hit_to": 208,
+                  "align_len": 41,
+                  "gaps": 0,
+                  "qseq": "SSVDISLQTLHSYKTKLSTNKFITLTVLLIVSSTGGGGGGV",
+                  "hseq": "SIIKIIDQTMYTFRTYLRTHEFIEIKTSKIIQSGSEGGANL",
+                  "midline": "S + I  QT+++++T L T++FI +    I+ S   GG  +"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|5660",
+                  "accession": "5660",
+                  "title": "Q49397.1 RecName: Full=Putative phosphotransferase enzyme IIB component MG129; AltName: Full=Putative PTS system EIIB component [Mycoplasma genitalium G37]"
+                }
+              ],
+              "len": 117,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 8.24466,
+                  "identity": 20,
+                  "positive": 29,
+                  "query_from": 14,
+                  "query_to": 77,
+                  "hit_from": 11,
+                  "hit_to": 74,
+                  "align_len": 64,
+                  "gaps": 0,
+                  "qseq": "HSFGFKNLSSVDISLQTLHSYKTKLSTNKFITLTVLLIVSSTGGGGGGVGAATSPTPIVISMQN",
+                  "hseq": "FSFGLLYLWIVKKSKQIAQQPNTKLVESTSIPFKVKDFVSACGGKENFVNIKTTPTQLIVTFKD",
+                  "midline": " SFG   L  V  S Q      TKL  +  I   V   VS+ GG    V   T+PT ++++ ++"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 56,
+            "eff_space": 4508112060,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

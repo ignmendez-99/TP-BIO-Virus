@@ -1,0 +1,188 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_57",
+          "query_title": "<unknown id> Protein #57 translated from XX894275 with ORF = 1",
+          "query_len": 44,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|31753",
+                  "accession": "31753",
+                  "title": "B2RRE7.1 RecName: Full=OTU domain-containing protein 4 [Mus musculus]"
+                }
+              ],
+              "len": 1107,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 1.68794,
+                  "identity": 17,
+                  "positive": 22,
+                  "query_from": 1,
+                  "query_to": 42,
+                  "hit_from": 780,
+                  "hit_to": 822,
+                  "align_len": 43,
+                  "gaps": 1,
+                  "qseq": "MGLPS-ASKMYTWHSSVSSWHSSLLYIFEVETPHRHDLLHVWY",
+                  "hseq": "MGPPAFASPLVIPPSQVSEGHGQLSYQPELESENPGQLLHAEY",
+                  "midline": "MG P+ AS +    S VS  H  L Y  E+E+ +   LLH  Y"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|394631",
+                  "accession": "394631",
+                  "title": "Q28JB2.1 RecName: Full=Putative methyltransferase Jann_4284 [Jannaschia sp. CCS1]"
+                }
+              ],
+              "len": 279,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 4.31129,
+                  "identity": 8,
+                  "positive": 16,
+                  "query_from": 12,
+                  "query_to": 34,
+                  "hit_from": 49,
+                  "hit_to": 71,
+                  "align_len": 23,
+                  "gaps": 0,
+                  "qseq": "WHSSVSSWHSSLLYIFEVETPHR",
+                  "hseq": "WHADIAEWAAALLSVREAKTSYR",
+                  "midline": "WH+ ++ W ++LL + E +T +R"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|475213",
+                  "accession": "475213",
+                  "title": "Q9N281.2 RecName: Full=Collagen alpha-1(XVII) chain; AltName: Full=180 kDa bullous pemphigoid antigen 2; AltName: Full=Bullous pemphigoid antigen 2; Contains: RecName: Full=120 kDa linear IgA disease antigen homolog [Canis lupus familiaris]"
+                }
+              ],
+              "len": 1597,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 6.54909,
+                  "identity": 11,
+                  "positive": 17,
+                  "query_from": 3,
+                  "query_to": 24,
+                  "hit_from": 226,
+                  "hit_to": 247,
+                  "align_len": 22,
+                  "gaps": 0,
+                  "qseq": "LPSASKMYTWHSSVSSWHSSLL",
+                  "hseq": "LPAGSSMGTYHNNVTTQSSSLL",
+                  "midline": "LP+ S M T+H++V++  SSLL"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|176060",
+                  "accession": "176060",
+                  "title": "Q96MY7.2 RecName: Full=Protein FAM161B [Homo sapiens]"
+                }
+              ],
+              "len": 647,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 7.19082,
+                  "identity": 11,
+                  "positive": 14,
+                  "query_from": 4,
+                  "query_to": 23,
+                  "hit_from": 150,
+                  "hit_to": 169,
+                  "align_len": 20,
+                  "gaps": 0,
+                  "qseq": "PSASKMYTWHSSVSSWHSSL",
+                  "hseq": "PSGSRPPSQHRSVSSWASSI",
+                  "midline": "PS S+  + H SVSSW SS+"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|395105",
+                  "accession": "395105",
+                  "title": "A6QPB3.1 RecName: Full=Collagen alpha-1(XVII) chain; AltName: Full=180 kDa bullous pemphigoid antigen 2; AltName: Full=Bullous pemphigoid antigen 2; Contains: RecName: Full=120 kDa linear IgA disease antigen homolog [Bos taurus]"
+                }
+              ],
+              "len": 1473,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 7.23321,
+                  "identity": 10,
+                  "positive": 17,
+                  "query_from": 3,
+                  "query_to": 24,
+                  "hit_from": 226,
+                  "hit_to": 247,
+                  "align_len": 22,
+                  "gaps": 0,
+                  "qseq": "LPSASKMYTWHSSVSSWHSSLL",
+                  "hseq": "LPAGSSMGTYHNNITTQSSSLL",
+                  "midline": "LP+ S M T+H+++++  SSLL"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 18,
+            "eff_space": 4516352308,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

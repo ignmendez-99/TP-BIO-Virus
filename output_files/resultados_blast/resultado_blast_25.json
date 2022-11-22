@@ -1,0 +1,248 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_25",
+          "query_title": "<unknown id> Protein #25 translated from XX894275 with ORF = -1",
+          "query_len": 69,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|281769",
+                  "accession": "281769",
+                  "title": "Q5L1H7.1 RecName: Full=UDP-N-acetylenolpyruvoylglucosamine reductase; AltName: Full=UDP-N-acetylmuramate dehydrogenase [Geobacillus kaustophilus HTA426]"
+                }
+              ],
+              "len": 304,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 33.113,
+                  "score": 74,
+                  "evalue": 0.0853203,
+                  "identity": 14,
+                  "positive": 30,
+                  "query_from": 4,
+                  "query_to": 58,
+                  "hit_from": 155,
+                  "hit_to": 210,
+                  "align_len": 56,
+                  "gaps": 1,
+                  "qseq": "ICLSSISSCLSLLQNSSFSLAWGSTLF-FIHSISLEILLAIHSNPFAALHASLNFL",
+                  "hseq": "VKVATLSGELKTLKNEELELGYRTSLISRTHDIVLEVVFALRPGDYAQIKAKMDDL",
+                  "midline": "+ ++++S  L  L+N    L + ++L    H I LE++ A+    +A + A ++ L"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|289011",
+                  "accession": "289011",
+                  "title": "G5EB19.1 RecName: Full=Psi-producing oxygenase A; AltName: Full=Fatty acid oxygenase ppoA; Includes: RecName: Full=Linoleate 8R-lipoxygenase; Includes: RecName: Full=9,12-octadecadienoate 8-hydroperoxide 8R-isomerase [Aspergillus nidulans FGSC A4] Q6RET3.1 RecName: Full=Psi-producing oxygenase A; AltName: Full=Fatty acid oxygenase ppoA; Includes: RecName: Full=Linoleate 8R-lipoxygenase; Includes: RecName: Full=9,12-octadecadienoate 8-hydroperoxide 8R-isomerase [Aspergillus nidulans]"
+                }
+              ],
+              "len": 1081,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.4166,
+                  "score": 67,
+                  "evalue": 0.833095,
+                  "identity": 16,
+                  "positive": 29,
+                  "query_from": 4,
+                  "query_to": 50,
+                  "hit_from": 654,
+                  "hit_to": 706,
+                  "align_len": 53,
+                  "gaps": 6,
+                  "qseq": "ICLSSISSCLSLLQN-SSFSLAWGSTLFFI-----HSISLEILLAIHSNPFAA",
+                  "hseq": "IFISSHAACMSILENQETFKVTWGRKIEFLMQRDKHQYGKDFMLSGDRPPNAA",
+                  "midline": "I +SS ++C+S+L+N  +F + WG  + F+     H    + +L+    P AA"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|370523",
+                  "accession": "370523",
+                  "title": "Q89AD9.1 RecName: Full=Ribosomal large subunit pseudouridine synthase D; AltName: Full=23S rRNA pseudouridine(1911/1915/1917) synthase; AltName: Full=rRNA pseudouridylate synthase D; AltName: Full=rRNA-uridine isomerase D [Buchnera aphidicola str. Bp (Baizongia pistaciae)]"
+                }
+              ],
+              "len": 317,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 2.99165,
+                  "identity": 15,
+                  "positive": 20,
+                  "query_from": 24,
+                  "query_to": 61,
+                  "hit_from": 253,
+                  "hit_to": 290,
+                  "align_len": 38,
+                  "gaps": 0,
+                  "qseq": "AWGSTLFFIHSISLEILLAIHSNPFAALHASLNFLNHP",
+                  "hseq": "TYGNKFKFYKNISLTLLEQVKKFPRQALHASRLCLYHP",
+                  "midline": " +G+   F  +ISL +L  +   P  ALHAS   L HP"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|229527",
+                  "accession": "229527",
+                  "title": "Q7QCC7.3 RecName: Full=Odorant receptor coreceptor; AltName: Full=AgOr7; AltName: Full=Gustatory and odorant receptor 7 [Anopheles gambiae]"
+                }
+              ],
+              "len": 478,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 5.5631,
+                  "identity": 17,
+                  "positive": 22,
+                  "query_from": 27,
+                  "query_to": 64,
+                  "hit_from": 78,
+                  "hit_to": 116,
+                  "align_len": 39,
+                  "gaps": 1,
+                  "qseq": "STLFFIHSISLEILLAIHSNPFAALHASLNFLN-HPSFA",
+                  "hseq": "TTLFFTHSVTKFIYFAVNSENFYRTLAIWNQTNTHPLFA",
+                  "midline": "+TLFF HS++  I  A++S  F    A  N  N HP FA"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|199614",
+                  "accession": "199614",
+                  "title": "A1SWQ0.1 RecName: Full=Periplasmic nitrate reductase; Flags: Precursor [Psychromonas ingrahamii 37]"
+                }
+              ],
+              "len": 831,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 5.74359,
+                  "identity": 19,
+                  "positive": 29,
+                  "query_from": 1,
+                  "query_to": 66,
+                  "hit_from": 190,
+                  "hit_to": 255,
+                  "align_len": 67,
+                  "gaps": 2,
+                  "qseq": "MVVICLSSISSCLSLLQNSSFSLAWGSTLFFIHSISLEILLAIH-SNPFAALHASLNFLNHPSFAIA",
+                  "hseq": "MRTFGIDEPMGCYDDLENADVFVLWGSNMAEMHPILWSRLADRRLSNPDVSVHV-LSTYTHRSFELA",
+                  "midline": "M    +     C   L+N+   + WGS +  +H I    L     SNP  ++H  L+   H SF +A"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|103878",
+                  "accession": "103878",
+                  "title": "Q84N38.1 RecName: Full=OBERON-like protein; AltName: Full=Potyvirus VPg-interacting protein; Short=PVIPnb [Nicotiana benthamiana]"
+                }
+              ],
+              "len": 549,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 5.88484,
+                  "identity": 19,
+                  "positive": 22,
+                  "query_from": 13,
+                  "query_to": 55,
+                  "hit_from": 139,
+                  "hit_to": 180,
+                  "align_len": 43,
+                  "gaps": 1,
+                  "qseq": "LSLLQNSSFSLAWGSTLFFIHSISLEILLAIHSNPFAALHASL",
+                  "hseq": "LQRLVNSRGDLTDG-TLIITHRTQLEILVAIKTGIQAFLHPSV",
+                  "midline": "L  L NS   L  G TL   H   LEIL+AI +   A LH S+"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|235703",
+                  "accession": "235703",
+                  "title": "Q9BYD9.1 RecName: Full=Actin-related protein T3; Short=ARP-T3; AltName: Full=Actin-related protein M1 [Homo sapiens]"
+                }
+              ],
+              "len": 372,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 9.258,
+                  "identity": 17,
+                  "positive": 19,
+                  "query_from": 4,
+                  "query_to": 30,
+                  "hit_from": 274,
+                  "hit_to": 303,
+                  "align_len": 30,
+                  "gaps": 3,
+                  "qseq": "ICLSSISSCLSLLQNSSFS---LAWGSTLF",
+                  "hseq": "ICFSSIMKCDTGLRNSFFSNIILAGGSTSF",
+                  "midline": "IC SSI  C + L+NS FS   LA GST F"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 41,
+            "eff_space": 4554411540,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_43",
+          "query_title": "<unknown id> Protein #43 translated from XX894275 with ORF = 1",
+          "query_len": 53,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|204890",
+                  "accession": "204890",
+                  "title": "B7YZU2.1 RecName: Full=Serine protease filzig; AltName: Full=Lumens interrupted [Drosophila melanogaster]"
+                }
+              ],
+              "len": 1693,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 4.63272,
+                  "identity": 15,
+                  "positive": 23,
+                  "query_from": 16,
+                  "query_to": 50,
+                  "hit_from": 879,
+                  "hit_to": 918,
+                  "align_len": 40,
+                  "gaps": 5,
+                  "qseq": "TRRRRSSGYRRRPGRPRTYRRSRSRSATR-----RTGYRR",
+                  "hseq": "TRKPVSNGYDKVPESPITHIQIKKPSATQHKEQEQTGYPR",
+                  "midline": "TR+  S+GY + P  P T+ + +  SAT+     +TGY R"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|274085",
+                  "accession": "274085",
+                  "title": "Q9BYW2.3 RecName: Full=Histone-lysine N-methyltransferase SETD2; AltName: Full=HIF-1; AltName: Full=Huntingtin yeast partner B; AltName: Full=Huntingtin-interacting protein 1; Short=HIP-1; AltName: Full=Huntingtin-interacting protein B; AltName: Full=Lysine N-methyltransferase 3A; AltName: Full=Protein-lysine N-methyltransferase SETD2; AltName: Full=SET domain-containing protein 2; Short=hSET2; AltName: Full=p231HBP [Homo sapiens]"
+                }
+              ],
+              "len": 2564,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 6.1994,
+                  "identity": 13,
+                  "positive": 26,
+                  "query_from": 2,
+                  "query_to": 51,
+                  "hit_from": 2025,
+                  "hit_to": 2074,
+                  "align_len": 50,
+                  "gaps": 0,
+                  "qseq": "VYRRRRSRSANGTYTRRRRSSGYRRRPGRPRTYRRSRSRSATRRTGYRRR",
+                  "hseq": "IPKKSQTEKENTTTERGRDAVGFRDQTPAPKTPNRSRERDPDKQTQNKEK",
+                  "midline": "+ ++ ++   N T  R R + G+R +   P+T  RSR R   ++T  + +"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|54655",
+                  "accession": "54655",
+                  "title": "Q00083.2 RecName: Full=Anucleate primary sterigmata protein A [Aspergillus nidulans FGSC A4]"
+                }
+              ],
+              "len": 1676,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 7.47061,
+                  "identity": 12,
+                  "positive": 18,
+                  "query_from": 4,
+                  "query_to": 31,
+                  "hit_from": 444,
+                  "hit_to": 471,
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "RRRRSRSANGTYTRRRRSSGYRRRPGRP",
+                  "hseq": "RRRDSVAANGPTNKRQKTKAETRKPARP",
+                  "midline": "RRR S +ANG   +R+++    R+P RP"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|443301",
+                  "accession": "443301",
+                  "title": "P24648.3 RecName: Full=DNA-binding protein; AltName: Full=Arginine-rich protein 6.2 kDa; AltName: Full=Basic viral core protein; AltName: Full=Nucleocapsid protein [Orgyia pseudotsugata multiple nucleopolyhedrovirus]"
+                }
+              ],
+              "len": 51,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.7942,
+                  "score": 55,
+                  "evalue": 8.30565,
+                  "identity": 28,
+                  "positive": 29,
+                  "query_from": 1,
+                  "query_to": 29,
+                  "hit_from": 1,
+                  "hit_to": 29,
+                  "align_len": 29,
+                  "gaps": 0,
+                  "qseq": "MVYRRRRSRSANGTYTRRRRSSGYRRRPG",
+                  "hseq": "MVYRRRRSRSADGTYTRRRRSSGYRRRPG",
+                  "midline": "MVYRRRRSRSA+GTYTRRRRSSGYRRRPG"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 26,
+            "eff_space": 4586300190,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

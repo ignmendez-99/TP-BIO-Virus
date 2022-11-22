@@ -1,0 +1,278 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_53",
+          "query_title": "<unknown id> Protein #53 translated from XX894275 with ORF = 1",
+          "query_len": 45,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|227768",
+                  "accession": "227768",
+                  "title": "Q3ZC52.2 RecName: Full=Testis-expressed protein 30 [Bos taurus]"
+                }
+              ],
+              "len": 224,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 1.92531,
+                  "identity": 10,
+                  "positive": 16,
+                  "query_from": 10,
+                  "query_to": 32,
+                  "hit_from": 92,
+                  "hit_to": 114,
+                  "align_len": 23,
+                  "gaps": 0,
+                  "qseq": "LPRLLLAGRSLSTRIAGSIVCHL",
+                  "hseq": "LAGVFLGGRSMGSRAAASVLCHI",
+                  "midline": "L  + L GRS+ +R A S++CH+"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|184250",
+                  "accession": "184250",
+                  "title": "Q5JUR7.1 RecName: Full=Testis-expressed protein 30 [Homo sapiens]"
+                }
+              ],
+              "len": 227,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 2.02425,
+                  "identity": 10,
+                  "positive": 16,
+                  "query_from": 10,
+                  "query_to": 32,
+                  "hit_from": 93,
+                  "hit_to": 115,
+                  "align_len": 23,
+                  "gaps": 0,
+                  "qseq": "LPRLLLAGRSLSTRIAGSIVCHL",
+                  "hseq": "LAGVFLGGRSMGSRAAASVMCHI",
+                  "midline": "L  + L GRS+ +R A S++CH+"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|245675",
+                  "accession": "245675",
+                  "title": "Q3TUU5.1 RecName: Full=Testis-expressed protein 30 [Mus musculus]"
+                }
+              ],
+              "len": 225,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 2.67257,
+                  "identity": 10,
+                  "positive": 15,
+                  "query_from": 10,
+                  "query_to": 31,
+                  "hit_from": 93,
+                  "hit_to": 114,
+                  "align_len": 22,
+                  "gaps": 0,
+                  "qseq": "LPRLLLAGRSLSTRIAGSIVCH",
+                  "hseq": "LAGVFLGGRSMGSRAAASVMCH",
+                  "midline": "L  + L GRS+ +R A S++CH"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|434575",
+                  "accession": "434575",
+                  "title": "B6HNK4.1 RecName: Full=Sorbicillinoid biosynthetic cluster transcription factor 2 [Penicillium rubens Wisconsin 54-1255]"
+                }
+              ],
+              "len": 684,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 6.75678,
+                  "identity": 11,
+                  "positive": 15,
+                  "query_from": 20,
+                  "query_to": 38,
+                  "hit_from": 343,
+                  "hit_to": 361,
+                  "align_len": 19,
+                  "gaps": 0,
+                  "qseq": "LSTRIAGSIVCHLTQTTLM",
+                  "hseq": "LAMRIAQSMCCHLTETPLL",
+                  "midline": "L+ RIA S+ CHLT+T L+"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|371133",
+                  "accession": "371133",
+                  "title": "Q0TUZ2.1 RecName: Full=3D-(3,5/4)-trihydroxycyclohexane-1,2-dione hydrolase; Short=THcHDO hydrolase [Clostridium perfringens ATCC 13124]"
+                }
+              ],
+              "len": 639,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 6.95649,
+                  "identity": 12,
+                  "positive": 19,
+                  "query_from": 5,
+                  "query_to": 35,
+                  "hit_from": 102,
+                  "hit_to": 132,
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "ALVNHLPRLLLAGRSLSTRIAGSIVCHLTQT",
+                  "hseq": "ATVNNIPLLLLPGDSFATRQPDPVLQQIEQS",
+                  "midline": "A VN++P LLL G S +TR    ++  + Q+"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|4766",
+                  "accession": "4766",
+                  "title": "Q8XP76.1 RecName: Full=3D-(3,5/4)-trihydroxycyclohexane-1,2-dione hydrolase; Short=THcHDO hydrolase [Clostridium perfringens str. 13]"
+                }
+              ],
+              "len": 639,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 6.95649,
+                  "identity": 12,
+                  "positive": 19,
+                  "query_from": 5,
+                  "query_to": 35,
+                  "hit_from": 102,
+                  "hit_to": 132,
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "ALVNHLPRLLLAGRSLSTRIAGSIVCHLTQT",
+                  "hseq": "ATVNNIPLLLLPGDSFATRQPDPVLQQIEQS",
+                  "midline": "A VN++P LLL G S +TR    ++  + Q+"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|247072",
+                  "accession": "247072",
+                  "title": "B2V4K0.1 RecName: Full=3D-(3,5/4)-trihydroxycyclohexane-1,2-dione hydrolase; Short=THcHDO hydrolase [Clostridium botulinum E3 str. Alaska E43]"
+                }
+              ],
+              "len": 643,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 6.95699,
+                  "identity": 12,
+                  "positive": 19,
+                  "query_from": 5,
+                  "query_to": 35,
+                  "hit_from": 105,
+                  "hit_to": 135,
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "ALVNHLPRLLLAGRSLSTRIAGSIVCHLTQT",
+                  "hseq": "ATVNNIPLLLLPGDSFATRQPDPVLQQIEQS",
+                  "midline": "A VN++P LLL G S +TR    ++  + Q+"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|119556",
+                  "accession": "119556",
+                  "title": "B2TJ86.1 RecName: Full=3D-(3,5/4)-trihydroxycyclohexane-1,2-dione hydrolase; Short=THcHDO hydrolase [Clostridium botulinum B str. Eklund 17B (NRP)]"
+                }
+              ],
+              "len": 643,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 6.95699,
+                  "identity": 12,
+                  "positive": 19,
+                  "query_from": 5,
+                  "query_to": 35,
+                  "hit_from": 105,
+                  "hit_to": 135,
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "ALVNHLPRLLLAGRSLSTRIAGSIVCHLTQT",
+                  "hseq": "ATVNNIPLLLLPGDSFATRQPDPVLQQIEQS",
+                  "midline": "A VN++P LLL G S +TR    ++  + Q+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 19,
+            "eff_space": 4503862922,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

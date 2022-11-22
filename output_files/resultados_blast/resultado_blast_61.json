@@ -1,0 +1,158 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_61",
+          "query_title": "<unknown id> Protein #61 translated from XX894275 with ORF = -3",
+          "query_len": 43,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|39529",
+                  "accession": "39529",
+                  "title": "P19711.2 RecName: Full=Genome polyprotein; Contains: RecName: Full=N-terminal protease; Short=N-pro; AltName: Full=Autoprotease p20; Contains: RecName: Full=Capsid protein C; Contains: RecName: Full=E(rns) glycoprotein; AltName: Full=gp44/48; Contains: RecName: Full=Envelope glycoprotein E1; AltName: Full=gp33; Contains: RecName: Full=Envelope glycoprotein E2; AltName: Full=gp55; Contains: RecName: Full=Viroporin p7; Contains: RecName: Full=Non-structural protein 2-3; Contains: RecName: Full=Cysteine protease NS2; AltName: Full=Non-structural protein 2; Contains: RecName: Full=Serine protease NS3; AltName: Full=Non-structural protein 3; Contains: RecName: Full=Non-structural protein 4A; Short=NS4A; Contains: RecName: Full=Non-structural protein 4B; Short=NS4B; Contains: RecName: Full=Non-structural protein 5A; Short=NS5A; Contains: RecName: Full=RNA-directed RNA polymerase; AltName: Full=NS5B [Bovine viral diarrhea virus 1-NADL]"
+                }
+              ],
+              "len": 3988,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 4.54803,
+                  "identity": 10,
+                  "positive": 15,
+                  "query_from": 19,
+                  "query_to": 43,
+                  "hit_from": 351,
+                  "hit_to": 375,
+                  "align_len": 25,
+                  "gaps": 0,
+                  "qseq": "WVRWQTIDPAILVLSDLPANNSRGK",
+                  "hseq": "WCNWYNIEPWILVMNRTQANLTEGQ",
+                  "midline": "W  W  I+P ILV++   AN + G+"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|152131",
+                  "accession": "152131",
+                  "title": "Q01499.1 RecName: Full=Genome polyprotein; Contains: RecName: Full=N-terminal protease; Short=N-pro; AltName: Full=Autoprotease p20; Contains: RecName: Full=Capsid protein C; Contains: RecName: Full=E(rns) glycoprotein; AltName: Full=gp44/48; Contains: RecName: Full=Envelope glycoprotein E1; AltName: Full=gp33; Contains: RecName: Full=Envelope glycoprotein E2; AltName: Full=gp55; Contains: RecName: Full=Viroporin p7; Contains: RecName: Full=Non-structural protein 2-3; Contains: RecName: Full=Cysteine protease NS2; AltName: Full=Non-structural protein 2; Contains: RecName: Full=Serine protease NS3; AltName: Full=Non-structural protein 3; Contains: RecName: Full=Non-structural protein 4A; Short=NS4A; Contains: RecName: Full=Non-structural protein 4B; Short=NS4B; Contains: RecName: Full=Non-structural protein 5A; Short=NS5A; Contains: RecName: Full=RNA-directed RNA polymerase; AltName: Full=NS5B [Bovine viral diarrhea virus 1-SD1]"
+                }
+              ],
+              "len": 3898,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 6.98192,
+                  "identity": 9,
+                  "positive": 15,
+                  "query_from": 19,
+                  "query_to": 43,
+                  "hit_from": 351,
+                  "hit_to": 375,
+                  "align_len": 25,
+                  "gaps": 0,
+                  "qseq": "WVRWQTIDPAILVLSDLPANNSRGK",
+                  "hseq": "WCNWYNIEPWILIMNRTQANLTEGQ",
+                  "midline": "W  W  I+P IL+++   AN + G+"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|295500",
+                  "accession": "295500",
+                  "title": "P0CM45.1 RecName: Full=Vacuolar protein-sorting protein BRO1; AltName: Full=BRO domain-containing protein 1 [Cryptococcus neoformans var. neoformans B-3501A]"
+                }
+              ],
+              "len": 957,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 7.01845,
+                  "identity": 10,
+                  "positive": 14,
+                  "query_from": 22,
+                  "query_to": 42,
+                  "hit_from": 533,
+                  "hit_to": 553,
+                  "align_len": 21,
+                  "gaps": 0,
+                  "qseq": "WQTIDPAILVLSDLPANNSRG",
+                  "hseq": "WQSIQPSISLLSSGPSNLERA",
+                  "midline": "WQ+I P+I +LS  P+N  R "
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|85588",
+                  "accession": "85588",
+                  "title": "P0CM44.1 RecName: Full=Vacuolar protein-sorting protein BRO1; AltName: Full=BRO domain-containing protein 1 [Cryptococcus neoformans var. neoformans JEC21]"
+                }
+              ],
+              "len": 957,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 7.01845,
+                  "identity": 10,
+                  "positive": 14,
+                  "query_from": 22,
+                  "query_to": 42,
+                  "hit_from": 533,
+                  "hit_to": 553,
+                  "align_len": 21,
+                  "gaps": 0,
+                  "qseq": "WQTIDPAILVLSDLPANNSRG",
+                  "hseq": "WQSIQPSISLLSSGPSNLERA",
+                  "midline": "WQ+I P+I +LS  P+N  R "
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 17,
+            "eff_space": 4528841694,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

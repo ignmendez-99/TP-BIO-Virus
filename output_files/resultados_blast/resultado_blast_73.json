@@ -1,0 +1,68 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_73",
+          "query_title": "<unknown id> Protein #73 translated from XX894275 with ORF = 2",
+          "query_len": 37,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|341117",
+                  "accession": "341117",
+                  "title": "Q7ND16.1 RecName: Full=50S ribosomal protein L31 [Gloeobacter violaceus PCC 7421]"
+                }
+              ],
+              "len": 74,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.409,
+                  "score": 54,
+                  "evalue": 7.17834,
+                  "identity": 11,
+                  "positive": 15,
+                  "query_from": 8,
+                  "query_to": 37,
+                  "hit_from": 25,
+                  "hit_to": 54,
+                  "align_len": 30,
+                  "gaps": 0,
+                  "qseq": "SRSTTIGINNTEYFVHMHQIIVGNRAIVVA",
+                  "hseq": "TRSTKPGVTNVEICANCHPFFTGQQKIVDA",
+                  "midline": "+RST  G+ N E   + H    G + IV A"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 11,
+            "eff_space": 4603778010,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

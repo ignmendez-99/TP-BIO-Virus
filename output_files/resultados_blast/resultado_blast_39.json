@@ -1,0 +1,518 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_39",
+          "query_title": "<unknown id> Protein #39 translated from XX894275 with ORF = 3",
+          "query_len": 55,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|60716",
+                  "accession": "60716",
+                  "title": "Q25BH0.1 RecName: Full=Putative transmembrane protein ORF25 [His1 virus (isolate Victoria)]"
+                }
+              ],
+              "len": 93,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 0.823326,
+                  "identity": 12,
+                  "positive": 21,
+                  "query_from": 18,
+                  "query_to": 55,
+                  "hit_from": 53,
+                  "hit_to": 90,
+                  "align_len": 38,
+                  "gaps": 0,
+                  "qseq": "HYAQYMTLWDFPTWQYIYVLVIAITMVMRFWQYINGRG",
+                  "hseq": "HIASTVDLWIFNSMLYIIMTIVFVVMSLQAWQFIGSNG",
+                  "midline": "H A  + LW F +  YI + ++ + M ++ WQ+I   G"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|296814",
+                  "accession": "296814",
+                  "title": "A4WRM1.1 RecName: Full=Glucose-1-phosphate adenylyltransferase; AltName: Full=ADP-glucose pyrophosphorylase; Short=ADPGlc PPase; AltName: Full=ADP-glucose synthase [Cereibacter sphaeroides ATCC 17025]"
+                }
+              ],
+              "len": 423,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 1.89641,
+                  "identity": 9,
+                  "positive": 13,
+                  "query_from": 4,
+                  "query_to": 21,
+                  "hit_from": 287,
+                  "hit_to": 304,
+                  "align_len": 18,
+                  "gaps": 0,
+                  "qseq": "TPPIDVNDGKWPAWHYAQ",
+                  "hseq": "TPKLDLYDREWPIWTYSQ",
+                  "midline": "TP +D+ D +WP W Y+Q"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|7879",
+                  "accession": "7879",
+                  "title": "Q985P3.1 RecName: Full=Glucose-1-phosphate adenylyltransferase; AltName: Full=ADP-glucose pyrophosphorylase; Short=ADPGlc PPase; AltName: Full=ADP-glucose synthase [Mesorhizobium japonicum MAFF 303099]"
+                }
+              ],
+              "len": 421,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 2.76536,
+                  "identity": 9,
+                  "positive": 12,
+                  "query_from": 4,
+                  "query_to": 21,
+                  "hit_from": 288,
+                  "hit_to": 305,
+                  "align_len": 18,
+                  "gaps": 0,
+                  "qseq": "TPPIDVNDGKWPAWHYAQ",
+                  "hseq": "TPELDLYDRDWPIWTYAE",
+                  "midline": "TP +D+ D  WP W YA+"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|344591",
+                  "accession": "344591",
+                  "title": "Q15RP8.1 RecName: Full=Glucose-1-phosphate adenylyltransferase 2; AltName: Full=ADP-glucose pyrophosphorylase 2; Short=ADPGlc PPase 2; AltName: Full=ADP-glucose synthase 2 [Pseudoalteromonas atlantica T6c]"
+                }
+              ],
+              "len": 420,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 2.99385,
+                  "identity": 8,
+                  "positive": 13,
+                  "query_from": 5,
+                  "query_to": 23,
+                  "hit_from": 286,
+                  "hit_to": 304,
+                  "align_len": 19,
+                  "gaps": 0,
+                  "qseq": "PPIDVNDGKWPAWHYAQYM",
+                  "hseq": "PPLNLYDKKWPIWTYQEQL",
+                  "midline": "PP+++ D KWP W Y + +"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|554",
+                  "accession": "554",
+                  "title": "Q8EGU3.1 RecName: Full=Glucose-1-phosphate adenylyltransferase; AltName: Full=ADP-glucose pyrophosphorylase; Short=ADPGlc PPase; AltName: Full=ADP-glucose synthase [Shewanella oneidensis MR-1]"
+                }
+              ],
+              "len": 420,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 3.87645,
+                  "identity": 8,
+                  "positive": 14,
+                  "query_from": 1,
+                  "query_to": 23,
+                  "hit_from": 281,
+                  "hit_to": 303,
+                  "align_len": 23,
+                  "gaps": 0,
+                  "qseq": "MPSTPPIDVNDGKWPAWHYAQYM",
+                  "hseq": "LSPTPALNLYDAKWPIWTYQEQL",
+                  "midline": "+  TP +++ D KWP W Y + +"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|147815",
+                  "accession": "147815",
+                  "title": "A0KZD8.1 RecName: Full=Glucose-1-phosphate adenylyltransferase; AltName: Full=ADP-glucose pyrophosphorylase; Short=ADPGlc PPase; AltName: Full=ADP-glucose synthase [Shewanella sp. ANA-3]"
+                }
+              ],
+              "len": 420,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 3.91517,
+                  "identity": 8,
+                  "positive": 14,
+                  "query_from": 1,
+                  "query_to": 23,
+                  "hit_from": 281,
+                  "hit_to": 303,
+                  "align_len": 23,
+                  "gaps": 0,
+                  "qseq": "MPSTPPIDVNDGKWPAWHYAQYM",
+                  "hseq": "LSPTPALNLYDAKWPIWTYQEQL",
+                  "midline": "+  TP +++ D KWP W Y + +"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|60019",
+                  "accession": "60019",
+                  "title": "Q0HGJ1.1 RecName: Full=Glucose-1-phosphate adenylyltransferase; AltName: Full=ADP-glucose pyrophosphorylase; Short=ADPGlc PPase; AltName: Full=ADP-glucose synthase [Shewanella sp. MR-4] Q0HST8.1 RecName: Full=Glucose-1-phosphate adenylyltransferase; AltName: Full=ADP-glucose pyrophosphorylase; Short=ADPGlc PPase; AltName: Full=ADP-glucose synthase [Shewanella sp. MR-7]"
+                }
+              ],
+              "len": 420,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 3.95428,
+                  "identity": 8,
+                  "positive": 14,
+                  "query_from": 1,
+                  "query_to": 23,
+                  "hit_from": 281,
+                  "hit_to": 303,
+                  "align_len": 23,
+                  "gaps": 0,
+                  "qseq": "MPSTPPIDVNDGKWPAWHYAQYM",
+                  "hseq": "LSPTPALNLYDAKWPIWTYQEQL",
+                  "midline": "+  TP +++ D KWP W Y + +"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|411322",
+                  "accession": "411322",
+                  "title": "B5ZQ46.1 RecName: Full=Glucose-1-phosphate adenylyltransferase; AltName: Full=ADP-glucose pyrophosphorylase; Short=ADPGlc PPase; AltName: Full=ADP-glucose synthase [Rhizobium leguminosarum bv. trifolii WSM2304]"
+                }
+              ],
+              "len": 420,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 5.5446,
+                  "identity": 8,
+                  "positive": 11,
+                  "query_from": 5,
+                  "query_to": 21,
+                  "hit_from": 288,
+                  "hit_to": 304,
+                  "align_len": 17,
+                  "gaps": 0,
+                  "qseq": "PPIDVNDGKWPAWHYAQ",
+                  "hseq": "PELDIYDKSWPIWTYAE",
+                  "midline": "P +D+ D  WP W YA+"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|273486",
+                  "accession": "273486",
+                  "title": "Q2K486.1 RecName: Full=Glucose-1-phosphate adenylyltransferase; AltName: Full=ADP-glucose pyrophosphorylase; Short=ADPGlc PPase; AltName: Full=ADP-glucose synthase [Rhizobium etli CFN 42]"
+                }
+              ],
+              "len": 420,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 5.5446,
+                  "identity": 8,
+                  "positive": 11,
+                  "query_from": 5,
+                  "query_to": 21,
+                  "hit_from": 288,
+                  "hit_to": 304,
+                  "align_len": 17,
+                  "gaps": 0,
+                  "qseq": "PPIDVNDGKWPAWHYAQ",
+                  "hseq": "PELDIYDKSWPIWTYAE",
+                  "midline": "P +D+ D  WP W YA+"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|94668",
+                  "accession": "94668",
+                  "title": "P43269.1 RecName: Full=Thermonuclease; Short=TNase; AltName: Full=Micrococcal nuclease; AltName: Full=Staphylococcal nuclease; Flags: Precursor [Staphylococcus intermedius]"
+                }
+              ],
+              "len": 168,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 6.11546,
+                  "identity": 11,
+                  "positive": 16,
+                  "query_from": 36,
+                  "query_to": 55,
+                  "hit_from": 8,
+                  "hit_to": 27,
+                  "align_len": 20,
+                  "gaps": 0,
+                  "qseq": "VLVIAITMVMRFWQYINGRG",
+                  "hseq": "VLILAIAIVVLIFQYINGDG",
+                  "midline": "VL++AI +V+  +QYING G"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|30347",
+                  "accession": "30347",
+                  "title": "Q8U8L5.1 RecName: Full=Glucose-1-phosphate adenylyltransferase; AltName: Full=ADP-glucose pyrophosphorylase; Short=ADPGlc PPase; AltName: Full=ADP-glucose synthase [Agrobacterium fabrum str. C58]"
+                }
+              ],
+              "len": 420,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 6.24744,
+                  "identity": 8,
+                  "positive": 11,
+                  "query_from": 5,
+                  "query_to": 21,
+                  "hit_from": 288,
+                  "hit_to": 304,
+                  "align_len": 17,
+                  "gaps": 0,
+                  "qseq": "PPIDVNDGKWPAWHYAQ",
+                  "hseq": "PDLDIYDKSWPIWTYAE",
+                  "midline": "P +D+ D  WP W YA+"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|5090",
+                  "accession": "5090",
+                  "title": "P39669.1 RecName: Full=Glucose-1-phosphate adenylyltransferase; AltName: Full=ADP-glucose pyrophosphorylase; Short=ADPGlc PPase; AltName: Full=ADP-glucose synthase [Agrobacterium tumefaciens]"
+                }
+              ],
+              "len": 420,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 6.24744,
+                  "identity": 8,
+                  "positive": 11,
+                  "query_from": 5,
+                  "query_to": 21,
+                  "hit_from": 288,
+                  "hit_to": 304,
+                  "align_len": 17,
+                  "gaps": 0,
+                  "qseq": "PPIDVNDGKWPAWHYAQ",
+                  "hseq": "PDLDIYDKSWPIWTYAE",
+                  "midline": "P +D+ D  WP W YA+"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|154833",
+                  "accession": "154833",
+                  "title": "Q15U36.1 RecName: Full=Glucose-1-phosphate adenylyltransferase 1; AltName: Full=ADP-glucose pyrophosphorylase 1; Short=ADPGlc PPase 1; AltName: Full=ADP-glucose synthase 1 [Pseudoalteromonas atlantica T6c]"
+                }
+              ],
+              "len": 439,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 6.44656,
+                  "identity": 8,
+                  "positive": 11,
+                  "query_from": 4,
+                  "query_to": 21,
+                  "hit_from": 286,
+                  "hit_to": 303,
+                  "align_len": 18,
+                  "gaps": 0,
+                  "qseq": "TPPIDVNDGKWPAWHYAQ",
+                  "hseq": "TPKLDIYDDSWPIWTYQK",
+                  "midline": "TP +D+ D  WP W Y +"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|160189",
+                  "accession": "160189",
+                  "title": "C3MIS7.1 RecName: Full=Glucose-1-phosphate adenylyltransferase; AltName: Full=ADP-glucose pyrophosphorylase; Short=ADPGlc PPase; AltName: Full=ADP-glucose synthase [Sinorhizobium fredii NGR234]"
+                }
+              ],
+              "len": 420,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 6.96987,
+                  "identity": 7,
+                  "positive": 12,
+                  "query_from": 4,
+                  "query_to": 21,
+                  "hit_from": 287,
+                  "hit_to": 304,
+                  "align_len": 18,
+                  "gaps": 0,
+                  "qseq": "TPPIDVNDGKWPAWHYAQ",
+                  "hseq": "TPELDIYDSTWPIWTFSE",
+                  "midline": "TP +D+ D  WP W +++"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|254136",
+                  "accession": "254136",
+                  "title": "Q2YBR1.1 RecName: Full=Tyrosine--tRNA ligase; AltName: Full=Tyrosyl-tRNA synthetase; Short=TyrRS [Nitrosospira multiformis ATCC 25196]"
+                }
+              ],
+              "len": 403,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 8.40766,
+                  "identity": 13,
+                  "positive": 20,
+                  "query_from": 15,
+                  "query_to": 55,
+                  "hit_from": 242,
+                  "hit_to": 282,
+                  "align_len": 41,
+                  "gaps": 0,
+                  "qseq": "PAWHYAQYMTLWDFPTWQYIYVLVIAITMVMRFWQYINGRG",
+                  "hseq": "PGNMFGKLMSISDELMWRYIELLSFEPLRVVRQWQQDVGNG",
+                  "midline": "P   + + M++ D   W+YI +L      V+R WQ   G G"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|348768",
+                  "accession": "348768",
+                  "title": "Q2RS49.1 RecName: Full=Glucose-1-phosphate adenylyltransferase; AltName: Full=ADP-glucose pyrophosphorylase; Short=ADPGlc PPase; AltName: Full=ADP-glucose synthase [Rhodospirillum rubrum ATCC 11170] Q9ZFN4.2 RecName: Full=Glucose-1-phosphate adenylyltransferase; AltName: Full=ADP-glucose pyrophosphorylase; Short=ADPGlc PPase; AltName: Full=ADP-glucose synthase [Rhodospirillum rubrum]"
+                }
+              ],
+              "len": 423,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 9.68177,
+                  "identity": 8,
+                  "positive": 10,
+                  "query_from": 4,
+                  "query_to": 19,
+                  "hit_from": 292,
+                  "hit_to": 307,
+                  "align_len": 16,
+                  "gaps": 0,
+                  "qseq": "TPPIDVNDGKWPAWHY",
+                  "hseq": "TPALDLYDADWPIWTY",
+                  "midline": "TP +D+ D  WP W Y"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 28,
+            "eff_space": 4560360696,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

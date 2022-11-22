@@ -1,0 +1,758 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_59",
+          "query_title": "<unknown id> Protein #59 translated from XX894275 with ORF = -1",
+          "query_len": 44,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|317724",
+                  "accession": "317724",
+                  "title": "P45882.1 RecName: Full=Acyl-CoA-binding protein; Short=ACBP; AltName: Full=Diazepam-binding inhibitor; Short=DBI; AltName: Full=Endozepine; Short=EP [Anas platyrhynchos]"
+                }
+              ],
+              "len": 103,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 2.6753,
+                  "identity": 12,
+                  "positive": 19,
+                  "query_from": 10,
+                  "query_to": 43,
+                  "hit_from": 1,
+                  "hit_to": 34,
+                  "align_len": 34,
+                  "gaps": 0,
+                  "qseq": "VFLVYLIVAMLSQDPYLSSTDFDCAANRARKIKT",
+                  "hseq": "MFQAHLLRGTLTLSFFLHQADFDEAAEEVKKLKT",
+                  "midline": "+F  +L+   L+   +L   DFD AA   +K+KT"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|130006",
+                  "accession": "130006",
+                  "title": "Q0ZB76.1 RecName: Full=Eukaryotic translation initiation factor 3 subunit C; Short=eIF3c; AltName: Full=Eukaryotic translation initiation factor 3 subunit 8 [Bombyx mori]"
+                }
+              ],
+              "len": 876,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 2.71687,
+                  "identity": 11,
+                  "positive": 18,
+                  "query_from": 9,
+                  "query_to": 32,
+                  "hit_from": 640,
+                  "hit_to": 663,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "LVFLVYLIVAMLSQDPYLSSTDFD",
+                  "hseq": "LLECVYLVSAMLIEIPYMAAHEFD",
+                  "midline": "L+  VYL+ AML + PY+++ +FD"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|127167",
+                  "accession": "127167",
+                  "title": "Q17Q06.1 RecName: Full=Eukaryotic translation initiation factor 3 subunit C; Short=eIF3c; AltName: Full=Eukaryotic translation initiation factor 3 subunit 8 [Aedes aegypti]"
+                }
+              ],
+              "len": 910,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 2.79995,
+                  "identity": 11,
+                  "positive": 18,
+                  "query_from": 9,
+                  "query_to": 32,
+                  "hit_from": 649,
+                  "hit_to": 672,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "LVFLVYLIVAMLSQDPYLSSTDFD",
+                  "hseq": "LLECVYLVSAMLLEIPYMAAHEFD",
+                  "midline": "L+  VYL+ AML + PY+++ +FD"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|43491",
+                  "accession": "43491",
+                  "title": "Q6P1V4.1 RecName: Full=Eukaryotic translation initiation factor 3 subunit C; Short=eIF3c; AltName: Full=Eukaryotic translation initiation factor 3 subunit 8 [Xenopus tropicalis]"
+                }
+              ],
+              "len": 922,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 2.80021,
+                  "identity": 11,
+                  "positive": 18,
+                  "query_from": 9,
+                  "query_to": 32,
+                  "hit_from": 682,
+                  "hit_to": 705,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "LVFLVYLIVAMLSQDPYLSSTDFD",
+                  "hseq": "LLECVYLVSAMLLEIPYMAAHEFD",
+                  "midline": "L+  VYL+ AML + PY+++ +FD"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|215269",
+                  "accession": "215269",
+                  "title": "Q4QR58.1 RecName: Full=Eukaryotic translation initiation factor 3 subunit C; Short=eIF3c; AltName: Full=Eukaryotic translation initiation factor 3 subunit 8 [Xenopus laevis]"
+                }
+              ],
+              "len": 926,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 2.80029,
+                  "identity": 11,
+                  "positive": 18,
+                  "query_from": 9,
+                  "query_to": 32,
+                  "hit_from": 683,
+                  "hit_to": 706,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "LVFLVYLIVAMLSQDPYLSSTDFD",
+                  "hseq": "LLECVYLVSAMLLEIPYMAAHEFD",
+                  "midline": "L+  VYL+ AML + PY+++ +FD"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|140192",
+                  "accession": "140192",
+                  "title": "Q6PFQ2.1 RecName: Full=Eukaryotic translation initiation factor 3 subunit C; Short=eIF3c; AltName: Full=Eukaryotic translation initiation factor 3 subunit 8 [Danio rerio]"
+                }
+              ],
+              "len": 926,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 2.80029,
+                  "identity": 11,
+                  "positive": 18,
+                  "query_from": 9,
+                  "query_to": 32,
+                  "hit_from": 680,
+                  "hit_to": 703,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "LVFLVYLIVAMLSQDPYLSSTDFD",
+                  "hseq": "LLECVYLVSAMLLEIPYMAAHEFD",
+                  "midline": "L+  VYL+ AML + PY+++ +FD"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|69165",
+                  "accession": "69165",
+                  "title": "Q7PMU8.3 RecName: Full=Eukaryotic translation initiation factor 3 subunit C; Short=eIF3c; AltName: Full=Eukaryotic translation initiation factor 3 subunit 8 [Anopheles gambiae]"
+                }
+              ],
+              "len": 955,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 2.80087,
+                  "identity": 11,
+                  "positive": 18,
+                  "query_from": 9,
+                  "query_to": 32,
+                  "hit_from": 666,
+                  "hit_to": 689,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "LVFLVYLIVAMLSQDPYLSSTDFD",
+                  "hseq": "LLECVYLVSAMLLEIPYMAAHEFD",
+                  "midline": "L+  VYL+ AML + PY+++ +FD"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|99204",
+                  "accession": "99204",
+                  "title": "Q6GH01.1 RecName: Full=Putative branched-chain amino acid carrier protein SAR1419 [Staphylococcus aureus subsp. aureus MRSA252]"
+                }
+              ],
+              "len": 447,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 2.95079,
+                  "identity": 11,
+                  "positive": 21,
+                  "query_from": 1,
+                  "query_to": 32,
+                  "hit_from": 72,
+                  "hit_to": 103,
+                  "align_len": 32,
+                  "gaps": 0,
+                  "qseq": "MSPQYAILLVFLVYLIVAMLSQDPYLSSTDFD",
+                  "hseq": "ISPKFSILFLIIIYLTIGPLFAIPRTASTSFE",
+                  "midline": "+SP+++IL + ++YL +  L   P  +ST F+"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|479561",
+                  "accession": "479561",
+                  "title": "Q2FH31.1 RecName: Full=Putative branched-chain amino acid carrier protein SAUSA300_1300 [Staphylococcus aureus subsp. aureus USA300] Q2FYM4.1 RecName: Full=Putative branched-chain amino acid carrier protein SAOUHSC_01411 [Staphylococcus aureus subsp. aureus NCTC 8325] Q5HG12.1 RecName: Full=Putative branched-chain amino acid carrier protein SACOL1443 [Staphylococcus aureus subsp. aureus COL] Q6G9F4.1 RecName: Full=Putative branched-chain amino acid carrier protein SAS1350 [Staphylococcus aureus subsp. aureus MSSA476] Q7A0W9.1 RecName: Full=Putative branched-chain amino acid carrier protein MW1297 [Staphylococcus aureus subsp. aureus MW2] Q7A5N9.1 RecName: Full=Putative branched-chain amino acid carrier protein SA1239 [Staphylococcus aureus subsp. aureus N315] Q99U80.1 RecName: Full=Putative branched-chain amino acid carrier protein SAV1407 [Staphylococcus aureus subsp. aureus Mu50]"
+                }
+              ],
+              "len": 447,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 3.01008,
+                  "identity": 11,
+                  "positive": 21,
+                  "query_from": 1,
+                  "query_to": 32,
+                  "hit_from": 72,
+                  "hit_to": 103,
+                  "align_len": 32,
+                  "gaps": 0,
+                  "qseq": "MSPQYAILLVFLVYLIVAMLSQDPYLSSTDFD",
+                  "hseq": "ISPKFSILFLIIIYLTIGPLFAIPRTASTSFE",
+                  "midline": "+SP+++IL + ++YL +  L   P  +ST F+"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|449238",
+                  "accession": "449238",
+                  "title": "Q2YY11.1 RecName: Full=Putative branched-chain amino acid carrier protein SAB1263c [Staphylococcus aureus RF122]"
+                }
+              ],
+              "len": 447,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 3.13226,
+                  "identity": 11,
+                  "positive": 21,
+                  "query_from": 1,
+                  "query_to": 32,
+                  "hit_from": 72,
+                  "hit_to": 103,
+                  "align_len": 32,
+                  "gaps": 0,
+                  "qseq": "MSPQYAILLVFLVYLIVAMLSQDPYLSSTDFD",
+                  "hseq": "ISPKFSILFLIIIYLTIGPLFAIPRTASTSFE",
+                  "midline": "+SP+++IL + ++YL +  L   P  +ST F+"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|295008",
+                  "accession": "295008",
+                  "title": "B0W0S3.1 RecName: Full=Eukaryotic translation initiation factor 3 subunit C; Short=eIF3c; AltName: Full=Eukaryotic translation initiation factor 3 subunit 8 [Culex quinquefasciatus]"
+                }
+              ],
+              "len": 904,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 3.25062,
+                  "identity": 11,
+                  "positive": 18,
+                  "query_from": 9,
+                  "query_to": 32,
+                  "hit_from": 644,
+                  "hit_to": 667,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "LVFLVYLIVAMLSQDPYLSSTDFD",
+                  "hseq": "LLECVYLVSAMLLEIPYMAAHEFD",
+                  "midline": "L+  VYL+ AML + PY+++ +FD"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|231053",
+                  "accession": "231053",
+                  "title": "B3MIF1.1 RecName: Full=Eukaryotic translation initiation factor 3 subunit C; Short=eIF3c; AltName: Full=Eukaryotic translation initiation factor 3 subunit 8 [Drosophila ananassae]"
+                }
+              ],
+              "len": 906,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 3.31604,
+                  "identity": 11,
+                  "positive": 18,
+                  "query_from": 9,
+                  "query_to": 32,
+                  "hit_from": 649,
+                  "hit_to": 672,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "LVFLVYLIVAMLSQDPYLSSTDFD",
+                  "hseq": "LLECVYLVSAMLLEIPYIAAHEFD",
+                  "midline": "L+  VYL+ AML + PY+++ +FD"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|286406",
+                  "accession": "286406",
+                  "title": "B4KN00.1 RecName: Full=Eukaryotic translation initiation factor 3 subunit C; Short=eIF3c; AltName: Full=Eukaryotic translation initiation factor 3 subunit 8 [Drosophila mojavensis]"
+                }
+              ],
+              "len": 913,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 3.31622,
+                  "identity": 11,
+                  "positive": 18,
+                  "query_from": 9,
+                  "query_to": 32,
+                  "hit_from": 653,
+                  "hit_to": 676,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "LVFLVYLIVAMLSQDPYLSSTDFD",
+                  "hseq": "LLECVYLVSAMLLEIPYIAAHEFD",
+                  "midline": "L+  VYL+ AML + PY+++ +FD"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|224724",
+                  "accession": "224724",
+                  "title": "B4LNA1.1 RecName: Full=Eukaryotic translation initiation factor 3 subunit C; Short=eIF3c; AltName: Full=Eukaryotic translation initiation factor 3 subunit 8 [Drosophila virilis]"
+                }
+              ],
+              "len": 913,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 3.31622,
+                  "identity": 11,
+                  "positive": 18,
+                  "query_from": 9,
+                  "query_to": 32,
+                  "hit_from": 653,
+                  "hit_to": 676,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "LVFLVYLIVAMLSQDPYLSSTDFD",
+                  "hseq": "LLECVYLVSAMLLEIPYIAAHEFD",
+                  "midline": "L+  VYL+ AML + PY+++ +FD"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|206191",
+                  "accession": "206191",
+                  "title": "B4J789.1 RecName: Full=Eukaryotic translation initiation factor 3 subunit C; Short=eIF3c; AltName: Full=Eukaryotic translation initiation factor 3 subunit 8 [Drosophila grimshawi]"
+                }
+              ],
+              "len": 928,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 3.31659,
+                  "identity": 11,
+                  "positive": 18,
+                  "query_from": 9,
+                  "query_to": 32,
+                  "hit_from": 664,
+                  "hit_to": 687,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "LVFLVYLIVAMLSQDPYLSSTDFD",
+                  "hseq": "LLECVYLVSAMLLEIPYIAAHEFD",
+                  "midline": "L+  VYL+ AML + PY+++ +FD"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|242840",
+                  "accession": "242840",
+                  "title": "B4GIB1.1 RecName: Full=Eukaryotic translation initiation factor 3 subunit C; Short=eIF3c; AltName: Full=Eukaryotic translation initiation factor 3 subunit 8 [Drosophila persimilis]"
+                }
+              ],
+              "len": 911,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 3.41669,
+                  "identity": 11,
+                  "positive": 18,
+                  "query_from": 9,
+                  "query_to": 32,
+                  "hit_from": 650,
+                  "hit_to": 673,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "LVFLVYLIVAMLSQDPYLSSTDFD",
+                  "hseq": "LLECVYLVSAMLLEIPYIAAHEFD",
+                  "midline": "L+  VYL+ AML + PY+++ +FD"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|297693",
+                  "accession": "297693",
+                  "title": "B4MRZ8.1 RecName: Full=Eukaryotic translation initiation factor 3 subunit C; Short=eIF3c; AltName: Full=Eukaryotic translation initiation factor 3 subunit 8 [Drosophila willistoni]"
+                }
+              ],
+              "len": 919,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 3.4169,
+                  "identity": 11,
+                  "positive": 18,
+                  "query_from": 9,
+                  "query_to": 32,
+                  "hit_from": 648,
+                  "hit_to": 671,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "LVFLVYLIVAMLSQDPYLSSTDFD",
+                  "hseq": "LLECVYLVSAMLLEIPYIAAHEFD",
+                  "midline": "L+  VYL+ AML + PY+++ +FD"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|324859",
+                  "accession": "324859",
+                  "title": "Q28Z41.1 RecName: Full=Eukaryotic translation initiation factor 3 subunit C; Short=eIF3c; AltName: Full=Eukaryotic translation initiation factor 3 subunit 8 [Drosophila pseudoobscura pseudoobscura]"
+                }
+              ],
+              "len": 911,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 3.52027,
+                  "identity": 11,
+                  "positive": 18,
+                  "query_from": 9,
+                  "query_to": 32,
+                  "hit_from": 650,
+                  "hit_to": 673,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "LVFLVYLIVAMLSQDPYLSSTDFD",
+                  "hseq": "LLECVYLVSAMLLEIPYIAAHEFD",
+                  "midline": "L+  VYL+ AML + PY+++ +FD"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|334061",
+                  "accession": "334061",
+                  "title": "A1ZAX1.1 RecName: Full=Eukaryotic translation initiation factor 3 subunit C; Short=eIF3c; AltName: Full=Eukaryotic translation initiation factor 3 subunit 8 [Drosophila melanogaster]"
+                }
+              ],
+              "len": 910,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 3.69992,
+                  "identity": 11,
+                  "positive": 18,
+                  "query_from": 9,
+                  "query_to": 32,
+                  "hit_from": 647,
+                  "hit_to": 670,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "LVFLVYLIVAMLSQDPYLSSTDFD",
+                  "hseq": "LLECVYLVSAMLLEIPYIAAHEFD",
+                  "midline": "L+  VYL+ AML + PY+++ +FD"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|250957",
+                  "accession": "250957",
+                  "title": "B4HMY3.1 RecName: Full=Eukaryotic translation initiation factor 3 subunit C; Short=eIF3c; AltName: Full=Eukaryotic translation initiation factor 3 subunit 8 [Drosophila sechellia]"
+                }
+              ],
+              "len": 910,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 3.69992,
+                  "identity": 11,
+                  "positive": 18,
+                  "query_from": 9,
+                  "query_to": 32,
+                  "hit_from": 647,
+                  "hit_to": 670,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "LVFLVYLIVAMLSQDPYLSSTDFD",
+                  "hseq": "LLECVYLVSAMLLEIPYIAAHEFD",
+                  "midline": "L+  VYL+ AML + PY+++ +FD"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|73746",
+                  "accession": "73746",
+                  "title": "B3NML0.1 RecName: Full=Eukaryotic translation initiation factor 3 subunit C; Short=eIF3c; AltName: Full=Eukaryotic translation initiation factor 3 subunit 8 [Drosophila erecta]"
+                }
+              ],
+              "len": 910,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 3.9277,
+                  "identity": 11,
+                  "positive": 18,
+                  "query_from": 9,
+                  "query_to": 32,
+                  "hit_from": 647,
+                  "hit_to": 670,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "LVFLVYLIVAMLSQDPYLSSTDFD",
+                  "hseq": "LLECVYLVSAMLLEIPYIAAHEFD",
+                  "midline": "L+  VYL+ AML + PY+++ +FD"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|8931",
+                  "accession": "8931",
+                  "title": "B4P562.1 RecName: Full=Eukaryotic translation initiation factor 3 subunit C; Short=eIF3c; AltName: Full=Eukaryotic translation initiation factor 3 subunit 8 [Drosophila yakuba]"
+                }
+              ],
+              "len": 910,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 3.9277,
+                  "identity": 11,
+                  "positive": 18,
+                  "query_from": 9,
+                  "query_to": 32,
+                  "hit_from": 647,
+                  "hit_to": 670,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "LVFLVYLIVAMLSQDPYLSSTDFD",
+                  "hseq": "LLECVYLVSAMLLEIPYIAAHEFD",
+                  "midline": "L+  VYL+ AML + PY+++ +FD"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|183012",
+                  "accession": "183012",
+                  "title": "Q91FL6.1 RecName: Full=Uncharacterized protein 308L; Flags: Precursor [Invertebrate iridescent virus 6]"
+                }
+              ],
+              "len": 73,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 4.96843,
+                  "identity": 8,
+                  "positive": 18,
+                  "query_from": 7,
+                  "query_to": 37,
+                  "hit_from": 12,
+                  "hit_to": 42,
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "ILLVFLVYLIVAMLSQDPYLSSTDFDCAANR",
+                  "hseq": "VLLITLVFIVSAVTGSDTWVGECDYACENGK",
+                  "midline": "+LL+ LV+++ A+   D ++   D+ C   +"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|170756",
+                  "accession": "170756",
+                  "title": "Q49XK9.1 RecName: Full=Putative branched-chain amino acid carrier protein SSP1343 [Staphylococcus saprophyticus subsp. saprophyticus ATCC 15305 = NCTC 7292]"
+                }
+              ],
+              "len": 447,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 5.98209,
+                  "identity": 10,
+                  "positive": 21,
+                  "query_from": 1,
+                  "query_to": 32,
+                  "hit_from": 72,
+                  "hit_to": 103,
+                  "align_len": 32,
+                  "gaps": 0,
+                  "qseq": "MSPQYAILLVFLVYLIVAMLSQDPYLSSTDFD",
+                  "hseq": "ISPKFSIIFLIIIYLTIGPLFAIPRTASTSFE",
+                  "midline": "+SP+++I+ + ++YL +  L   P  +ST F+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 18,
+            "eff_space": 4516352308,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

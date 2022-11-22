@@ -1,0 +1,128 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_86",
+          "query_title": "<unknown id> Protein #86 translated from XX894275 with ORF = -1",
+          "query_len": 33,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|213147",
+                  "accession": "213147",
+                  "title": "A5TYK2.1 RecName: Full=Maltokinase; Short=MaK; AltName: Full=Maltose-1-phosphate synthase [Mycobacterium tuberculosis H37Ra] O07177.2 RecName: Full=Maltokinase; Short=MaK; AltName: Full=Maltose-1-phosphate synthase [Mycobacterium tuberculosis H37Rv]"
+                }
+              ],
+              "len": 455,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.7942,
+                  "score": 55,
+                  "evalue": 7.20267,
+                  "identity": 10,
+                  "positive": 14,
+                  "query_from": 12,
+                  "query_to": 29,
+                  "hit_from": 108,
+                  "hit_to": 125,
+                  "align_len": 18,
+                  "gaps": 0,
+                  "qseq": "VSSFVCGISTGSLWYTKQ",
+                  "hseq": "VSSAVCGTSTGEVTFTRE",
+                  "midline": "VSS VCG STG + +T++"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|114673",
+                  "accession": "114673",
+                  "title": "A1KEU8.1 RecName: Full=Maltokinase; Short=MaK; AltName: Full=Maltose-1-phosphate synthase [Mycobacterium tuberculosis variant bovis BCG str. Pasteur 1173P2] A5WII2.1 RecName: Full=Maltokinase; Short=MaK; AltName: Full=Maltose-1-phosphate synthase [Mycobacterium tuberculosis F11] C1AJF3.1 RecName: Full=Maltokinase; Short=MaK; AltName: Full=Maltose-1-phosphate synthase [Mycobacterium tuberculosis variant bovis BCG str. Tokyo 172] C6DQZ2.1 RecName: Full=Maltokinase; Short=MaK; AltName: Full=Maltose-1-phosphate synthase [Mycobacterium tuberculosis KZN 1435] Q7DAF6.1 RecName: Full=Maltokinase; Short=MaK; AltName: Full=Maltose-1-phosphate synthase [Mycobacterium tuberculosis CDC1551] Q7U2S7.1 RecName: Full=Maltokinase; Short=MaK; AltName: Full=Maltose-1-phosphate synthase [Mycobacterium tuberculosis variant bovis AF2122/97]"
+                }
+              ],
+              "len": 455,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.7942,
+                  "score": 55,
+                  "evalue": 7.20267,
+                  "identity": 10,
+                  "positive": 14,
+                  "query_from": 12,
+                  "query_to": 29,
+                  "hit_from": 108,
+                  "hit_to": 125,
+                  "align_len": 18,
+                  "gaps": 0,
+                  "qseq": "VSSFVCGISTGSLWYTKQ",
+                  "hseq": "VSSAVCGTSTGEVTFTRE",
+                  "midline": "VSS VCG STG + +T++"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|458064",
+                  "accession": "458064",
+                  "title": "Q7L590.2 RecName: Full=Protein MCM10 homolog; Short=HsMCM10 [Homo sapiens]"
+                }
+              ],
+              "len": 875,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.7942,
+                  "score": 55,
+                  "evalue": 8.10634,
+                  "identity": 11,
+                  "positive": 16,
+                  "query_from": 5,
+                  "query_to": 29,
+                  "hit_from": 323,
+                  "hit_to": 347,
+                  "align_len": 25,
+                  "gaps": 0,
+                  "qseq": "LKNTTTCVSSFVCGISTGSLWYTKQ",
+                  "hseq": "LRDLTQCVSLFLFGEVHKALWKTEQ",
+                  "midline": "L++ T CVS F+ G    +LW T+Q"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 8,
+            "eff_space": 4462736700,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

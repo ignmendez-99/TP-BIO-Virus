@@ -1,0 +1,158 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_76",
+          "query_title": "<unknown id> Protein #76 translated from XX894275 with ORF = 1",
+          "query_len": 35,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|307761",
+                  "accession": "307761",
+                  "title": "Q98TA5.1 RecName: Full=Chromatin assembly factor 1 subunit A-A; Short=CAF-1 subunit A; AltName: Full=Chromatin assembly factor I p150 subunit A; Short=CAF-I 150 kDa subunit A; Short=CAF-I p150-A; Short=xp150 [Xenopus laevis]"
+                }
+              ],
+              "len": 896,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 6.16642,
+                  "identity": 11,
+                  "positive": 18,
+                  "query_from": 4,
+                  "query_to": 30,
+                  "hit_from": 461,
+                  "hit_to": 487,
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "MSKSSLPTVSVFMDSSTRVLGSSEPPL",
+                  "hseq": "MGQTTVPTVNSFEVDDVQVLGESDPVL",
+                  "midline": "M ++++PTV+ F     +VLG S+P L"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|177657",
+                  "accession": "177657",
+                  "title": "Q3TRM4.2 RecName: Full=Patatin-like phospholipase domain-containing protein 6; AltName: Full=Neuropathy target esterase [Mus musculus]"
+                }
+              ],
+              "len": 1355,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.7942,
+                  "score": 55,
+                  "evalue": 8.82631,
+                  "identity": 11,
+                  "positive": 18,
+                  "query_from": 4,
+                  "query_to": 31,
+                  "hit_from": 161,
+                  "hit_to": 188,
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "MSKSSLPTVSVFMDSSTRVLGSSEPPLY",
+                  "hseq": "LANSHLPSEVLYMLKNVRVLGHFEKPLF",
+                  "midline": "++ S LP+  ++M  + RVLG  E PL+"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|114360",
+                  "accession": "114360",
+                  "title": "Q5RDS0.1 RecName: Full=Patatin-like phospholipase domain-containing protein 6; AltName: Full=Neuropathy target esterase [Pongo abelii]"
+                }
+              ],
+              "len": 1365,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.409,
+                  "score": 54,
+                  "evalue": 9.27719,
+                  "identity": 11,
+                  "positive": 18,
+                  "query_from": 4,
+                  "query_to": 31,
+                  "hit_from": 168,
+                  "hit_to": 195,
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "MSKSSLPTVSVFMDSSTRVLGSSEPPLY",
+                  "hseq": "LANSHLPSEVLYMFKNVRVLGHFEKPLF",
+                  "midline": "++ S LP+  ++M  + RVLG  E PL+"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|426994",
+                  "accession": "426994",
+                  "title": "Q8IY17.3 RecName: Full=Patatin-like phospholipase domain-containing protein 6; AltName: Full=Neuropathy target esterase [Homo sapiens]"
+                }
+              ],
+              "len": 1375,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.409,
+                  "score": 54,
+                  "evalue": 9.27721,
+                  "identity": 11,
+                  "positive": 18,
+                  "query_from": 4,
+                  "query_to": 31,
+                  "hit_from": 177,
+                  "hit_to": 204,
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "MSKSSLPTVSVFMDSSTRVLGSSEPPLY",
+                  "hseq": "LANSHLPSEVLYMLKNVRVLGHFEKPLF",
+                  "midline": "++ S LP+  ++M  + RVLG  E PL+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 9,
+            "eff_space": 4628756782,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

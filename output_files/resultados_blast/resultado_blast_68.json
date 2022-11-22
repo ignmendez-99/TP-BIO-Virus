@@ -1,0 +1,128 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_68",
+          "query_title": "<unknown id> Protein #68 translated from XX894275 with ORF = 1",
+          "query_len": 39,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|422262",
+                  "accession": "422262",
+                  "title": "Q24708.1 RecName: Full=Tyrosine-protein phosphatase corkscrew [Drosophila virilis]"
+                }
+              ],
+              "len": 764,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 0.782181,
+                  "identity": 12,
+                  "positive": 15,
+                  "query_from": 19,
+                  "query_to": 39,
+                  "hit_from": 386,
+                  "hit_to": 406,
+                  "align_len": 21,
+                  "gaps": 0,
+                  "qseq": "CIKLNKTNLFIIKWFLFSVRD",
+                  "hseq": "CIKENSTNDYTLREFLFSWRD",
+                  "midline": "CIK N TN + ++ FLFS RD"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|410614",
+                  "accession": "410614",
+                  "title": "Q4WTT7.2 RecName: Full=GPI mannosyltransferase 4; AltName: Full=GPI mannosyltransferase IV; Short=GPI-MT-IV [Aspergillus fumigatus Af293]"
+                }
+              ],
+              "len": 547,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 1.78132,
+                  "identity": 11,
+                  "positive": 18,
+                  "query_from": 6,
+                  "query_to": 37,
+                  "hit_from": 327,
+                  "hit_to": 358,
+                  "align_len": 32,
+                  "gaps": 0,
+                  "qseq": "PKSNVQTTRLNFVCIKLNKTNLFIIKWFLFSV",
+                  "hseq": "PRFLIPCVPLLLSCFRLRKSRLFIVAWVIFNV",
+                  "midline": "P+  +    L   C +L K+ LFI+ W +F+V"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|270334",
+                  "accession": "270334",
+                  "title": "A7E7N1.1 RecName: Full=Autophagy-related protein 22-1 [Sclerotinia sclerotiorum 1980 UF-70]"
+                }
+              ],
+              "len": 598,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 7.61679,
+                  "identity": 10,
+                  "positive": 13,
+                  "query_from": 18,
+                  "query_to": 36,
+                  "hit_from": 356,
+                  "hit_to": 374,
+                  "align_len": 19,
+                  "gaps": 0,
+                  "qseq": "VCIKLNKTNLFIIKWFLFS",
+                  "hseq": "VAVKLRQVLLFLIAWFLLS",
+                  "midline": "V +KL +  LF+I WFL S"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 13,
+            "eff_space": 4578799238,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

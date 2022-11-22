@@ -1,0 +1,98 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_71",
+          "query_title": "<unknown id> Protein #71 translated from XX894275 with ORF = 1",
+          "query_len": 38,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|228634",
+                  "accession": "228634",
+                  "title": "C5J7W8.1 RecName: Full=Serine/threonine-protein kinase SMG1; Short=smg-1; AltName: Full=Nonsense-mediated mRNA decay-associated PI3K-related kinase SMG1 [Danio rerio]"
+                }
+              ],
+              "len": 3640,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 3.44552,
+                  "identity": 9,
+                  "positive": 15,
+                  "query_from": 2,
+                  "query_to": 29,
+                  "hit_from": 2270,
+                  "hit_to": 2297,
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "PRSIWIGKRWCACTTTNNWAPLLNTTCR",
+                  "hseq": "PPNLLAKELWCSCTTPSEWWSVTQTYAR",
+                  "midline": "P ++   + WC+CTT + W  +  T  R"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|55843",
+                  "accession": "55843",
+                  "title": "Q3JCX7.1 RecName: Full=Bifunctional uridylyltransferase/uridylyl-removing enzyme; Short=UTase/UR; AltName: Full=Bifunctional [protein-PII] modification enzyme; AltName: Full=Bifunctional nitrogen sensor protein; Includes: RecName: Full=[Protein-PII] uridylyltransferase; Short=PII uridylyltransferase; Short=UTase; Includes: RecName: Full=[Protein-PII]-UMP uridylyl-removing enzyme; Short=UR [Nitrosococcus oceani ATCC 19707]"
+                }
+              ],
+              "len": 892,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 3.57927,
+                  "identity": 11,
+                  "positive": 15,
+                  "query_from": 16,
+                  "query_to": 35,
+                  "hit_from": 826,
+                  "hit_to": 846,
+                  "align_len": 21,
+                  "gaps": 1,
+                  "qseq": "TTNNWAPLLNTTCR-IACCRL",
+                  "hseq": "TTNNWPGLLSRVCRALASCQV",
+                  "midline": "TTNNW  LL+  CR +A C++"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 12,
+            "eff_space": 4591288624,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

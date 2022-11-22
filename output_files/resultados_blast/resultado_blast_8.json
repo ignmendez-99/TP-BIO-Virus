@@ -1,0 +1,128 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_8",
+          "query_title": "<unknown id> Protein #8 translated from XX894275 with ORF = 3",
+          "query_len": 117,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|393029",
+                  "accession": "393029",
+                  "title": "O92529.3 RecName: Full=Genome polyprotein; Contains: RecName: Full=Core protein precursor; AltName: Full=Capsid protein C; AltName: Full=p23; Contains: RecName: Full=Mature core protein; AltName: Full=p21; Contains: RecName: Full=Envelope glycoprotein E1; AltName: Full=gp32; AltName: Full=gp35; Contains: RecName: Full=Envelope glycoprotein E2; AltName: Full=NS1; AltName: Full=gp68; AltName: Full=gp70; Contains: RecName: Full=Viroporin p7; Contains: RecName: Full=Protease NS2; Short=p23; AltName: Full=Non-structural protein 2; Short=NS2; Contains: RecName: Full=Serine protease/helicase NS3; AltName: Full=Hepacivirin; AltName: Full=NS3 helicase; AltName: Full=NS3 protease; AltName: Full=NS3P; AltName: Full=Viroporin p70; Contains: RecName: Full=Non-structural protein 4A; Short=NS4A; AltName: Full=p8; Contains: RecName: Full=Non-structural protein 4B; Short=NS4B; AltName: Full=p27; Contains: RecName: Full=Non-structural protein 5A; Short=NS5A; AltName: Full=p56/58; Contains: RecName: Full=RNA-directed RNA polymerase; AltName: Full=NS5B; AltName: Full=p68 [Hepatitis C virus (isolate Th580)]"
+                }
+              ],
+              "len": 3019,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.6462,
+                  "score": 65,
+                  "evalue": 7.09677,
+                  "identity": 13,
+                  "positive": 22,
+                  "query_from": 60,
+                  "query_to": 94,
+                  "hit_from": 2453,
+                  "hit_to": 2487,
+                  "align_len": 35,
+                  "gaps": 0,
+                  "qseq": "PLTNSVFRLHVMHNSTFKKCSGYQTNRLTLPRLRL",
+                  "hseq": "PLSNSLIRHHNMVYSTTSRSAGLRQKKVTFDRLQV",
+                  "midline": "PL+NS+ R H M  ST  + +G +  ++T  RL++"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|311770",
+                  "accession": "311770",
+                  "title": "P24918.2 RecName: Full=NADH-ubiquinone oxidoreductase 78 kDa subunit, mitochondrial; AltName: Full=Complex I-78kD; Short=CI-78kD; Flags: Precursor [Neurospora crassa OR74A]"
+                }
+              ],
+              "len": 744,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 7.60224,
+                  "identity": 21,
+                  "positive": 34,
+                  "query_from": 40,
+                  "query_to": 104,
+                  "hit_from": 263,
+                  "hit_to": 323,
+                  "align_len": 65,
+                  "gaps": 4,
+                  "qseq": "LPSDMRIVNSVSLESLKIECPLTNSVFRLHVMHNSTFKKCSGYQTNRLTLPRLRLCGNGTYSPMS",
+                  "hseq": "LGSNIR-VDTRGLEVMRI-LPRLNDEVNEEWINDKTRFACDGLKTQRLTIPLVRR--EGKFEPAS",
+                  "midline": "L S++R V++  LE ++I  P  N       +++ T   C G +T RLT+P +R    G + P S"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|121768",
+                  "accession": "121768",
+                  "title": "C5BWR2.1 RecName: Full=Polyribonucleotide nucleotidyltransferase; AltName: Full=Polynucleotide phosphorylase; Short=PNPase [Beutenbergia cavernae DSM 12333]"
+                }
+              ],
+              "len": 744,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 7.60224,
+                  "identity": 19,
+                  "positive": 32,
+                  "query_from": 43,
+                  "query_to": 105,
+                  "hit_from": 372,
+                  "hit_to": 436,
+                  "align_len": 65,
+                  "gaps": 2,
+                  "qseq": "DMRIVNSVSLESLKIECPLT--NSVFRLHVMHNSTFKKCSGYQTNRLTLPRLRLCGNGTYSPMSM",
+                  "hseq": "ETQILGVTTLNMLKMEQQLDTLSPVSRKRYMHNYNFPPYSTGETGRVGSPKRREIGHGALAERAL",
+                  "midline": "+ +I+   +L  LK+E  L   + V R   MHN  F   S  +T R+  P+ R  G+G  +  ++"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 85,
+            "eff_space": 4528693472,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

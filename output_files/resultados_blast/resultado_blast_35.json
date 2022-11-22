@@ -1,0 +1,158 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_35",
+          "query_title": "<unknown id> Protein #35 translated from XX894275 with ORF = 3",
+          "query_len": 58,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|80243",
+                  "accession": "80243",
+                  "title": "A3LR41.2 RecName: Full=Topoisomerase 1-associated factor 1 [Scheffersomyces stipitis CBS 6054]"
+                }
+              ],
+              "len": 1256,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 1.45115,
+                  "identity": 12,
+                  "positive": 18,
+                  "query_from": 21,
+                  "query_to": 58,
+                  "hit_from": 847,
+                  "hit_to": 884,
+                  "align_len": 38,
+                  "gaps": 0,
+                  "qseq": "KVYLSASRLCTTIMDSSRSKKLDLPEPGSPFKYIQHFS",
+                  "hseq": "KTYLATGELYIQTEREIRSANVKRFEPGKPLEFVRHFE",
+                  "midline": "K YL+   L        RS  +   EPG P ++++HF "
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|159672",
+                  "accession": "159672",
+                  "title": "Q20911.4 RecName: Full=Cubilin homolog; Flags: Precursor [Caenorhabditis elegans]"
+                }
+              ],
+              "len": 4047,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 3.57814,
+                  "identity": 13,
+                  "positive": 22,
+                  "query_from": 14,
+                  "query_to": 54,
+                  "hit_from": 1675,
+                  "hit_to": 1715,
+                  "align_len": 41,
+                  "gaps": 0,
+                  "qseq": "SSVSFLDKVYLSASRLCTTIMDSSRSKKLDLPEPGSPFKYI",
+                  "hseq": "ATVEFVDVPQSSQSDICGQVINLERGKKNYITSPGYPSAYL",
+                  "midline": "++V F+D    S S +C  +++  R KK  +  PG P  Y+"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|212380",
+                  "accession": "212380",
+                  "title": "Q2NS40.1 RecName: Full=4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin); AltName: Full=1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase [Sodalis glossinidius str. 'morsitans']"
+                }
+              ],
+              "len": 373,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 4.67444,
+                  "identity": 14,
+                  "positive": 27,
+                  "query_from": 1,
+                  "query_to": 57,
+                  "hit_from": 33,
+                  "hit_to": 89,
+                  "align_len": 57,
+                  "gaps": 0,
+                  "qseq": "MTYNCEINLLASISSVSFLDKVYLSASRLCTTIMDSSRSKKLDLPEPGSPFKYIQHF",
+                  "hseq": "MTNTCTTDVAATVQQIQALERVGVDIVRVSVPTMDAAEAFKLIKQQVAVPLVADIHF",
+                  "midline": "MT  C  ++ A++  +  L++V +   R+    MD++ + KL   +   P     HF"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|340529",
+                  "accession": "340529",
+                  "title": "Q14980.2 RecName: Full=Nuclear mitotic apparatus protein 1; AltName: Full=Nuclear matrix protein-22; Short=NMP-22; AltName: Full=Nuclear mitotic apparatus protein; Short=NuMA protein; AltName: Full=SP-H antigen [Homo sapiens]"
+                }
+              ],
+              "len": 2115,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 8.05495,
+                  "identity": 17,
+                  "positive": 24,
+                  "query_from": 14,
+                  "query_to": 49,
+                  "hit_from": 1788,
+                  "hit_to": 1830,
+                  "align_len": 43,
+                  "gaps": 7,
+                  "qseq": "SSVSFLDKVYL-------SASRLCTTIMDSSRSKKLDLPEPGS",
+                  "hseq": "SSLDSLGDVFLDSGRKTRSARRRTTQIINITMTKKLDVEEPDS",
+                  "midline": "SS+  L  V+L       SA R  T I++ + +KKLD+ EP S"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 31,
+            "eff_space": 4521451455,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

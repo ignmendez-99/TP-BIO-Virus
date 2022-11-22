@@ -1,0 +1,128 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_48",
+          "query_title": "<unknown id> Protein #48 translated from XX894275 with ORF = -2",
+          "query_len": 51,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|50901",
+                  "accession": "50901",
+                  "title": "P46950.1 RecName: Full=Nitrosoguanidine resistance protein SNG1 [Saccharomyces cerevisiae S288C]"
+                }
+              ],
+              "len": 547,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 3.1023,
+                  "identity": 17,
+                  "positive": 22,
+                  "query_from": 6,
+                  "query_to": 49,
+                  "hit_from": 94,
+                  "hit_to": 136,
+                  "align_len": 44,
+                  "gaps": 1,
+                  "qseq": "FMPKTRNTHRKKRISKILQNRFVYFYRTFSCINVILGTVTCTTR",
+                  "hseq": "FSPRLRN-HRKKILSKFVLNNFFIACVCVSLISIYWGACYGTDR",
+                  "midline": "F P+ RN HRKK +SK + N F       S I++  G    T R"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|452108",
+                  "accession": "452108",
+                  "title": "P41911.2 RecName: Full=Glycerol-3-phosphate dehydrogenase [NAD(+)] 2, mitochondrial; Flags: Precursor [Saccharomyces cerevisiae S288C]"
+                }
+              ],
+              "len": 440,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 6.57431,
+                  "identity": 11,
+                  "positive": 18,
+                  "query_from": 1,
+                  "query_to": 34,
+                  "hit_from": 7,
+                  "hit_to": 40,
+                  "align_len": 34,
+                  "gaps": 0,
+                  "qseq": "MVRYTFMPKTRNTHRKKRISKILQNRFVYFYRTF",
+                  "hseq": "LTRYTFLKRTHPVLYTRRAYKILPSRSTFLRRSL",
+                  "midline": "+ RYTF+ +T      +R  KIL +R  +  R+ "
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|57560",
+                  "accession": "57560",
+                  "title": "Q05FY9.1 RecName: Full=tRNA modification GTPase MnmE [Candidatus Carsonella ruddii PV]"
+                }
+              ],
+              "len": 438,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 9.13133,
+                  "identity": 10,
+                  "positive": 13,
+                  "query_from": 21,
+                  "query_to": 36,
+                  "hit_from": 383,
+                  "hit_to": 398,
+                  "align_len": 16,
+                  "gaps": 0,
+                  "qseq": "KILQNRFVYFYRTFSC",
+                  "hseq": "KILFNKFSFFYKEFSC",
+                  "midline": "KIL N+F +FY+ FSC"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 24,
+            "eff_space": 4612239684,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

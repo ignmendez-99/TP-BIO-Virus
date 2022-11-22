@@ -1,0 +1,98 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_38",
+          "query_title": "<unknown id> Protein #38 translated from XX894275 with ORF = 2",
+          "query_len": 55,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|188173",
+                  "accession": "188173",
+                  "title": "B9MKR9.1 RecName: Full=Undecaprenyl-diphosphatase; AltName: Full=Bacitracin resistance protein; AltName: Full=Undecaprenyl pyrophosphate phosphatase [Caldicellulosiruptor bescii DSM 6725]"
+                }
+              ],
+              "len": 265,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 6.82504,
+                  "identity": 12,
+                  "positive": 22,
+                  "query_from": 9,
+                  "query_to": 48,
+                  "hit_from": 200,
+                  "hit_to": 239,
+                  "align_len": 40,
+                  "gaps": 0,
+                  "qseq": "TIVERINYRHVSFDDFYVATHFGHVISFKNFHFILGIVQH",
+                  "hseq": "SLLKNINHVSAEFSNFAIGFFTSAVVGFLAIHFLLGIVKK",
+                  "midline": "++++ IN+    F +F +      V+ F   HF+LGIV+ "
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|469280",
+                  "accession": "469280",
+                  "title": "Q5B6C6.2 RecName: Full=Probable beta-glucosidase F; AltName: Full=Beta-D-glucoside glucohydrolase F; AltName: Full=Cellobiase F; AltName: Full=Gentiobiase F; Flags: Precursor [Aspergillus nidulans FGSC A4]"
+                }
+              ],
+              "len": 868,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 9.28639,
+                  "identity": 11,
+                  "positive": 15,
+                  "query_from": 14,
+                  "query_to": 41,
+                  "hit_from": 633,
+                  "hit_to": 660,
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "INYRHVSFDDFYVATHFGHVISFKNFHF",
+                  "hseq": "IDYRHFLKEDITPRYAFGHGLSYTTFEF",
+                  "midline": "I+YRH   +D      FGH +S+  F F"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 28,
+            "eff_space": 4560360696,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

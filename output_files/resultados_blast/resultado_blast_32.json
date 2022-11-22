@@ -1,0 +1,98 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_32",
+          "query_title": "<unknown id> Protein #32 translated from XX894275 with ORF = 2",
+          "query_len": 61,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|449035",
+                  "accession": "449035",
+                  "title": "Q9U6B8.1 RecName: Full=Calcium release-activated calcium channel protein 1; AltName: Full=Protein orai [Drosophila melanogaster]"
+                }
+              ],
+              "len": 351,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 2.39546,
+                  "identity": 11,
+                  "positive": 24,
+                  "query_from": 22,
+                  "query_to": 61,
+                  "hit_from": 192,
+                  "hit_to": 231,
+                  "align_len": 40,
+                  "gaps": 0,
+                  "qseq": "LLQVLLCSRLIIFLSYNAIFIYSLFLKNVVVVCNVYCLSM",
+                  "hseq": "LIAFAICTTLLVAVHMLALMISTCILPNIETVCNLHSISL",
+                  "midline": "L+   +C+ L++ +   A+ I +  L N+  VCN++ +S+"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|312780",
+                  "accession": "312780",
+                  "title": "Q9UT18.1 RecName: Full=Thiamine transporter thi9 [Schizosaccharomyces pombe 972h-]"
+                }
+              ],
+              "len": 591,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 3.10705,
+                  "identity": 12,
+                  "positive": 22,
+                  "query_from": 16,
+                  "query_to": 50,
+                  "hit_from": 406,
+                  "hit_to": 440,
+                  "align_len": 35,
+                  "gaps": 0,
+                  "qseq": "QIFLKSLLQVLLCSRLIIFLSYNAIFIYSLFLKNV",
+                  "hseq": "EIFLNGVVSVLACSRLVFAVSRDGVLPFSNWISQV",
+                  "midline": "+IFL  ++ VL CSRL+  +S + +  +S ++  V"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 34,
+            "eff_space": 4482542214,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_51",
+          "query_title": "<unknown id> Protein #51 translated from XX894275 with ORF = 2",
+          "query_len": 49,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|393604",
+                  "accession": "393604",
+                  "title": "Q4VBF2.1 RecName: Full=R3H domain-containing protein 4 [Mus musculus]"
+                }
+              ],
+              "len": 262,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 8.56661,
+                  "identity": 8,
+                  "positive": 13,
+                  "query_from": 22,
+                  "query_to": 36,
+                  "hit_from": 102,
+                  "hit_to": 116,
+                  "align_len": 15,
+                  "gaps": 0,
+                  "qseq": "FATSCSSVTFVEIWS",
+                  "hseq": "FAEACSNATYVEVWN",
+                  "midline": "FA +CS+ T+VE+W+"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|225859",
+                  "accession": "225859",
+                  "title": "Q80T41.2 RecName: Full=Gamma-aminobutyric acid type B receptor subunit 2; Short=GABA-B receptor 2; Short=GABA-B-R2; Short=GABA-BR2; Short=GABABR2; Short=Gb2; AltName: Full=G-protein coupled receptor 51; Flags: Precursor [Mus musculus]"
+                }
+              ],
+              "len": 940,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 9.55278,
+                  "identity": 12,
+                  "positive": 19,
+                  "query_from": 1,
+                  "query_to": 32,
+                  "hit_from": 527,
+                  "hit_to": 558,
+                  "align_len": 32,
+                  "gaps": 0,
+                  "qseq": "MITKAETILTTLDKTFVVRKSFATSCSSVTFV",
+                  "hseq": "MLSYASIFLFGLDGSFVSEKTFETLCTVRTWI",
+                  "midline": "M++ A   L  LD +FV  K+F T C+  T++"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|134994",
+                  "accession": "134994",
+                  "title": "Q00472.2 RecName: Full=4-nitrophenylphosphatase; Short=PNPPase [Schizosaccharomyces pombe 972h-]"
+                }
+              ],
+              "len": 298,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 9.70223,
+                  "identity": 13,
+                  "positive": 19,
+                  "query_from": 8,
+                  "query_to": 47,
+                  "hit_from": 182,
+                  "hit_to": 221,
+                  "align_len": 40,
+                  "gaps": 0,
+                  "qseq": "ILTTLDKTFVVRKSFATSCSSVTFVEIWSVNPTPKALPKP",
+                  "hseq": "LLTNQDSTFPTNGKFLPGSGAISYPLIFSTGRQPKILGKP",
+                  "midline": "+LT  D TF     F     ++++  I+S    PK L KP"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|399608",
+                  "accession": "399608",
+                  "title": "O88871.2 RecName: Full=Gamma-aminobutyric acid type B receptor subunit 2; Short=GABA-B receptor 2; Short=GABA-B-R2; Short=GABA-BR2; Short=GABABR2; Short=Gb2; AltName: Full=G-protein coupled receptor 51; Flags: Precursor [Rattus norvegicus]"
+                }
+              ],
+              "len": 940,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 9.84289,
+                  "identity": 12,
+                  "positive": 19,
+                  "query_from": 1,
+                  "query_to": 32,
+                  "hit_from": 527,
+                  "hit_to": 558,
+                  "align_len": 32,
+                  "gaps": 0,
+                  "qseq": "MITKAETILTTLDKTFVVRKSFATSCSSVTFV",
+                  "hseq": "MLSYASIFLFGLDGSFVSEKTFETLCTVRTWI",
+                  "midline": "M++ A   L  LD +FV  K+F T C+  T++"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 23,
+            "eff_space": 4453905378,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

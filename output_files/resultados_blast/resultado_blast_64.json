@@ -1,0 +1,428 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_64",
+          "query_title": "<unknown id> Protein #64 translated from XX894275 with ORF = -3",
+          "query_len": 42,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|430289",
+                  "accession": "430289",
+                  "title": "P04806.2 RecName: Full=Hexokinase-1; AltName: Full=Hexokinase PI; AltName: Full=Hexokinase-A [Saccharomyces cerevisiae S288C]"
+                }
+              ],
+              "len": 485,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 31.5722,
+                  "score": 70,
+                  "evalue": 0.0861091,
+                  "identity": 13,
+                  "positive": 17,
+                  "query_from": 15,
+                  "query_to": 38,
+                  "hit_from": 222,
+                  "hit_to": 245,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "STPLTSMGVCFGTKINGTFQNVVT",
+                  "hseq": "TDPETKMGVIFGTGVNGAFYDVVS",
+                  "midline": "+ P T MGV FGT +NG F +VV+"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|91676",
+                  "accession": "91676",
+                  "title": "A4X9S8.1 RecName: Full=Leucine--tRNA ligase; AltName: Full=Leucyl-tRNA synthetase; Short=LeuRS [Salinispora tropica CNB-440]"
+                }
+              ],
+              "len": 954,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 0.990182,
+                  "identity": 13,
+                  "positive": 23,
+                  "query_from": 1,
+                  "query_to": 40,
+                  "hit_from": 873,
+                  "hit_to": 914,
+                  "align_len": 42,
+                  "gaps": 2,
+                  "qseq": "MGVDSGLTHGDFQVSTP--LTSMGVCFGTKINGTFQNVVTTP",
+                  "hseq": "MGHETSLTYADFPVADPALLVAESVTYPVQVNGKVRGRIEVP",
+                  "midline": "MG ++ LT+ DF V+ P  L +  V +  ++NG  +  +  P"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|207876",
+                  "accession": "207876",
+                  "title": "P04807.4 RecName: Full=Hexokinase-2; AltName: Full=Hexokinase PII; AltName: Full=Hexokinase-B [Saccharomyces cerevisiae S288C]"
+                }
+              ],
+              "len": 486,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 1.289,
+                  "identity": 11,
+                  "positive": 16,
+                  "query_from": 15,
+                  "query_to": 38,
+                  "hit_from": 222,
+                  "hit_to": 245,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "STPLTSMGVCFGTKINGTFQNVVT",
+                  "hseq": "TDPETKMGVIFGTGVNGAYYDVCS",
+                  "midline": "+ P T MGV FGT +NG + +V +"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|252041",
+                  "accession": "252041",
+                  "title": "P58629.1 RecName: Full=dTTP/UTP pyrophosphatase; Short=dTTPase/UTPase; AltName: Full=Nucleoside triphosphate pyrophosphatase; AltName: Full=Nucleotide pyrophosphatase; Short=Nucleotide PPase [Escherichia coli O157:H7]"
+                }
+              ],
+              "len": 197,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 1.96476,
+                  "identity": 11,
+                  "positive": 15,
+                  "query_from": 18,
+                  "query_to": 40,
+                  "hit_from": 152,
+                  "hit_to": 174,
+                  "align_len": 23,
+                  "gaps": 0,
+                  "qseq": "LTSMGVCFGTKINGTFQNVVTTP",
+                  "hseq": "IQGLGGCFVRKINGSYQAVVGLP",
+                  "midline": "+  +G CF  KING++Q VV  P"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|149755",
+                  "accession": "149755",
+                  "title": "P33284.3 RecName: Full=Hexokinase [Kluyveromyces lactis NRRL Y-1140]"
+                }
+              ],
+              "len": 485,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 2.41067,
+                  "identity": 10,
+                  "positive": 16,
+                  "query_from": 15,
+                  "query_to": 38,
+                  "hit_from": 221,
+                  "hit_to": 244,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "STPLTSMGVCFGTKINGTFQNVVT",
+                  "hseq": "TDPQTKMGIIIGTGVNGAYYDVVS",
+                  "midline": "+ P T MG+  GT +NG + +VV+"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|33889",
+                  "accession": "33889",
+                  "title": "P83776.2 RecName: Full=Hexokinase-2; AltName: Full=Cytoplasmic antigenic protein 3; AltName: Full=Hexokinase PII; AltName: Full=Hexokinase-B [Candida albicans SC5314]"
+                }
+              ],
+              "len": 484,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 2.58439,
+                  "identity": 11,
+                  "positive": 16,
+                  "query_from": 15,
+                  "query_to": 41,
+                  "hit_from": 221,
+                  "hit_to": 247,
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "STPLTSMGVCFGTKINGTFQNVVTTPP",
+                  "hseq": "TDPEAKMGLIFGTGVNGAYFDVVKDIP",
+                  "midline": "+ P   MG+ FGT +NG + +VV   P"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|77352",
+                  "accession": "77352",
+                  "title": "Q0TCL8.1 RecName: Full=dTTP/UTP pyrophosphatase; Short=dTTPase/UTPase; AltName: Full=Nucleoside triphosphate pyrophosphatase; AltName: Full=Nucleotide pyrophosphatase; Short=Nucleotide PPase [Escherichia coli 536] Q1R692.1 RecName: Full=dTTP/UTP pyrophosphatase; Short=dTTPase/UTPase; AltName: Full=Nucleoside triphosphate pyrophosphatase; AltName: Full=Nucleotide pyrophosphatase; Short=Nucleotide PPase [Escherichia coli UTI89] Q8FD47.1 RecName: Full=dTTP/UTP pyrophosphatase; Short=dTTPase/UTPase; AltName: Full=Nucleoside triphosphate pyrophosphatase; AltName: Full=Nucleotide pyrophosphatase; Short=Nucleotide PPase [Escherichia coli CFT073]"
+                }
+              ],
+              "len": 197,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 3.71158,
+                  "identity": 11,
+                  "positive": 14,
+                  "query_from": 18,
+                  "query_to": 40,
+                  "hit_from": 152,
+                  "hit_to": 174,
+                  "align_len": 23,
+                  "gaps": 0,
+                  "qseq": "LTSMGVCFGTKINGTFQNVVTTP",
+                  "hseq": "IQGLGGCFVRKINGSFHAVVGLP",
+                  "midline": "+  +G CF  KING+F  VV  P"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|97060",
+                  "accession": "97060",
+                  "title": "Q1CTQ7.1 RecName: Full=Aspartate--tRNA(Asp/Asn) ligase; AltName: Full=Aspartyl-tRNA synthetase; Short=AspRS; AltName: Full=Non-discriminating aspartyl-tRNA synthetase; Short=ND-AspRS [Helicobacter pylori HPAG1]"
+                }
+              ],
+              "len": 577,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 6.73135,
+                  "identity": 10,
+                  "positive": 13,
+                  "query_from": 11,
+                  "query_to": 40,
+                  "hit_from": 285,
+                  "hit_to": 314,
+                  "align_len": 30,
+                  "gaps": 0,
+                  "qseq": "DFQVSTPLTSMGVCFGTKINGTFQNVVTTP",
+                  "hseq": "DLRFELPLIEVGDCFRDSSNAIFSNIAKDP",
+                  "midline": "D +   PL  +G CF    N  F N+   P"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|89207",
+                  "accession": "89207",
+                  "title": "A3Q8Q1.2 RecName: Full=Leucine--tRNA ligase; AltName: Full=Leucyl-tRNA synthetase; Short=LeuRS [Mycobacterium sp. JLS]"
+                }
+              ],
+              "len": 950,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 7.03057,
+                  "identity": 13,
+                  "positive": 23,
+                  "query_from": 1,
+                  "query_to": 38,
+                  "hit_from": 867,
+                  "hit_to": 906,
+                  "align_len": 40,
+                  "gaps": 2,
+                  "qseq": "MGVDSGLTHGDFQVSTP--LTSMGVCFGTKINGTFQNVVT",
+                  "hseq": "LGHDTSLAHGPFPVADPQYLVTDTVEYPVQVNGKVRSRIT",
+                  "midline": "+G D+ L HG F V+ P  L +  V +  ++NG  ++ +T"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|145795",
+                  "accession": "145795",
+                  "title": "A1UPA5.2 RecName: Full=Leucine--tRNA ligase; AltName: Full=Leucyl-tRNA synthetase; Short=LeuRS [Mycobacterium sp. KMS] Q1B0U5.2 RecName: Full=Leucine--tRNA ligase; AltName: Full=Leucyl-tRNA synthetase; Short=LeuRS [Mycobacterium sp. MCS]"
+                }
+              ],
+              "len": 950,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 7.10101,
+                  "identity": 13,
+                  "positive": 23,
+                  "query_from": 1,
+                  "query_to": 38,
+                  "hit_from": 867,
+                  "hit_to": 906,
+                  "align_len": 40,
+                  "gaps": 2,
+                  "qseq": "MGVDSGLTHGDFQVSTP--LTSMGVCFGTKINGTFQNVVT",
+                  "hseq": "LGHDTSLAHGPFPVADPQYLVTDTVEYPVQVNGKVRSRIT",
+                  "midline": "+G D+ L HG F V+ P  L +  V +  ++NG  ++ +T"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|82728",
+                  "accession": "82728",
+                  "title": "B2UTL0.1 RecName: Full=Aspartate--tRNA(Asp/Asn) ligase; AltName: Full=Aspartyl-tRNA synthetase; Short=AspRS; AltName: Full=Non-discriminating aspartyl-tRNA synthetase; Short=ND-AspRS [Helicobacter pylori Shi470]"
+                }
+              ],
+              "len": 577,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 7.73921,
+                  "identity": 10,
+                  "positive": 13,
+                  "query_from": 11,
+                  "query_to": 40,
+                  "hit_from": 285,
+                  "hit_to": 314,
+                  "align_len": 30,
+                  "gaps": 0,
+                  "qseq": "DFQVSTPLTSMGVCFGTKINGTFQNVVTTP",
+                  "hseq": "DLRFELPLIEVGDCFMDSSNAIFSNIAQDP",
+                  "midline": "D +   PL  +G CF    N  F N+   P"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|225670",
+                  "accession": "225670",
+                  "title": "B5Z6Y8.1 RecName: Full=Aspartate--tRNA(Asp/Asn) ligase; AltName: Full=Aspartyl-tRNA synthetase; Short=AspRS; AltName: Full=Non-discriminating aspartyl-tRNA synthetase; Short=ND-AspRS [Helicobacter pylori G27]"
+                }
+              ],
+              "len": 577,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 7.81674,
+                  "identity": 10,
+                  "positive": 13,
+                  "query_from": 11,
+                  "query_to": 40,
+                  "hit_from": 285,
+                  "hit_to": 314,
+                  "align_len": 30,
+                  "gaps": 0,
+                  "qseq": "DFQVSTPLTSMGVCFGTKINGTFQNVVTTP",
+                  "hseq": "DLRFKLPLIEVGDCFMDSSNAIFSNIAKDP",
+                  "midline": "D +   PL  +G CF    N  F N+   P"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|411858",
+                  "accession": "411858",
+                  "title": "Q9ZLL9.1 RecName: Full=Aspartate--tRNA(Asp/Asn) ligase; AltName: Full=Aspartyl-tRNA synthetase; Short=AspRS; AltName: Full=Non-discriminating aspartyl-tRNA synthetase; Short=ND-AspRS [Helicobacter pylori J99]"
+                }
+              ],
+              "len": 579,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 9.07788,
+                  "identity": 10,
+                  "positive": 13,
+                  "query_from": 11,
+                  "query_to": 40,
+                  "hit_from": 285,
+                  "hit_to": 314,
+                  "align_len": 30,
+                  "gaps": 0,
+                  "qseq": "DFQVSTPLTSMGVCFGTKINGTFQNVVTTP",
+                  "hseq": "DLRFELPLIEVGDCFMDSSNSIFSNIAQDP",
+                  "midline": "D +   PL  +G CF    N  F N+   P"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 16,
+            "eff_space": 4541331080,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

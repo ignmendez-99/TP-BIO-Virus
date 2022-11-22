@@ -1,0 +1,218 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_9",
+          "query_title": "<unknown id> Protein #9 translated from XX894275 with ORF = -1",
+          "query_len": 114,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|396769",
+                  "accession": "396769",
+                  "title": "Q0K7S4.2 RecName: Full=Undecaprenyl-diphosphatase; AltName: Full=Bacitracin resistance protein; AltName: Full=Undecaprenyl pyrophosphate phosphatase [Cupriavidus necator H16]"
+                }
+              ],
+              "len": 293,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 31.5722,
+                  "score": 70,
+                  "evalue": 1.17155,
+                  "identity": 15,
+                  "positive": 20,
+                  "query_from": 61,
+                  "query_to": 102,
+                  "hit_from": 66,
+                  "hit_to": 104,
+                  "align_len": 42,
+                  "gaps": 3,
+                  "qseq": "RIGNVVDGIPFIYTNPMANKITTLHSTCPTPPTALSFIYLKW",
+                  "hseq": "RIGNVVRGLR---AEPLAQRFAANVVIASVPAIVLAFIFGKW",
+                  "midline": "RIGNVV G+      P+A +          P   L+FI+ KW"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|38644",
+                  "accession": "38644",
+                  "title": "Q9ERH3.1 RecName: Full=WD repeat-containing protein 7; AltName: Full=TGF-beta resistance-associated protein TRAG [Rattus norvegicus]"
+                }
+              ],
+              "len": 1488,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.4166,
+                  "score": 67,
+                  "evalue": 3.52096,
+                  "identity": 14,
+                  "positive": 15,
+                  "query_from": 28,
+                  "query_to": 52,
+                  "hit_from": 586,
+                  "hit_to": 610,
+                  "align_len": 25,
+                  "gaps": 0,
+                  "qseq": "VWQNDCGCGDRCAACPVAVCIQNSC",
+                  "hseq": "VWQMDTGALDRCAMGITAVEILNAC",
+                  "midline": "VWQ D G  DRCA    AV I N+C"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|151598",
+                  "accession": "151598",
+                  "title": "Q920I9.3 RecName: Full=WD repeat-containing protein 7; AltName: Full=TGF-beta resistance-associated protein TRAG [Mus musculus]"
+                }
+              ],
+              "len": 1489,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.4166,
+                  "score": 67,
+                  "evalue": 3.52104,
+                  "identity": 14,
+                  "positive": 15,
+                  "query_from": 28,
+                  "query_to": 52,
+                  "hit_from": 586,
+                  "hit_to": 610,
+                  "align_len": 25,
+                  "gaps": 0,
+                  "qseq": "VWQNDCGCGDRCAACPVAVCIQNSC",
+                  "hseq": "VWQMDTGALDRCAMGITAVEILNAC",
+                  "midline": "VWQ D G  DRCA    AV I N+C"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|196905",
+                  "accession": "196905",
+                  "title": "Q86AQ5.1 RecName: Full=DNA-directed RNA polymerase III subunit rpc1; Short=RNA polymerase III subunit C1; AltName: Full=DNA-directed RNA polymerase III subunit A [Dictyostelium discoideum]"
+                }
+              ],
+              "len": 1450,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.6462,
+                  "score": 65,
+                  "evalue": 5.16009,
+                  "identity": 19,
+                  "positive": 27,
+                  "query_from": 25,
+                  "query_to": 95,
+                  "hit_from": 50,
+                  "hit_to": 114,
+                  "align_len": 71,
+                  "gaps": 6,
+                  "qseq": "PYGVWQNDCGCGDRCAACPVAVCIQNSCVGEYTCHLRIGNVVDGIPFIYTNPMANKITTLHSTCPTPPTAL",
+                  "hseq": "PYGVLDNKLGTSDKQAMCTTCGLSIVDCVGHF------GYIKLQLPVFHIGYLKNIMNILQMICKSCSTIL",
+                  "midline": "PYGV  N  G  D+ A C         CVG +      G +   +P  +   + N +  L   C +  T L"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|45793",
+                  "accession": "45793",
+                  "title": "Q02080.2 RecName: Full=Myocyte-specific enhancer factor 2B; AltName: Full=RSRFR2; AltName: Full=Serum response factor-like protein 2 [Homo sapiens]"
+                }
+              ],
+              "len": 365,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 7.87372,
+                  "identity": 12,
+                  "positive": 14,
+                  "query_from": 19,
+                  "query_to": 43,
+                  "hit_from": 300,
+                  "hit_to": 324,
+                  "align_len": 25,
+                  "gaps": 0,
+                  "qseq": "SDVFCIPYGVWQNDCGCGDRCAACP",
+                  "hseq": "SPIPCSSPGPWQSLCGLGPPCAGCP",
+                  "midline": "S + C   G WQ+ CG G  CA CP"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|254975",
+                  "accession": "254975",
+                  "title": "Q8WZ42.4 RecName: Full=Titin; AltName: Full=Connectin; AltName: Full=Rhabdomyosarcoma antigen MU-RMS-40.14 [Homo sapiens]"
+                }
+              ],
+              "len": 34350,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 9.7535,
+                  "identity": 15,
+                  "positive": 24,
+                  "query_from": 48,
+                  "query_to": 84,
+                  "hit_from": 12107,
+                  "hit_to": 12152,
+                  "align_len": 46,
+                  "gaps": 9,
+                  "qseq": "IQNSCVGEYTCHLRIGN---------VVDGIPFIYTNPMANKITTL",
+                  "hseq": "VQLSDAGEYTCVLRLGNKEKTSTAKLVVEELPVRFVKTLEEEVTVV",
+                  "midline": "+Q S  GEYTC LR+GN         VV+ +P  +   +  ++T +"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 82,
+            "eff_space": 4574808128,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

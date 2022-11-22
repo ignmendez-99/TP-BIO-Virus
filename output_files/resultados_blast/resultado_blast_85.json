@@ -1,0 +1,98 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_85",
+          "query_title": "<unknown id> Protein #85 translated from XX894275 with ORF = 1",
+          "query_len": 33,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|245965",
+                  "accession": "245965",
+                  "title": "B0JTW2.1 RecName: Full=DNA ligase; AltName: Full=Polydeoxyribonucleotide synthase [NAD(+)] [Microcystis aeruginosa NIES-843]"
+                }
+              ],
+              "len": 669,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.7942,
+                  "score": 55,
+                  "evalue": 6.77993,
+                  "identity": 12,
+                  "positive": 14,
+                  "query_from": 4,
+                  "query_to": 27,
+                  "hit_from": 402,
+                  "hit_to": 425,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "PQQMPTISIQLQSPMERPFSAAST",
+                  "hseq": "PFQMPTNCPECQSPLVRPVGEAVT",
+                  "midline": "P QMPT   + QSP+ RP   A T"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|96064",
+                  "accession": "96064",
+                  "title": "A3CLI0.1 RecName: Full=UPF0397 protein SSA_0592 [Streptococcus sanguinis SK36]"
+                }
+              ],
+              "len": 180,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.7942,
+                  "score": 55,
+                  "evalue": 7.43957,
+                  "identity": 10,
+                  "positive": 13,
+                  "query_from": 4,
+                  "query_to": 23,
+                  "hit_from": 28,
+                  "hit_to": 47,
+                  "align_len": 20,
+                  "gaps": 0,
+                  "qseq": "PQQMPTISIQLQSPMERPFS",
+                  "hseq": "PTPVPNTSIQLQYPLQALFS",
+                  "midline": "P  +P  SIQLQ P++  FS"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 8,
+            "eff_space": 4462736700,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_77",
+          "query_title": "<unknown id> Protein #77 translated from XX894275 with ORF = 3",
+          "query_len": 35,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|102349",
+                  "accession": "102349",
+                  "title": "Q9BZ95.1 RecName: Full=Histone-lysine N-methyltransferase NSD3; AltName: Full=Nuclear SET domain-containing protein 3; AltName: Full=Protein whistle; AltName: Full=WHSC1-like 1 isoform 9 with methyltransferase activity to lysine; AltName: Full=Wolf-Hirschhorn syndrome candidate 1-like protein 1; Short=WHSC1-like protein 1 [Homo sapiens]"
+                }
+              ],
+              "len": 1437,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.409,
+                  "score": 54,
+                  "evalue": 9.65462,
+                  "identity": 8,
+                  "positive": 13,
+                  "query_from": 10,
+                  "query_to": 31,
+                  "hit_from": 943,
+                  "hit_to": 964,
+                  "align_len": 22,
+                  "gaps": 0,
+                  "qseq": "PESVWKCTSSEISKEIHHIQVV",
+                  "hseq": "PEGCWNCNDCKAGKKLHYKQIV",
+                  "midline": "PE  W C   +  K++H+ Q+V"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|271944",
+                  "accession": "271944",
+                  "title": "Q6P2L6.2 RecName: Full=Histone-lysine N-methyltransferase NSD3; AltName: Full=Nuclear SET domain-containing protein 3; AltName: Full=Wolf-Hirschhorn syndrome candidate 1-like protein 1 homolog; Short=WHSC1-like protein 1 [Mus musculus]"
+                }
+              ],
+              "len": 1439,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.409,
+                  "score": 54,
+                  "evalue": 9.65462,
+                  "identity": 8,
+                  "positive": 13,
+                  "query_from": 10,
+                  "query_to": 31,
+                  "hit_from": 943,
+                  "hit_to": 964,
+                  "align_len": 22,
+                  "gaps": 0,
+                  "qseq": "PESVWKCTSSEISKEIHHIQVV",
+                  "hseq": "PEGCWNCNDCKAGKKLHYKQIV",
+                  "midline": "PE  W C   +  K++H+ Q+V"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 9,
+            "eff_space": 4628756782,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

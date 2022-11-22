@@ -1,0 +1,218 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_45",
+          "query_title": "<unknown id> Protein #45 translated from XX894275 with ORF = -1",
+          "query_len": 52,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|121661",
+                  "accession": "121661",
+                  "title": "Q58CZ0.1 RecName: Full=DNA fragmentation factor subunit beta [Bos taurus]"
+                }
+              ],
+              "len": 341,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 2.67244,
+                  "identity": 13,
+                  "positive": 21,
+                  "query_from": 5,
+                  "query_to": 48,
+                  "hit_from": 132,
+                  "hit_to": 175,
+                  "align_len": 44,
+                  "gaps": 0,
+                  "qseq": "NVAGSTTSKSASNFSNVNGRVSSLTQLLRHRCARRKRMYVPSIT",
+                  "hseq": "NIAAETRAEDPPWFEGLESRFRSKSGYLRYSCESRIRSYLREVT",
+                  "midline": "N+A  T ++    F  +  R  S +  LR+ C  R R Y+  +T"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|121815",
+                  "accession": "121815",
+                  "title": "Q5NBP9.1 RecName: Full=Glucosidase 2 subunit beta; AltName: Full=Glucosidase II subunit beta; Flags: Precursor [Oryza sativa Japonica Group]"
+                }
+              ],
+              "len": 614,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 5.08209,
+                  "identity": 10,
+                  "positive": 17,
+                  "query_from": 14,
+                  "query_to": 43,
+                  "hit_from": 464,
+                  "hit_to": 493,
+                  "align_len": 30,
+                  "gaps": 0,
+                  "qseq": "SASNFSNVNGRVSSLTQLLRHRCARRKRMY",
+                  "hseq": "ASSKLSKIQSRISTLTDKLKHDFGKEKEFY",
+                  "midline": "++S  S +  R+S+LT  L+H   + K  Y"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|52398",
+                  "accession": "52398",
+                  "title": "A2WNF5.1 RecName: Full=Glucosidase 2 subunit beta; AltName: Full=Glucosidase II subunit beta; Flags: Precursor [Oryza sativa Indica Group]"
+                }
+              ],
+              "len": 614,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 5.08209,
+                  "identity": 10,
+                  "positive": 17,
+                  "query_from": 14,
+                  "query_to": 43,
+                  "hit_from": 464,
+                  "hit_to": 493,
+                  "align_len": 30,
+                  "gaps": 0,
+                  "qseq": "SASNFSNVNGRVSSLTQLLRHRCARRKRMY",
+                  "hseq": "ASSKLSKIQSRISTLTDKLKHDFGKEKEFY",
+                  "midline": "++S  S +  R+S+LT  L+H   + K  Y"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|376142",
+                  "accession": "376142",
+                  "title": "O76075.1 RecName: Full=DNA fragmentation factor subunit beta; AltName: Full=Caspase-activated deoxyribonuclease; Short=CAD; Short=Caspase-activated DNase; AltName: Full=Caspase-activated nuclease; Short=CPAN; AltName: Full=DNA fragmentation factor 40 kDa subunit; Short=DFF-40 [Homo sapiens]"
+                }
+              ],
+              "len": 338,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 6.40929,
+                  "identity": 12,
+                  "positive": 21,
+                  "query_from": 5,
+                  "query_to": 48,
+                  "hit_from": 129,
+                  "hit_to": 172,
+                  "align_len": 44,
+                  "gaps": 0,
+                  "qseq": "NVAGSTTSKSASNFSNVNGRVSSLTQLLRHRCARRKRMYVPSIT",
+                  "hseq": "NIAAETRAEDPPWFEGLESRFQSKSGYLRYSCESRIRSYLREVS",
+                  "midline": "N+A  T ++    F  +  R  S +  LR+ C  R R Y+  ++"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|138954",
+                  "accession": "138954",
+                  "title": "Q7VKR5.1 RecName: Full=Adenylosuccinate synthetase; Short=AMPSase; Short=AdSS; AltName: Full=IMP--aspartate ligase [[Haemophilus] ducreyi 35000HP]"
+                }
+              ],
+              "len": 432,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 8.37129,
+                  "identity": 17,
+                  "positive": 24,
+                  "query_from": 3,
+                  "query_to": 52,
+                  "hit_from": 283,
+                  "hit_to": 330,
+                  "align_len": 56,
+                  "gaps": 14,
+                  "qseq": "LLNVAGSTTSKSASNFSNVNGRVSSLTQLLRHRC------ARRKRMYVPSITGVCM",
+                  "hseq": "LFNEEGETIARKGNEFGAVTGR--------PRRCGWFDAVAVRRAVQINSISGFCM",
+                  "midline": "L N  G T ++  + F  V GR          RC      A R+ + + SI+G CM"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|478227",
+                  "accession": "478227",
+                  "title": "Q9SFF9.1 RecName: Full=Germin-like protein subfamily 1 member 7; Flags: Precursor [Arabidopsis thaliana]"
+                }
+              ],
+              "len": 229,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 9.37049,
+                  "identity": 10,
+                  "positive": 15,
+                  "query_from": 4,
+                  "query_to": 22,
+                  "hit_from": 66,
+                  "hit_to": 84,
+                  "align_len": 19,
+                  "gaps": 0,
+                  "qseq": "LNVAGSTTSKSASNFSNVN",
+                  "hseq": "LNIAGNTINRVGSNVTNVN",
+                  "midline": "LN+AG+T ++  SN +NVN"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 25,
+            "eff_space": 4599269937,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,475 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_3",
+          "query_title": "<unknown id> Protein #3 translated from XX894275 with ORF = -3",
+          "query_len": 530,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|479486",
+                  "accession": "479486",
+                  "title": "P17501.2 RecName: Full=Major envelope glycoprotein; AltName: Full=gp64; Flags: Precursor [Autographa californica nucleopolyhedrovirus]"
+                }
+              ],
+              "len": 512,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1038.1,
+                  "score": 2683,
+                  "evalue": 0,
+                  "identity": 492,
+                  "positive": 503,
+                  "query_from": 19,
+                  "query_to": 530,
+                  "hit_from": 1,
+                  "hit_to": 512,
+                  "align_len": 513,
+                  "gaps": 2,
+                  "qseq": "MVGAIVLYVLLAAA-HSAFAAEHCNAQMKTGPYKIKNLDITPPKETLQKDVEITIVETDYNENVIIGYKGYYQAYAYNGGSLDPNTRVEESMKTLTVGKEDLLMWGIRQQCEVGEELIDRWGSDSEECFRDNEGRGQWVKGKELVKRQNNNHFAYHTCNKSWRCGVSTSKMYSRLECHDDTDECQVYILDAEGNPINVTVDTALHRDGVSMILKQKSTFTTRQVKAACLLIKDDKNNPESVTREHCLIDNDIYDLSKNTWNCKFNRCIKRKVEHQVKKRPPTWRHNVRAKYTEGDTATKGDLMHIQEELMYENDLLKMNIELMHAHINKINNMLHDLIVSVAKVDERLIGNLMNNSVSSTFLSDDTFLLMPCTNPPAHTSNCYNNSIYKEGRWVANTDSSQCIDFSNYKELAIDDDVEFWIPTIGNTTYHDSWKDASGWSFIAQQKSNLITTMENTKFGGVGTSLNDITSMAEGELAAKLTSFMFGHVATFVIVFIVILFLYCMVRNRNSRQY",
+                  "hseq": "MVSAIVLYVLLAAAAHSAFAAEHCNAQMKTGPYKIKNLDITPPKETLQKDVEITIVETDYNENVIIGYKGYYQAYAYNGGSLDPNTRVEETMKTLNVGKEDLLMWSIRQQCEVGEELIDRWGSDSDDCFRDNEGRGQWVKGKELVKRQNNNHFAHHTCNKSWRCGISTSKMYSRLECQDDTDECQVYILDAEGNPINVTVDTVLHRDGVSMILKQKSTFTTRQIKAACLLIKDDKNNPESVTREHCLIDNDIYDLSKNTWNCKFNRCIKRKVEHRVKKRPPTWRHNVRAKYTEGDTATKGDLMHIQEELMYENDLLKMNIELMHAHINKLNNMLHDLIVSVAKVDERLIGNLMNNSVSSTFLSDDTFLLMPCTNPPAHTSNCYNNSIYKEGRWVANTDSSQCIDFSNYKELAIDDDVEFWIPTIGNTTYHDSWKDASGWSFIAQQKSNLITTMENTKFGGVGTSLSDITSMAEGELAAKLTSFMFGHVVNFVIILIVILFLYCMIRNRN-RQY",
+                  "midline": "MV AIVLYVLLAAA HSAFAAEHCNAQMKTGPYKIKNLDITPPKETLQKDVEITIVETDYNENVIIGYKGYYQAYAYNGGSLDPNTRVEE+MKTL VGKEDLLMW IRQQCEVGEELIDRWGSDS++CFRDNEGRGQWVKGKELVKRQNNNHFA+HTCNKSWRCG+STSKMYSRLEC DDTDECQVYILDAEGNPINVTVDT LHRDGVSMILKQKSTFTTRQ+KAACLLIKDDKNNPESVTREHCLIDNDIYDLSKNTWNCKFNRCIKRKVEH+VKKRPPTWRHNVRAKYTEGDTATKGDLMHIQEELMYENDLLKMNIELMHAHINK+NNMLHDLIVSVAKVDERLIGNLMNNSVSSTFLSDDTFLLMPCTNPPAHTSNCYNNSIYKEGRWVANTDSSQCIDFSNYKELAIDDDVEFWIPTIGNTTYHDSWKDASGWSFIAQQKSNLITTMENTKFGGVGTSL+DITSMAEGELAAKLTSFMFGHV  FVI+ IVILFLYCM+RNRN RQY"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|396227",
+                  "accession": "396227",
+                  "title": "P41717.1 RecName: Full=Major envelope glycoprotein; AltName: Full=gp67; Flags: Precursor [Choristoneura fumiferana multiple nucleopolyhedrovirus]"
+                }
+              ],
+              "len": 509,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 857.44,
+                  "score": 2214,
+                  "evalue": 0,
+                  "identity": 405,
+                  "positive": 454,
+                  "query_from": 19,
+                  "query_to": 530,
+                  "hit_from": 1,
+                  "hit_to": 509,
+                  "align_len": 512,
+                  "gaps": 3,
+                  "qseq": "MVGAIVLYVLLAAAHSAFAAEHCNAQMKTGPYKIKNLDITPPKETLQKDVEITIVETDYNENVIIGYKGYYQAYAYNGGSLDPNTRVEESMKTLTVGKEDLLMWGIRQQCEVGEELIDRWGSDSEECFRDNEGRGQWVKGKELVKRQNNNHFAYHTCNKSWRCGVSTSKMYSRLECHDDTDECQVYILDAEGNPINVTVDTALHRDGVSMILKQKSTFTTRQVKAACLLIKDDKNNPESVTREHCLIDNDIYDLSKNTWNCKFNRCIKRKVEHQVKKRPPTWRHNVRAKYTEGDTATKGDLMHIQEELMYENDLLKMNIELMHAHINKINNMLHDLIVSVAKVDERLIGNLMNNSVSSTFLSDDTFLLMPCTNPPAHTSNCYNNSIYKEGRWVANTDSSQCIDFSNYKELAIDDDVEFWIPTIGNTTYHDSWKDASGWSFIAQQKSNLITTMENTKFGGVGTSLNDITSMAEGELAAKLTSFMFGHVATFVIVFIVILFLYCMVRNRNSRQY",
+                  "hseq": "MVRTAVLILLLV--RFSEPAEHCNAQMNSGPWRIKNLSIAPPKETLQKDVEIEIVETNMDENVIIGYKGYYQAYAYNGGSLDPNTRIEETMETLNVAKEDLLMWSIRRQCEVGEELIDQWGSDSDNCFRNKDGRGVWVFGKELVKRQNNNHFARHTCNRSWRCGVSTAKMYTRLECDNDNDECKVTILDINGASINVTENTVLHRDGVSMVLKQKSTFSRRPEKVACLLIKDDKSDPRSVTREHCLVDNDIFDLSKNTWLCKFNRCIKRKSENVVKQRPPTWRHDVSAKHDEGASATKGDLMHIQEELMYENDLLRMNLELMHAHINKLNNMLHNLIVSVAKVDERLIGNLMNNSVSSTFLSDDTFLLMPCTHPPPHTSNCYNNSIYKEGRWVANTDSSQCIDFNNYKELAIDDDIEFWIPTIGNTTYHENWKDASGWSFIAQQKSNLISTMENTKFGGHTTSLSDITDMAKGELNAKLWSFMLGHAFSFMLTVGVIIFLFCMVRNR-SRAY",
+                  "midline": "MV   VL +LL     +  AEHCNAQM +GP++IKNL I PPKETLQKDVEI IVET+ +ENVIIGYKGYYQAYAYNGGSLDPNTR+EE+M+TL V KEDLLMW IR+QCEVGEELID+WGSDS+ CFR+ +GRG WV GKELVKRQNNNHFA HTCN+SWRCGVST+KMY+RLEC +D DEC+V ILD  G  INVT +T LHRDGVSM+LKQKSTF+ R  K ACLLIKDDK++P SVTREHCL+DNDI+DLSKNTW CKFNRCIKRK E+ VK+RPPTWRH+V AK+ EG +ATKGDLMHIQEELMYENDLL+MN+ELMHAHINK+NNMLH+LIVSVAKVDERLIGNLMNNSVSSTFLSDDTFLLMPCT+PP HTSNCYNNSIYKEGRWVANTDSSQCIDF+NYKELAIDDD+EFWIPTIGNTTYH++WKDASGWSFIAQQKSNLI+TMENTKFGG  TSL+DIT MA+GEL AKL SFM GH  +F++   VI+FL+CMVRNR SR Y"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|130451",
+                  "accession": "130451",
+                  "title": "P13625.1 RecName: Full=Major envelope glycoprotein; AltName: Full=gp64; Flags: Precursor [Orgyia pseudotsugata multiple nucleopolyhedrovirus]"
+                }
+              ],
+              "len": 509,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 853.973,
+                  "score": 2205,
+                  "evalue": 0,
+                  "identity": 402,
+                  "positive": 449,
+                  "query_from": 23,
+                  "query_to": 527,
+                  "hit_from": 4,
+                  "hit_to": 507,
+                  "align_len": 505,
+                  "gaps": 1,
+                  "qseq": "IVLYVLLAAAHSAFAAEHCNAQMKTGPYKIKNLDITPPKETLQKDVEITIVETDYNENVIIGYKGYYQAYAYNGGSLDPNTRVEESMKTLTVGKEDLLMWGIRQQCEVGEELIDRWGSDSEECFRDNEGRGQWVKGKELVKRQNNNHFAYHTCNKSWRCGVSTSKMYSRLECHDDTDECQVYILDAEGNPINVTVDTALHRDGVSMILKQKSTFTTRQVKAACLLIKDDKNNPESVTREHCLIDNDIYDLSKNTWNCKFNRCIKRKVEHQVKKRPPTWRHNVRAKYTEGDTATKGDLMHIQEELMYENDLLKMNIELMHAHINKINNMLHDLIVSVAKVDERLIGNLMNNSVSSTFLSDDTFLLMPCTNPPAHTSNCYNNSIYKEGRWVANTDSSQCIDFSNYKELAIDDDVEFWIPTIGNTTYHDSWKDASGWSFIAQQKSNLITTMENTKFGGVGTSLNDITSMAEGELAAKLTSFMFGHVATFVIVFIVILFLYCMVRNRNS",
+                  "hseq": "IVVFILLCVRFSA-PAEHCNAQMKSGPWRIKSLPIAAPKETLQKDVEIEIVETDLDQNVVIGYKGYYQAYAYNGGSLDPNSRVEETMKTLDVAKEDLLMWGIRQQCEVGEELIDQWGSDSESCFRNMDGRGVWVAGKELVKRQNNNHFAHHTCNRSWRCGVSTAKMYTRLECDDDTDDCKVTILDINGTSINVTENKVLHRDGVSMILKQKSTFSRRTEKVACLLIKDDKADPNSVTREHCLVDNDIFDLSKNTWFCKFNRCIKRRSENVVKQRPHTWRHDRPPKHDEGATATKGDLMHIQEELMYENDLLRMNLELMHAHINKLNNMMHDLIVSVAKVDERLIGNLMNNSVSSTFLSDDTFLLMPCTSPPPHTSNCYNNSIYKEGRWVANTDTSQCIDFNNYKELAIDDDIEFWIPTIGNTSYHESWKDASGWSFIAQQKSNLISTMENTKFGGHTTSLSDIADMAKGELNATLYSFMLGHGFTFVLIVGVILFLVCMLRNRPS",
+                  "midline": "IV+++LL    SA  AEHCNAQMK+GP++IK+L I  PKETLQKDVEI IVETD ++NV+IGYKGYYQAYAYNGGSLDPN+RVEE+MKTL V KEDLLMWGIRQQCEVGEELID+WGSDSE CFR+ +GRG WV GKELVKRQNNNHFA+HTCN+SWRCGVST+KMY+RLEC DDTD+C+V ILD  G  INVT +  LHRDGVSMILKQKSTF+ R  K ACLLIKDDK +P SVTREHCL+DNDI+DLSKNTW CKFNRCIKR+ E+ VK+RP TWRH+   K+ EG TATKGDLMHIQEELMYENDLL+MN+ELMHAHINK+NNM+HDLIVSVAKVDERLIGNLMNNSVSSTFLSDDTFLLMPCT+PP HTSNCYNNSIYKEGRWVANTD+SQCIDF+NYKELAIDDD+EFWIPTIGNT+YH+SWKDASGWSFIAQQKSNLI+TMENTKFGG  TSL+DI  MA+GEL A L SFM GH  TFV++  VILFL CM+RNR S"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|425912",
+                  "accession": "425912",
+                  "title": "P04872.2 RecName: Full=Major envelope glycoprotein; AltName: Full=gp67 [Galleria mellonella MNPV]"
+                }
+              ],
+              "len": 337,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 685.641,
+                  "score": 1768,
+                  "evalue": 0,
+                  "identity": 321,
+                  "positive": 330,
+                  "query_from": 102,
+                  "query_to": 436,
+                  "hit_from": 2,
+                  "hit_to": 336,
+                  "align_len": 335,
+                  "gaps": 0,
+                  "qseq": "NTRVEESMKTLTVGKEDLLMWGIRQQCEVGEELIDRWGSDSEECFRDNEGRGQWVKGKELVKRQNNNHFAYHTCNKSWRCGVSTSKMYSRLECHDDTDECQVYILDAEGNPINVTVDTALHRDGVSMILKQKSTFTTRQVKAACLLIKDDKNNPESVTREHCLIDNDIYDLSKNTWNCKFNRCIKRKVEHQVKKRPPTWRHNVRAKYTEGDTATKGDLMHIQEELMYENDLLKMNIELMHAHINKINNMLHDLIVSVAKVDERLIGNLMNNSVSSTFLSDDTFLLMPCTNPPAHTSNCYNNSIYKEGRWVANTDSSQCIDFSNYKELAIDDDVEF",
+                  "hseq": "NTRVEETMKTLNVGKEDLLMWSIRQQCEVGEELIDRWGSDSDDCFRDNEGRGQWVKGKELVKRQNNNHFAHHTCNKSWRCGISTSKMYSKLECQDDTDECQVYILDAEGNPINVTVDTVLHRDGVSMILKQKSTFTTRQIKAACLLIKDDKNNPESVTREHCLIDNDIYDLSKNTWNCKFNRCIKRKVEHRVKKRPPTWRHNVRAKYTEGDTATKGDLMHIQEELMYENDLLKMNIELMHAHINKLNNMLHDLIVSVAKVDERLIGNLMNNSVSSTFLSDDTFLLMPCTNPPAHTSNCYNNSIYKEGRWVANTDSSQCIDFSNYKELAIDDDVEI",
+                  "midline": "NTRVEE+MKTL VGKEDLLMW IRQQCEVGEELIDRWGSDS++CFRDNEGRGQWVKGKELVKRQNNNHFA+HTCNKSWRCG+STSKMYS+LEC DDTDECQVYILDAEGNPINVTVDT LHRDGVSMILKQKSTFTTRQ+KAACLLIKDDKNNPESVTREHCLIDNDIYDLSKNTWNCKFNRCIKRKVEH+VKKRPPTWRHNVRAKYTEGDTATKGDLMHIQEELMYENDLLKMNIELMHAHINK+NNMLHDLIVSVAKVDERLIGNLMNNSVSSTFLSDDTFLLMPCTNPPAHTSNCYNNSIYKEGRWVANTDSSQCIDFSNYKELAIDDDVE "
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|315177",
+                  "accession": "315177",
+                  "title": "P27427.1 RecName: Full=Envelope glycoprotein; Flags: Precursor [Dhori virus (strain Indian/1313/61)]"
+                }
+              ],
+              "len": 521,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 236.884,
+                  "score": 603,
+                  "evalue": 2.69068e-70,
+                  "identity": 156,
+                  "positive": 244,
+                  "query_from": 39,
+                  "query_to": 523,
+                  "hit_from": 22,
+                  "hit_to": 518,
+                  "align_len": 513,
+                  "gaps": 44,
+                  "qseq": "EHCNAQMKTGPYKIKNLDITPPKETLQKDVEITIVETDYNE---NVIIGYKGYYQAYAYNGGSLDPNTRVEESMKTLTVGKEDLLMWGIRQQCEVGEELIDRWGSDSEECFRDNEGRGQWV-----KGKELVKRQNNNHFAYHTCNKSWRCGVSTSKMYSRLECHDDTDECQVYILDAEGNPINVTVDTALHRDGVSMIL-------KQKSTF---------TTRQVKAACL----LIKDDKNNPESVTREHCLIDNDIYDLSKNTWNCKFNRCIKRKVEHQVKKRPPTWRHNVRAKYTEGDTATKGDLMHIQEELMYENDLLKMNIELMHAHINKINNMLHDLIVSVAKVDERLIGNLMNNSVSSTFLSDDTFLLMPCTNPPAHTSNCYNNSIYKEGRWVANTDSSQCIDFSNYKELAIDDDVEFWIPTIGNTTYHDSWKDASGWSFIAQQKSNLITTMENTKFGGVGTSLNDITSMAEGELAAKLTSFMFGHVATFVIVFIVILFLYCMVR",
+                  "hseq": "EVCNKAQQQGPYTLVDYQEKPLNIS---RIQIKVVKTSVATKGLNFHIGYRAVWRGYCYNGGSLDKNTGCYNDLIPKSPTESELRTWSKSQKCCTGPDAVDAWGSDARICW------AEWKMELCHTAKELKKYSNNNHFAYHTCNLSWRCGLKSTHIEVRLQASGGLVSMVAVMPNGTLIPIEGTRPTYWTEDSFAYLYDPAGTEKKTESTFLWCFKEHIRPTTELSGAVYDTHYLGGTYDKNPQ--FNYYCRDNGYYFELPANRLVCLPTSCYKREGAIVNTMHPNTWKVSEKLH-----SASQFDVNNVVHSLVYETEGLRLALSQLDHRFATLSRLFNRLTQSLAKIDDRLLGTLLGQDVSSKFISPTKFMLSPCLSTPEGDSNCHNHSIYRDGRWVHNSDPTQCFSLSKSQPVDLYSFKELWLPQLLDVNVKGVVADEEGWSFVAQSKQALIDTMTYTKNGGKGTSLEDVLGYPSGWINGKLQGLLLNGAISWVVVIGVVLVGVCLMR",
+                  "midline": "E CN   + GPY + +    P   +    ++I +V+T       N  IGY+  ++ Y YNGGSLD NT     +   +  + +L  W   Q+C  G + +D WGSD+  C+       +W        KEL K  NNNHFAYHTCN SWRCG+ ++ +  RL+           + +    PI  T  T    D  + +        K +STF          T ++  A      L      NP+     +C  +   ++L  N   C    C KR+        P TW+ + +       +A++ D+ ++   L+YE + L++ +  +      ++ + + L  S+AK+D+RL+G L+   VSS F+S   F+L PC + P   SNC+N+SIY++GRWV N+D +QC   S  + + +    E W+P + +        D  GWSF+AQ K  LI TM  TK GG GTSL D+     G +  KL   +     ++V+V  V+L   C++R"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|255897",
+                  "accession": "255897",
+                  "title": "P28977.1 RecName: Full=Envelope glycoprotein; AltName: Full=Surface glycoprotein 75; Flags: Precursor [Thogoto virus (isolate SiAr 126)]"
+                }
+              ],
+              "len": 512,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 221.861,
+                  "score": 564,
+                  "evalue": 1.11166e-64,
+                  "identity": 139,
+                  "positive": 228,
+                  "query_from": 37,
+                  "query_to": 524,
+                  "hit_from": 15,
+                  "hit_to": 508,
+                  "align_len": 505,
+                  "gaps": 28,
+                  "qseq": "AAEHCNAQMKTGPYKIKNLDITPPKETLQKDVEITIVETDYNENVIIGYKGYYQAYAYNGGSLDPNTRVEESMKTLTVGKEDLLMWGIRQQCEVGEELIDRWGSDSEECFRDNEGRGQWVKGKELVKRQNNNHFAYHTCNKSWRCGVSTSKMYSRLECHDDTDECQVYILDAEGNPINVTVDTALH--RDGVSMILKQKSTFTTRQVKAACLLIKDDKNNPESVTREHCLIDNDIYDLSKNTWNCKFNRCIKRKVEHQVKKRPPTWRHNVRAKYTEGD------TATKGDLMHIQEELMYENDLLKMNIELMHAHINKINNMLHDLIVSVAKVDERLIGNLMNNSVSSTFLSDDTFLLMPCTNPPAHTSNCYNNSIYKEGRWVANTDSSQC---------IDFSNYKELAIDDDVEFWIPTIGNTTYHDSWKDASGWSFIAQQKSNLITTMENTKFGGVGTSLNDITSMAEGELAAKLTSFMFGHVATFVIVFIVILFLYCMVRN",
+                  "hseq": "AEPDCNTKTATGPYILDRYKPKPVTVSKKLYSATRYTTSAQNELLTAGYRTAWVAYCYNGGLVDSNTGCNARLLHYPPSRDELLLWGSSHQCSYGDICHDCWGSDSYACLGQLDPAKHWAPRKELVRRDANWKFAYHMCNIDWRCGVTTSPVFFNLQWVK--NEVKVSTLLPNGSTVEHSAGEPLFWTEKDFSYLVKDNFEIQREEVKISCFVDPDYWVGERKTKKAFCQDGTNFFEVTSHQF-CHQYACYNFSKDELLEAVYKERAHEKSKDLPFGNKSWTVVTASIDDLHALSAAQAFELEGLRASFAELDSRFRQLSEILDTVISSIAKIDERLIGRLIKAPVSSRFISEDKFLLHQCVDSVANNTNCVGDSAYVDGRWTHVGDNHPCTTVVDEPIGIDIYNFSAL--------WYPSAAEVDFRGTVQSEDGWSFVVKSKDALIQTMMYTKNGGKGTSLTDLLDYPSGWLKGQLGGLLYGNIGVYLLIAFAFVLLIRLIKS",
+                  "midline": "A   CN +  TGPY +      P   + +         +  NE +  GY+  + AY YNGG +D NT     +      +++LL+WG   QC  G+   D WGSDS  C    +    W   KELV+R  N  FAYH CN  WRCGV+TS ++  L+     +E +V  L   G+ +  +    L       S ++K        +VK +C +  D         +  C    + ++++ + + C    C     +  ++       H        G+      TA+  DL  +     +E + L+ +   + +   +++ +L  +I S+AK+DERLIG L+   VSS F+S+D FLL  C +  A+ +NC  +S Y +GRW    D+  C         ID  N+  L        W P+     +  + +   GWSF+ + K  LI TM  TK GG GTSL D+     G L  +L   ++G++  ++++    + L  ++++"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|389456",
+                  "accession": "389456",
+                  "title": "D0QX25.1 RecName: Full=Envelope glycoprotein; Flags: Precursor [Quaranfil virus isolate Tick/Afghanistan/EGT377/1968]"
+                }
+              ],
+              "len": 511,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.8626,
+                  "score": 172,
+                  "evalue": 1.05271e-11,
+                  "identity": 48,
+                  "positive": 68,
+                  "query_from": 38,
+                  "query_to": 186,
+                  "hit_from": 16,
+                  "hit_to": 166,
+                  "align_len": 155,
+                  "gaps": 10,
+                  "qseq": "AEHCNAQMKTGPYKIKNLDITPPKETLQKDVEITIVETDYNENVIIGYKGYYQAYAYNGGSLDPNTRVEESMKTLTVGKEDLLMWGIRQQCEVGEEL---IDRWGSDSEECFRDNEGRGQWVKGKELVKRQNNNH---FAYHTCNKSWRCGVSTS",
+                  "hseq": "ASPCTSEACSGPYRISKYKM-PTIDVSNHKTHVTVWKGPKEVTGILGYRSRYTAYCYEGGVLDGNTGCTKWHVMFPPSAAELQKWAIDGKCYYGVECNKGGDCWGSWADRCHDD---RVDLNSAQEKEYNGNNDEWRMFAHHTCISTWRCGFSKS",
+                  "midline": "A  C ++  +GPY+I    + P  +       +T+ +       I+GY+  Y AY Y GG LD NT   +          +L  W I  +C  G E     D WGS ++ C  D   R      +E     NN+    FA+HTC  +WRCG S S"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 68.9366,
+                  "score": 167,
+                  "evalue": 3.32908e-11,
+                  "identity": 45,
+                  "positive": 78,
+                  "query_from": 311,
+                  "query_to": 470,
+                  "hit_from": 298,
+                  "hit_to": 459,
+                  "align_len": 162,
+                  "gaps": 2,
+                  "qseq": "GDTATKGDLMHIQEELMYENDLLKMNIELMHAHINKINNMLHDLIVSVAKVDERLIGNLMNNSVSSTFLSDDTFLLMPCTNPPAHT-SNCYNNSIYKEGRWVANTDSSQCIDF-SNYKELAIDDDVEFWIPTIGNTTYHDSWKDASGWSFIAQQKSNLITTM",
+                  "hseq": "GKAASLEDVRNILSIQMWSHQESGYNLVQLYKVVGEMMNTLTTVINSVGKLDDELIGRLIGVEGKSKWFNSELFHMCPCFQLGSFGDSNCASGYIFSEGRVKVDKDGSKCTSFGGSITPLYLFDNVSYKFAVLHTPPAQGVAQDWEGWSWLAAEKQRLIETM",
+                  "midline": "G  A+  D+ +I    M+ +     N+  ++  + ++ N L  +I SV K+D+ LIG L+     S + + + F + PC    +   SNC +  I+ EGR   + D S+C  F  +   L + D+V +    +         +D  GWS++A +K  LI TM"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|350048",
+                  "accession": "350048",
+                  "title": "A9HRT9.2 RecName: Full=NADH-quinone oxidoreductase subunit D; AltName: Full=NADH dehydrogenase I subunit D; AltName: Full=NDH-1 subunit D [Gluconacetobacter diazotrophicus PA1 5]"
+                }
+              ],
+              "len": 416,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 35.4242,
+                  "score": 80,
+                  "evalue": 1.18259,
+                  "identity": 16,
+                  "positive": 23,
+                  "query_from": 39,
+                  "query_to": 72,
+                  "hit_from": 298,
+                  "hit_to": 332,
+                  "align_len": 35,
+                  "gaps": 1,
+                  "qseq": "EHCNAQMKTGPYKIKNLDIT-PPKETLQKDVEITI",
+                  "hseq": "EQCLAQMKPGPIKIQDHKITPPPRREMKRSMEALI",
+                  "midline": "E C AQMK GP KI++  IT PP+  +++ +E  I"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|108736",
+                  "accession": "108736",
+                  "title": "P00616.2 RecName: Full=Acidic phospholipase A2 homolog taipoxin gamma chain; Short=svPLA2 homolog; Flags: Precursor [Oxyuranus scutellatus scutellatus]"
+                }
+              ],
+              "len": 152,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 33.113,
+                  "score": 74,
+                  "evalue": 2.78211,
+                  "identity": 19,
+                  "positive": 36,
+                  "query_from": 135,
+                  "query_to": 209,
+                  "hit_from": 68,
+                  "hit_to": 126,
+                  "align_len": 75,
+                  "gaps": 16,
+                  "qseq": "IDRWGSDSEECFRDNEGRGQWVKGKELVKRQNNNHFAYHTCNKSWRCGVSTSKMYSRLECHDDTDECQVYILDAE",
+                  "hseq": "LDRCCKTHDECYAE---AGKLSACKSVLSEPNNDTYSYE-CNEG------------QLTCNDDNDECKAFICNCD",
+                  "midline": "+DR     +EC+ +    G+    K ++   NN+ ++Y  CN+             +L C+DD DEC+ +I + +"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|109644",
+                  "accession": "109644",
+                  "title": "Q6LM59.1 RecName: Full=Sulfite reductase [NADPH] hemoprotein beta-component; Short=SiR-HP; Short=SiRHP [Photobacterium profundum SS9]"
+                }
+              ],
+              "len": 563,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 33.8834,
+                  "score": 76,
+                  "evalue": 3.57758,
+                  "identity": 23,
+                  "positive": 34,
+                  "query_from": 205,
+                  "query_to": 284,
+                  "hit_from": 358,
+                  "hit_to": 432,
+                  "align_len": 81,
+                  "gaps": 7,
+                  "qseq": "ILDAEGNPINVTVDTALHRDGVSMILKQKSTFTTRQVKAACLLIKDDKNNPESVTREHCLIDNDIYDLSKNTWNC-KFNRC",
+                  "hseq": "LLDTPGKPLKTGVAE------IAKIHKGDFRMTANQNLIVAGVPAADKNKIEKIARDHGLIDDGVSEQRKNSMACVAFPTC",
+                  "midline": "+LD  G P+   V        ++ I K     T  Q      +   DKN  E + R+H LID+ + +  KN+  C  F  C"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|184569",
+                  "accession": "184569",
+                  "title": "Q9Z2H2.2 RecName: Full=Regulator of G-protein signaling 6; Short=RGS6 [Mus musculus]"
+                }
+              ],
+              "len": 472,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 33.8834,
+                  "score": 76,
+                  "evalue": 4.08314,
+                  "identity": 12,
+                  "positive": 23,
+                  "query_from": 117,
+                  "query_to": 157,
+                  "hit_from": 312,
+                  "hit_to": 352,
+                  "align_len": 41,
+                  "gaps": 0,
+                  "qseq": "EDLLMWGIRQQCEVGEELIDRWGSDSEECFRDNEGRGQWVK",
+                  "hseq": "DDITLWDIEMSKEPSQQRVKRWGFSFDEILKDQVGRDQFLR",
+                  "midline": "+D+ +W I    E  ++ + RWG   +E  +D  GR Q+++"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|454141",
+                  "accession": "454141",
+                  "title": "P49758.5 RecName: Full=Regulator of G-protein signaling 6; Short=RGS6; AltName: Full=S914 [Homo sapiens]"
+                }
+              ],
+              "len": 472,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 33.4982,
+                  "score": 75,
+                  "evalue": 5.15594,
+                  "identity": 12,
+                  "positive": 23,
+                  "query_from": 117,
+                  "query_to": 157,
+                  "hit_from": 312,
+                  "hit_to": 352,
+                  "align_len": 41,
+                  "gaps": 0,
+                  "qseq": "EDLLMWGIRQQCEVGEELIDRWGSDSEECFRDNEGRGQWVK",
+                  "hseq": "DDVALWDIEMSKEPSQQRVKRWGFSFDEILKDQVGRDQFLR",
+                  "midline": "+D+ +W I    E  ++ + RWG   +E  +D  GR Q+++"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|457557",
+                  "accession": "457557",
+                  "title": "B1WSY4.1 RecName: Full=2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase; AltName: Full=4-diphosphocytidyl-2C-methyl-D-erythritol synthase; AltName: Full=MEP cytidylyltransferase; Short=MCT [Crocosphaera subtropica ATCC 51142]"
+                }
+              ],
+              "len": 228,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 32.3426,
+                  "score": 72,
+                  "evalue": 7.13071,
+                  "identity": 33,
+                  "positive": 51,
+                  "query_from": 127,
+                  "query_to": 235,
+                  "hit_from": 106,
+                  "hit_to": 227,
+                  "align_len": 126,
+                  "gaps": 21,
+                  "qseq": "QCEVGEELIDRWGSDSEECFRDNEGRGQWVKGKELVKRQNNNHFAYHTCNKS--WRCGVSTSKMYSRL-ECH-----------DDT---DECQVYILDAEGNPINVTVDTALHRDGVSMILKQKST",
+                  "hseq": "RCLVTPDLFDRCAEELLTC----QGLIAAISVKDTIKIVDSNQFIKDTPNRSNLWAAQTPQGFKVSLLKQCHEKGYQLGWQVTDDAALFEKCQLPVKIVEGEETNLKVTTPVDLAIAEFILKQRFT",
+                  "midline": "+C V  +L DR   +   C    +G    +  K+ +K  ++N F   T N+S  W          S L +CH           DD    ++CQ+ +   EG   N+ V T +       ILKQ+ T"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|314191",
+                  "accession": "314191",
+                  "title": "Q9LPL6.1 RecName: Full=TOM1-like protein 3 [Arabidopsis thaliana]"
+                }
+              ],
+              "len": 506,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 32.7278,
+                  "score": 73,
+                  "evalue": 8.38189,
+                  "identity": 17,
+                  "positive": 26,
+                  "query_from": 251,
+                  "query_to": 304,
+                  "hit_from": 375,
+                  "hit_to": 432,
+                  "align_len": 58,
+                  "gaps": 4,
+                  "qseq": "DKNNPESVTREHCLIDNDIYD----LSKNTWNCKFNRCIKRKVEHQVKKRPPTWRHNV",
+                  "hseq": "DEPVPQSKSPEHALFTKPVYDQTEQLPPAPWETQEPRKYPPSMSARTNKRPEYFQHNV",
+                  "midline": "D+  P+S + EH L    +YD    L    W  +  R     +  +  KRP  ++HNV"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 122,
+            "eff_space": 50489312112,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

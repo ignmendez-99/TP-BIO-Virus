@@ -1,0 +1,1598 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_12",
+          "query_title": "<unknown id> Protein #12 translated from XX894275 with ORF = -3",
+          "query_len": 100,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|107414",
+                  "accession": "107414",
+                  "title": "P12915.3 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Bovine enterovirus strain VG-5-27]"
+                }
+              ],
+              "len": 2175,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 156.377,
+                  "score": 394,
+                  "evalue": 1.28998e-44,
+                  "identity": 67,
+                  "positive": 87,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 991,
+                  "hit_to": 1089,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GITDYVQQLGNAFGAGFTAEIANYTNQLRDMLMGSDSVVEKIIRSLVRLVSALVIVVRNHQDLITVGATLALLGCEGSPWKWLKRKVCQILGINMAERQ",
+                  "midline": "G+TD VQ LGNAFGAGFT EI+NY  Q+RDM++GSD+VVE+++ ++++L+SALVIVVRN  D+ITV ATL+LLGC GSPW+WLK K+C ILGINMA++Q"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|457157",
+                  "accession": "457157",
+                  "title": "Q68T42.1 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [enterovirus D68]"
+                }
+              ],
+              "len": 2188,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 127.872,
+                  "score": 320,
+                  "evalue": 1.36106e-34,
+                  "identity": 56,
+                  "positive": 79,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1009,
+                  "hit_to": 1107,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GITDYIQNLGNAFGAGFTETISNKAKEVQDMLIGESSLLEKLLKALIKIISALVIVIRNSEDLITVTATLALLGCHDSPWSYLKQKVCSYLGIPYVPRQ",
+                  "midline": "G+TD +Q+LGNAFGAGFT+ ISN   +V+DM++G  +++E+++  +IK++SALVIV+RN  D+ITVTATL+LLGC  SPW +LK K+CS LGI    +Q"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|132607",
+                  "accession": "132607",
+                  "title": "Q66479.3 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Human enterovirus 71 (strain 7423/MS/87)]"
+                }
+              ],
+              "len": 2193,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 127.102,
+                  "score": 318,
+                  "evalue": 2.98841e-34,
+                  "identity": 55,
+                  "positive": 80,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1013,
+                  "hit_to": 1111,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GVSDYIKGLGDAFGTGFTDAVSREVEALRNHLIGSDGAVEKILKNLIKLISALVIVIRSDYDMVTLTATLALIGCHGSPWAWIKAKTASILGIPIAQKQ",
+                  "midline": "G++D ++ LG+AFG GFTD +S  V  +R+ ++GSD  VE+++ N+IKL+SALVIV+R+  D++T+TATL+L+GC GSPW W+K+K  SILGI +AQKQ"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|240801",
+                  "accession": "240801",
+                  "title": "Q66478.3 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Human enterovirus 71 (strain BRCR)]"
+                }
+              ],
+              "len": 2193,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 125.176,
+                  "score": 313,
+                  "evalue": 1.05589e-33,
+                  "identity": 54,
+                  "positive": 79,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1013,
+                  "hit_to": 1111,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GVSDYIKGLGRAFGTGFTDAVSREVEALKNHLIGSEGAVEKILKNLVKLISALVIVIRSDYDMVTLTATLALIGCHGSPWAWIKSKTASILGIPMAQKQ",
+                  "midline": "G++D ++ LG AFG GFTD +S  V  +++ ++GS+  VE+++ N++KL+SALVIV+R+  D++T+TATL+L+GC GSPW W+KSK  SILGI MAQKQ"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|390114",
+                  "accession": "390114",
+                  "title": "Q65900.3 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Human coxsackievirus A16 (strain G-10)]"
+                }
+              ],
+              "len": 2193,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 123.635,
+                  "score": 309,
+                  "evalue": 3.9548e-33,
+                  "identity": 53,
+                  "positive": 80,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1013,
+                  "hit_to": 1111,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GVSDYIKGLGDAFGTGFTDAVSREVEALKNHLIGSEGAVEKILKNLIKLISALVIVIRSDYDMVTLTATLALIGCHGSPWAWIKAKTASILGIPIAQKQ",
+                  "midline": "G++D ++ LG+AFG GFTD +S  V  +++ ++GS+  VE+++ N+IKL+SALVIV+R+  D++T+TATL+L+GC GSPW W+K+K  SILGI +AQKQ"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|310750",
+                  "accession": "310750",
+                  "title": "B9VUU3.1 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Enterovirus A71]"
+                }
+              ],
+              "len": 2193,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 123.25,
+                  "score": 308,
+                  "evalue": 5.50181e-33,
+                  "identity": 53,
+                  "positive": 79,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1013,
+                  "hit_to": 1111,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GVSDYIKGLGDAFGTGFTDAVSREVEALKSYLIGSEGAVEKILKNLIKLISALVIVIRSDYDMVTLTATLALIGCHGSPWAWIKAKTASILGIPIAQKQ",
+                  "midline": "G++D ++ LG+AFG GFTD +S  V  ++  ++GS+  VE+++ N+IKL+SALVIV+R+  D++T+TATL+L+GC GSPW W+K+K  SILGI +AQKQ"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|207089",
+                  "accession": "207089",
+                  "title": "O41174.3 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Porcine enterovirus 9]"
+                }
+              ],
+              "len": 2168,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.865,
+                  "score": 307,
+                  "evalue": 7.95538e-33,
+                  "identity": 51,
+                  "positive": 73,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 986,
+                  "hit_to": 1084,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GLTDYIQQLGNSFGQGFTAEITNYASQLSEMLIGADGMVERCLQTFVKVISAVVIATRSQGDVPTILATLALIGCDGSPWRWLKRQFCGIFKIPYVEKQ",
+                  "midline": "GLTD +Q LGN+FG GFT EI+NY  Q+ +M++G+D +VER +   +K++SA+VI  R++ D+ T+ ATL+L+GC GSPWRWLK + C I  I   +KQ"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|420177",
+                  "accession": "420177",
+                  "title": "Q66474.3 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Echovirus 6 strain Charles]"
+                }
+              ],
+              "len": 2191,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.865,
+                  "score": 307,
+                  "evalue": 9.02761e-33,
+                  "identity": 51,
+                  "positive": 78,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1008,
+                  "hit_to": 1106,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GVKDYVEQLGNAFGSGFTNQICEQVNLLKESLIGQDSILEKSLKALVKIISALVIVVRNHDDLITVTATLALIGCTSSPWRWLKQKVSQYYGISMAERQ",
+                  "midline": "G+ D V+ LGNAFG+GFT++I   V  +++ ++G D+++E+ +  ++K++SALVIVVRN  D+ITVTATL+L+GC+ SPWRWLK K+    GI+MA++Q"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|319495",
+                  "accession": "319495",
+                  "title": "Q9YLG5.3 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Coxsackievirus B2 (strain Ohio-1)]"
+                }
+              ],
+              "len": 2187,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.094,
+                  "score": 305,
+                  "evalue": 1.38393e-32,
+                  "identity": 52,
+                  "positive": 77,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1004,
+                  "hit_to": 1102,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GVKDYVEQLGNAFGSGFTNQICEQVNLLKESLVGQDSILEKSLKALVRIISALVIVVRNHDDIITVTATLALIGCTSSPWRWLKQKVSQYYGIPMAERQ",
+                  "midline": "G+ D V+ LGNAFG+GFT++I   V  +++ +VG D+++E+ +  +++++SALVIVVRN  DIITVTATL+L+GC+ SPWRWLK K+    GI MA++Q"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|270070",
+                  "accession": "270070",
+                  "title": "O91734.4 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Echovirus 1 (strain Farouk / ATCC VR-1038)]"
+                }
+              ],
+              "len": 2184,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.094,
+                  "score": 305,
+                  "evalue": 1.43871e-32,
+                  "identity": 52,
+                  "positive": 77,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1001,
+                  "hit_to": 1099,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GVKDYVEQLGNAFGSGFTNQICEQVNLLKESLVGQDSILEKSLKALVKIISALVIVVRNHDDLITVTATLALIGCTSSPWRWLKQKVSQYYGIPMAERQ",
+                  "midline": "G+ D V+ LGNAFG+GFT++I   V  +++ +VG D+++E+ +  ++K++SALVIVVRN  D+ITVTATL+L+GC+ SPWRWLK K+    GI MA++Q"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|123926",
+                  "accession": "123926",
+                  "title": "Q66282.3 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Coxsackievirus B3 (strain Woodruff)]"
+                }
+              ],
+              "len": 2185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.094,
+                  "score": 305,
+                  "evalue": 1.43872e-32,
+                  "identity": 52,
+                  "positive": 77,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1002,
+                  "hit_to": 1100,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GVKDYVEQLGNAFGSGFTNQICEQVNLLKESLVGQDSILEKSLKALVKIISALVIVVRNHDDLITVTATLALIGCTSSPWRWLKQKVSQYYGIPMAERQ",
+                  "midline": "G+ D V+ LGNAFG+GFT++I   V  +++ +VG D+++E+ +  ++K++SALVIVVRN  D+ITVTATL+L+GC+ SPWRWLK K+    GI MA++Q"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|14875",
+                  "accession": "14875",
+                  "title": "P03313.4 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Coxsackievirus B3 (strain Nancy)]"
+                }
+              ],
+              "len": 2185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.094,
+                  "score": 305,
+                  "evalue": 1.43872e-32,
+                  "identity": 52,
+                  "positive": 77,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1002,
+                  "hit_to": 1100,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GVKDYVEQLGNAFGSGFTNQICEQVNLLKESLVGQDSILEKSLKALVKIISALVIVVRNHDDLITVTATLALIGCTSSPWRWLKQKVSQYYGIPMAERQ",
+                  "midline": "G+ D V+ LGNAFG+GFT++I   V  +++ +VG D+++E+ +  ++K++SALVIVVRN  D+ITVTATL+L+GC+ SPWRWLK K+    GI MA++Q"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|461030",
+                  "accession": "461030",
+                  "title": "P29813.4 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Echovirus 11 (strain Gregory)]"
+                }
+              ],
+              "len": 2195,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.094,
+                  "score": 305,
+                  "evalue": 1.43885e-32,
+                  "identity": 52,
+                  "positive": 77,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1012,
+                  "hit_to": 1110,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GVKDYVEQLGNAFGSGFTNQICEQVNLLKESLVGQDSILEKSLKALVKIISALVIVVRNHDDLITVTATLALIGCTSSPWRWLKQKVSQYYGIPMAERQ",
+                  "midline": "G+ D V+ LGNAFG+GFT++I   V  +++ +VG D+++E+ +  ++K++SALVIVVRN  D+ITVTATL+L+GC+ SPWRWLK K+    GI MA++Q"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|71188",
+                  "accession": "71188",
+                  "title": "Q9YLJ1.3 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Echovirus 5 (strain Noyce)]"
+                }
+              ],
+              "len": 2196,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.094,
+                  "score": 305,
+                  "evalue": 1.43886e-32,
+                  "identity": 52,
+                  "positive": 77,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1013,
+                  "hit_to": 1111,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GVKDYVEQLGNAFGSGFTNQICEQVNLLKESLVGQDSILEKSLKALVKIISALVIVVRNHDDLITVTATLALIGCTSSPWRWLKQKVSQYYGIPMAERQ",
+                  "midline": "G+ D V+ LGNAFG+GFT++I   V  +++ +VG D+++E+ +  ++K++SALVIVVRN  D+ITVTATL+L+GC+ SPWRWLK K+    GI MA++Q"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|146452",
+                  "accession": "146452",
+                  "title": "Q66577.3 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Echovirus 9 strain Barty]"
+                }
+              ],
+              "len": 2203,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.094,
+                  "score": 305,
+                  "evalue": 1.46717e-32,
+                  "identity": 52,
+                  "positive": 78,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1020,
+                  "hit_to": 1118,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GVKDYVEQLGNAFGSGFTNQICEQVNLLKESLIGQDSVLEKSLKALVKIISALVIVVRNQDDLITVTATLALIGCTTSPWRWLKQKVSQYYGIPMAERQ",
+                  "midline": "G+ D V+ LGNAFG+GFT++I   V  +++ ++G D+V+E+ +  ++K++SALVIVVRN+ D+ITVTATL+L+GC+ SPWRWLK K+    GI MA++Q"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|27438",
+                  "accession": "27438",
+                  "title": "Q9QF31.3 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Coxsackievirus A16 (strain Tainan/5079/98)]"
+                }
+              ],
+              "len": 2193,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.709,
+                  "score": 304,
+                  "evalue": 1.81645e-32,
+                  "identity": 52,
+                  "positive": 79,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1013,
+                  "hit_to": 1111,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GVSDYIKGLGDAFGVGFTDAVSREVEALKNHLIGSEGAVEKILKNLVKLISALVIVVRSDYDMVTLTATLALIGCHGSPWAWIKAKTASILGIPIVQKQ",
+                  "midline": "G++D ++ LG+AFG GFTD +S  V  +++ ++GS+  VE+++ N++KL+SALVIVVR+  D++T+TATL+L+GC GSPW W+K+K  SILGI + QKQ"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|439669",
+                  "accession": "439669",
+                  "title": "P08292.4 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Coxsackievirus B4 (strain JVB / Benschoten / New York/51)]"
+                }
+              ],
+              "len": 2183,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.709,
+                  "score": 304,
+                  "evalue": 1.86998e-32,
+                  "identity": 52,
+                  "positive": 77,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1000,
+                  "hit_to": 1098,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GVKDYVEQLGNAFGSGFTNQICEQVNLLKESLVGQDSILEKSLKALVKIISALVIVVRNHDDLITVTATLALIGCTSSPWRWLKHKVSQYYGIPMAERQ",
+                  "midline": "G+ D V+ LGNAFG+GFT++I   V  +++ +VG D+++E+ +  ++K++SALVIVVRN  D+ITVTATL+L+GC+ SPWRWLK K+    GI MA++Q"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|151472",
+                  "accession": "151472",
+                  "title": "Q66575.4 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Echovirus 12 (strain Travis)]"
+                }
+              ],
+              "len": 2193,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.324,
+                  "score": 303,
+                  "evalue": 2.43076e-32,
+                  "identity": 52,
+                  "positive": 77,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1010,
+                  "hit_to": 1108,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GVKDYVEQLGNAFGSGFTNQICEQVNLLKESLVGHDSILEKSLKALVKIISALVIVVRNHDDLITVTATLALIGCTSSPWRWLKHKVSQYYGIPMAERQ",
+                  "midline": "G+ D V+ LGNAFG+GFT++I   V  +++ +VG D+++E+ +  ++K++SALVIVVRN  D+ITVTATL+L+GC+ SPWRWLK K+    GI MA++Q"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|306660",
+                  "accession": "306660",
+                  "title": "Q9QL88.4 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Coxsackievirus B6 (strain Schmitt)]"
+                }
+              ],
+              "len": 2184,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.324,
+                  "score": 303,
+                  "evalue": 2.60153e-32,
+                  "identity": 52,
+                  "positive": 77,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1001,
+                  "hit_to": 1099,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GVRDYVEQLGNAFGSGFTNQICEQVNLLKESLVGQDSILEKSLKALVKIISALVIVVRNHDDLITVTATLALIGCTTSPWRWLKQKVSQYYGIPMAERQ",
+                  "midline": "G+ D V+ LGNAFG+GFT++I   V  +++ +VG D+++E+ +  ++K++SALVIVVRN  D+ITVTATL+L+GC+ SPWRWLK K+    GI MA++Q"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|30091",
+                  "accession": "30091",
+                  "title": "P08291.3 RecName: Full=Genome polyprotein; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=P2; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Coxsackievirus B1 (strain Japan)]"
+                }
+              ],
+              "len": 2182,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.324,
+                  "score": 303,
+                  "evalue": 3.00941e-32,
+                  "identity": 51,
+                  "positive": 77,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 999,
+                  "hit_to": 1097,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GVKDYVEQLGNAFGSGFTNQVCEQVNLLKESLVGQDSILEKSLKALVKIVSALVIVVRNHDDLITVTATLALIGCTSSPWRWLKQKVSQYYGIPMAERQ",
+                  "midline": "G+ D V+ LGNAFG+GFT+++   V  +++ +VG D+++E+ +  ++K++SALVIVVRN  D+ITVTATL+L+GC+ SPWRWLK K+    GI MA++Q"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|394733",
+                  "accession": "394733",
+                  "title": "Q03053.3 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Coxsackievirus B5 (strain Peterborough / 1954/UK/85)]"
+                }
+              ],
+              "len": 2185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.939,
+                  "score": 302,
+                  "evalue": 3.58432e-32,
+                  "identity": 50,
+                  "positive": 77,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1002,
+                  "hit_to": 1100,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GVKDYVEQLGNAFGSGFTNQICEQVNLLKESLVGQDSILEKSLKALVKIISALVIVVRNHDDLVTITATLALIGCTSSPWRWLKQKVSQYYGIPMAERQ",
+                  "midline": "G+ D V+ LGNAFG+GFT++I   V  +++ +VG D+++E+ +  ++K++SALVIVVRN  D++T+TATL+L+GC+ SPWRWLK K+    GI MA++Q"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|83427",
+                  "accession": "83427",
+                  "title": "Q9WN78.3 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Echovirus 30 (strain Bastianni)]"
+                }
+              ],
+              "len": 2194,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.553,
+                  "score": 301,
+                  "evalue": 4.39549e-32,
+                  "identity": 51,
+                  "positive": 77,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1011,
+                  "hit_to": 1109,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GVKDYVEQLGNAFGSGFTNQICEQVNLLKESLIGQDSILEKSLKALVKIISALVIVVRNHDDLITVTATLALIGCTTSPWRWLKHKVSQYYGIPMAERQ",
+                  "midline": "G+ D V+ LGNAFG+GFT++I   V  +++ ++G D+++E+ +  ++K++SALVIVVRN  D+ITVTATL+L+GC+ SPWRWLK K+    GI MA++Q"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|204825",
+                  "accession": "204825",
+                  "title": "P16604.3 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Swine vesicular disease virus (STRAIN H/3 '76)]"
+                }
+              ],
+              "len": 2185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.168,
+                  "score": 300,
+                  "evalue": 7.42536e-32,
+                  "identity": 51,
+                  "positive": 77,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1002,
+                  "hit_to": 1100,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GVRDYVEQLGNAFGSGFTNQICEQVTLLKESLIGQDSILEKSLKALVKIVSALVIVVRNHDDLITVTATLALIGCTTSPWRWLKQKVSQYYGIPMAERQ",
+                  "midline": "G+ D V+ LGNAFG+GFT++I   V  +++ ++G D+++E+ +  ++K++SALVIVVRN  D+ITVTATL+L+GC+ SPWRWLK K+    GI MA++Q"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|300352",
+                  "accession": "300352",
+                  "title": "P21404.4 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Human coxsackievirus A9 (strain Griggs)]"
+                }
+              ],
+              "len": 2201,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.783,
+                  "score": 299,
+                  "evalue": 8.59097e-32,
+                  "identity": 51,
+                  "positive": 76,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1018,
+                  "hit_to": 1116,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GVKDYVEQLGNAFGSGFTNQICEQVNLLKESLVGQDSILEKSLKALVKIISALVIVVRNHDDLITVTAILALIGCTSSPWRWLKQKVSQYYGIPMAERQ",
+                  "midline": "G+ D V+ LGNAFG+GFT++I   V  +++ +VG D+++E+ +  ++K++SALVIVVRN  D+ITVTA L+L+GC+ SPWRWLK K+    GI MA++Q"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|292804",
+                  "accession": "292804",
+                  "title": "P32537.4 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Human enterovirus 70 (strain J670/71)]"
+                }
+              ],
+              "len": 2194,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.783,
+                  "score": 299,
+                  "evalue": 8.9307e-32,
+                  "identity": 51,
+                  "positive": 79,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1015,
+                  "hit_to": 1113,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GITDYIQNLGSAFGTGFTETISEKAKEIQNMLVGEDSLLEKLLKALIKIVSAMVIVIRNSEDLVTVTATLALLGCNDSPWAFLKQKVCSYLGIPYTIRQ",
+                  "midline": "G+TD +Q+LG+AFG GFT+ IS    ++++M+VG D+++E+++  +IK++SA+VIV+RN  D++TVTATL+LLGC+ SPW +LK K+CS LGI    +Q"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|356040",
+                  "accession": "356040",
+                  "title": "Q66849.3 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Echovirus 9 strain Hill]"
+                }
+              ],
+              "len": 2193,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.783,
+                  "score": 299,
+                  "evalue": 1.06365e-31,
+                  "identity": 51,
+                  "positive": 76,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1010,
+                  "hit_to": 1108,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GVKDYVEQLGNAFGSGFTNQICEQVNLLKESLVGQDSILEKSLKALVKIISALVIVVRNHDDLITVTAVLALIGCTTSPWRWLKQKVSQYYGIPMAERQ",
+                  "midline": "G+ D V+ LGNAFG+GFT++I   V  +++ +VG D+++E+ +  ++K++SALVIVVRN  D+ITVTA L+L+GC+ SPWRWLK K+    GI MA++Q"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|368142",
+                  "accession": "368142",
+                  "title": "Q86887.3 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Coxsackievirus B4 (strain E2)]"
+                }
+              ],
+              "len": 2183,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.398,
+                  "score": 298,
+                  "evalue": 1.19501e-31,
+                  "identity": 50,
+                  "positive": 77,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1000,
+                  "hit_to": 1098,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GVKDYVEELGNSFGSGFTNQICEQVNLLKESLVGQDSILEKSLKALVKIISALVIVVRNHDDLVTVTATLALIGCTTSPWRWLKRKVSQYYGIPMAERQ",
+                  "midline": "G+ D V+ LGN+FG+GFT++I   V  +++ +VG D+++E+ +  ++K++SALVIVVRN  D++TVTATL+L+GC+ SPWRWLK K+    GI MA++Q"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|217746",
+                  "accession": "217746",
+                  "title": "P13900.3 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Swine vesicular disease virus (STRAIN UKG/27/72)]"
+                }
+              ],
+              "len": 2185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 118.242,
+                  "score": 295,
+                  "evalue": 3.21798e-31,
+                  "identity": 50,
+                  "positive": 76,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1002,
+                  "hit_to": 1100,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GVRDYVEQLGNCFGSGFTNQICEQVTLLKESLIGQDSILEKSLKALVKIVSALVIVVRNHDDLITVTATLALIGCTTSPWRWLKQKVSQYYGIPMAERQ",
+                  "midline": "G+ D V+ LGN FG+GFT++I   V  +++ ++G D+++E+ +  ++K++SALVIVVRN  D+ITVTATL+L+GC+ SPWRWLK K+    GI MA++Q"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|165646",
+                  "accession": "165646",
+                  "title": "P03300.3 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Human poliovirus 1 Mahoney]"
+                }
+              ],
+              "len": 2209,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 104.76,
+                  "score": 260,
+                  "evalue": 1.75933e-26,
+                  "identity": 46,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1031,
+                  "hit_to": 1127,
+                  "align_len": 99,
+                  "gaps": 2,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GITNYIESLGAAFGSGFTQQISDKITELTNMV--TSTITEKLLKNLIKIISSLVIITRNYEDTTTVLATLALLGCDASPWQWLRKKACDVLEIPYVIKQ",
+                  "midline": "G+T+ ++SLG AFG+GFT +IS+ + ++ +M+  + T+ E+++ N+IK++S+LVI+ RN  D  TV ATL+LLGC  SPW+WL+ K C +L I    KQ"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|235228",
+                  "accession": "235228",
+                  "title": "P23069.3 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Poliovirus type 2 strain W-2]"
+                }
+              ],
+              "len": 2205,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 104.375,
+                  "score": 259,
+                  "evalue": 2.67168e-26,
+                  "identity": 46,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1029,
+                  "hit_to": 1125,
+                  "align_len": 99,
+                  "gaps": 2,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GVSNYIESLGAAFGSGFTQQIGNKISELTSMV--TSTITEKLLKNLIKIISSLVIITRNYEDTTTVLATLALLGCDASPWQWLKKKACDILEIPYIMRQ",
+                  "midline": "G+++ ++SLG AFG+GFT +I N + ++  M+  + T+ E+++ N+IK++S+LVI+ RN  D  TV ATL+LLGC  SPW+WLK K C IL I    +Q"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|437394",
+                  "accession": "437394",
+                  "title": "P06210.3 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Poliovirus type 2 strain Lansing]"
+                }
+              ],
+              "len": 2207,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 104.375,
+                  "score": 259,
+                  "evalue": 2.67173e-26,
+                  "identity": 46,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1029,
+                  "hit_to": 1125,
+                  "align_len": 99,
+                  "gaps": 2,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GVSNYIESLGAAFGSGFTQQIGNKISELTSMV--TSTITEKLLKNLIKIISSLVIITRNYEDTTTVLATLALLGCDASPWQWLKKKACDILEIPYIMRQ",
+                  "midline": "G+++ ++SLG AFG+GFT +I N + ++  M+  + T+ E+++ N+IK++S+LVI+ RN  D  TV ATL+LLGC  SPW+WLK K C IL I    +Q"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|19435",
+                  "accession": "19435",
+                  "title": "P22055.3 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Human coxsackievirus A21 Coe]"
+                }
+              ],
+              "len": 2206,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 103.99,
+                  "score": 258,
+                  "evalue": 3.50708e-26,
+                  "identity": 49,
+                  "positive": 69,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1029,
+                  "hit_to": 1125,
+                  "align_len": 99,
+                  "gaps": 2,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GITSYIESLGTAFGAGFTHTISEKVTELTTMV--TSTITEKLLKNLVKIVSALVIVVRNYEDTTTILATLALLGCDISPWQWLKKKACDLLEIPHVMRQ",
+                  "midline": "G+T  ++SLG AFGAGFT  IS  V ++  M+  + T+ E+++ N++K++SALVIVVRN  D  T+ ATL+LLGC  SPW+WLK K C +L I    +Q"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|80858",
+                  "accession": "80858",
+                  "title": "P03301.3 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Human poliovirus 1 strain Sabin]"
+                }
+              ],
+              "len": 2209,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 103.99,
+                  "score": 258,
+                  "evalue": 3.576e-26,
+                  "identity": 45,
+                  "positive": 71,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1031,
+                  "hit_to": 1127,
+                  "align_len": 99,
+                  "gaps": 2,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GITNYIESLGAAFGSGFTQQIGDKITELTNMV--TSTITEKLLKNLIKIISSLVIITRNYEDTTTVLATLALLGCDASPWQWLRKKACDVLEIPYVTKQ",
+                  "midline": "G+T+ ++SLG AFG+GFT +I + + ++ +M+  + T+ E+++ N+IK++S+LVI+ RN  D  TV ATL+LLGC  SPW+WL+ K C +L I    KQ"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|369199",
+                  "accession": "369199",
+                  "title": "Q82081.4 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [rhinovirus B3]"
+                }
+              ],
+              "len": 2178,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 101.293,
+                  "score": 251,
+                  "evalue": 3.30898e-25,
+                  "identity": 48,
+                  "positive": 68,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1002,
+                  "hit_to": 1098,
+                  "align_len": 99,
+                  "gaps": 2,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GLGDYITSLGRAFGTGFTDQISAKVCELQD--VAKDFLTTKVLSKVVKMISALVIICRNHDDLVTVTATLALLGCDGSPWRFLKMYISKHFQVPYIERQ",
+                  "midline": "GL D + SLG AFG GFTD+IS  V +++D  V  D +  +V+  ++K++SALVI+ RN  D++TVTATL+LLGC GSPWR+LK  I     +   ++Q"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|172213",
+                  "accession": "172213",
+                  "title": "P03303.3 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [rhinovirus B14]"
+                }
+              ],
+              "len": 2179,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 99.3673,
+                  "score": 246,
+                  "evalue": 1.27748e-24,
+                  "identity": 46,
+                  "positive": 68,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1003,
+                  "hit_to": 1099,
+                  "align_len": 99,
+                  "gaps": 2,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GLSDYITGLGRAFGVGFTDQISTKVTELQE--VAKDFLTTKVLSKVVKMVSALVIICRNHDDLVTVTATLALLGCDGSPWRFLKMYISKHFQVPYIERQ",
+                  "midline": "GL+D +  LG AFG GFTD+IS  V ++++  V  D +  +V+  ++K++SALVI+ RN  D++TVTATL+LLGC GSPWR+LK  I     +   ++Q"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|458192",
+                  "accession": "458192",
+                  "title": "P06209.3 RecName: Full=Genome polyprotein; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Poliovirus type 3 (strain 23127)]"
+                }
+              ],
+              "len": 2206,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 99.3673,
+                  "score": 246,
+                  "evalue": 1.31561e-24,
+                  "identity": 46,
+                  "positive": 69,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1028,
+                  "hit_to": 1124,
+                  "align_len": 99,
+                  "gaps": 2,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GISSYVESLGAAFGSGFTQQIGDKIIELTGMV--TSTITEKLLKNLIKIVSSLVIITRNYDDTTTVLATLALLGCDVSPWQWLKKKACDILEIPYVMRQ",
+                  "midline": "G++  V+SLG AFG+GFT +I + + ++  M+  + T+ E+++ N+IK++S+LVI+ RN  D  TV ATL+LLGC  SPW+WLK K C IL I    +Q"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|200246",
+                  "accession": "200246",
+                  "title": "P03302.3 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Poliovirus type 3 (strains P3/LEON/37 AND P3/LEON 12A[1]B)]"
+                }
+              ],
+              "len": 2206,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 98.5969,
+                  "score": 244,
+                  "evalue": 2.15966e-24,
+                  "identity": 44,
+                  "positive": 69,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1028,
+                  "hit_to": 1124,
+                  "align_len": 99,
+                  "gaps": 2,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GISNYIESLGAAFGSGFTQQIGDKISELTSMV--TSTITEKLLKNLIKIISSLVIITRNYEDTTTVLATLALLGCDVSPWQWLKKKACDTLEIPYVIRQ",
+                  "midline": "G+++ ++SLG AFG+GFT +I + + ++  M+  + T+ E+++ N+IK++S+LVI+ RN  D  TV ATL+LLGC  SPW+WLK K C  L I    +Q"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|162517",
+                  "accession": "162517",
+                  "title": "P36290.3 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Human coxsackievirus A24 EH24/70]"
+                }
+              ],
+              "len": 2214,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 95.9005,
+                  "score": 237,
+                  "evalue": 2.09965e-23,
+                  "identity": 43,
+                  "positive": 66,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1036,
+                  "hit_to": 1132,
+                  "align_len": 99,
+                  "gaps": 2,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GITSYIESLGAAFGSGFTNQIGEKVSELTSMVTSS--ITEKLLKTLIKIISTLVIISRNYEDTTTVLATLALLGCDYSPWQWIKKKACDVLELPYVMRQ",
+                  "midline": "G+T  ++SLG AFG+GFT++I   V ++  M+  S  + E+++  +IK++S LVI+ RN  D  TV ATL+LLGC  SPW+W+K K C +L +    +Q"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|245560",
+                  "accession": "245560",
+                  "title": "P07210.3 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Human rhinovirus 89 ATCC VR-1199]"
+                }
+              ],
+              "len": 2164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 92.0485,
+                  "score": 227,
+                  "evalue": 5.29107e-22,
+                  "identity": 44,
+                  "positive": 66,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1009,
+                  "hit_to": 1103,
+                  "align_len": 99,
+                  "gaps": 4,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GLSDYVEHLGQVFGVGFVDSIKQQV----NFINPTSKIGSKVIKWLLRIVSAMIIMVRNSSDPQTVIATLTLLGCSGSPWRFLKEKLCAWLQLSYVHKQ",
+                  "midline": "GL+D V+ LG  FG GF D I   V    + +  +  +  +V+  +++++SA++I+VRN SD  TV ATL+LLGCSGSPWR+LK K+C+ L ++   KQ"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|475257",
+                  "accession": "475257",
+                  "title": "P04936.3 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [rhinovirus A2]"
+                }
+              ],
+              "len": 2150,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.1965,
+                  "score": 217,
+                  "evalue": 1.03645e-20,
+                  "identity": 40,
+                  "positive": 66,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 993,
+                  "hit_to": 1087,
+                  "align_len": 99,
+                  "gaps": 4,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GVTDYIHMLGEAFGNGFVDSVKEHIHAINP--VGN--ISKKIIKWMLRIISAMVIIIRNSSDPQTILATLTLIGCSGSPWRFLKEKFCKWTQLNYIHKE",
+                  "midline": "G+TD +  LG AFG GF D +  ++  +    VG+  + ++++  +++++SA+VI++RN SD  T+ ATL+L+GCSGSPWR+LK K C    +N   K+"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|398429",
+                  "accession": "398429",
+                  "title": "P12916.3 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [rhinovirus A1B]"
+                }
+              ],
+              "len": 2157,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 86.6557,
+                  "score": 213,
+                  "evalue": 3.74116e-20,
+                  "identity": 37,
+                  "positive": 64,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1000,
+                  "hit_to": 1094,
+                  "align_len": 99,
+                  "gaps": 4,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GITDYIHMLGEAFGNGFVDSVKEQINAINPI----NSISKKVIKWLLRIISAMVIIIRNSSDPQTIIATLTLIGCNGSPWRFLKEKFCKWTQLTYIHKE",
+                  "midline": "G+TD +  LG AFG GF D +   +  +  +    +++ ++V+  +++++SA+VI++RN SD  T+ ATL+L+GC+GSPWR+LK K C    +    K+"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|279383",
+                  "accession": "279383",
+                  "title": "P23008.3 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [Human rhinovirus 1A]"
+                }
+              ],
+              "len": 2157,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 81.2629,
+                  "score": 199,
+                  "evalue": 3.44373e-18,
+                  "identity": 38,
+                  "positive": 62,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 1000,
+                  "hit_to": 1094,
+                  "align_len": 99,
+                  "gaps": 4,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GITDYIHMLGEAFGNGFVDSVKEQINAINPINNIS----KKVIKWLLRIISAMVIIIRNSSDPQTIIATLTLIGCNGSPWRFLKEKFCKWTQLTYIHKE",
+                  "midline": "G+TD +  LG AFG GF D +   +  +  +   S    ++V+  +++++SA+VI++RN SD  T+ ATL+L+GC+GSPWR+LK K C    +    K+"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|74949",
+                  "accession": "74949",
+                  "title": "Q82122.4 RecName: Full=Genome polyprotein; Contains: RecName: Full=P1; Contains: RecName: Full=Capsid protein VP0; AltName: Full=VP4-VP2; Contains: RecName: Full=Capsid protein VP4; AltName: Full=P1A; AltName: Full=Virion protein 4; Contains: RecName: Full=Capsid protein VP2; AltName: Full=P1B; AltName: Full=Virion protein 2; Contains: RecName: Full=Capsid protein VP3; AltName: Full=P1C; AltName: Full=Virion protein 3; Contains: RecName: Full=Capsid protein VP1; AltName: Full=P1D; AltName: Full=Virion protein 1; Contains: RecName: Full=P2; Contains: RecName: Full=Protease 2A; Short=P2A; AltName: Full=Picornain 2A; AltName: Full=Protein 2A; Contains: RecName: Full=Protein 2B; Short=P2B; Contains: RecName: Full=Protein 2C; Short=P2C; Contains: RecName: Full=P3; Contains: RecName: Full=Protein 3AB; Contains: RecName: Full=Protein 3A; Short=P3A; Contains: RecName: Full=Viral protein genome-linked; Short=VPg; AltName: Full=Protein 3B; Short=P3B; Contains: RecName: Full=Protein 3CD; Contains: RecName: Full=Protease 3C; AltName: Full=Picornain 3C; Short=P3C; Contains: RecName: Full=RNA-directed RNA polymerase; Short=RdRp; AltName: Full=3D polymerase; Short=3Dpol; AltName: Full=Protein 3D; Short=3D [rhinovirus A16]"
+                }
+              ],
+              "len": 2153,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 79.7221,
+                  "score": 195,
+                  "evalue": 1.01374e-17,
+                  "identity": 37,
+                  "positive": 64,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 996,
+                  "hit_to": 1090,
+                  "align_len": 99,
+                  "gaps": 4,
+                  "qseq": "GLTDNVQSLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGINMAQKQ",
+                  "hseq": "GITDYIHMLGEAFGSGFVDSVKDQI----NSINPINNISSKMVKWMLRIISAMVIIIRNSSDPQTIIATLTLIGCNGSPWRFLKEKFCKWTQLTYIHKE",
+                  "midline": "G+TD +  LG AFG+GF D + + +    + +   + +  ++V  +++++SA+VI++RN SD  T+ ATL+L+GC+GSPWR+LK K C    +    K+"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|57250",
+                  "accession": "57250",
+                  "title": "A7ZX03.1 RecName: Full=S-formylglutathione hydrolase FrmB; Short=FGH [Escherichia coli HS]"
+                }
+              ],
+              "len": 277,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 31.187,
+                  "score": 69,
+                  "evalue": 1.1613,
+                  "identity": 16,
+                  "positive": 31,
+                  "query_from": 38,
+                  "query_to": 95,
+                  "hit_from": 136,
+                  "hit_to": 191,
+                  "align_len": 58,
+                  "gaps": 2,
+                  "qseq": "TVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGIN",
+                  "hseq": "TTRKSISGHSMGGLGALVLALRNPDEYVSVSAFSPIVSPSQAPWG--QQAFAAYLGEN",
+                  "midline": "T  + + G+ +  L ALV+ +RN  + ++V+A   ++  S +PW   +    + LG N"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|289990",
+                  "accession": "289990",
+                  "title": "Q8X5J5.1 RecName: Full=S-formylglutathione hydrolase FrmB; Short=FGH [Escherichia coli O157:H7]"
+                }
+              ],
+              "len": 277,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.6462,
+                  "score": 65,
+                  "evalue": 3.76184,
+                  "identity": 16,
+                  "positive": 30,
+                  "query_from": 38,
+                  "query_to": 95,
+                  "hit_from": 136,
+                  "hit_to": 191,
+                  "align_len": 58,
+                  "gaps": 2,
+                  "qseq": "TVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGIN",
+                  "hseq": "TAKKSISGHSMGGLGALVLALRNPDEYVSVSAFSPIVSPSQVPWG--QQAFAAYLGEN",
+                  "midline": "T  + + G+ +  L ALV+ +RN  + ++V+A   ++  S  PW   +    + LG N"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|336278",
+                  "accession": "336278",
+                  "title": "B1LIP0.1 RecName: Full=S-formylglutathione hydrolase FrmB; Short=FGH [Escherichia coli SMS-3-5]"
+                }
+              ],
+              "len": 277,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.6462,
+                  "score": 65,
+                  "evalue": 3.87302,
+                  "identity": 16,
+                  "positive": 30,
+                  "query_from": 38,
+                  "query_to": 95,
+                  "hit_from": 136,
+                  "hit_to": 191,
+                  "align_len": 58,
+                  "gaps": 2,
+                  "qseq": "TVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGIN",
+                  "hseq": "TTRKSISGHSMGGLGALVLALRNPDEYVSVSAFSPIVSPSQVPWG--QQAFAAYLGEN",
+                  "midline": "T  + + G+ +  L ALV+ +RN  + ++V+A   ++  S  PW   +    + LG N"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|275063",
+                  "accession": "275063",
+                  "title": "A1A834.1 RecName: Full=S-formylglutathione hydrolase FrmB; Short=FGH [Escherichia coli APEC O1] Q1RFI8.1 RecName: Full=S-formylglutathione hydrolase FrmB; Short=FGH [Escherichia coli UTI89]"
+                }
+              ],
+              "len": 277,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 4.22664,
+                  "identity": 16,
+                  "positive": 30,
+                  "query_from": 38,
+                  "query_to": 95,
+                  "hit_from": 136,
+                  "hit_to": 191,
+                  "align_len": 58,
+                  "gaps": 2,
+                  "qseq": "TVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGIN",
+                  "hseq": "TARKSISGHSMGGLGALVLALRNPDEYVSVSAFSPIVSPSQVPWG--QQAFAAYLGEN",
+                  "midline": "T  + + G+ +  L ALV+ +RN  + ++V+A   ++  S  PW   +    + LG N"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|445749",
+                  "accession": "445749",
+                  "title": "A7ZIA3.1 RecName: Full=S-formylglutathione hydrolase FrmB; Short=FGH [Escherichia coli O139:H28 str. E24377A] Q3Z551.1 RecName: Full=S-formylglutathione hydrolase FrmB; Short=FGH [Shigella sonnei Ss046]"
+                }
+              ],
+              "len": 277,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 4.39398,
+                  "identity": 16,
+                  "positive": 30,
+                  "query_from": 38,
+                  "query_to": 95,
+                  "hit_from": 136,
+                  "hit_to": 191,
+                  "align_len": 58,
+                  "gaps": 2,
+                  "qseq": "TVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPWRWLKSKICSILGIN",
+                  "hseq": "TTRKSISGHSMGGLGALVLALRNPDEYVSVSAFSPIVSPSQVPWG--QQAFAAYLGEN",
+                  "midline": "T  + + G+ +  L ALV+ +RN  + ++V+A   ++  S  PW   +    + LG N"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|432536",
+                  "accession": "432536",
+                  "title": "B1XEU8.1 RecName: Full=S-formylglutathione hydrolase FrmB; Short=FGH [Escherichia coli str. K-12 substr. DH10B] P51025.2 RecName: Full=S-formylglutathione hydrolase FrmB; Short=FGH [Escherichia coli K-12]"
+                }
+              ],
+              "len": 277,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 4.48012,
+                  "identity": 13,
+                  "positive": 25,
+                  "query_from": 38,
+                  "query_to": 81,
+                  "hit_from": 136,
+                  "hit_to": 179,
+                  "align_len": 44,
+                  "gaps": 0,
+                  "qseq": "TVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPW",
+                  "hseq": "TAKKSISGHSMGGLGALVLALRNPDEYVSVSAFSPIVSPSQVPW",
+                  "midline": "T  + + G+ +  L ALV+ +RN  + ++V+A   ++  S  PW"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|107237",
+                  "accession": "107237",
+                  "title": "B1J086.1 RecName: Full=S-formylglutathione hydrolase FrmB; Short=FGH [Escherichia coli ATCC 8739]"
+                }
+              ],
+              "len": 277,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 4.56795,
+                  "identity": 13,
+                  "positive": 25,
+                  "query_from": 38,
+                  "query_to": 81,
+                  "hit_from": 136,
+                  "hit_to": 179,
+                  "align_len": 44,
+                  "gaps": 0,
+                  "qseq": "TVVERVVGNIIKLLSALVIVVRNRSDIITVTATLSLLGCSGSPW",
+                  "hseq": "TAKKSISGHSMGGLGALVLALRNPDEYVSVSAFSPIVSPSQVPW",
+                  "midline": "T  + + G+ +  L ALV+ +RN  + ++V+A   ++  S  PW"
+                }
+              ]
+            },
+            {
+              "num": 51,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|370411",
+                  "accession": "370411",
+                  "title": "A0LRQ7.1 RecName: Full=Phosphoglucosamine mutase [Acidothermus cellulolyticus 11B]"
+                }
+              ],
+              "len": 461,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 6.24942,
+                  "identity": 18,
+                  "positive": 30,
+                  "query_from": 3,
+                  "query_to": 58,
+                  "hit_from": 137,
+                  "hit_to": 193,
+                  "align_len": 57,
+                  "gaps": 1,
+                  "qseq": "LTDNVQ-SLGNAFGAGFTDEISNYVGQVRDMMVGSDTVVERVVGNIIKLLSALVIVV",
+                  "hseq": "LPDDIEDAVAARLGEPWTRPVGRFVGRVRDYPEGLDQYVEHVLATSDQRLDGLRVVV",
+                  "midline": "L D+++ ++    G  +T  +  +VG+VRD   G D  VE V+    + L  L +VV"
+                }
+              ]
+            },
+            {
+              "num": 52,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|396704",
+                  "accession": "396704",
+                  "title": "E1B8W3.3 RecName: Full=Outer dynein arm-docking complex subunit 2; AltName: Full=Armadillo repeat-containing protein 4 [Bos taurus]"
+                }
+              ],
+              "len": 1044,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 8.09853,
+                  "identity": 9,
+                  "positive": 12,
+                  "query_from": 75,
+                  "query_to": 92,
+                  "hit_from": 237,
+                  "hit_to": 254,
+                  "align_len": 18,
+                  "gaps": 0,
+                  "qseq": "GCSGSPWRWLKSKICSIL",
+                  "hseq": "GCRAPPWRQIKGEICYVL",
+                  "midline": "GC   PWR +K +IC +L"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 70,
+            "eff_space": 4461812580,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

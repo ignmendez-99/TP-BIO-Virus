@@ -1,0 +1,68 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_29",
+          "query_title": "<unknown id> Protein #29 translated from XX894275 with ORF = -1",
+          "query_len": 65,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|302071",
+                  "accession": "302071",
+                  "title": "P21634.1 RecName: Full=Cobalamin biosynthesis protein CobD [Sinorhizobium sp.]"
+                }
+              ],
+              "len": 323,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 4.83251,
+                  "identity": 14,
+                  "positive": 19,
+                  "query_from": 25,
+                  "query_to": 57,
+                  "hit_from": 56,
+                  "hit_to": 88,
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "SRQWRATVTTRRLIGIGASCGSSAHRLFALPAP",
+                  "hseq": "ARKFRGVVAILLLLGISAWFGHLLHRLFAVLGP",
+                  "midline": "+R++R  V    L+GI A  G   HRLFA+  P"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 37,
+            "eff_space": 4608211972,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

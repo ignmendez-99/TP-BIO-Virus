@@ -1,0 +1,248 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_70",
+          "query_title": "<unknown id> Protein #70 translated from XX894275 with ORF = -3",
+          "query_len": 39,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|191672",
+                  "accession": "191672",
+                  "title": "P41471.1 RecName: Full=Uncharacterized 7.1 kDa protein in IAP2-VLF1 intergenic region [Autographa californica nucleopolyhedrovirus]"
+                }
+              ],
+              "len": 60,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.9802,
+                  "score": 110,
+                  "evalue": 1.87745e-08,
+                  "identity": 23,
+                  "positive": 23,
+                  "query_from": 1,
+                  "query_to": 27,
+                  "hit_from": 1,
+                  "hit_to": 27,
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "MTKKLLTYCKVKLVKGFSKKFARYLAR",
+                  "hseq": "MTKKLLTYCKVKLVKGFSKKFASLFCR",
+                  "midline": "MTKKLLTYCKVKLVKGFSKKFA    R"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|319122",
+                  "accession": "319122",
+                  "title": "Q5A287.2 RecName: Full=Transcription factor SFL1 [Candida albicans SC5314]"
+                }
+              ],
+              "len": 805,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 3.23938,
+                  "identity": 9,
+                  "positive": 17,
+                  "query_from": 19,
+                  "query_to": 38,
+                  "hit_from": 149,
+                  "hit_to": 168,
+                  "align_len": 20,
+                  "gaps": 0,
+                  "qseq": "KKFARYLARYLEHNHIASYI",
+                  "hseq": "EEFSRVLSQYFKHTNIASFI",
+                  "midline": "++F+R L++Y +H +IAS+I"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|50550",
+                  "accession": "50550",
+                  "title": "P45524.1 RecName: Full=Putative esterase YheT [Escherichia coli K-12]"
+                }
+              ],
+              "len": 340,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 4.05277,
+                  "identity": 11,
+                  "positive": 16,
+                  "query_from": 5,
+                  "query_to": 32,
+                  "hit_from": 183,
+                  "hit_to": 210,
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "LLTYCKVKLVKGFSKKFARYLARYLEHN",
+                  "hseq": "MLEACSYHMEKGFSRVYQRYLLNLLKAN",
+                  "midline": "+L  C   + KGFS+ + RYL   L+ N"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|180625",
+                  "accession": "180625",
+                  "title": "F1QJX5.2 RecName: Full=E3 ubiquitin-protein ligase ubr3; AltName: Full=E3 ubiquitin-protein transferase ubr3 [Danio rerio]"
+                }
+              ],
+              "len": 1863,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 4.20447,
+                  "identity": 11,
+                  "positive": 16,
+                  "query_from": 5,
+                  "query_to": 30,
+                  "hit_from": 548,
+                  "hit_to": 573,
+                  "align_len": 26,
+                  "gaps": 0,
+                  "qseq": "LLTYCKVKLVKGFSKKFARYLARYLE",
+                  "hseq": "LLTHCKVKETQDYTKTVVRYCLETLQ",
+                  "midline": "LLT+CKVK  + ++K   RY    L+"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|363766",
+                  "accession": "363766",
+                  "title": "Q5HP29.1 RecName: Full=Exodeoxyribonuclease 7 large subunit; AltName: Full=Exodeoxyribonuclease VII large subunit; Short=Exonuclease VII large subunit [Staphylococcus epidermidis RP62A]"
+                }
+              ],
+              "len": 445,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 7.52733,
+                  "identity": 12,
+                  "positive": 21,
+                  "query_from": 8,
+                  "query_to": 37,
+                  "hit_from": 264,
+                  "hit_to": 298,
+                  "align_len": 35,
+                  "gaps": 5,
+                  "qseq": "YCKVKLVKGFSKKFARYLARYLEH-----NHIASY",
+                  "hseq": "YELLQQIKQYEYTLSRYIKQYIEHQKKQLNHISSY",
+                  "midline": "Y  ++ +K +    +RY+ +Y+EH     NHI+SY"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|201490",
+                  "accession": "201490",
+                  "title": "Q8CP38.1 RecName: Full=Exodeoxyribonuclease 7 large subunit; AltName: Full=Exodeoxyribonuclease VII large subunit; Short=Exonuclease VII large subunit [Staphylococcus epidermidis ATCC 12228]"
+                }
+              ],
+              "len": 445,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 7.8333,
+                  "identity": 12,
+                  "positive": 21,
+                  "query_from": 8,
+                  "query_to": 37,
+                  "hit_from": 264,
+                  "hit_to": 298,
+                  "align_len": 35,
+                  "gaps": 5,
+                  "qseq": "YCKVKLVKGFSKKFARYLARYLEH-----NHIASY",
+                  "hseq": "YELLQQIKQYEYTLSRYIKQYIEHQKKQLNHISSY",
+                  "midline": "Y  ++ +K +    +RY+ +Y+EH     NHI+SY"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|448366",
+                  "accession": "448366",
+                  "title": "O66611.1 RecName: Full=Uncharacterized protein aq_250 [Aquifex aeolicus VF5]"
+                }
+              ],
+              "len": 145,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.7942,
+                  "score": 55,
+                  "evalue": 7.88736,
+                  "identity": 12,
+                  "positive": 17,
+                  "query_from": 1,
+                  "query_to": 27,
+                  "hit_from": 1,
+                  "hit_to": 27,
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "MTKKLLTYCKVKLVKGFSKKFARYLAR",
+                  "hseq": "MNKELLEKCKQKLLEEKAKILERYLEK",
+                  "midline": "M K+LL  CK KL++  +K   RYL +"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 13,
+            "eff_space": 4578799238,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

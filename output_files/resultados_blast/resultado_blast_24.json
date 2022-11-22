@@ -1,0 +1,128 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_24",
+          "query_title": "<unknown id> Protein #24 translated from XX894275 with ORF = 2",
+          "query_len": 73,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|103299",
+                  "accession": "103299",
+                  "title": "O42690.1 RecName: Full=Opaque-specific ABC transporter CDR3 [Candida albicans]"
+                }
+              ],
+              "len": 1501,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 5.74998,
+                  "identity": 12,
+                  "positive": 19,
+                  "query_from": 20,
+                  "query_to": 58,
+                  "hit_from": 742,
+                  "hit_to": 780,
+                  "align_len": 39,
+                  "gaps": 0,
+                  "qseq": "IKFDCGQFYAWSCFGYFEQFIVFFHGNIVFAVEHVKAAL",
+                  "hseq": "LAFDYSYSNVWRNFGVLMAFIIFLFGTTIFFVQTNKSSI",
+                  "midline": "+ FD      W  FG    FI+F  G  +F V+  K+++"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|401694",
+                  "accession": "401694",
+                  "title": "Q1IS40.1 RecName: Full=NADH-quinone oxidoreductase subunit H 2; AltName: Full=NADH dehydrogenase I subunit H 2; AltName: Full=NDH-1 subunit H 2 [Candidatus Koribacter versatilis Ellin345]"
+                }
+              ],
+              "len": 354,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 9.13947,
+                  "identity": 12,
+                  "positive": 16,
+                  "query_from": 19,
+                  "query_to": 43,
+                  "hit_from": 195,
+                  "hit_to": 218,
+                  "align_len": 25,
+                  "gaps": 1,
+                  "qseq": "IIKFDCGQFYAWSCFGYFEQFIVFF",
+                  "hseq": "IVRLQQGGFWNWNIFGGF-QFIAFF",
+                  "midline": "I++   G F+ W+ FG F QFI FF"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|149497",
+                  "accession": "149497",
+                  "title": "C6DJC3.1 RecName: Full=DNA ligase B; AltName: Full=Polydeoxyribonucleotide synthase [NAD(+)] B [Pectobacterium carotovorum subsp. carotovorum PC1]"
+                }
+              ],
+              "len": 562,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 9.60027,
+                  "identity": 11,
+                  "positive": 19,
+                  "query_from": 6,
+                  "query_to": 35,
+                  "hit_from": 381,
+                  "hit_to": 410,
+                  "align_len": 30,
+                  "gaps": 0,
+                  "qseq": "IENTLFGKTQILPIIKFDCGQFYAWSCFGY",
+                  "hseq": "LDNVVWRSTERLPIVSPSEHDFHAFSCFRY",
+                  "midline": "++N ++  T+ LPI+      F+A+SCF Y"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 45,
+            "eff_space": 4500611108,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

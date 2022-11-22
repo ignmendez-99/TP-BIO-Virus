@@ -1,0 +1,158 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_46",
+          "query_title": "<unknown id> Protein #46 translated from XX894275 with ORF = 3",
+          "query_len": 51,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|249183",
+                  "accession": "249183",
+                  "title": "Q58440.1 RecName: Full=Signal recognition particle 19 kDa protein; Short=SRP19 [Methanocaldococcus jannaschii DSM 2661]"
+                }
+              ],
+              "len": 87,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 3.72088,
+                  "identity": 12,
+                  "positive": 21,
+                  "query_from": 3,
+                  "query_to": 48,
+                  "hit_from": 34,
+                  "hit_to": 69,
+                  "align_len": 46,
+                  "gaps": 10,
+                  "qseq": "LSTLVSSMGLAPGRDFTFKIYTIASNGLLFKSKHFRLCSCIESDFK",
+                  "hseq": "IEKALKKLGLEP------KIYRDKR----YPRQHWEICGCVEVDYK",
+                  "midline": "+   +  +GL P      KIY        +  +H+ +C C+E D+K"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|265471",
+                  "accession": "265471",
+                  "title": "P40560.1 RecName: Full=Ankyrin repeat-containing protein YIL001W [Saccharomyces cerevisiae S288C]"
+                }
+              ],
+              "len": 513,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 6.53428,
+                  "identity": 17,
+                  "positive": 23,
+                  "query_from": 3,
+                  "query_to": 41,
+                  "hit_from": 106,
+                  "hit_to": 143,
+                  "align_len": 42,
+                  "gaps": 7,
+                  "qseq": "LSTLVSSMGLAPG---RDFTFKIYTIASNGLLFKSKHFRLCS",
+                  "hseq": "FATHISSMYNDEGFLKRDITFRV----SNGKLFTAHKFLLCA",
+                  "midline": " +T +SSM    G   RD TF++    SNG LF +  F LC+"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|328769",
+                  "accession": "328769",
+                  "title": "Q64455.2 RecName: Full=Receptor-type tyrosine-protein phosphatase eta; Short=Protein-tyrosine phosphatase eta; Short=R-PTP-eta; AltName: Full=HPTP beta-like tyrosine phosphatase; AltName: Full=Protein-tyrosine phosphatase receptor type J; Short=R-PTP-J; AltName: Full=Susceptibility to colon cancer 1; AltName: CD_antigen=CD148; Flags: Precursor [Mus musculus]"
+                }
+              ],
+              "len": 1238,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 8.41217,
+                  "identity": 10,
+                  "positive": 16,
+                  "query_from": 11,
+                  "query_to": 34,
+                  "hit_from": 93,
+                  "hit_to": 116,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "GLAPGRDFTFKIYTIASNGLLFKS",
+                  "hseq": "GLSPGTSYTFSIISVTTNETLNKT",
+                  "midline": "GL+PG  +TF I ++ +N  L K+"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|203727",
+                  "accession": "203727",
+                  "title": "Q9A1S2.1 RecName: Full=Pilin; AltName: Full=Lancefield T antigen; AltName: Full=Pilus backbone structural protein; Flags: Precursor [Streptococcus pyogenes serotype M1]"
+                }
+              ],
+              "len": 340,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 9.42702,
+                  "identity": 15,
+                  "positive": 18,
+                  "query_from": 6,
+                  "query_to": 33,
+                  "hit_from": 40,
+                  "hit_to": 70,
+                  "align_len": 31,
+                  "gaps": 3,
+                  "qseq": "LVSSMGLAPGRDFTFKI---YTIASNGLLFK",
+                  "hseq": "LVNSNALIPNTDFTFKIEPDTTVNEDGNKFK",
+                  "midline": "LV+S  L P  DFTFKI    T+  +G  FK"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 24,
+            "eff_space": 4612239684,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

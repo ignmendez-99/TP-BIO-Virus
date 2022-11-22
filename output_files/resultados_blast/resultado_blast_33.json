@@ -1,0 +1,188 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_33",
+          "query_title": "<unknown id> Protein #33 translated from XX894275 with ORF = 1",
+          "query_len": 59,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|313323",
+                  "accession": "313323",
+                  "title": "Q6NUW9.2 RecName: Full=FGGY carbohydrate kinase domain-containing protein [Danio rerio]"
+                }
+              ],
+              "len": 545,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.6462,
+                  "score": 65,
+                  "evalue": 0.819847,
+                  "identity": 14,
+                  "positive": 15,
+                  "query_from": 6,
+                  "query_to": 27,
+                  "hit_from": 518,
+                  "hit_to": 537,
+                  "align_len": 22,
+                  "gaps": 2,
+                  "qseq": "LQKLYRRVYSVFQKLYEIQHTK",
+                  "hseq": "LQSFYRRKYSVFLRLY--QHQK",
+                  "midline": "LQ  YRR YSVF +LY  QH K"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|438504",
+                  "accession": "438504",
+                  "title": "A2AF47.1 RecName: Full=Dedicator of cytokinesis protein 11; AltName: Full=Activated Cdc42-associated guanine nucleotide exchange factor; Short=ACG; AltName: Full=Zizimin-2 [Mus musculus]"
+                }
+              ],
+              "len": 2073,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 2.15224,
+                  "identity": 13,
+                  "positive": 30,
+                  "query_from": 6,
+                  "query_to": 57,
+                  "hit_from": 1735,
+                  "hit_to": 1784,
+                  "align_len": 52,
+                  "gaps": 2,
+                  "qseq": "LQKLYRRVYSVFQKLYEIQHTKLFRKIFDNFFCVTMHAKTYPKMEQPIRWLY",
+                  "hseq": "LTQVYRTLHGAYTKILEVMHTK--KRLLGTFFRVAFYGQSFFEEEDGKEYIY",
+                  "midline": "L ++YR ++  + K+ E+ HTK  +++   FF V  + +++ + E    ++Y"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|331670",
+                  "accession": "331670",
+                  "title": "Q5JSL3.2 RecName: Full=Dedicator of cytokinesis protein 11; AltName: Full=Activated Cdc42-associated guanine nucleotide exchange factor; Short=ACG; AltName: Full=Zizimin-2 [Homo sapiens]"
+                }
+              ],
+              "len": 2073,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 2.19539,
+                  "identity": 13,
+                  "positive": 30,
+                  "query_from": 6,
+                  "query_to": 57,
+                  "hit_from": 1735,
+                  "hit_to": 1784,
+                  "align_len": 52,
+                  "gaps": 2,
+                  "qseq": "LQKLYRRVYSVFQKLYEIQHTKLFRKIFDNFFCVTMHAKTYPKMEQPIRWLY",
+                  "hseq": "LTQVYRTLHGAYTKILEVMHTK--KRLLGTFFRVAFYGQSFFEEEDGKEYIY",
+                  "midline": "L ++YR ++  + K+ E+ HTK  +++   FF V  + +++ + E    ++Y"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|281177",
+                  "accession": "281177",
+                  "title": "Q2LCQ0.1 RecName: Full=Uncharacterized mitochondrial protein Mp05; AltName: Full=ORF388 [Dictyostelium citrinum]"
+                }
+              ],
+              "len": 388,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 2.38492,
+                  "identity": 20,
+                  "positive": 27,
+                  "query_from": 3,
+                  "query_to": 55,
+                  "hit_from": 256,
+                  "hit_to": 311,
+                  "align_len": 56,
+                  "gaps": 3,
+                  "qseq": "YLNLQKLYRRVYSVFQKLYEIQHTKLFRKIFDNF---FCVTMHAKTYPKMEQPIRW",
+                  "hseq": "YLNFTRMERMDLENQQKLYEFEKAALKGIAFDNFMILFGVFLIWATHPYLYKKIPW",
+                  "midline": "YLN  ++ R      QKLYE +   L    FDNF   F V +   T+P + + I W"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|12590",
+                  "accession": "12590",
+                  "title": "O29845.1 RecName: Full=Uncharacterized protein AF_0402 [Archaeoglobus fulgidus DSM 4304]"
+                }
+              ],
+              "len": 57,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 8.35497,
+                  "identity": 13,
+                  "positive": 22,
+                  "query_from": 4,
+                  "query_to": 49,
+                  "hit_from": 10,
+                  "hit_to": 55,
+                  "align_len": 46,
+                  "gaps": 0,
+                  "qseq": "LNLQKLYRRVYSVFQKLYEIQHTKLFRKIFDNFFCVTMHAKTYPKM",
+                  "hseq": "LGFKRVYKEDCELCIMGYTGKRCKYLRKIGKEFYCVRDAAKKDPRL",
+                  "midline": "L  +++Y+    +    Y  +  K  RKI   F+CV   AK  P++"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 32,
+            "eff_space": 4508481708,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

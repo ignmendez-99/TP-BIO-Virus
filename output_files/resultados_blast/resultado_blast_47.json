@@ -1,0 +1,68 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_47",
+          "query_title": "<unknown id> Protein #47 translated from XX894275 with ORF = -2",
+          "query_len": 51,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|30807",
+                  "accession": "30807",
+                  "title": "Q80TY5.3 RecName: Full=Intermembrane lipid transfer protein VPS13B; AltName: Full=Cohen syndrome protein 1 homolog; AltName: Full=Vacuolar protein sorting-associated protein 13B [Mus musculus]"
+                }
+              ],
+              "len": 3993,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 6.53462,
+                  "identity": 16,
+                  "positive": 25,
+                  "query_from": 2,
+                  "query_to": 48,
+                  "hit_from": 1637,
+                  "hit_to": 1683,
+                  "align_len": 47,
+                  "gaps": 0,
+                  "qseq": "SSSPPLTIMTMTILQRHQKIIAMTMAIVIILVVIVMNSILIIFTKIM",
+                  "hseq": "SQNPALEWNMASSIQRHQERRAILTPILTDFSVRITGAPAIIFTKII",
+                  "midline": "S +P L     + +QRHQ+  A+   I+    V +  +  IIFTKI+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 24,
+            "eff_space": 4612239684,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

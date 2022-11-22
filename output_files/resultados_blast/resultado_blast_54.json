@@ -1,0 +1,128 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_54",
+          "query_title": "<unknown id> Protein #54 translated from XX894275 with ORF = 2",
+          "query_len": 45,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|205146",
+                  "accession": "205146",
+                  "title": "Q9KRJ0.1 RecName: Full=Microbial collagenase; AltName: Full=Exoprotease Vcc; Flags: Precursor [Vibrio cholerae O1 biovar El Tor str. N16961]"
+                }
+              ],
+              "len": 818,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 2.40307,
+                  "identity": 14,
+                  "positive": 20,
+                  "query_from": 9,
+                  "query_to": 44,
+                  "hit_from": 251,
+                  "hit_to": 286,
+                  "align_len": 36,
+                  "gaps": 0,
+                  "qseq": "RHLIYPTAIWPRDTRHVVKLIILSFCLNCKIIFIWL",
+                  "hseq": "RLLISPDAITKQKARHVMRQVIARYPLGSKHDKLWL",
+                  "midline": "R LI P AI  +  RHV++ +I  + L  K   +WL"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|371966",
+                  "accession": "371966",
+                  "title": "M9NDE3.1 RecName: Full=Protein bark beetle; AltName: Full=Protein anakonda; Flags: Precursor [Drosophila melanogaster]"
+                }
+              ],
+              "len": 3123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 4.48351,
+                  "identity": 8,
+                  "positive": 12,
+                  "query_from": 8,
+                  "query_to": 25,
+                  "hit_from": 2657,
+                  "hit_to": 2674,
+                  "align_len": 18,
+                  "gaps": 0,
+                  "qseq": "LRHLIYPTAIWPRDTRHV",
+                  "hseq": "MRHLKYPDKVWIQDYNHI",
+                  "midline": "+RHL YP  +W +D  H+"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|62054",
+                  "accession": "62054",
+                  "title": "D2E9X0.1 RecName: Full=Reducing polyketide synthase DEP5; AltName: Full=Depudecin biosynthesis cluster protein 1 [Alternaria brassicicola]"
+                }
+              ],
+              "len": 2376,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 6.35039,
+                  "identity": 11,
+                  "positive": 17,
+                  "query_from": 15,
+                  "query_to": 43,
+                  "hit_from": 1178,
+                  "hit_to": 1206,
+                  "align_len": 29,
+                  "gaps": 0,
+                  "qseq": "TAIWPRDTRHVVKLIILSFCLNCKIIFIW",
+                  "hseq": "TAVMNDESRHVLHPAIVDSCLQLMIVAIW",
+                  "midline": "TA+   ++RHV+   I+  CL   I+ IW"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 19,
+            "eff_space": 4503862922,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

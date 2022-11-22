@@ -1,0 +1,3428 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_16",
+          "query_title": "<unknown id> Protein #16 translated from XX894275 with ORF = 2",
+          "query_len": 89,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|104132",
+                  "accession": "104132",
+                  "title": "P41710.1 RecName: Full=Immediate-early protein IE-0; Short=Immediate early 0 protein; AltName: Full=Immediate early transactivator 0 [Autographa californica nucleopolyhedrovirus]"
+                }
+              ],
+              "len": 261,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 152.14,
+                  "score": 383,
+                  "evalue": 1.2568e-46,
+                  "identity": 72,
+                  "positive": 72,
+                  "query_from": 18,
+                  "query_to": 89,
+                  "hit_from": 190,
+                  "hit_to": 261,
+                  "align_len": 72,
+                  "gaps": 0,
+                  "qseq": "LETINKTVKVMNLFVDNLVLYECNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACRTSYK",
+                  "hseq": "LETINKTVKVMNLFVDNLVLYECNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACRTSYK",
+                  "midline": "LETINKTVKVMNLFVDNLVLYECNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACRTSYK"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|191591",
+                  "accession": "191591",
+                  "title": "O10369.1 RecName: Full=Immediate-early protein IE-0; Short=Immediate early 0 protein; AltName: Full=Immediate early transactivator 0 [Orgyia pseudotsugata multiple nucleopolyhedrovirus]"
+                }
+              ],
+              "len": 245,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 102.064,
+                  "score": 253,
+                  "evalue": 3.21969e-27,
+                  "identity": 45,
+                  "positive": 60,
+                  "query_from": 18,
+                  "query_to": 89,
+                  "hit_from": 172,
+                  "hit_to": 244,
+                  "align_len": 73,
+                  "gaps": 1,
+                  "qseq": "LETINKTVKVMNLFVDNLV-LYECNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACRTSYK",
+                  "hseq": "VEAAGRALQVMNLFLNSGGPLYECDLCKEASADPRFLKPKECCQYSLCYACCVALWKTASTHAKCPACSTSFK",
+                  "midline": "+E   + ++VMNLF+++   LYEC++CKE S D RFLKPKECC+Y++C ACCV +WKTA+THAKCPAC TS+K"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|173095",
+                  "accession": "173095",
+                  "title": "O36453.1 RecName: Full=Immediate-early protein IE-0; Short=Immediate early 0 protein; AltName: Full=Immediate early transactivator 0 [Lymantria dispar multiple nucleopolyhedrovirus]"
+                }
+              ],
+              "len": 258,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 67.0106,
+                  "score": 162,
+                  "evalue": 1.04048e-13,
+                  "identity": 29,
+                  "positive": 49,
+                  "query_from": 17,
+                  "query_to": 89,
+                  "hit_from": 168,
+                  "hit_to": 241,
+                  "align_len": 74,
+                  "gaps": 1,
+                  "qseq": "VLETINKTVKVMNLFVDNLVLYECNVCKEISTDERFLKPKECCEYAICNACCVNMWKTAT-THAKCPACRTSYK",
+                  "hseq": "VVRSMSERAAVMLVFSDWVRVYQCNICEDSSAEEQFLKPNVCCGYRVCNACYAKLWEFCTGAYPVCPICKTGFK",
+                  "midline": "V+ ++++   VM +F D + +Y+CN+C++ S +E+FLKP  CC Y +CNAC   +W+  T  +  CP C+T +K"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|472994",
+                  "accession": "472994",
+                  "title": "O74349.1 RecName: Full=E3 ubiquitin-protein ligase listerin; AltName: Full=RING-type E3 ubiquitin transferase listerin [Schizosaccharomyces pombe 972h-]"
+                }
+              ],
+              "len": 1610,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 40.4318,
+                  "score": 93,
+                  "evalue": 0.00047395,
+                  "identity": 17,
+                  "positive": 29,
+                  "query_from": 39,
+                  "query_to": 88,
+                  "hit_from": 1557,
+                  "hit_to": 1607,
+                  "align_len": 52,
+                  "gaps": 3,
+                  "qseq": "ECNVCKEISTDERFLKPKEC--CEYAICNACCVNMWKTATTHAKCPACRTSY",
+                  "hseq": "ECAICYSVLSVERTLPNKRCGTCRHKF-HASCLYKWFKSSNSSRCPLCRSSF",
+                  "midline": "EC +C  + + ER L  K C  C +   +A C+  W  ++  ++CP CR+S+"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|380400",
+                  "accession": "380400",
+                  "title": "P14373.1 RecName: Full=Zinc finger protein RFP; AltName: Full=RING finger protein 76; AltName: Full=RING-type E3 ubiquitin transferase TRIM27; AltName: Full=Ret finger protein; AltName: Full=Tripartite motif-containing protein 27 [Homo sapiens]"
+                }
+              ],
+              "len": 513,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 36.5798,
+                  "score": 83,
+                  "evalue": 0.00959261,
+                  "identity": 17,
+                  "positive": 23,
+                  "query_from": 40,
+                  "query_to": 88,
+                  "hit_from": 16,
+                  "hit_to": 60,
+                  "align_len": 49,
+                  "gaps": 4,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACRTSY",
+                  "hseq": "CPVCLQYFAEPMMLD----CGHNICCACLARCWGTAETNVSCPQCRETF",
+                  "midline": "C VC +   +   L     C + IC AC    W TA T+  CP CR ++"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|248241",
+                  "accession": "248241",
+                  "title": "Q96BQ3.1 RecName: Full=Tripartite motif-containing protein 43 [Homo sapiens]"
+                }
+              ],
+              "len": 446,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 35.8094,
+                  "score": 81,
+                  "evalue": 0.0201273,
+                  "identity": 12,
+                  "positive": 16,
+                  "query_from": 58,
+                  "query_to": 85,
+                  "hit_from": 29,
+                  "hit_to": 56,
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "CCEYAICNACCVNMWKTATTHAKCPACR",
+                  "hseq": "CCGHSFCRPCLCLSWEEAQSPANCPACR",
+                  "midline": "CC ++ C  C    W+ A + A CPACR"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|169004",
+                  "accession": "169004",
+                  "title": "A6NCK2.3 RecName: Full=Tripartite motif-containing protein 43B [Homo sapiens]"
+                }
+              ],
+              "len": 446,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 35.8094,
+                  "score": 81,
+                  "evalue": 0.0201273,
+                  "identity": 12,
+                  "positive": 16,
+                  "query_from": 58,
+                  "query_to": 85,
+                  "hit_from": 29,
+                  "hit_to": 56,
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "CCEYAICNACCVNMWKTATTHAKCPACR",
+                  "hseq": "CCGHSFCRPCLCLSWEEAQSPANCPACR",
+                  "midline": "CC ++ C  C    W+ A + A CPACR"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|453975",
+                  "accession": "453975",
+                  "title": "Q62158.2 RecName: Full=Zinc finger protein RFP; AltName: Full=RING-type E3 ubiquitin transferase TRIM27; AltName: Full=Ret finger protein; AltName: Full=Tripartite motif-containing protein 27 [Mus musculus]"
+                }
+              ],
+              "len": 513,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 34.6538,
+                  "score": 78,
+                  "evalue": 0.0415989,
+                  "identity": 16,
+                  "positive": 22,
+                  "query_from": 40,
+                  "query_to": 88,
+                  "hit_from": 16,
+                  "hit_to": 60,
+                  "align_len": 49,
+                  "gaps": 4,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACRTSY",
+                  "hseq": "CPVCLQYFVEPMMLD----CGHNICCACLARCWGAAETNVSCPQCRETF",
+                  "midline": "C VC +   +   L     C + IC AC    W  A T+  CP CR ++"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|204862",
+                  "accession": "204862",
+                  "title": "Q9FNI6.1 RecName: Full=DNA repair protein RAD5A; AltName: Full=Putative SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A member 3-like 2; Short=SMARCA3-like protein 2; AltName: Full=RAD5 homolog A; Short=AtRAD5a [Arabidopsis thaliana]"
+                }
+              ],
+              "len": 1029,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 34.6538,
+                  "score": 78,
+                  "evalue": 0.0531121,
+                  "identity": 15,
+                  "positive": 26,
+                  "query_from": 39,
+                  "query_to": 87,
+                  "hit_from": 793,
+                  "hit_to": 836,
+                  "align_len": 49,
+                  "gaps": 5,
+                  "qseq": "ECNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACRTS",
+                  "hseq": "ECPICLE-ALEDAVLTP---CAHRLCRECLLASWRNSTS-GLCPVCRNT",
+                  "midline": "EC +C E + ++  L P   C + +C  C +  W+ +T+   CP CR +"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|257096",
+                  "accession": "257096",
+                  "title": "P93823.1 RecName: Full=RING-H2 finger protein ATL1; AltName: Full=RING-type E3 ubiquitin transferase ATL1 [Arabidopsis thaliana]"
+                }
+              ],
+              "len": 381,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 33.8834,
+                  "score": 76,
+                  "evalue": 0.0884808,
+                  "identity": 18,
+                  "positive": 26,
+                  "query_from": 39,
+                  "query_to": 87,
+                  "hit_from": 133,
+                  "hit_to": 178,
+                  "align_len": 50,
+                  "gaps": 5,
+                  "qseq": "ECNVC-KEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACRTS",
+                  "hseq": "ECSVCLNEFQEDEKLRIIPNCCH--VFHIDCIDIWLQG--NANCPLCRTS",
+                  "midline": "EC+VC  E   DE+      CC   + +  C+++W     +A CP CRTS"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|269950",
+                  "accession": "269950",
+                  "title": "Q9C7I1.1 RecName: Full=RING-H2 finger protein ATL34; AltName: Full=RING-type E3 ubiquitin transferase ATL34; Flags: Precursor [Arabidopsis thaliana]"
+                }
+              ],
+              "len": 327,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 33.4982,
+                  "score": 75,
+                  "evalue": 0.100615,
+                  "identity": 16,
+                  "positive": 26,
+                  "query_from": 39,
+                  "query_to": 87,
+                  "hit_from": 127,
+                  "hit_to": 172,
+                  "align_len": 49,
+                  "gaps": 3,
+                  "qseq": "ECNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACRTS",
+                  "hseq": "ECAICLNEFEDEETLRLMPPCSHAF-HASCIDVW--LSSRSTCPVCRAS",
+                  "midline": "EC +C     DE  L+    C +A  +A C+++W   ++ + CP CR S"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|327199",
+                  "accession": "327199",
+                  "title": "Q14527.2 RecName: Full=Helicase-like transcription factor; AltName: Full=DNA-binding protein/plasminogen activator inhibitor 1 regulator; AltName: Full=HIP116; AltName: Full=RING finger protein 80; AltName: Full=RING-type E3 ubiquitin transferase HLTF; AltName: Full=SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A member 3; AltName: Full=Sucrose nonfermenting protein 2-like 3 [Homo sapiens]"
+                }
+              ],
+              "len": 1009,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 33.4982,
+                  "score": 75,
+                  "evalue": 0.129225,
+                  "identity": 18,
+                  "positive": 27,
+                  "query_from": 19,
+                  "query_to": 85,
+                  "hit_from": 739,
+                  "hit_to": 801,
+                  "align_len": 67,
+                  "gaps": 4,
+                  "qseq": "ETINKTVKVMNLFVDNLVLYECNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACR",
+                  "hseq": "ELRKKLIRKMKLILSSGSDEECAIC----LDSLTVPVITHCAHVFCKPCICQVIQNEQPHAKCPLCR",
+                  "midline": "E   K ++ M L + +    EC +C     D   +     C +  C  C   + +    HAKCP CR"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|200278",
+                  "accession": "200278",
+                  "title": "Q13049.2 RecName: Full=E3 ubiquitin-protein ligase TRIM32; AltName: Full=72 kDa Tat-interacting protein; AltName: Full=RING-type E3 ubiquitin transferase TRIM32; AltName: Full=Tripartite motif-containing protein 32; AltName: Full=Zinc finger protein HT2A [Homo sapiens]"
+                }
+              ],
+              "len": 653,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 33.113,
+                  "score": 74,
+                  "evalue": 0.149387,
+                  "identity": 16,
+                  "positive": 25,
+                  "query_from": 39,
+                  "query_to": 84,
+                  "hit_from": 19,
+                  "hit_to": 64,
+                  "align_len": 47,
+                  "gaps": 2,
+                  "qseq": "ECNVCKEISTDERFLKPKEC-CEYAICNACCVNMWKTATTHAKCPAC",
+                  "hseq": "ECPICMESFTEEQ-LRPKLLHCGHTICRQCLEKLLASSINGVRCPFC",
+                  "midline": "EC +C E  T+E+ L+PK   C + IC  C   +  ++    +CP C"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|234739",
+                  "accession": "234739",
+                  "title": "Q8CH72.2 RecName: Full=E3 ubiquitin-protein ligase TRIM32; AltName: Full=RING-type E3 ubiquitin transferase TRIM32; AltName: Full=Tripartite motif-containing protein 32 [Mus musculus]"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 33.113,
+                  "score": 74,
+                  "evalue": 0.149414,
+                  "identity": 16,
+                  "positive": 25,
+                  "query_from": 39,
+                  "query_to": 84,
+                  "hit_from": 20,
+                  "hit_to": 65,
+                  "align_len": 47,
+                  "gaps": 2,
+                  "qseq": "ECNVCKEISTDERFLKPKEC-CEYAICNACCVNMWKTATTHAKCPAC",
+                  "hseq": "ECPICMESFTEEQ-LRPKLLHCGHTICRQCLEKLLASSINGVRCPFC",
+                  "midline": "EC +C E  T+E+ L+PK   C + IC  C   +  ++    +CP C"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|130973",
+                  "accession": "130973",
+                  "title": "Q8GW10.1 RecName: Full=Probable E3 ubiquitin-protein ligase BAH1-like; AltName: Full=RING finger protein 178; AltName: Full=RING-type E3 ubiquitin transferase BAH1-like [Arabidopsis thaliana]"
+                }
+              ],
+              "len": 335,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 33.113,
+                  "score": 74,
+                  "evalue": 0.150729,
+                  "identity": 23,
+                  "positive": 35,
+                  "query_from": 19,
+                  "query_to": 87,
+                  "hit_from": 206,
+                  "hit_to": 282,
+                  "align_len": 81,
+                  "gaps": 16,
+                  "qseq": "ETINKTVKVMNLFVDNLVLYE----CNVCKEISTDERFLKPKECCEYAICNACCVNMW--------KTATTHAKCPACRTS",
+                  "hseq": "ENLNEDQPVLKLMLPNSIELEYDLTCAICLETVFNPYALK----CGHIFCNSCACSAASVLIFQGIKAAPRHSKCPICREA",
+                  "midline": "E +N+   V+ L + N +  E    C +C E   +   LK    C +  CN+C  +          K A  H+KCP CR +"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|67919",
+                  "accession": "67919",
+                  "title": "Q5D7H8.1 RecName: Full=Tripartite motif-containing protein 5; AltName: Full=RING-type E3 ubiquitin transferase TRIM5; AltName: Full=TRIM5alpha [Plecturocebus donacophilus]"
+                }
+              ],
+              "len": 494,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 32.7278,
+                  "score": 73,
+                  "evalue": 0.206245,
+                  "identity": 18,
+                  "positive": 24,
+                  "query_from": 40,
+                  "query_to": 88,
+                  "hit_from": 15,
+                  "hit_to": 62,
+                  "align_len": 52,
+                  "gaps": 7,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHA---KCPACRTSY",
+                  "hseq": "CPICLELLTEPLSLD----CGHSFCQACITANHKESTLHQGERSCPLCRISY",
+                  "midline": "C +C E+ T+   L     C ++ C AC     K +T H     CP CR SY"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|286627",
+                  "accession": "286627",
+                  "title": "Q0IH10.1 RecName: Full=E3 ubiquitin-protein ligase MARCHF3; AltName: Full=Membrane-associated RING finger protein 3; AltName: Full=Membrane-associated RING-CH protein III; Short=MARCH-III; AltName: Full=RING-type E3 ubiquitin transferase MARCHF3 [Xenopus laevis]"
+                }
+              ],
+              "len": 252,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 32.7278,
+                  "score": 73,
+                  "evalue": 0.209461,
+                  "identity": 19,
+                  "positive": 34,
+                  "query_from": 17,
+                  "query_to": 89,
+                  "hit_from": 50,
+                  "hit_to": 120,
+                  "align_len": 74,
+                  "gaps": 4,
+                  "qseq": "VLETINKTVKVMNLFVDNLVLYECNVCKEISTDERFLKPKECC-EYAICNACCVNMWKTATTHAKCPACRTSYK",
+                  "hseq": "LLSTVVRTLTTQSSFNDHPM---CRICHEGSTQEDLLSPCECTGTLGTIHRSCLEHWLSSSNTSYCELCHFRFS",
+                  "midline": "+L T+ +T+   + F D+ +   C +C E ST E  L P EC       +  C+  W +++  + C  C   + "
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|260040",
+                  "accession": "260040",
+                  "title": "I1YAP6.2 RecName: Full=Tripartite motif-containing protein 77 [Homo sapiens]"
+                }
+              ],
+              "len": 450,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 32.7278,
+                  "score": 73,
+                  "evalue": 0.221244,
+                  "identity": 14,
+                  "positive": 22,
+                  "query_from": 40,
+                  "query_to": 85,
+                  "hit_from": 15,
+                  "hit_to": 56,
+                  "align_len": 46,
+                  "gaps": 4,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACR",
+                  "hseq": "CSICTDYLTDPVTI----CCGHRFCSPCLCLLWEDTLTPNCCPVCR",
+                  "midline": "C++C +  TD   +    CC +  C+ C   +W+   T   CP CR"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|75793",
+                  "accession": "75793",
+                  "title": "Q5C8U1.1 RecName: Full=Tripartite motif-containing protein 5; AltName: Full=RING-type E3 ubiquitin transferase TRIM5; AltName: Full=TRIM5alpha [Saguinus labiatus]"
+                }
+              ],
+              "len": 494,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 32.7278,
+                  "score": 73,
+                  "evalue": 0.236509,
+                  "identity": 18,
+                  "positive": 24,
+                  "query_from": 40,
+                  "query_to": 88,
+                  "hit_from": 15,
+                  "hit_to": 62,
+                  "align_len": 52,
+                  "gaps": 7,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHA---KCPACRTSY",
+                  "hseq": "CPICLELLTEPLSLD----CGHSFCQACITANHKESTPHQGERSCPLCRMSY",
+                  "midline": "C +C E+ T+   L     C ++ C AC     K +T H     CP CR SY"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|276147",
+                  "accession": "276147",
+                  "title": "Q9Y4L5.2 RecName: Full=E3 ubiquitin-protein ligase RNF115; AltName: Full=RING finger protein 115; AltName: Full=RING-type E3 ubiquitin transferase RNF115; AltName: Full=Rab7-interacting RING finger protein; Short=Rabring 7; AltName: Full=Zinc finger protein 364 [Homo sapiens]"
+                }
+              ],
+              "len": 304,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 32.3426,
+                  "score": 72,
+                  "evalue": 0.262428,
+                  "identity": 27,
+                  "positive": 34,
+                  "query_from": 13,
+                  "query_to": 87,
+                  "hit_from": 201,
+                  "hit_to": 271,
+                  "align_len": 77,
+                  "gaps": 8,
+                  "qseq": "PPPPVLETINK--TVKVMNLFVDNLVLYECNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACRTS",
+                  "hseq": "PPPADKEKITSLPTVTVTQEQVD--MGLECPVCKEDYTVEEEVRQLPCNHFF--HSSCIVPW--LELHDTCPVCRKS",
+                  "midline": "PPP   E I    TV V    VD  +  EC VCKE  T E  ++   C  +   ++ C+  W     H  CP CR S"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|80455",
+                  "accession": "80455",
+                  "title": "P34909.1 RecName: Full=General negative regulator of transcription subunit 4; AltName: Full=Modulator of transcription 2 [Saccharomyces cerevisiae S288C]"
+                }
+              ],
+              "len": 587,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 32.7278,
+                  "score": 73,
+                  "evalue": 0.264191,
+                  "identity": 18,
+                  "positive": 24,
+                  "query_from": 40,
+                  "query_to": 88,
+                  "hit_from": 33,
+                  "hit_to": 81,
+                  "align_len": 51,
+                  "gaps": 4,
+                  "qseq": "CNVCKEIS--TDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACRTSY",
+                  "hseq": "CPLCIEPMDITDKNFFPCP--CGYQICQFCYNNIRQNPELNGRCPACRRKY",
+                  "midline": "C +C E    TD+ F      C Y IC  C  N+ +    + +CPACR  Y"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|55738",
+                  "accession": "55738",
+                  "title": "Q5D7I5.1 RecName: Full=Tripartite motif-containing protein 5; AltName: Full=RING-type E3 ubiquitin transferase TRIM5; AltName: Full=TRIM5alpha [Cebuella pygmaea]"
+                }
+              ],
+              "len": 494,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 32.3426,
+                  "score": 72,
+                  "evalue": 0.268575,
+                  "identity": 18,
+                  "positive": 24,
+                  "query_from": 40,
+                  "query_to": 88,
+                  "hit_from": 15,
+                  "hit_to": 62,
+                  "align_len": 52,
+                  "gaps": 7,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHA---KCPACRTSY",
+                  "hseq": "CPICLELLTEPLSLD----CGHSFCQACITANHKESTLHQGERSCPLCRMSY",
+                  "midline": "C +C E+ T+   L     C ++ C AC     K +T H     CP CR SY"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|228212",
+                  "accession": "228212",
+                  "title": "Q1ACD5.1 RecName: Full=Tripartite motif-containing protein 5; AltName: Full=RING-type E3 ubiquitin transferase TRIM5; AltName: Full=TRIM5alpha [Saguinus oedipus]"
+                }
+              ],
+              "len": 494,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 32.3426,
+                  "score": 72,
+                  "evalue": 0.284807,
+                  "identity": 18,
+                  "positive": 24,
+                  "query_from": 40,
+                  "query_to": 88,
+                  "hit_from": 15,
+                  "hit_to": 62,
+                  "align_len": 52,
+                  "gaps": 7,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHA---KCPACRTSY",
+                  "hseq": "CPICLELLTEPLSLD----CGHSFCQACITANHKESTPHQGERSCPLCRMSY",
+                  "midline": "C +C E+ T+   L     C ++ C AC     K +T H     CP CR SY"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|79176",
+                  "accession": "79176",
+                  "title": "Q5D7I1.1 RecName: Full=Tripartite motif-containing protein 5; AltName: Full=RING-type E3 ubiquitin transferase TRIM5; AltName: Full=TRIM5alpha [Ateles geoffroyi]"
+                }
+              ],
+              "len": 547,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 32.3426,
+                  "score": 72,
+                  "evalue": 0.298516,
+                  "identity": 18,
+                  "positive": 25,
+                  "query_from": 40,
+                  "query_to": 89,
+                  "hit_from": 15,
+                  "hit_to": 63,
+                  "align_len": 53,
+                  "gaps": 7,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHA---KCPACRTSYK",
+                  "hseq": "CPICLELLTEPLSLD----CGHSFCQACITANHKESTLHQGERSCPLCRVSYQ",
+                  "midline": "C +C E+ T+   L     C ++ C AC     K +T H     CP CR SY+"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|261615",
+                  "accession": "261615",
+                  "title": "Q8RXD6.1 RecName: Full=E3 ubiquitin-protein ligase BRE1-like 1; Short=AtBRE1; AltName: Full=Protein HISTONE MONOUBIQUITINATION 1; Short=AtHUB1; AltName: Full=Protein REDUCED DORMANCY 4; AltName: Full=RING-type E3 ubiquitin transferase BRE1-like 1 [Arabidopsis thaliana]"
+                }
+              ],
+              "len": 878,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 31.9574,
+                  "score": 71,
+                  "evalue": 0.485717,
+                  "identity": 16,
+                  "positive": 23,
+                  "query_from": 37,
+                  "query_to": 88,
+                  "hit_from": 823,
+                  "hit_to": 868,
+                  "align_len": 56,
+                  "gaps": 14,
+                  "qseq": "LYECNVCKEISTDERFLKPKEC----CEYAICNACCVNMWKTATTHAKCPACRTSY",
+                  "hseq": "ILKCKACND--------RPKEVVITKCYHLFCNPCVQKL--TGTRQKKCPTCSASF",
+                  "midline": "+ +C  C +        +PKE     C +  CN C   +  T T   KCP C  S+"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|393916",
+                  "accession": "393916",
+                  "title": "E1C231.1 RecName: Full=E3 ubiquitin-protein ligase listerin; AltName: Full=RING finger protein 160; Short=Zfp-294; AltName: Full=RING-type E3 ubiquitin transferase listerin [Gallus gallus]"
+                }
+              ],
+              "len": 1766,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 31.5722,
+                  "score": 70,
+                  "evalue": 0.61568,
+                  "identity": 13,
+                  "positive": 26,
+                  "query_from": 39,
+                  "query_to": 88,
+                  "hit_from": 1714,
+                  "hit_to": 1765,
+                  "align_len": 54,
+                  "gaps": 6,
+                  "qseq": "ECNVCKEISTDERFLKPKECCEYAIC----NACCVNMWKTATTHAKCPACRTSY",
+                  "hseq": "DCMICFSVIHGSNYSLPKKACR--TCKKKFHSACLYKWFTSSNKSTCPLCRETF",
+                  "midline": "+C +C  +     +  PK+ C    C    ++ C+  W T++  + CP CR ++"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|205432",
+                  "accession": "205432",
+                  "title": "O80927.2 RecName: Full=RING-H2 finger protein ATL33; AltName: Full=RING-type E3 ubiquitin transferase ATL33 [Arabidopsis thaliana]"
+                }
+              ],
+              "len": 235,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 31.187,
+                  "score": 69,
+                  "evalue": 0.637162,
+                  "identity": 17,
+                  "positive": 24,
+                  "query_from": 39,
+                  "query_to": 86,
+                  "hit_from": 141,
+                  "hit_to": 185,
+                  "align_len": 48,
+                  "gaps": 3,
+                  "qseq": "ECNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACRT",
+                  "hseq": "ECSVCLMVFTDSDELRQLSECKHAF-HVLCIETW--LKDHPNCPICRT",
+                  "midline": "EC+VC  + TD   L+    C++A  +  C+  W     H  CP CRT"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|214768",
+                  "accession": "214768",
+                  "title": "Q6VVB1.2 RecName: Full=E3 ubiquitin-protein ligase NHLRC1; AltName: Full=Malin; AltName: Full=NHL repeat-containing protein 1; AltName: Full=RING-type E3 ubiquitin transferase NHLRC1 [Homo sapiens]"
+                }
+              ],
+              "len": 395,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 31.187,
+                  "score": 69,
+                  "evalue": 0.749154,
+                  "identity": 16,
+                  "positive": 23,
+                  "query_from": 37,
+                  "query_to": 85,
+                  "hit_from": 23,
+                  "hit_to": 72,
+                  "align_len": 50,
+                  "gaps": 1,
+                  "qseq": "LYECNVCKEISTDERFLKPKE-CCEYAICNACCVNMWKTATTHAKCPACR",
+                  "hseq": "LLECKVCFEKFGHRQQRRPRNLSCGHVVCLACVAALAHPRTLALECPFCR",
+                  "midline": "L EC VC E     +  +P+   C + +C AC   +    T   +CP CR"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|20400",
+                  "accession": "20400",
+                  "title": "Q6IMG5.1 RecName: Full=E3 ubiquitin-protein ligase NHLRC1; AltName: Full=Malin; AltName: Full=NHL repeat-containing protein 1; AltName: Full=RING-type E3 ubiquitin transferase NHLRC1 [Rattus norvegicus]"
+                }
+              ],
+              "len": 396,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 31.187,
+                  "score": 69,
+                  "evalue": 0.83446,
+                  "identity": 16,
+                  "positive": 23,
+                  "query_from": 37,
+                  "query_to": 85,
+                  "hit_from": 20,
+                  "hit_to": 69,
+                  "align_len": 50,
+                  "gaps": 1,
+                  "qseq": "LYECNVCKEISTDERFLKPKEC-CEYAICNACCVNMWKTATTHAKCPACR",
+                  "hseq": "LLECKVCFERFGHRQQRRPRNLPCGHVVCLACVAALAHPRTLALECPFCR",
+                  "midline": "L EC VC E     +  +P+   C + +C AC   +    T   +CP CR"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|359989",
+                  "accession": "359989",
+                  "title": "Q9D0C1.1 RecName: Full=E3 ubiquitin-protein ligase RNF115; AltName: Full=RING finger protein 115; AltName: Full=RING-type E3 ubiquitin transferase RNF115; AltName: Full=Rab7-interacting RING finger protein; Short=Rabring 7; AltName: Full=Zinc finger protein 364 [Mus musculus]"
+                }
+              ],
+              "len": 305,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 31.187,
+                  "score": 69,
+                  "evalue": 0.840984,
+                  "identity": 26,
+                  "positive": 34,
+                  "query_from": 13,
+                  "query_to": 87,
+                  "hit_from": 202,
+                  "hit_to": 272,
+                  "align_len": 77,
+                  "gaps": 8,
+                  "qseq": "PPPPVLETINK--TVKVMNLFVDNLVLYECNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACRTS",
+                  "hseq": "PPPADKEKITSLPTVTVTQEQVNTGL--ECPVCKEDYTVEEKVRQLPCNHFF--HSSCIVPW--LELHDTCPVCRKS",
+                  "midline": "PPP   E I    TV V    V+  +  EC VCKE  T E  ++   C  +   ++ C+  W     H  CP CR S"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|82803",
+                  "accession": "82803",
+                  "title": "P09245.1 RecName: Full=Major capsid protein; Short=MCP [Human herpesvirus 3 strain Dumas]"
+                }
+              ],
+              "len": 1396,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 31.187,
+                  "score": 69,
+                  "evalue": 0.853522,
+                  "identity": 11,
+                  "positive": 17,
+                  "query_from": 4,
+                  "query_to": 29,
+                  "hit_from": 570,
+                  "hit_to": 595,
+                  "align_len": 26,
+                  "gaps": 0,
+                  "qseq": "GDVAAPTPPPPPPVLETINKTVKVMN",
+                  "hseq": "GDVDLPGPQRPPEAMPTVNATLRIIN",
+                  "midline": "GDV  P P  PP  + T+N T++++N"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|270916",
+                  "accession": "270916",
+                  "title": "Q5BK82.1 RecName: Full=E3 ubiquitin-protein ligase TRIM69; AltName: Full=RING finger protein 36; AltName: Full=RING-type E3 ubiquitin transferase TRIM69; AltName: Full=Tripartite motif-containing protein 69 [Rattus norvegicus]"
+                }
+              ],
+              "len": 499,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 31.187,
+                  "score": 69,
+                  "evalue": 0.894976,
+                  "identity": 14,
+                  "positive": 18,
+                  "query_from": 40,
+                  "query_to": 85,
+                  "hit_from": 41,
+                  "hit_to": 82,
+                  "align_len": 46,
+                  "gaps": 4,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACR",
+                  "hseq": "CPLCNDWFRDPLMLT----CGHNFCQACIQNYWKMQAKETFCPECK",
+                  "midline": "C +C +   D   L     C +  C AC  N WK       CP C+"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|154099",
+                  "accession": "154099",
+                  "title": "Q8BRX9.1 RecName: Full=E3 ubiquitin-protein ligase MARCHF3; AltName: Full=Membrane-associated RING finger protein 3; AltName: Full=Membrane-associated RING-CH protein III; Short=MARCH-III; AltName: Full=RING-type E3 ubiquitin transferase MARCHF3 [Mus musculus]"
+                }
+              ],
+              "len": 218,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.8018,
+                  "score": 68,
+                  "evalue": 0.964938,
+                  "identity": 18,
+                  "positive": 33,
+                  "query_from": 17,
+                  "query_to": 88,
+                  "hit_from": 51,
+                  "hit_to": 120,
+                  "align_len": 73,
+                  "gaps": 4,
+                  "qseq": "VLETINKTVKVMNLFVDNLVLYECNVCKEISTDERFLKPKECC-EYAICNACCVNMWKTATTHAKCPACRTSY",
+                  "hseq": "LLSTVVRTLATQSPFNDRPM---CRICHEGSSQEDLLSPCECTGTLGTIHRSCLEHWLSSSNTSYCELCHFRF",
+                  "midline": "+L T+ +T+   + F D  +   C +C E S+ E  L P EC       +  C+  W +++  + C  C   +"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|280470",
+                  "accession": "280470",
+                  "title": "Q6PCN7.1 RecName: Full=Helicase-like transcription factor; AltName: Full=P113; AltName: Full=RING-type E3 ubiquitin transferase HLTF; AltName: Full=SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A member 3; AltName: Full=Sucrose nonfermenting protein 2-like 3; AltName: Full=TNF-response element-binding protein [Mus musculus]"
+                }
+              ],
+              "len": 1003,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.8018,
+                  "score": 68,
+                  "evalue": 1.07814,
+                  "identity": 10,
+                  "positive": 13,
+                  "query_from": 59,
+                  "query_to": 85,
+                  "hit_from": 769,
+                  "hit_to": 795,
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "CEYAICNACCVNMWKTATTHAKCPACR",
+                  "hseq": "CAHVFCKPCICQVIHSEQPHAKCPLCR",
+                  "midline": "C +  C  C   +  +   HAKCP CR"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|61875",
+                  "accession": "61875",
+                  "title": "Q865W2.1 RecName: Full=E3 ubiquitin-protein ligase TRIM50; AltName: Full=RING-type E3 ubiquitin transferase TRIM50; AltName: Full=Tripartite motif-containing protein 50 [Sus scrofa]"
+                }
+              ],
+              "len": 486,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.8018,
+                  "score": 68,
+                  "evalue": 1.08595,
+                  "identity": 12,
+                  "positive": 24,
+                  "query_from": 39,
+                  "query_to": 85,
+                  "hit_from": 15,
+                  "hit_to": 57,
+                  "align_len": 47,
+                  "gaps": 4,
+                  "qseq": "ECNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACR",
+                  "hseq": "QCPVCLEVFKEPLMLQ----CGHSYCKGCLLSLSRHLDSELRCPVCR",
+                  "midline": "+C VC E+  +   L+    C ++ C  C +++ +   +  +CP CR"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|326980",
+                  "accession": "326980",
+                  "title": "Q3ZEE5.1 RecName: Full=Tripartite motif-containing protein 5; AltName: Full=RING-type E3 ubiquitin transferase TRIM5; AltName: Full=TRIM5alpha [Hylobates lar]"
+                }
+              ],
+              "len": 493,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.8018,
+                  "score": 68,
+                  "evalue": 1.14169,
+                  "identity": 17,
+                  "positive": 24,
+                  "query_from": 40,
+                  "query_to": 89,
+                  "hit_from": 15,
+                  "hit_to": 62,
+                  "align_len": 52,
+                  "gaps": 6,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAK--CPACRTSYK",
+                  "hseq": "CPICLELLTQPLSLD----CGHSFCQACLTANHKTSMPDGERSCPVCRISYQ",
+                  "midline": "C +C E+ T    L     C ++ C AC     KT+    +  CP CR SY+"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|343176",
+                  "accession": "343176",
+                  "title": "Q86UD3.1 RecName: Full=E3 ubiquitin-protein ligase MARCHF3; AltName: Full=Membrane-associated RING finger protein 3; AltName: Full=Membrane-associated RING-CH protein III; Short=MARCH-III; AltName: Full=RING finger protein 173; AltName: Full=RING-type E3 ubiquitin transferase MARCHF3 [Homo sapiens]"
+                }
+              ],
+              "len": 253,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.4166,
+                  "score": 67,
+                  "evalue": 1.31954,
+                  "identity": 18,
+                  "positive": 33,
+                  "query_from": 17,
+                  "query_to": 88,
+                  "hit_from": 51,
+                  "hit_to": 120,
+                  "align_len": 73,
+                  "gaps": 4,
+                  "qseq": "VLETINKTVKVMNLFVDNLVLYECNVCKEISTDERFLKPKECC-EYAICNACCVNMWKTATTHAKCPACRTSY",
+                  "hseq": "LLSTVVRTLATQSPFNDRPM---CRICHEGSSQEDLLSPCECTGTLGTIHRSCLEHWLSSSNTSYCELCHFRF",
+                  "midline": "+L T+ +T+   + F D  +   C +C E S+ E  L P EC       +  C+  W +++  + C  C   +"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|299384",
+                  "accession": "299384",
+                  "title": "A0JN69.1 RecName: Full=E3 ubiquitin-protein ligase MARCHF3; AltName: Full=Membrane-associated RING finger protein 3; AltName: Full=Membrane-associated RING-CH protein III; Short=MARCH-III; AltName: Full=RING-type E3 ubiquitin transferase MARCHF3 [Bos taurus]"
+                }
+              ],
+              "len": 253,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.4166,
+                  "score": 67,
+                  "evalue": 1.39932,
+                  "identity": 18,
+                  "positive": 33,
+                  "query_from": 17,
+                  "query_to": 88,
+                  "hit_from": 51,
+                  "hit_to": 120,
+                  "align_len": 73,
+                  "gaps": 4,
+                  "qseq": "VLETINKTVKVMNLFVDNLVLYECNVCKEISTDERFLKPKECC-EYAICNACCVNMWKTATTHAKCPACRTSY",
+                  "hseq": "LLSTVVRTLATQSPFNDRPM---CRICHEGSSQEDLLSPCECTGTLGTIHRSCLEHWLSSSNTSYCELCHFRF",
+                  "midline": "+L T+ +T+   + F D  +   C +C E S+ E  L P EC       +  C+  W +++  + C  C   +"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|402761",
+                  "accession": "402761",
+                  "title": "Q5XIE5.1 RecName: Full=E3 ubiquitin-protein ligase MARCHF3; AltName: Full=Membrane-associated RING finger protein 3; AltName: Full=Membrane-associated RING-CH protein III; Short=MARCH-III; AltName: Full=RING-type E3 ubiquitin transferase MARCHF3 [Rattus norvegicus]"
+                }
+              ],
+              "len": 253,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.4166,
+                  "score": 67,
+                  "evalue": 1.49852,
+                  "identity": 18,
+                  "positive": 33,
+                  "query_from": 17,
+                  "query_to": 88,
+                  "hit_from": 51,
+                  "hit_to": 120,
+                  "align_len": 73,
+                  "gaps": 4,
+                  "qseq": "VLETINKTVKVMNLFVDNLVLYECNVCKEISTDERFLKPKECC-EYAICNACCVNMWKTATTHAKCPACRTSY",
+                  "hseq": "LLSTVVRTLATQSPFNDRPM---CRICHEGSSQEDLLSPCECTGTLGTIHRSCLEHWLSSSNTSYCELCHFRF",
+                  "midline": "+L T+ +T+   + F D  +   C +C E S+ E  L P EC       +  C+  W +++  + C  C   +"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|267847",
+                  "accession": "267847",
+                  "title": "Q8BUH7.1 RecName: Full=E3 ubiquitin-protein ligase RNF26; AltName: Full=RING finger protein 26 [Mus musculus]"
+                }
+              ],
+              "len": 424,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.4166,
+                  "score": 67,
+                  "evalue": 1.63359,
+                  "identity": 14,
+                  "positive": 22,
+                  "query_from": 39,
+                  "query_to": 87,
+                  "hit_from": 370,
+                  "hit_to": 415,
+                  "align_len": 49,
+                  "gaps": 3,
+                  "qseq": "ECNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACRTS",
+                  "hseq": "KCVICQDQSKTVLLLPCRHLC---LCQACTEILMRHPVYHRNCPLCRRS",
+                  "midline": "+C +C++ S     L  +  C   +C AC   + +    H  CP CR S"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|50943",
+                  "accession": "50943",
+                  "title": "O94822.6 RecName: Full=E3 ubiquitin-protein ligase listerin; AltName: Full=RING finger protein 160; AltName: Full=RING-type E3 ubiquitin transferase listerin; AltName: Full=Zinc finger protein 294 [Homo sapiens]"
+                }
+              ],
+              "len": 1766,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.4166,
+                  "score": 67,
+                  "evalue": 1.68489,
+                  "identity": 13,
+                  "positive": 26,
+                  "query_from": 39,
+                  "query_to": 88,
+                  "hit_from": 1714,
+                  "hit_to": 1765,
+                  "align_len": 54,
+                  "gaps": 6,
+                  "qseq": "ECNVCKEISTDERFLKPKECCEYAIC----NACCVNMWKTATTHAKCPACRTSY",
+                  "hseq": "DCMICFSVIHGFNYSLPKKACR--TCKKKFHSACLYKWFTSSNKSTCPLCRETF",
+                  "midline": "+C +C  +     +  PK+ C    C    ++ C+  W T++  + CP CR ++"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|473710",
+                  "accession": "473710",
+                  "title": "Q9NZS9.1 RecName: Full=Bifunctional apoptosis regulator; AltName: Full=RING finger protein 47 [Homo sapiens]"
+                }
+              ],
+              "len": 450,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.0314,
+                  "score": 66,
+                  "evalue": 1.70811,
+                  "identity": 12,
+                  "positive": 25,
+                  "query_from": 38,
+                  "query_to": 89,
+                  "hit_from": 32,
+                  "hit_to": 78,
+                  "align_len": 52,
+                  "gaps": 5,
+                  "qseq": "YECNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACRTSYK",
+                  "hseq": "FSCHCCYDILVNPTTLN----CGHSFCRHC-LALWWASSKKTECPECREKWE",
+                  "midline": "+ C+ C +I  +   L     C ++ C  C + +W  ++   +CP CR  ++"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|385653",
+                  "accession": "385653",
+                  "title": "Q9LFL0.1 RecName: Full=Cellulose synthase-like protein D2; Short=AtCslD2 [Arabidopsis thaliana]"
+                }
+              ],
+              "len": 1145,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.4166,
+                  "score": 67,
+                  "evalue": 1.78328,
+                  "identity": 15,
+                  "positive": 23,
+                  "query_from": 45,
+                  "query_to": 89,
+                  "hit_from": 136,
+                  "hit_to": 179,
+                  "align_len": 46,
+                  "gaps": 3,
+                  "qseq": "EISTDERFLKPKEC-CEYAICNACCVNMWKTATTHAKCPACRTSYK",
+                  "hseq": "KVMSDERGQDLLPCECDFKICRDCFIDAVKTGG--GICPGCKEPYK",
+                  "midline": "++ +DER      C C++ IC  C ++  KT      CP C+  YK"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|212592",
+                  "accession": "212592",
+                  "title": "Q9ESN6.1 RecName: Full=Tripartite motif-containing protein 2; AltName: Full=E3 ubiquitin-protein ligase TRIM2; AltName: Full=Neural activity-related RING finger protein; AltName: Full=RING-type E3 ubiquitin transferase TRIM2 [Mus musculus]"
+                }
+              ],
+              "len": 744,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.0314,
+                  "score": 66,
+                  "evalue": 1.78582,
+                  "identity": 19,
+                  "positive": 28,
+                  "query_from": 14,
+                  "query_to": 87,
+                  "hit_from": 9,
+                  "hit_to": 66,
+                  "align_len": 75,
+                  "gaps": 18,
+                  "qseq": "PPPVLETINKTVKVMNLFVDNLVLYECNVCKEISTDERFLKPKEC-CEYAICNACCVNMWKTATTHAKCPACRTS",
+                  "hseq": "PSPVVRQIDKQFLI------------CSICLE-----RYKNPKVLPCLHTFCERCLQNYIPAHSLTLSCPVCRQT",
+                  "midline": "P PV+  I+K   +            C++C E     R+  PK   C +  C  C  N     +    CP CR +"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|312151",
+                  "accession": "312151",
+                  "title": "Q6A009.3 RecName: Full=E3 ubiquitin-protein ligase listerin; AltName: Full=RING finger protein 160; AltName: Full=RING-type E3 ubiquitin transferase listerin; AltName: Full=Zinc finger protein 294; Short=Zfp-294 [Mus musculus]"
+                }
+              ],
+              "len": 1767,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.0314,
+                  "score": 66,
+                  "evalue": 1.85788,
+                  "identity": 13,
+                  "positive": 26,
+                  "query_from": 39,
+                  "query_to": 88,
+                  "hit_from": 1715,
+                  "hit_to": 1766,
+                  "align_len": 54,
+                  "gaps": 6,
+                  "qseq": "ECNVCKEISTDERFLKPKECCEYAIC----NACCVNMWKTATTHAKCPACRTSY",
+                  "hseq": "DCMICFSVIHGFNYSLPKKACR--TCKKKFHSACLYKWFTSSNKSTCPLCRETF",
+                  "midline": "+C +C  +     +  PK+ C    C    ++ C+  W T++  + CP CR ++"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|45012",
+                  "accession": "45012",
+                  "title": "Q86T96.2 RecName: Full=E3 ubiquitin-protein ligase RNF180; AltName: Full=RING finger protein 180; AltName: Full=RING-type E3 ubiquitin transferase RNF180 [Homo sapiens]"
+                }
+              ],
+              "len": 592,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.0314,
+                  "score": 66,
+                  "evalue": 1.8683,
+                  "identity": 15,
+                  "positive": 21,
+                  "query_from": 38,
+                  "query_to": 86,
+                  "hit_from": 430,
+                  "hit_to": 475,
+                  "align_len": 51,
+                  "gaps": 7,
+                  "qseq": "YECNVCKEISTDERFLKPKEC--CEYAICNACCVNMWKTATTHAKCPACRT",
+                  "hseq": "YICAVCLDV-----YFNPYMCYPCHHIFCEPCLRTLAKDNPSSTPCPLCRT",
+                  "midline": "Y C VC ++     +  P  C  C +  C  C   + K   +   CP CRT"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|277616",
+                  "accession": "277616",
+                  "title": "F7H9X2.1 RecName: Full=Tripartite motif-containing protein 2; AltName: Full=E3 ubiquitin-protein ligase TRIM2; AltName: Full=RING-type E3 ubiquitin transferase TRIM2 [Callithrix jacchus]"
+                }
+              ],
+              "len": 744,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.0314,
+                  "score": 66,
+                  "evalue": 1.89368,
+                  "identity": 19,
+                  "positive": 28,
+                  "query_from": 14,
+                  "query_to": 87,
+                  "hit_from": 9,
+                  "hit_to": 66,
+                  "align_len": 75,
+                  "gaps": 18,
+                  "qseq": "PPPVLETINKTVKVMNLFVDNLVLYECNVCKEISTDERFLKPKEC-CEYAICNACCVNMWKTATTHAKCPACRTS",
+                  "hseq": "PSPVVRQIDKQFLI------------CSICLE-----RYKNPKVLPCLHTFCERCLQNYIPAHSLTLSCPVCRQT",
+                  "midline": "P PV+  I+K   +            C++C E     R+  PK   C +  C  C  N     +    CP CR +"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|263756",
+                  "accession": "263756",
+                  "title": "D2GXS7.1 RecName: Full=Tripartite motif-containing protein 2; AltName: Full=E3 ubiquitin-protein ligase TRIM2; AltName: Full=RING-type E3 ubiquitin transferase TRIM2 [Ailuropoda melanoleuca]"
+                }
+              ],
+              "len": 744,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.0314,
+                  "score": 66,
+                  "evalue": 1.89368,
+                  "identity": 19,
+                  "positive": 28,
+                  "query_from": 14,
+                  "query_to": 87,
+                  "hit_from": 9,
+                  "hit_to": 66,
+                  "align_len": 75,
+                  "gaps": 18,
+                  "qseq": "PPPVLETINKTVKVMNLFVDNLVLYECNVCKEISTDERFLKPKEC-CEYAICNACCVNMWKTATTHAKCPACRTS",
+                  "hseq": "PSPVVRQIDKQFLI------------CSICLE-----RYKNPKVLPCLHTFCERCLQNYIPAHSLTLSCPVCRQT",
+                  "midline": "P PV+  I+K   +            C++C E     R+  PK   C +  C  C  N     +    CP CR +"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|100363",
+                  "accession": "100363",
+                  "title": "Q95216.1 RecName: Full=Helicase-like transcription factor; AltName: Full=RING-type E3 ubiquitin transferase HLTF; AltName: Full=RUSH-1; AltName: Full=SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A member 3; AltName: Full=Sucrose nonfermenting protein 2-like 3 [Oryctolagus cuniculus]"
+                }
+              ],
+              "len": 1005,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.0314,
+                  "score": 66,
+                  "evalue": 1.90069,
+                  "identity": 14,
+                  "positive": 18,
+                  "query_from": 39,
+                  "query_to": 85,
+                  "hit_from": 756,
+                  "hit_to": 798,
+                  "align_len": 47,
+                  "gaps": 4,
+                  "qseq": "ECNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACR",
+                  "hseq": "ECAIC----LDSLTVPVITHCAHVFCKPCICQCIQNEQPHAKCPLCR",
+                  "midline": "EC +C     D   +     C +  C  C     +    HAKCP CR"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|466747",
+                  "accession": "466747",
+                  "title": "A4IF63.1 RecName: Full=Tripartite motif-containing protein 2; AltName: Full=E3 ubiquitin-protein ligase TRIM2; AltName: Full=RING-type E3 ubiquitin transferase TRIM2 [Bos taurus]"
+                }
+              ],
+              "len": 744,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.0314,
+                  "score": 66,
+                  "evalue": 1.91228,
+                  "identity": 19,
+                  "positive": 28,
+                  "query_from": 14,
+                  "query_to": 87,
+                  "hit_from": 9,
+                  "hit_to": 66,
+                  "align_len": 75,
+                  "gaps": 18,
+                  "qseq": "PPPVLETINKTVKVMNLFVDNLVLYECNVCKEISTDERFLKPKEC-CEYAICNACCVNMWKTATTHAKCPACRTS",
+                  "hseq": "PSPVVRQIDKQFLI------------CSICLE-----RYKNPKVLPCLHTFCERCLQNYIPAHSLTLSCPVCRQT",
+                  "midline": "P PV+  I+K   +            C++C E     R+  PK   C +  C  C  N     +    CP CR +"
+                }
+              ]
+            },
+            {
+              "num": 51,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|183578",
+                  "accession": "183578",
+                  "title": "D3ZQG6.2 RecName: Full=Tripartite motif-containing protein 2; AltName: Full=E3 ubiquitin-protein ligase TRIM2; AltName: Full=RING-type E3 ubiquitin transferase TRIM2 [Rattus norvegicus]"
+                }
+              ],
+              "len": 744,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.0314,
+                  "score": 66,
+                  "evalue": 1.91228,
+                  "identity": 19,
+                  "positive": 28,
+                  "query_from": 14,
+                  "query_to": 87,
+                  "hit_from": 9,
+                  "hit_to": 66,
+                  "align_len": 75,
+                  "gaps": 18,
+                  "qseq": "PPPVLETINKTVKVMNLFVDNLVLYECNVCKEISTDERFLKPKEC-CEYAICNACCVNMWKTATTHAKCPACRTS",
+                  "hseq": "PSPVVRQIDKQFLI------------CSICLE-----RYKNPKVLPCLHTFCERCLQNYIPAHSLTLSCPVCRQT",
+                  "midline": "P PV+  I+K   +            C++C E     R+  PK   C +  C  C  N     +    CP CR +"
+                }
+              ]
+            },
+            {
+              "num": 52,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|74426",
+                  "accession": "74426",
+                  "title": "Q9C040.1 RecName: Full=Tripartite motif-containing protein 2; AltName: Full=E3 ubiquitin-protein ligase TRIM2; AltName: Full=RING finger protein 86; AltName: Full=RING-type E3 ubiquitin transferase TRIM2 [Homo sapiens]"
+                }
+              ],
+              "len": 744,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.0314,
+                  "score": 66,
+                  "evalue": 1.91228,
+                  "identity": 19,
+                  "positive": 28,
+                  "query_from": 14,
+                  "query_to": 87,
+                  "hit_from": 9,
+                  "hit_to": 66,
+                  "align_len": 75,
+                  "gaps": 18,
+                  "qseq": "PPPVLETINKTVKVMNLFVDNLVLYECNVCKEISTDERFLKPKEC-CEYAICNACCVNMWKTATTHAKCPACRTS",
+                  "hseq": "PSPVVRQIDKQFLI------------CSICLE-----RYKNPKVLPCLHTFCERCLQNYIPAHSLTLSCPVCRQT",
+                  "midline": "P PV+  I+K   +            C++C E     R+  PK   C +  C  C  N     +    CP CR +"
+                }
+              ]
+            },
+            {
+              "num": 53,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|20844",
+                  "accession": "20844",
+                  "title": "Q8L778.2 RecName: Full=Cellulose synthase A catalytic subunit 5 [UDP-forming]; Short=AtCesA5 [Arabidopsis thaliana]"
+                }
+              ],
+              "len": 1069,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.0314,
+                  "score": 66,
+                  "evalue": 1.94263,
+                  "identity": 19,
+                  "positive": 29,
+                  "query_from": 32,
+                  "query_to": 89,
+                  "hit_from": 31,
+                  "hit_to": 89,
+                  "align_len": 62,
+                  "gaps": 7,
+                  "qseq": "VDNLVLYECNVCK---EISTD-ERFLKPKECCEYAICNACCVNMWKTATTHAKCPACRTSYK",
+                  "hseq": "VEELSGQTCQICGDEIELSVDGESFVACNECA-FPVCRPC--YEYERREGNQSCPQCKTRYK",
+                  "midline": "V+ L    C +C    E+S D E F+   EC  + +C  C    ++    +  CP C+T YK"
+                }
+              ]
+            },
+            {
+              "num": 54,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|294536",
+                  "accession": "294536",
+                  "title": "Q5RAK3.1 RecName: Full=E3 ubiquitin-protein ligase RNF180; AltName: Full=RING finger protein 180; AltName: Full=RING-type E3 ubiquitin transferase RNF180 [Pongo abelii]"
+                }
+              ],
+              "len": 592,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.0314,
+                  "score": 66,
+                  "evalue": 2.02027,
+                  "identity": 15,
+                  "positive": 21,
+                  "query_from": 38,
+                  "query_to": 86,
+                  "hit_from": 430,
+                  "hit_to": 475,
+                  "align_len": 51,
+                  "gaps": 7,
+                  "qseq": "YECNVCKEISTDERFLKPKEC--CEYAICNACCVNMWKTATTHAKCPACRT",
+                  "hseq": "YICAVCLDV-----YFNPYMCYPCRHIFCEPCLRTLAKDNPSSTPCPLCRT",
+                  "midline": "Y C VC ++     +  P  C  C +  C  C   + K   +   CP CRT"
+                }
+              ]
+            },
+            {
+              "num": 55,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|220151",
+                  "accession": "220151",
+                  "title": "Q68FA7.1 RecName: Full=E3 ubiquitin-protein ligase MARCHF3; AltName: Full=Membrane-associated RING finger protein 3; AltName: Full=Membrane-associated RING-CH protein III; Short=MARCH-III; AltName: Full=RING-type E3 ubiquitin transferase MARCHF3 [Xenopus tropicalis]"
+                }
+              ],
+              "len": 251,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.0314,
+                  "score": 66,
+                  "evalue": 2.02668,
+                  "identity": 21,
+                  "positive": 37,
+                  "query_from": 3,
+                  "query_to": 89,
+                  "hit_from": 26,
+                  "hit_to": 119,
+                  "align_len": 94,
+                  "gaps": 7,
+                  "qseq": "VGDVAAPTPPPPPPVLETINKTVKVMNLFVDNLVLYE------CNVCKEISTDERFLKPKECC-EYAICNACCVNMWKTATTHAKCPACRTSYK",
+                  "hseq": "VEDCSSLVNGQPQYVMQVSAKDGQLLSTVVRTLTTQSFNDRPMCRICHEGSTQEDLLSPCECTGTLGTIHRSCLEHWLSSSNTSYCELCHFRFS",
+                  "midline": "V D ++     P  V++   K  ++++  V  L          C +C E ST E  L P EC       +  C+  W +++  + C  C   + "
+                }
+              ]
+            },
+            {
+              "num": 56,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|359427",
+                  "accession": "359427",
+                  "title": "Q8TDB6.1 RecName: Full=E3 ubiquitin-protein ligase DTX3L; AltName: Full=B-lymphoma- and BAL-associated protein; AltName: Full=Protein deltex-3-like; AltName: Full=RING-type E3 ubiquitin transferase DTX3L; AltName: Full=Rhysin-2; Short=Rhysin2 [Homo sapiens]"
+                }
+              ],
+              "len": 740,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.0314,
+                  "score": 66,
+                  "evalue": 2.3473,
+                  "identity": 17,
+                  "positive": 28,
+                  "query_from": 40,
+                  "query_to": 88,
+                  "hit_from": 561,
+                  "hit_to": 603,
+                  "align_len": 49,
+                  "gaps": 6,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACRTSY",
+                  "hseq": "CVICMDTISNKKVL-PK--CKHEFC-APCIN--KAMSYKPICPTCQTSY",
+                  "midline": "C +C +  ++++ L PK  C++  C A C+N  K  +    CP C+TSY"
+                }
+              ]
+            },
+            {
+              "num": 57,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|24769",
+                  "accession": "24769",
+                  "title": "Q5C8U4.1 RecName: Full=Tripartite motif-containing protein 5; AltName: Full=RING-type E3 ubiquitin transferase TRIM5; AltName: Full=TRIM5alpha [Chlorocebus pygerythrus]"
+                }
+              ],
+              "len": 515,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.6462,
+                  "score": 65,
+                  "evalue": 2.38502,
+                  "identity": 16,
+                  "positive": 26,
+                  "query_from": 40,
+                  "query_to": 89,
+                  "hit_from": 15,
+                  "hit_to": 64,
+                  "align_len": 54,
+                  "gaps": 8,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAK----CPACRTSYK",
+                  "hseq": "CPICLELLTEPLSLP----CGHSLCQACITANHKESMLYKEEERSCPVCRISYQ",
+                  "midline": "C +C E+ T+   L     C +++C AC     K +  + +    CP CR SY+"
+                }
+              ]
+            },
+            {
+              "num": 58,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|25811",
+                  "accession": "25811",
+                  "title": "A0JM49.1 RecName: Full=E3 ubiquitin-protein ligase listerin; AltName: Full=RING finger protein 160; Short=Zfp-294; AltName: Full=RING-type E3 ubiquitin transferase listerin [Xenopus tropicalis]"
+                }
+              ],
+              "len": 1696,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.0314,
+                  "score": 66,
+                  "evalue": 2.44036,
+                  "identity": 13,
+                  "positive": 26,
+                  "query_from": 39,
+                  "query_to": 88,
+                  "hit_from": 1644,
+                  "hit_to": 1695,
+                  "align_len": 54,
+                  "gaps": 6,
+                  "qseq": "ECNVCKEISTDERFLKPKECCEYAIC----NACCVNMWKTATTHAKCPACRTSY",
+                  "hseq": "DCMICFSVIHGSNYSLPKKACR--TCKKKFHSECLYKWFTSSNKSTCPLCRETF",
+                  "midline": "+C +C  +     +  PK+ C    C    ++ C+  W T++  + CP CR ++"
+                }
+              ]
+            },
+            {
+              "num": 59,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|192241",
+                  "accession": "192241",
+                  "title": "E7F8F4.2 RecName: Full=Activating signal cointegrator 1 complex subunit 3 [Danio rerio]"
+                }
+              ],
+              "len": 1534,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.6462,
+                  "score": 65,
+                  "evalue": 2.50706,
+                  "identity": 16,
+                  "positive": 22,
+                  "query_from": 19,
+                  "query_to": 55,
+                  "hit_from": 1340,
+                  "hit_to": 1374,
+                  "align_len": 37,
+                  "gaps": 2,
+                  "qseq": "ETINKTVKVMNLFVDNLVLYECNVCKEISTDERFLKP",
+                  "hseq": "ETINKYLS--NLVERSLRDLECSYCMEIQQDEQTIEP",
+                  "midline": "ETINK +   NL   +L   EC+ C EI  DE+ ++P"
+                }
+              ]
+            },
+            {
+              "num": 60,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|222121",
+                  "accession": "222121",
+                  "title": "Q1ACD6.1 RecName: Full=Tripartite motif-containing protein 5; AltName: Full=RING-type E3 ubiquitin transferase TRIM5; AltName: Full=TRIM5alpha [Symphalangus syndactylus]"
+                }
+              ],
+              "len": 494,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.6462,
+                  "score": 65,
+                  "evalue": 2.62133,
+                  "identity": 17,
+                  "positive": 23,
+                  "query_from": 40,
+                  "query_to": 89,
+                  "hit_from": 15,
+                  "hit_to": 63,
+                  "align_len": 53,
+                  "gaps": 7,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATT---HAKCPACRTSYK",
+                  "hseq": "CPICLELLTQPLSLD----CGHSFCQACLTANHKTSMPDEGERSCPVCRISYQ",
+                  "midline": "C +C E+ T    L     C ++ C AC     KT+        CP CR SY+"
+                }
+              ]
+            },
+            {
+              "num": 61,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|78577",
+                  "accession": "78577",
+                  "title": "Q8BR37.1 RecName: Full=E3 ubiquitin-protein ligase NHLRC1; AltName: Full=Malin; AltName: Full=NHL repeat-containing protein 1; AltName: Full=RING-type E3 ubiquitin transferase NHLRC1 [Mus musculus]"
+                }
+              ],
+              "len": 401,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.6462,
+                  "score": 65,
+                  "evalue": 2.67498,
+                  "identity": 16,
+                  "positive": 23,
+                  "query_from": 37,
+                  "query_to": 85,
+                  "hit_from": 25,
+                  "hit_to": 74,
+                  "align_len": 50,
+                  "gaps": 1,
+                  "qseq": "LYECNVCKEISTDERFLKPKEC-CEYAICNACCVNMWKTATTHAKCPACR",
+                  "hseq": "LLECKVCFERFGHWQQRRPRNLPCGHVVCLACVAALAHPRTLGLECPFCR",
+                  "midline": "L EC VC E     +  +P+   C + +C AC   +    T   +CP CR"
+                }
+              ]
+            },
+            {
+              "num": 62,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|286192",
+                  "accession": "286192",
+                  "title": "Q940Q4.2 RecName: Full=RING-H2 finger protein ATL13; AltName: Full=RING-type E3 ubiquitin transferase ATL13 [Arabidopsis thaliana]"
+                }
+              ],
+              "len": 472,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.6462,
+                  "score": 65,
+                  "evalue": 2.76925,
+                  "identity": 17,
+                  "positive": 28,
+                  "query_from": 38,
+                  "query_to": 85,
+                  "hit_from": 132,
+                  "hit_to": 176,
+                  "align_len": 50,
+                  "gaps": 7,
+                  "qseq": "YECNVCK-EISTDERF-LKPKECCEYAICNACCVNMWKTATTHAKCPACR",
+                  "hseq": "FDCAVCLCEFETEDKLRLLPK--CSHAF-HMDCIDTW--LLSHSTCPLCR",
+                  "midline": "++C VC  E  T+++  L PK  C +A  +  C++ W    +H+ CP CR"
+                }
+              ]
+            },
+            {
+              "num": 63,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|229535",
+                  "accession": "229535",
+                  "title": "Q1ACD7.1 RecName: Full=Tripartite motif-containing protein 5; AltName: Full=RING-type E3 ubiquitin transferase TRIM5; AltName: Full=TRIM5alpha [Nomascus leucogenys]"
+                }
+              ],
+              "len": 494,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.6462,
+                  "score": 65,
+                  "evalue": 2.77967,
+                  "identity": 17,
+                  "positive": 23,
+                  "query_from": 40,
+                  "query_to": 89,
+                  "hit_from": 15,
+                  "hit_to": 63,
+                  "align_len": 53,
+                  "gaps": 7,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATT---HAKCPACRTSYK",
+                  "hseq": "CPICLELLTQPLSLD----CGHSFCQACLTANHKTSMPDEGERSCPVCRISYQ",
+                  "midline": "C +C E+ T    L     C ++ C AC     KT+        CP CR SY+"
+                }
+              ]
+            },
+            {
+              "num": 64,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|351440",
+                  "accession": "351440",
+                  "title": "Q2YEM9.1 RecName: Full=Tripartite motif-containing protein 5; AltName: Full=RING-type E3 ubiquitin transferase TRIM5; AltName: Full=TRIM5alpha [Pongo pygmaeus]"
+                }
+              ],
+              "len": 493,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.6462,
+                  "score": 65,
+                  "evalue": 2.97604,
+                  "identity": 17,
+                  "positive": 23,
+                  "query_from": 40,
+                  "query_to": 89,
+                  "hit_from": 15,
+                  "hit_to": 63,
+                  "align_len": 53,
+                  "gaps": 7,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATT---HAKCPACRTSYK",
+                  "hseq": "CPICLELLTQPLSLD----CGHSFCQACLTANHKKSTLDKGERSCPVCRVSYQ",
+                  "midline": "C +C E+ T    L     C ++ C AC     K +T       CP CR SY+"
+                }
+              ]
+            },
+            {
+              "num": 65,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|19520",
+                  "accession": "19520",
+                  "title": "Q9P7J7.1 RecName: Full=Transcriptional adapter 2 [Schizosaccharomyces pombe 972h-]"
+                }
+              ],
+              "len": 437,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.6462,
+                  "score": 65,
+                  "evalue": 3.00346,
+                  "identity": 13,
+                  "positive": 20,
+                  "query_from": 38,
+                  "query_to": 82,
+                  "hit_from": 6,
+                  "hit_to": 50,
+                  "align_len": 45,
+                  "gaps": 0,
+                  "qseq": "YECNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCP",
+                  "hseq": "YHCNVCAQDITRSIHIRCVECVDFDLCIPCFTSGASLGTHHPSHP",
+                  "midline": "Y CNVC +  T    ++  EC ++ +C  C  +     T H   P"
+                }
+              ]
+            },
+            {
+              "num": 66,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|256004",
+                  "accession": "256004",
+                  "title": "Q5C8T8.1 RecName: Full=Tripartite motif-containing protein 5; AltName: Full=RING-type E3 ubiquitin transferase TRIM5; AltName: Full=TRIM5alpha [Pongo abelii]"
+                }
+              ],
+              "len": 493,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.6462,
+                  "score": 65,
+                  "evalue": 3.03479,
+                  "identity": 17,
+                  "positive": 23,
+                  "query_from": 40,
+                  "query_to": 89,
+                  "hit_from": 15,
+                  "hit_to": 63,
+                  "align_len": 53,
+                  "gaps": 7,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATT---HAKCPACRTSYK",
+                  "hseq": "CPICLELLTQPLSLD----CGHSFCQACLTANHKKSTLDKGERSCPVCRVSYQ",
+                  "midline": "C +C E+ T    L     C ++ C AC     K +T       CP CR SY+"
+                }
+              ]
+            },
+            {
+              "num": 67,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|330793",
+                  "accession": "330793",
+                  "title": "Q0PF16.2 RecName: Full=Tripartite motif-containing protein 5; AltName: Full=RING-type E3 ubiquitin transferase TRIM5; AltName: Full=TRIM5alpha [Macaca mulatta]"
+                }
+              ],
+              "len": 497,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.6462,
+                  "score": 65,
+                  "evalue": 3.15784,
+                  "identity": 16,
+                  "positive": 25,
+                  "query_from": 40,
+                  "query_to": 89,
+                  "hit_from": 15,
+                  "hit_to": 64,
+                  "align_len": 54,
+                  "gaps": 8,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAK----CPACRTSYK",
+                  "hseq": "CPICLELLTEPLSLH----CGHSFCQACITANHKKSMLYKEGERSCPVCRISYQ",
+                  "midline": "C +C E+ T+   L     C ++ C AC     K +  + +    CP CR SY+"
+                }
+              ]
+            },
+            {
+              "num": 68,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|118937",
+                  "accession": "118937",
+                  "title": "Q2YEN2.1 RecName: Full=Tripartite motif-containing protein 5; AltName: Full=RING-type E3 ubiquitin transferase TRIM5; AltName: Full=TRIM5alpha [Macaca assamensis]"
+                }
+              ],
+              "len": 497,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.6462,
+                  "score": 65,
+                  "evalue": 3.15784,
+                  "identity": 16,
+                  "positive": 25,
+                  "query_from": 40,
+                  "query_to": 89,
+                  "hit_from": 15,
+                  "hit_to": 64,
+                  "align_len": 54,
+                  "gaps": 8,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAK----CPACRTSYK",
+                  "hseq": "CPICLELLTEPLSLH----CGHSFCQACITANHKKSMLYKEGERSCPVCRISYQ",
+                  "midline": "C +C E+ T+   L     C ++ C AC     K +  + +    CP CR SY+"
+                }
+              ]
+            },
+            {
+              "num": 69,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|86143",
+                  "accession": "86143",
+                  "title": "Q5D7I3.1 RecName: Full=Tripartite motif-containing protein 5; AltName: Full=RING-type E3 ubiquitin transferase TRIM5; AltName: Full=TRIM5alpha [Erythrocebus patas]"
+                }
+              ],
+              "len": 495,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.6462,
+                  "score": 65,
+                  "evalue": 3.18783,
+                  "identity": 16,
+                  "positive": 25,
+                  "query_from": 40,
+                  "query_to": 89,
+                  "hit_from": 15,
+                  "hit_to": 64,
+                  "align_len": 54,
+                  "gaps": 8,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAK----CPACRTSYK",
+                  "hseq": "CPICLELLTEPLSLP----CGHSFCQACITANHKKSMLYKEEERSCPVCRISYQ",
+                  "midline": "C +C E+ T+   L     C ++ C AC     K +  + +    CP CR SY+"
+                }
+              ]
+            },
+            {
+              "num": 70,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|398382",
+                  "accession": "398382",
+                  "title": "Q5D7H7.1 RecName: Full=Tripartite motif-containing protein 5; AltName: Full=RING-type E3 ubiquitin transferase TRIM5; AltName: Full=TRIM5alpha [Lagothrix lagotricha]"
+                }
+              ],
+              "len": 547,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 3.24368,
+                  "identity": 16,
+                  "positive": 24,
+                  "query_from": 40,
+                  "query_to": 89,
+                  "hit_from": 15,
+                  "hit_to": 63,
+                  "align_len": 53,
+                  "gaps": 7,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHA---KCPACRTSYK",
+                  "hseq": "CPICLDLLTEPLSLD----CGHSFCQACITADHKESTLHQGERSCPLCRVGYQ",
+                  "midline": "C +C ++ T+   L     C ++ C AC     K +T H     CP CR  Y+"
+                }
+              ]
+            },
+            {
+              "num": 71,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|461847",
+                  "accession": "461847",
+                  "title": "Q2YEN0.1 RecName: Full=Tripartite motif-containing protein 5; AltName: Full=RING-type E3 ubiquitin transferase TRIM5; AltName: Full=TRIM5alpha [Macaca nemestrina]"
+                }
+              ],
+              "len": 495,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 3.25076,
+                  "identity": 16,
+                  "positive": 25,
+                  "query_from": 40,
+                  "query_to": 89,
+                  "hit_from": 15,
+                  "hit_to": 64,
+                  "align_len": 54,
+                  "gaps": 8,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAK----CPACRTSYK",
+                  "hseq": "CPICLELLTEPLSLH----CGHSFCQACITANHKKSMLYKEGERSCPVCRISYQ",
+                  "midline": "C +C E+ T+   L     C ++ C AC     K +  + +    CP CR SY+"
+                }
+              ]
+            },
+            {
+              "num": 72,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|383505",
+                  "accession": "383505",
+                  "title": "Q5D7J0.1 RecName: Full=Tripartite motif-containing protein 5; AltName: Full=RING-type E3 ubiquitin transferase TRIM5; AltName: Full=TRIM5alpha [Colobus guereza]"
+                }
+              ],
+              "len": 495,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 3.25076,
+                  "identity": 16,
+                  "positive": 25,
+                  "query_from": 40,
+                  "query_to": 89,
+                  "hit_from": 15,
+                  "hit_to": 64,
+                  "align_len": 54,
+                  "gaps": 8,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAK----CPACRTSYK",
+                  "hseq": "CPICLELLTEPLSLH----CGHSFCQACITANHKKSMLYKEGERSCPVCRISYQ",
+                  "midline": "C +C E+ T+   L     C ++ C AC     K +  + +    CP CR SY+"
+                }
+              ]
+            },
+            {
+              "num": 73,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|1437",
+                  "accession": "1437",
+                  "title": "Q587N6.1 RecName: Full=Tripartite motif-containing protein 5; AltName: Full=RING-type E3 ubiquitin transferase TRIM5; AltName: Full=TRIM5alpha [Macaca fascicularis]"
+                }
+              ],
+              "len": 495,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 3.25076,
+                  "identity": 16,
+                  "positive": 25,
+                  "query_from": 40,
+                  "query_to": 89,
+                  "hit_from": 15,
+                  "hit_to": 64,
+                  "align_len": 54,
+                  "gaps": 8,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAK----CPACRTSYK",
+                  "hseq": "CPICLELLTEPLSLH----CGHSFCQACITANHKKSMLYKEGERSCPVCRISYQ",
+                  "midline": "C +C E+ T+   L     C ++ C AC     K +  + +    CP CR SY+"
+                }
+              ]
+            },
+            {
+              "num": 74,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|375135",
+                  "accession": "375135",
+                  "title": "Q09702.1 RecName: Full=Negative regulator of differentiation 1; AltName: Full=Multicopy suppressor of sporulation protein msa2 [Schizosaccharomyces pombe 972h-]"
+                }
+              ],
+              "len": 529,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 3.26751,
+                  "identity": 18,
+                  "positive": 28,
+                  "query_from": 12,
+                  "query_to": 59,
+                  "hit_from": 306,
+                  "hit_to": 360,
+                  "align_len": 55,
+                  "gaps": 7,
+                  "qseq": "PPPPPVLE------TINKTVKVMNLFVDNLVLYECNVCK-EISTDERFLKPKECC",
+                  "hseq": "PPPSPVLQKPDLIMTGNRTVYIGNIHADTTIEEICNAVRGGLLHNIRYLQEKHIC",
+                  "midline": "PPP PVL+      T N+TV + N+  D  +   CN  +  +  + R+L+ K  C"
+                }
+              ]
+            },
+            {
+              "num": 75,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|17642",
+                  "accession": "17642",
+                  "title": "Q9D9X6.1 RecName: Full=E3 ubiquitin-protein ligase Zswim2; AltName: Full=MEKK1-related protein X; Short=MEX; AltName: Full=RING-type E3 ubiquitin transferase Zswim2; AltName: Full=ZZ-type zinc finger-containing protein 2; AltName: Full=Zinc finger SWIM domain-containing protein 2 [Mus musculus]"
+                }
+              ],
+              "len": 631,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 3.27477,
+                  "identity": 11,
+                  "positive": 15,
+                  "query_from": 40,
+                  "query_to": 67,
+                  "hit_from": 235,
+                  "hit_to": 262,
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNAC",
+                  "hseq": "CNNCNQLPIEGRCYKCTECVEYHLCQEC",
+                  "midline": "CN C ++  + R  K  EC EY +C  C"
+                }
+              ]
+            },
+            {
+              "num": 76,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|292305",
+                  "accession": "292305",
+                  "title": "Q1XHU0.1 RecName: Full=E3 ubiquitin-protein ligase TRIM39; AltName: Full=RING-type E3 ubiquitin transferase TRIM39; AltName: Full=Tripartite motif-containing protein 39 [Pan troglodytes]"
+                }
+              ],
+              "len": 518,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 3.35941,
+                  "identity": 13,
+                  "positive": 21,
+                  "query_from": 40,
+                  "query_to": 89,
+                  "hit_from": 29,
+                  "hit_to": 74,
+                  "align_len": 50,
+                  "gaps": 4,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACRTSYK",
+                  "hseq": "CSVCLEYLKEPVIIE----CGHNFCKACITRWWEDLERDFPCPVCRKTSR",
+                  "midline": "C+VC E   +   ++    C +  C AC    W+       CP CR + +"
+                }
+              ]
+            },
+            {
+              "num": 77,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|421828",
+                  "accession": "421828",
+                  "title": "Q28EX7.1 RecName: Full=E3 ubiquitin-protein ligase MARCHF2; AltName: Full=Membrane-associated RING finger protein 2; AltName: Full=Membrane-associated RING-CH protein II; Short=MARCH-II; AltName: Full=RING-type E3 ubiquitin transferase MARCHF2 [Xenopus tropicalis]"
+                }
+              ],
+              "len": 246,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 3.42525,
+                  "identity": 13,
+                  "positive": 22,
+                  "query_from": 40,
+                  "query_to": 88,
+                  "hit_from": 64,
+                  "hit_to": 113,
+                  "align_len": 50,
+                  "gaps": 1,
+                  "qseq": "CNVCKEISTDERFLKPKECC-EYAICNACCVNMWKTATTHAKCPACRTSY",
+                  "hseq": "CRICHEGGNGERLLSPCDCTGTLGTVHKTCLEKWLSSSNTSYCELCHTEF",
+                  "midline": "C +C E    ER L P +C       +  C+  W +++  + C  C T +"
+                }
+              ]
+            },
+            {
+              "num": 78,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|47256",
+                  "accession": "47256",
+                  "title": "Q5C8U3.1 RecName: Full=Tripartite motif-containing protein 5; AltName: Full=RING-type E3 ubiquitin transferase TRIM5; AltName: Full=TRIM5alpha [Chlorocebus tantalus]"
+                }
+              ],
+              "len": 515,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 3.45783,
+                  "identity": 16,
+                  "positive": 25,
+                  "query_from": 40,
+                  "query_to": 89,
+                  "hit_from": 15,
+                  "hit_to": 64,
+                  "align_len": 54,
+                  "gaps": 8,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAK----CPACRTSYK",
+                  "hseq": "CPICLELLTEPLSLP----CGHSFCQACITANHKESMLYKEEERSCPVCRISYQ",
+                  "midline": "C +C E+ T+   L     C ++ C AC     K +  + +    CP CR SY+"
+                }
+              ]
+            },
+            {
+              "num": 79,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|386341",
+                  "accession": "386341",
+                  "title": "Q5PQ35.1 RecName: Full=E3 ubiquitin-protein ligase MARCHF2; AltName: Full=Membrane-associated RING finger protein 2; AltName: Full=Membrane-associated RING-CH protein II; Short=MARCH-II; AltName: Full=RING-type E3 ubiquitin transferase MARCHF2 [Xenopus laevis]"
+                }
+              ],
+              "len": 246,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 3.49292,
+                  "identity": 13,
+                  "positive": 22,
+                  "query_from": 40,
+                  "query_to": 88,
+                  "hit_from": 64,
+                  "hit_to": 113,
+                  "align_len": 50,
+                  "gaps": 1,
+                  "qseq": "CNVCKEISTDERFLKPKECC-EYAICNACCVNMWKTATTHAKCPACRTSY",
+                  "hseq": "CRICHEGGNGERLLSPCDCTGTLGTVHKTCLEKWLSSSNTSYCELCHTEF",
+                  "midline": "C +C E    ER L P +C       +  C+  W +++  + C  C T +"
+                }
+              ]
+            },
+            {
+              "num": 80,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|147312",
+                  "accession": "147312",
+                  "title": "Q9HCM9.2 RecName: Full=E3 ubiquitin-protein ligase TRIM39; AltName: Full=RING finger protein 23; AltName: Full=RING-type E3 ubiquitin transferase TRIM39; AltName: Full=Testis-abundant finger protein; AltName: Full=Tripartite motif-containing protein 39 [Homo sapiens]"
+                }
+              ],
+              "len": 518,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 3.77745,
+                  "identity": 13,
+                  "positive": 21,
+                  "query_from": 40,
+                  "query_to": 89,
+                  "hit_from": 29,
+                  "hit_to": 74,
+                  "align_len": 50,
+                  "gaps": 4,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACRTSYK",
+                  "hseq": "CSVCLEYLKEPVIIE----CGHNFCKACITRWWEDLERDFPCPVCRKTSR",
+                  "midline": "C+VC E   +   ++    C +  C AC    W+       CP CR + +"
+                }
+              ]
+            },
+            {
+              "num": 81,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|3368",
+                  "accession": "3368",
+                  "title": "Q810I1.1 RecName: Full=E3 ubiquitin-protein ligase TRIM50; AltName: Full=RING-type E3 ubiquitin transferase TRIM50; AltName: Full=Tripartite motif-containing protein 50 [Rattus norvegicus]"
+                }
+              ],
+              "len": 483,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 3.83074,
+                  "identity": 12,
+                  "positive": 24,
+                  "query_from": 39,
+                  "query_to": 87,
+                  "hit_from": 15,
+                  "hit_to": 59,
+                  "align_len": 49,
+                  "gaps": 4,
+                  "qseq": "ECNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACRTS",
+                  "hseq": "QCPICLEVFKEPLMLQ----CGHSYCKNCLDSLSEHLDSELRCPVCRQS",
+                  "midline": "+C +C E+  +   L+    C ++ C  C  ++ +   +  +CP CR S"
+                }
+              ]
+            },
+            {
+              "num": 82,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|186227",
+                  "accession": "186227",
+                  "title": "Q3UWZ0.1 RecName: Full=Tripartite motif-containing protein 75 [Mus musculus]"
+                }
+              ],
+              "len": 467,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 3.85748,
+                  "identity": 12,
+                  "positive": 21,
+                  "query_from": 39,
+                  "query_to": 85,
+                  "hit_from": 15,
+                  "hit_to": 57,
+                  "align_len": 47,
+                  "gaps": 4,
+                  "qseq": "ECNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACR",
+                  "hseq": "KCPICLDDLTDPVTVE----CGHNFCRSCIKDFWAGQQATSSCPVCR",
+                  "midline": "+C +C +  TD   ++    C +  C +C  + W      + CP CR"
+                }
+              ]
+            },
+            {
+              "num": 83,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|310234",
+                  "accession": "310234",
+                  "title": "Q4WZJ6.1 RecName: Full=Postreplication repair E3 ubiquitin-protein ligase rad18; AltName: Full=RING-type E3 ubiquitin transferase rad18 [Aspergillus fumigatus Af293]"
+                }
+              ],
+              "len": 418,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 3.89433,
+                  "identity": 15,
+                  "positive": 23,
+                  "query_from": 40,
+                  "query_to": 87,
+                  "hit_from": 30,
+                  "hit_to": 70,
+                  "align_len": 48,
+                  "gaps": 7,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACRTS",
+                  "hseq": "CQVCKDFFDNPVITS----CSHTFCSLC---IRRCLSTEGKCPACRSS",
+                  "midline": "C VCK+   +         C +  C+ C   + +  +T  KCPACR+S"
+                }
+              ]
+            },
+            {
+              "num": 84,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|188676",
+                  "accession": "188676",
+                  "title": "Q810I2.1 RecName: Full=E3 ubiquitin-protein ligase TRIM50; AltName: Full=RING-type E3 ubiquitin transferase TRIM50; AltName: Full=Tripartite motif-containing protein 50 [Mus musculus]"
+                }
+              ],
+              "len": 483,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 3.94473,
+                  "identity": 13,
+                  "positive": 23,
+                  "query_from": 39,
+                  "query_to": 87,
+                  "hit_from": 15,
+                  "hit_to": 59,
+                  "align_len": 49,
+                  "gaps": 4,
+                  "qseq": "ECNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACRTS",
+                  "hseq": "QCPICLEVFKEPLMLQ----CGHSYCKDCLDNLSQHLDSELCCPVCRQS",
+                  "midline": "+C +C E+  +   L+    C ++ C  C  N+ +   +   CP CR S"
+                }
+              ]
+            },
+            {
+              "num": 85,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|84519",
+                  "accession": "84519",
+                  "title": "Q2YEM8.1 RecName: Full=Tripartite motif-containing protein 5; AltName: Full=RING-type E3 ubiquitin transferase TRIM5; AltName: Full=TRIM5alpha [Hoolock hoolock]"
+                }
+              ],
+              "len": 494,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 3.95195,
+                  "identity": 17,
+                  "positive": 23,
+                  "query_from": 40,
+                  "query_to": 89,
+                  "hit_from": 15,
+                  "hit_to": 63,
+                  "align_len": 53,
+                  "gaps": 7,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATT---HAKCPACRTSYK",
+                  "hseq": "CPICLELLTQPLSLD----CGHSFCQACLTANHKTSMPDEGERSCPVCRISYQ",
+                  "midline": "C +C E+ T    L     C ++ C AC     KT+        CP CR SY+"
+                }
+              ]
+            },
+            {
+              "num": 86,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|65806",
+                  "accession": "65806",
+                  "title": "Q587N7.1 RecName: Full=Tripartite motif-containing protein 5; AltName: Full=RING-type E3 ubiquitin transferase TRIM5; AltName: Full=TRIM5alpha [Chlorocebus aethiops]"
+                }
+              ],
+              "len": 515,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 3.96487,
+                  "identity": 16,
+                  "positive": 25,
+                  "query_from": 40,
+                  "query_to": 89,
+                  "hit_from": 15,
+                  "hit_to": 64,
+                  "align_len": 54,
+                  "gaps": 8,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAK----CPACRTSYK",
+                  "hseq": "CPICLELLTEPLSLP----CGHSFCQACITANHKESMLYKEEERSCPVCRISYQ",
+                  "midline": "C +C E+ T+   L     C ++ C AC     K +  + +    CP CR SY+"
+                }
+              ]
+            },
+            {
+              "num": 87,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|400817",
+                  "accession": "400817",
+                  "title": "Q03601.2 RecName: Full=RING finger protein nhl-1 [Caenorhabditis elegans]"
+                }
+              ],
+              "len": 974,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 4.02863,
+                  "identity": 19,
+                  "positive": 31,
+                  "query_from": 12,
+                  "query_to": 88,
+                  "hit_from": 22,
+                  "hit_to": 87,
+                  "align_len": 78,
+                  "gaps": 13,
+                  "qseq": "PPPPPVLETINKTVKVMNLFVDNLVLYECNVCKEISTDERFLKPKEC-CEYAICNACCVNMWKTATTHAKCPACRTSY",
+                  "hseq": "PPSSRPADFVNPLEKIEQLLT-------CPICLD-----RYKQPKLLPCQHTFCYPCLESCADTLHRNLKCPECRAEH",
+                  "midline": "PP     + +N   K+  L         C +C +     R+ +PK   C++  C  C  +   T   + KCP CR  +"
+                }
+              ]
+            },
+            {
+              "num": 88,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|354879",
+                  "accession": "354879",
+                  "title": "Q8RXD4.1 RecName: Full=Protein BREAST CANCER SUSCEPTIBILITY 1 homolog; Short=AtBRCA1 [Arabidopsis thaliana]"
+                }
+              ],
+              "len": 941,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 4.18343,
+                  "identity": 12,
+                  "positive": 15,
+                  "query_from": 59,
+                  "query_to": 88,
+                  "hit_from": 31,
+                  "hit_to": 57,
+                  "align_len": 30,
+                  "gaps": 3,
+                  "qseq": "CEYAICNACCVNMWKTATTHAKCPACRTSY",
+                  "hseq": "CNHVFCNACIV---KSMKMDATCPVCKIPY",
+                  "midline": "C +  CNAC V   K+    A CP C+  Y"
+                }
+              ]
+            },
+            {
+              "num": 89,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|75550",
+                  "accession": "75550",
+                  "title": "Q6MFZ5.1 RecName: Full=E3 ubiquitin-protein ligase TRIM39; AltName: Full=RING finger protein 23; AltName: Full=RING-type E3 ubiquitin transferase TRIM39; AltName: Full=Tripartite motif-containing protein 39 [Rattus norvegicus]"
+                }
+              ],
+              "len": 488,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 4.3534,
+                  "identity": 13,
+                  "positive": 21,
+                  "query_from": 40,
+                  "query_to": 89,
+                  "hit_from": 29,
+                  "hit_to": 74,
+                  "align_len": 50,
+                  "gaps": 4,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACRTSYK",
+                  "hseq": "CSVCLEYLKEPVIIE----CGHNFCKACITRWWEDLERDFPCPVCRKTSR",
+                  "midline": "C+VC E   +   ++    C +  C AC    W+       CP CR + +"
+                }
+              ]
+            },
+            {
+              "num": 90,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|89956",
+                  "accession": "89956",
+                  "title": "P86449.1 RecName: Full=Tripartite motif-containing protein 43C [Mus musculus]"
+                }
+              ],
+              "len": 446,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 4.36255,
+                  "identity": 13,
+                  "positive": 21,
+                  "query_from": 40,
+                  "query_to": 85,
+                  "hit_from": 16,
+                  "hit_to": 57,
+                  "align_len": 46,
+                  "gaps": 4,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACR",
+                  "hseq": "CSICQGIFMDPVYLR----CGHKFCETCLLLFQEDIKFPAYCPTCR",
+                  "midline": "C++C+ I  D  +L+    C +  C  C +   +     A CP CR"
+                }
+              ]
+            },
+            {
+              "num": 91,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|355546",
+                  "accession": "355546",
+                  "title": "Q5D7I9.1 RecName: Full=Tripartite motif-containing protein 5; AltName: Full=RING-type E3 ubiquitin transferase TRIM5; AltName: Full=TRIM5alpha [Pygathrix nemaeus]"
+                }
+              ],
+              "len": 495,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 4.44442,
+                  "identity": 16,
+                  "positive": 25,
+                  "query_from": 40,
+                  "query_to": 89,
+                  "hit_from": 15,
+                  "hit_to": 64,
+                  "align_len": 54,
+                  "gaps": 8,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAK----CPACRTSYK",
+                  "hseq": "CPICLELLTEPLSLH----CGHSFCQACITANHKKSMLYKEGERSCPVCRISYQ",
+                  "midline": "C +C E+ T+   L     C ++ C AC     K +  + +    CP CR SY+"
+                }
+              ]
+            },
+            {
+              "num": 92,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|227501",
+                  "accession": "227501",
+                  "title": "Q8NEG5.2 RecName: Full=E3 ubiquitin-protein ligase ZSWIM2; AltName: Full=MEKK1-related protein X; Short=MEX; AltName: Full=RING-type E3 ubiquitin transferase ZSWIM2; AltName: Full=ZZ-type zinc finger-containing protein 2; AltName: Full=Zinc finger SWIM domain-containing protein 2 [Homo sapiens]"
+                }
+              ],
+              "len": 633,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 4.52186,
+                  "identity": 15,
+                  "positive": 21,
+                  "query_from": 40,
+                  "query_to": 80,
+                  "hit_from": 234,
+                  "hit_to": 277,
+                  "align_len": 44,
+                  "gaps": 3,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNAC---CVNMWKTATTHAK",
+                  "hseq": "CNNCKQFPIEGKCYKCTECIEYHLCQECFDSCCHLSHTFTFREK",
+                  "midline": "CN CK+   + +  K  EC EY +C  C   C ++  T T   K"
+                }
+              ]
+            },
+            {
+              "num": 93,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|99522",
+                  "accession": "99522",
+                  "title": "Q9ESN2.1 RecName: Full=E3 ubiquitin-protein ligase TRIM39; AltName: Full=RING finger protein 23; AltName: Full=RING-type E3 ubiquitin transferase TRIM39; AltName: Full=Testis-abundant finger protein; AltName: Full=Tripartite motif-containing protein 39 [Mus musculus]"
+                }
+              ],
+              "len": 488,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 4.89509,
+                  "identity": 13,
+                  "positive": 21,
+                  "query_from": 40,
+                  "query_to": 89,
+                  "hit_from": 29,
+                  "hit_to": 74,
+                  "align_len": 50,
+                  "gaps": 4,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACRTSYK",
+                  "hseq": "CSVCLEYLKEPVIIE----CGHNFCKACITRWWEDLERDFPCPVCRKTSR",
+                  "midline": "C+VC E   +   ++    C +  C AC    W+       CP CR + +"
+                }
+              ]
+            },
+            {
+              "num": 94,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|336961",
+                  "accession": "336961",
+                  "title": "Q3U827.2 RecName: Full=E3 ubiquitin-protein ligase RNF180; AltName: Full=RING finger protein 180; AltName: Full=RING-type E3 ubiquitin transferase RNF180 [Mus musculus]"
+                }
+              ],
+              "len": 592,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 4.91654,
+                  "identity": 15,
+                  "positive": 20,
+                  "query_from": 38,
+                  "query_to": 86,
+                  "hit_from": 430,
+                  "hit_to": 475,
+                  "align_len": 51,
+                  "gaps": 7,
+                  "qseq": "YECNVCKEISTDERFLKPKEC--CEYAICNACCVNMWKTATTHAKCPACRT",
+                  "hseq": "YMCAVCLDV-----YFNPYMCYPCHHIFCEPCLRTLAKDNPASTPCPLCRT",
+                  "midline": "Y C VC ++     +  P  C  C +  C  C   + K       CP CRT"
+                }
+              ]
+            },
+            {
+              "num": 95,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|142348",
+                  "accession": "142348",
+                  "title": "Q86XT4.2 RecName: Full=E3 ubiquitin-protein ligase TRIM50; AltName: Full=RING-type E3 ubiquitin transferase TRIM50; AltName: Full=Tripartite motif-containing protein 50 [Homo sapiens]"
+                }
+              ],
+              "len": 487,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 4.94234,
+                  "identity": 12,
+                  "positive": 23,
+                  "query_from": 39,
+                  "query_to": 87,
+                  "hit_from": 15,
+                  "hit_to": 59,
+                  "align_len": 49,
+                  "gaps": 4,
+                  "qseq": "ECNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACRTS",
+                  "hseq": "QCPICLEVFKEPLMLQ----CGHSYCKGCLVSLSCHLDAELRCPVCRQA",
+                  "midline": "+C +C E+  +   L+    C ++ C  C V++        +CP CR +"
+                }
+              ]
+            },
+            {
+              "num": 96,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|387787",
+                  "accession": "387787",
+                  "title": "Q8IWR1.1 RecName: Full=Tripartite motif-containing protein 59; AltName: Full=RING finger protein 104; AltName: Full=Tumor suppressor TSBF-1 [Homo sapiens]"
+                }
+              ],
+              "len": 403,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 5.05236,
+                  "identity": 16,
+                  "positive": 21,
+                  "query_from": 40,
+                  "query_to": 86,
+                  "hit_from": 10,
+                  "hit_to": 61,
+                  "align_len": 56,
+                  "gaps": 13,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNM---------WKTATTHAKCPACRT",
+                  "hseq": "CPICYSIFEDPRVLP----CSHTFCRNCLENILQASGNFYIWRPLRIPLKCPNCRS",
+                  "midline": "C +C  I  D R L     C +  C  C  N+         W+      KCP CR+"
+                }
+              ]
+            },
+            {
+              "num": 97,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|77025",
+                  "accession": "77025",
+                  "title": "Q5D7I6.1 RecName: Full=Tripartite motif-containing protein 5; AltName: Full=RING-type E3 ubiquitin transferase TRIM5; AltName: Full=TRIM5alpha [Alouatta sara]"
+                }
+              ],
+              "len": 551,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 5.1374,
+                  "identity": 16,
+                  "positive": 23,
+                  "query_from": 40,
+                  "query_to": 88,
+                  "hit_from": 15,
+                  "hit_to": 58,
+                  "align_len": 49,
+                  "gaps": 5,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACRTSY",
+                  "hseq": "CPICLELLTEPLSLD----CGHSFCQACITANHKESRERS-CPLCRVSY",
+                  "midline": "C +C E+ T+   L     C ++ C AC     K +   + CP CR SY"
+                }
+              ]
+            },
+            {
+              "num": 98,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|236728",
+                  "accession": "236728",
+                  "title": "Q09268.2 RecName: Full=Uncharacterized RING finger protein C32D5.10 [Caenorhabditis elegans]"
+                }
+              ],
+              "len": 610,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 5.17274,
+                  "identity": 17,
+                  "positive": 22,
+                  "query_from": 40,
+                  "query_to": 86,
+                  "hit_from": 41,
+                  "hit_to": 83,
+                  "align_len": 47,
+                  "gaps": 4,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACRT",
+                  "hseq": "CSVCKNEIIDTTSLS--DCC-HEFCYDCIVG-WLTKGSGPFCPMCKT",
+                  "midline": "C+VCK    D   L   +CC +  C  C V  W T  +   CP C+T"
+                }
+              ]
+            },
+            {
+              "num": 99,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|314267",
+                  "accession": "314267",
+                  "title": "Q03055.1 RecName: Full=Type II methyltransferase M.VspI; Short=M.VspI; AltName: Full=Adenine-specific methyltransferase VspI; AltName: Full=Modification methylase VspI [Vibrio sp. 343]"
+                }
+              ],
+              "len": 408,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 5.20907,
+                  "identity": 11,
+                  "positive": 14,
+                  "query_from": 44,
+                  "query_to": 68,
+                  "hit_from": 124,
+                  "hit_to": 148,
+                  "align_len": 25,
+                  "gaps": 0,
+                  "qseq": "KEISTDERFLKPKECCEYAICNACC",
+                  "hseq": "KEIAADFFDYLPKDCSELTFCDPCC",
+                  "midline": "KEI+ D     PK+C E   C+ CC"
+                }
+              ]
+            },
+            {
+              "num": 100,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|290068",
+                  "accession": "290068",
+                  "title": "Q9BY78.1 RecName: Full=E3 ubiquitin-protein ligase RNF26; AltName: Full=RING finger protein 26 [Homo sapiens]"
+                }
+              ],
+              "len": 433,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 5.39455,
+                  "identity": 13,
+                  "positive": 21,
+                  "query_from": 39,
+                  "query_to": 85,
+                  "hit_from": 379,
+                  "hit_to": 422,
+                  "align_len": 47,
+                  "gaps": 3,
+                  "qseq": "ECNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACR",
+                  "hseq": "KCVICQDQSKTVLLLPCRHLC---LCQACTEILMRHPVYHRNCPLCR",
+                  "midline": "+C +C++ S     L  +  C   +C AC   + +    H  CP CR"
+                }
+              ]
+            },
+            {
+              "num": 101,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|458182",
+                  "accession": "458182",
+                  "title": "Q86WT6.2 RecName: Full=E3 ubiquitin-protein ligase TRIM69; AltName: Full=RFP-like domain-containing protein trimless; AltName: Full=RING finger protein 36; AltName: Full=RING-type E3 ubiquitin transferase TRIM69; AltName: Full=Tripartite motif-containing protein 69 [Homo sapiens]"
+                }
+              ],
+              "len": 500,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 5.62369,
+                  "identity": 12,
+                  "positive": 18,
+                  "query_from": 40,
+                  "query_to": 85,
+                  "hit_from": 41,
+                  "hit_to": 82,
+                  "align_len": 46,
+                  "gaps": 4,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACR",
+                  "hseq": "CPLCNDWFRDPLMLS----CGHNFCEACIQDFWRLQAKETFCPECK",
+                  "midline": "C +C +   D   L     C +  C AC  + W+       CP C+"
+                }
+              ]
+            },
+            {
+              "num": 102,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|457615",
+                  "accession": "457615",
+                  "title": "Q941L0.2 RecName: Full=Cellulose synthase A catalytic subunit 3 [UDP-forming]; Short=AtCesA3; AltName: Full=Constitutive expression of VSP1 protein 1; AltName: Full=Isoxaben-resistant protein 1; Short=Ath-B; AltName: Full=Protein ECTOPIC LIGNIN 1; AltName: Full=Protein RADIALLY SWOLLEN 5; Short=AtRSW5 [Arabidopsis thaliana]"
+                }
+              ],
+              "len": 1065,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 6.46016,
+                  "identity": 15,
+                  "positive": 27,
+                  "query_from": 34,
+                  "query_to": 89,
+                  "hit_from": 14,
+                  "hit_to": 70,
+                  "align_len": 60,
+                  "gaps": 7,
+                  "qseq": "NLVLYECNVCKE----ISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACRTSYK",
+                  "hseq": "NIVPQTCQICSDNVGKTVDGDRFVAC-DICSFPVCRPC--YEYERKDGNQSCPQCKTRYK",
+                  "midline": "N+V   C +C +        +RF+   + C + +C  C    ++    +  CP C+T YK"
+                }
+              ]
+            },
+            {
+              "num": 103,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|295755",
+                  "accession": "295755",
+                  "title": "Q922Y2.2 RecName: Full=Tripartite motif-containing protein 59; AltName: Full=RING finger protein 1 [Mus musculus]"
+                }
+              ],
+              "len": 403,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 6.84034,
+                  "identity": 16,
+                  "positive": 21,
+                  "query_from": 40,
+                  "query_to": 86,
+                  "hit_from": 10,
+                  "hit_to": 61,
+                  "align_len": 56,
+                  "gaps": 13,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVN---------MWKTATTHAKCPACRT",
+                  "hseq": "CPICYSIFEDPRVLP----CSHTFCRNCLENVLQASGNFYIWRPLRIPLKCPNCRS",
+                  "midline": "C +C  I  D R L     C +  C  C  N         +W+      KCP CR+"
+                }
+              ]
+            },
+            {
+              "num": 104,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|322377",
+                  "accession": "322377",
+                  "title": "A4GWX9.1 RecName: Full=E3 ubiquitin-protein ligase GW2; AltName: Full=Protein GRAIN WIDTH AND WEIGHT 2; AltName: Full=RING-type E3 ubiquitin transferase GW2 [Oryza sativa Indica Group] B9F4Q9.1 RecName: Full=E3 ubiquitin-protein ligase GW2; AltName: Full=Protein GRAIN WIDTH AND WEIGHT 2; AltName: Full=RING-type E3 ubiquitin transferase GW2 [Oryza sativa Japonica Group]"
+                }
+              ],
+              "len": 425,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 7.21987,
+                  "identity": 13,
+                  "positive": 17,
+                  "query_from": 53,
+                  "query_to": 86,
+                  "hit_from": 72,
+                  "hit_to": 106,
+                  "align_len": 35,
+                  "gaps": 1,
+                  "qseq": "LKPKECCEYAICNACCVNMWKTATTH-AKCPACRT",
+                  "hseq": "LNRSKCCSKGICTECFLQMKPTHTAQPTQCPFCKT",
+                  "midline": "L   +CC   IC  C + M  T T    +CP C+T"
+                }
+              ]
+            },
+            {
+              "num": 105,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|383936",
+                  "accession": "383936",
+                  "title": "Q8LGA5.2 RecName: Full=E3 ubiquitin-protein ligase ATL31; AltName: Full=Protein CARBON/NITROGEN INSENSITIVE 1; AltName: Full=Protein SUPER SURVIVAL 1; AltName: Full=RING-H2 finger protein ATL31; AltName: Full=RING-type E3 ubiquitin transferase ATL31; Flags: Precursor [Arabidopsis thaliana]"
+                }
+              ],
+              "len": 368,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 7.61875,
+                  "identity": 14,
+                  "positive": 23,
+                  "query_from": 39,
+                  "query_to": 87,
+                  "hit_from": 123,
+                  "hit_to": 168,
+                  "align_len": 49,
+                  "gaps": 3,
+                  "qseq": "ECNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACRTS",
+                  "hseq": "ECAICLNEFEDDETLRLLPKCDH-VFHPHCIGAWLQG--HVTCPVCRTN",
+                  "midline": "EC +C     D+  L+    C++ + +  C+  W     H  CP CRT+"
+                }
+              ]
+            },
+            {
+              "num": 106,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|184794",
+                  "accession": "184794",
+                  "title": "Q5PQN2.1 RecName: Full=Bifunctional apoptosis regulator [Rattus norvegicus]"
+                }
+              ],
+              "len": 450,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 7.62089,
+                  "identity": 11,
+                  "positive": 24,
+                  "query_from": 38,
+                  "query_to": 89,
+                  "hit_from": 32,
+                  "hit_to": 78,
+                  "align_len": 52,
+                  "gaps": 5,
+                  "qseq": "YECNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAKCPACRTSYK",
+                  "hseq": "FSCHCCYDTLVNPTTLN----CGHSFCRHC-LALWWMSSKKTECPECREKWE",
+                  "midline": "+ C+ C +   +   L     C ++ C  C + +W  ++   +CP CR  ++"
+                }
+              ]
+            },
+            {
+              "num": 107,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|403067",
+                  "accession": "403067",
+                  "title": "Q5ZMD4.1 RecName: Full=Tripartite motif-containing protein 59 [Gallus gallus]"
+                }
+              ],
+              "len": 408,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 7.77644,
+                  "identity": 14,
+                  "positive": 23,
+                  "query_from": 40,
+                  "query_to": 86,
+                  "hit_from": 10,
+                  "hit_to": 61,
+                  "align_len": 56,
+                  "gaps": 13,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACC---------VNMWKTATTHAKCPACRT",
+                  "hseq": "CSICYSLFEDPRVLP----CSHTFCRSCLEGVIQLSSNFSIWRPLRVPLKCPNCRS",
+                  "midline": "C++C  +  D R L     C +  C +C           ++W+      KCP CR+"
+                }
+              ]
+            },
+            {
+              "num": 108,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301107",
+                  "accession": "301107",
+                  "title": "Q5D7J2.1 RecName: Full=Tripartite motif-containing protein 5; AltName: Full=RING-type E3 ubiquitin transferase TRIM5; AltName: Full=TRIM5alpha [Papio anubis]"
+                }
+              ],
+              "len": 497,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 8.3091,
+                  "identity": 15,
+                  "positive": 25,
+                  "query_from": 40,
+                  "query_to": 89,
+                  "hit_from": 15,
+                  "hit_to": 64,
+                  "align_len": 54,
+                  "gaps": 8,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATTHAK----CPACRTSYK",
+                  "hseq": "CPICLELLTEPLSLP----CGHSFCQACITANHRKSMLYKEGERSCPVCRISYQ",
+                  "midline": "C +C E+ T+   L     C ++ C AC     + +  + +    CP CR SY+"
+                }
+              ]
+            },
+            {
+              "num": 109,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|278668",
+                  "accession": "278668",
+                  "title": "Q8BGE7.1 RecName: Full=Tripartite motif-containing protein 6; AltName: Full=RING-type E3 ubiquitin transferase TRIM6 [Mus musculus]"
+                }
+              ],
+              "len": 488,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 9.32902,
+                  "identity": 14,
+                  "positive": 24,
+                  "query_from": 40,
+                  "query_to": 89,
+                  "hit_from": 15,
+                  "hit_to": 64,
+                  "align_len": 54,
+                  "gaps": 8,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTAT----THAKCPACRTSYK",
+                  "hseq": "CPICLELLTEPLSID----CGHSFCQVCIIGNSNNSVFGQGGRSSCPVCRTSYQ",
+                  "midline": "C +C E+ T+   +     C ++ C  C +     +       + CP CRTSY+"
+                }
+              ]
+            },
+            {
+              "num": 110,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|154578",
+                  "accession": "154578",
+                  "title": "Q1ACD8.1 RecName: Full=Tripartite motif-containing protein 5; AltName: Full=RING-type E3 ubiquitin transferase TRIM5; AltName: Full=TRIM5alpha [Pan paniscus]"
+                }
+              ],
+              "len": 493,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 9.52086,
+                  "identity": 16,
+                  "positive": 23,
+                  "query_from": 40,
+                  "query_to": 89,
+                  "hit_from": 15,
+                  "hit_to": 63,
+                  "align_len": 53,
+                  "gaps": 7,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATT---HAKCPACRTSYK",
+                  "hseq": "CPICLELLTQPLSLD----CGHSFCQACLTANHKKSMLDKGESSCPVCRISYQ",
+                  "midline": "C +C E+ T    L     C ++ C AC     K +      + CP CR SY+"
+                }
+              ]
+            },
+            {
+              "num": 111,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|164832",
+                  "accession": "164832",
+                  "title": "Q9C035.1 RecName: Full=Tripartite motif-containing protein 5; AltName: Full=RING finger protein 88; AltName: Full=RING-type E3 ubiquitin transferase TRIM5 [Homo sapiens]"
+                }
+              ],
+              "len": 493,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 9.70871,
+                  "identity": 16,
+                  "positive": 23,
+                  "query_from": 40,
+                  "query_to": 89,
+                  "hit_from": 15,
+                  "hit_to": 63,
+                  "align_len": 53,
+                  "gaps": 7,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATT---HAKCPACRTSYK",
+                  "hseq": "CPICLELLTQPLSLD----CGHSFCQACLTANHKKSMLDKGESSCPVCRISYQ",
+                  "midline": "C +C E+ T    L     C ++ C AC     K +      + CP CR SY+"
+                }
+              ]
+            },
+            {
+              "num": 112,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|253981",
+                  "accession": "253981",
+                  "title": "Q9C895.2 RecName: Full=E3 ubiquitin-protein ligase BRE1-like 2; AltName: Full=Protein HISTONE MONOUBIQUITINATION 2; Short=AtHUB2; AltName: Full=RING-type E3 ubiquitin transferase BRE1-like 2 [Arabidopsis thaliana]"
+                }
+              ],
+              "len": 900,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 9.96042,
+                  "identity": 16,
+                  "positive": 22,
+                  "query_from": 37,
+                  "query_to": 88,
+                  "hit_from": 845,
+                  "hit_to": 890,
+                  "align_len": 56,
+                  "gaps": 14,
+                  "qseq": "LYECNVCKEISTDERFLKPKEC----CEYAICNACCVNMWKTATTHAKCPACRTSY",
+                  "hseq": "ILKCGVC--------FDRPKEVVIVKCYHLFCQQCIQR--SLEIRHRKCPGCGTAF",
+                  "midline": "+ +C VC        F +PKE     C +  C  C          H KCP C T++"
+                }
+              ]
+            },
+            {
+              "num": 113,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|190013",
+                  "accession": "190013",
+                  "title": "Q5D7J1.1 RecName: Full=Tripartite motif-containing protein 5; AltName: Full=RING-type E3 ubiquitin transferase TRIM5; AltName: Full=TRIM5alpha [Pan troglodytes]"
+                }
+              ],
+              "len": 493,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 9.99745,
+                  "identity": 16,
+                  "positive": 23,
+                  "query_from": 40,
+                  "query_to": 89,
+                  "hit_from": 15,
+                  "hit_to": 63,
+                  "align_len": 53,
+                  "gaps": 7,
+                  "qseq": "CNVCKEISTDERFLKPKECCEYAICNACCVNMWKTATT---HAKCPACRTSYK",
+                  "hseq": "CPICLELLTQPLSLD----CGHSFCQACLTANHKKSMLDKGESSCPVCRISYQ",
+                  "midline": "C +C E+ T    L     C ++ C AC     K +      + CP CR SY+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 60,
+            "eff_space": 4452390184,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

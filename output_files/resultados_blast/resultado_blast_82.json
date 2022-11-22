@@ -1,0 +1,218 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_82",
+          "query_title": "<unknown id> Protein #82 translated from XX894275 with ORF = -2",
+          "query_len": 34,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|165999",
+                  "accession": "165999",
+                  "title": "P41704.1 RecName: Full=Uncharacterized 22.9 kDa protein in IE0-IE1 intergenic region [Autographa californica nucleopolyhedrovirus]"
+                }
+              ],
+              "len": 201,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 67.3958,
+                  "score": 163,
+                  "evalue": 3.81849e-15,
+                  "identity": 30,
+                  "positive": 31,
+                  "query_from": 1,
+                  "query_to": 33,
+                  "hit_from": 1,
+                  "hit_to": 33,
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "MNVNLYCPNGEHDNNISFIMPSKTNAVIVYFLR",
+                  "hseq": "MNVNLYCPNGEHDNNISFIMPSKTNAVIVYLFK",
+                  "midline": "MNVNLYCPNGEHDNNISFIMPSKTNAVIVY  +"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|210085",
+                  "accession": "210085",
+                  "title": "O10375.1 RecName: Full=Uncharacterized 21.8 kDa protein [Orgyia pseudotsugata multiple nucleopolyhedrovirus]"
+                }
+              ],
+              "len": 197,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1358,
+                  "score": 113,
+                  "evalue": 5.88203e-08,
+                  "identity": 19,
+                  "positive": 24,
+                  "query_from": 1,
+                  "query_to": 33,
+                  "hit_from": 1,
+                  "hit_to": 33,
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "MNVNLYCPNGEHDNNISFIMPSKTNAVIVYFLR",
+                  "hseq": "MNVYLYQPDGEQDNDVTFYMPHATNGVIVYLFK",
+                  "midline": "MNV LY P+GE DN+++F MP  TN VIVY  +"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|282465",
+                  "accession": "282465",
+                  "title": "O81081.1 RecName: Full=Laccase-2; AltName: Full=Benzenediol:oxygen oxidoreductase 2; AltName: Full=Diphenol oxidase 2; AltName: Full=Urishiol oxidase 2; Flags: Precursor [Arabidopsis thaliana]"
+                }
+              ],
+              "len": 573,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 2.64443,
+                  "identity": 11,
+                  "positive": 17,
+                  "query_from": 14,
+                  "query_to": 34,
+                  "hit_from": 395,
+                  "hit_to": 415,
+                  "align_len": 21,
+                  "gaps": 0,
+                  "qseq": "NNISFIMPSKTNAVIVYFLRK",
+                  "hseq": "NNVSFILPNKTSLLQSYFVGK",
+                  "midline": "NN+SFI+P+KT+ +  YF+ K"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|136641",
+                  "accession": "136641",
+                  "title": "P12670.2 RecName: Full=Protein NP24; AltName: Full=Pathogenesis-related protein PR P23; AltName: Full=Salt-induced protein; Flags: Precursor [Solanum lycopersicum]"
+                }
+              ],
+              "len": 247,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 2.78564,
+                  "identity": 10,
+                  "positive": 14,
+                  "query_from": 5,
+                  "query_to": 27,
+                  "hit_from": 223,
+                  "hit_to": 245,
+                  "align_len": 23,
+                  "gaps": 0,
+                  "qseq": "LYCPNGEHDNNISFIMPSKTNAV",
+                  "hseq": "VFCPNGVADPNFPLEMPASTDEV",
+                  "midline": "++CPNG  D N    MP+ T+ V"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|258405",
+                  "accession": "258405",
+                  "title": "P50702.1 RecName: Full=Osmotin-like protein OSML81; AltName: Full=PA81; Flags: Precursor [Solanum commersonii]"
+                }
+              ],
+              "len": 247,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 2.8134,
+                  "identity": 10,
+                  "positive": 14,
+                  "query_from": 5,
+                  "query_to": 27,
+                  "hit_from": 223,
+                  "hit_to": 245,
+                  "align_len": 23,
+                  "gaps": 0,
+                  "qseq": "LYCPNGEHDNNISFIMPSKTNAV",
+                  "hseq": "VFCPNGVADPNFPLEMPASTDEV",
+                  "midline": "++CPNG  D N    MP+ T+ V"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|355017",
+                  "accession": "355017",
+                  "title": "Q7Z3E1.1 RecName: Full=Protein mono-ADP-ribosyltransferase TIPARP; AltName: Full=ADP-ribosyltransferase diphtheria toxin-like 14; Short=ARTD14; AltName: Full=Poly [ADP-ribose] polymerase 7; Short=PARP-7; AltName: Full=TCDD-inducible poly [ADP-ribose] polymerase [Homo sapiens]"
+                }
+              ],
+              "len": 657,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.7942,
+                  "score": 55,
+                  "evalue": 6.73019,
+                  "identity": 11,
+                  "positive": 16,
+                  "query_from": 1,
+                  "query_to": 25,
+                  "hit_from": 94,
+                  "hit_to": 116,
+                  "align_len": 25,
+                  "gaps": 2,
+                  "qseq": "MNVNLYCPNGEHDNNISFIMPSKTN",
+                  "hseq": "MEINSSCPPAE--NNMSVLIPDRTN",
+                  "midline": "M +N  CP  E  NN+S ++P +TN"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 9,
+            "eff_space": 4450727675,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

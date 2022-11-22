@@ -1,0 +1,218 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_31",
+          "query_title": "<unknown id> Protein #31 translated from XX894275 with ORF = -1",
+          "query_len": 63,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|248565",
+                  "accession": "248565",
+                  "title": "Q1AST1.1 RecName: Full=Methionine--tRNA ligase; AltName: Full=Methionyl-tRNA synthetase; Short=MetRS [Rubrobacter xylanophilus DSM 9941]"
+                }
+              ],
+              "len": 577,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.8018,
+                  "score": 68,
+                  "evalue": 0.496738,
+                  "identity": 12,
+                  "positive": 19,
+                  "query_from": 34,
+                  "query_to": 61,
+                  "hit_from": 123,
+                  "hit_to": 149,
+                  "align_len": 28,
+                  "gaps": 1,
+                  "qseq": "EGGVLQTSISKSLYTGPIEASYIPDRYL",
+                  "hseq": "EGGYISEAESKQMYS-PTEGRFLPDRYV",
+                  "midline": "EGG +  + SK +Y+ P E  ++PDRY+"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|313408",
+                  "accession": "313408",
+                  "title": "Q55356.3 RecName: Full=Photosystem II reaction center Psb28 protein; AltName: Full=Photosystem II 13 kDa protein; AltName: Full=Photosystem II reaction center W protein [Synechocystis sp. PCC 6803 substr. Kazusa]"
+                }
+              ],
+              "len": 112,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.0314,
+                  "score": 66,
+                  "evalue": 0.617439,
+                  "identity": 19,
+                  "positive": 30,
+                  "query_from": 4,
+                  "query_to": 56,
+                  "hit_from": 26,
+                  "hit_to": 83,
+                  "align_len": 58,
+                  "gaps": 5,
+                  "qseq": "GISGIIHFFFLQYSLISSESTD--FSKSLIHSEGGVLQTSISKSLYTG---PIEASYI",
+                  "hseq": "GQSGMAKFYFLEPTILAKESTDDITGMYLIDDEGEIITREVKGKFINGRPTAIEATVI",
+                  "midline": "G SG+  F+FL+ ++++ ESTD      LI  EG ++   +      G    IEA+ I"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|73512",
+                  "accession": "73512",
+                  "title": "C5FX29.2 RecName: Full=Extracellular metalloproteinase 5; AltName: Full=Fungalysin MEP5; Flags: Precursor [Microsporum canis CBS 113480] Q6WIH7.1 RecName: Full=Extracellular metalloproteinase 5; AltName: Full=Fungalysin MEP5; Flags: Precursor [Microsporum canis]"
+                }
+              ],
+              "len": 632,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.0314,
+                  "score": 66,
+                  "evalue": 0.801156,
+                  "identity": 20,
+                  "positive": 29,
+                  "query_from": 3,
+                  "query_to": 50,
+                  "hit_from": 91,
+                  "hit_to": 136,
+                  "align_len": 49,
+                  "gaps": 4,
+                  "qseq": "VGISGIIHFFFLQ-YSLISSESTDFSKSLIHSEGGVLQTSISKSLYTGP",
+                  "hseq": "VGVSGISHVYFRQTMHGMDIDNSDFNVN-IGKDGKVL--SYGNSFYTGP",
+                  "midline": "VG+SGI H +F Q    +  +++DF+ + I  +G VL  S   S YTGP"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|470961",
+                  "accession": "470961",
+                  "title": "B7K2E0.1 RecName: Full=Photosystem II reaction center Psb28 protein; AltName: Full=Photosystem II 13 kDa protein; AltName: Full=Photosystem II reaction center W protein [Rippkaea orientalis PCC 8801]"
+                }
+              ],
+              "len": 114,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 4.43128,
+                  "identity": 16,
+                  "positive": 23,
+                  "query_from": 4,
+                  "query_to": 49,
+                  "hit_from": 26,
+                  "hit_to": 73,
+                  "align_len": 48,
+                  "gaps": 2,
+                  "qseq": "GISGIIHFFFLQYSLISSESTDFSKS--LIHSEGGVLQTSISKSLYTG",
+                  "hseq": "GQSGTATFYFREPSIFNSESTDEVTGMYLVDEEGEITTTEVKGKFING",
+                  "midline": "G SG   F+F + S+ +SESTD      L+  EG +  T +      G"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|455172",
+                  "accession": "455172",
+                  "title": "Q98QH2.1 RecName: Full=DNA ligase; AltName: Full=Polydeoxyribonucleotide synthase [NAD(+)] [Mycoplasmopsis pulmonis UAB CTIP]"
+                }
+              ],
+              "len": 679,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 4.73039,
+                  "identity": 12,
+                  "positive": 16,
+                  "query_from": 25,
+                  "query_to": 46,
+                  "hit_from": 624,
+                  "hit_to": 645,
+                  "align_len": 22,
+                  "gaps": 0,
+                  "qseq": "DFSKSLIHSEGGVLQTSISKSL",
+                  "hseq": "DFYKNLIIQNGGIISSSISKKL",
+                  "midline": "DF K+LI   GG++ +SISK L"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|432173",
+                  "accession": "432173",
+                  "title": "B2BRG2.1 RecName: Full=Non-structural protein 1; Short=NSP1; AltName: Full=NCVP2; AltName: Full=Non-structural RNA-binding protein 53; Short=NS53 [Rotavirus A cow/USA/WC3/1981 G6P7[5]]"
+                }
+              ],
+              "len": 491,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 9.55253,
+                  "identity": 15,
+                  "positive": 22,
+                  "query_from": 19,
+                  "query_to": 61,
+                  "hit_from": 344,
+                  "hit_to": 380,
+                  "align_len": 43,
+                  "gaps": 6,
+                  "qseq": "ISSESTDFSKSLIHSEGGVLQTSISKSLYTGPIEASYIPDRYL",
+                  "hseq": "IYNNVMDFIRALVKSNGNVGHCSSQESVY------KYIPDLFL",
+                  "midline": "I +   DF ++L+ S G V   S  +S+Y       YIPD +L"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 36,
+            "eff_space": 4456602720,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

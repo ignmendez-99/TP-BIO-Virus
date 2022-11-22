@@ -1,0 +1,578 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_65",
+          "query_title": "<unknown id> Protein #65 translated from XX894275 with ORF = -3",
+          "query_len": 41,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|126395",
+                  "accession": "126395",
+                  "title": "E8XWL7.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Rahnella aceris]"
+                }
+              ],
+              "len": 652,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 3.23046,
+                  "identity": 12,
+                  "positive": 14,
+                  "query_from": 12,
+                  "query_to": 33,
+                  "hit_from": 62,
+                  "hit_to": 83,
+                  "align_len": 22,
+                  "gaps": 0,
+                  "qseq": "RHRCFLRFLGAPLVCFAGAVIV",
+                  "hseq": "RHRGFLRVIGTFIGCIAALVIV",
+                  "midline": "RHR FLR +G  + C A  VIV"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|314229",
+                  "accession": "314229",
+                  "title": "Q8FD51.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Escherichia coli CFT073]"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 3.32844,
+                  "identity": 12,
+                  "positive": 17,
+                  "query_from": 7,
+                  "query_to": 33,
+                  "hit_from": 59,
+                  "hit_to": 85,
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "YAPFNRHRCFLRFLGAPLVCFAGAVIV",
+                  "hseq": "YSGAIRYRGFLRIIGTFIGCIAGLVII",
+                  "midline": "Y+   R+R FLR +G  + C AG VI+"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|467770",
+                  "accession": "467770",
+                  "title": "Q31WA8.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Shigella boydii Sb227]"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 3.36173,
+                  "identity": 12,
+                  "positive": 17,
+                  "query_from": 7,
+                  "query_to": 33,
+                  "hit_from": 59,
+                  "hit_to": 85,
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "YAPFNRHRCFLRFLGAPLVCFAGAVIV",
+                  "hseq": "YSGAIRYRGFLRIIGTFIGCIAGLVII",
+                  "midline": "Y+   R+R FLR +G  + C AG VI+"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|286720",
+                  "accession": "286720",
+                  "title": "P46481.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Escherichia coli K-12]"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 3.4636,
+                  "identity": 12,
+                  "positive": 17,
+                  "query_from": 7,
+                  "query_to": 33,
+                  "hit_from": 59,
+                  "hit_to": 85,
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "YAPFNRHRCFLRFLGAPLVCFAGAVIV",
+                  "hseq": "YSGAIRYRGFLRIIGTFIGCIAGLVII",
+                  "midline": "Y+   R+R FLR +G  + C AG VI+"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|74099",
+                  "accession": "74099",
+                  "title": "C4ZSX8.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Escherichia coli BW2952]"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 3.4636,
+                  "identity": 12,
+                  "positive": 17,
+                  "query_from": 7,
+                  "query_to": 33,
+                  "hit_from": 59,
+                  "hit_to": 85,
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "YAPFNRHRCFLRFLGAPLVCFAGAVIV",
+                  "hseq": "YSGAIRYRGFLRIIGTFIGCIAGLVII",
+                  "midline": "Y+   R+R FLR +G  + C AG VI+"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|424635",
+                  "accession": "424635",
+                  "title": "Q32B99.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Shigella dysenteriae Sd197]"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 3.49824,
+                  "identity": 12,
+                  "positive": 17,
+                  "query_from": 7,
+                  "query_to": 33,
+                  "hit_from": 59,
+                  "hit_to": 85,
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "YAPFNRHRCFLRFLGAPLVCFAGAVIV",
+                  "hseq": "YSGAIRYRGFLRIIGTFIGCIAGLVII",
+                  "midline": "Y+   R+R FLR +G  + C AG VI+"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|414299",
+                  "accession": "414299",
+                  "title": "A1AGD3.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Escherichia coli APEC O1] B1LGK6.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Escherichia coli SMS-3-5] B7MC01.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Escherichia coli S88] B7UJX2.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Escherichia coli O127:H6 str. E2348/69] Q1R699.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Escherichia coli UTI89]"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 3.49824,
+                  "identity": 12,
+                  "positive": 17,
+                  "query_from": 7,
+                  "query_to": 33,
+                  "hit_from": 59,
+                  "hit_to": 85,
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "YAPFNRHRCFLRFLGAPLVCFAGAVIV",
+                  "hseq": "YSGAIRYRGFLRIIGTFIGCIAGLVII",
+                  "midline": "Y+   R+R FLR +G  + C AG VI+"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|317855",
+                  "accession": "317855",
+                  "title": "B2U1U5.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Shigella boydii CDC 3083-94]"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 3.49824,
+                  "identity": 12,
+                  "positive": 17,
+                  "query_from": 7,
+                  "query_to": 33,
+                  "hit_from": 59,
+                  "hit_to": 85,
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "YAPFNRHRCFLRFLGAPLVCFAGAVIV",
+                  "hseq": "YSGAIRYRGFLRIIGTFIGCIAGLVII",
+                  "midline": "Y+   R+R FLR +G  + C AG VI+"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|239162",
+                  "accession": "239162",
+                  "title": "A8A549.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Escherichia coli HS]"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 3.49824,
+                  "identity": 12,
+                  "positive": 17,
+                  "query_from": 7,
+                  "query_to": 33,
+                  "hit_from": 59,
+                  "hit_to": 85,
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "YAPFNRHRCFLRFLGAPLVCFAGAVIV",
+                  "hseq": "YSGAIRYRGFLRIIGTFIGCIAGLVII",
+                  "midline": "Y+   R+R FLR +G  + C AG VI+"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|172378",
+                  "accession": "172378",
+                  "title": "B7N112.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Escherichia coli ED1a]"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 3.49824,
+                  "identity": 12,
+                  "positive": 17,
+                  "query_from": 7,
+                  "query_to": 33,
+                  "hit_from": 59,
+                  "hit_to": 85,
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "YAPFNRHRCFLRFLGAPLVCFAGAVIV",
+                  "hseq": "YSGAIRYRGFLRIIGTFIGCIAGLVII",
+                  "midline": "Y+   R+R FLR +G  + C AG VI+"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|107519",
+                  "accession": "107519",
+                  "title": "Q0TCM5.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Escherichia coli 536]"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 3.49824,
+                  "identity": 12,
+                  "positive": 17,
+                  "query_from": 7,
+                  "query_to": 33,
+                  "hit_from": 59,
+                  "hit_to": 85,
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "YAPFNRHRCFLRFLGAPLVCFAGAVIV",
+                  "hseq": "YSGAIRYRGFLRIIGTFIGCIAGLVII",
+                  "midline": "Y+   R+R FLR +G  + C AG VI+"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|95269",
+                  "accession": "95269",
+                  "title": "A7ZSD4.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Escherichia coli O139:H28 str. E24377A] B1IQN9.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Escherichia coli ATCC 8739] B6I1V8.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Escherichia coli SE11] B7LHU8.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Escherichia coli 55989] B7M0V2.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Escherichia coli IAI1] B7NDL8.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Escherichia coli UMN026] Q0T048.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Shigella flexneri 5 str. 8401] Q83JE2.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Shigella flexneri]"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 3.49824,
+                  "identity": 12,
+                  "positive": 17,
+                  "query_from": 7,
+                  "query_to": 33,
+                  "hit_from": 59,
+                  "hit_to": 85,
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "YAPFNRHRCFLRFLGAPLVCFAGAVIV",
+                  "hseq": "YSGAIRYRGFLRIIGTFIGCIAGLVII",
+                  "midline": "Y+   R+R FLR +G  + C AG VI+"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|277125",
+                  "accession": "277125",
+                  "title": "B5YSW6.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Escherichia coli O157:H7 str. EC4115] Q8X9E6.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Escherichia coli O157:H7]"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 3.53323,
+                  "identity": 12,
+                  "positive": 17,
+                  "query_from": 7,
+                  "query_to": 33,
+                  "hit_from": 59,
+                  "hit_to": 85,
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "YAPFNRHRCFLRFLGAPLVCFAGAVIV",
+                  "hseq": "YSGAIRYRGFLRIIGTFIGCIAGLVII",
+                  "midline": "Y+   R+R FLR +G  + C AG VI+"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|208844",
+                  "accession": "208844",
+                  "title": "B7NLF8.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Escherichia coli IAI39]"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 3.53323,
+                  "identity": 12,
+                  "positive": 17,
+                  "query_from": 7,
+                  "query_to": 33,
+                  "hit_from": 59,
+                  "hit_to": 85,
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "YAPFNRHRCFLRFLGAPLVCFAGAVIV",
+                  "hseq": "YSGAIRYRGFLRIIGTFIGCIAGLVII",
+                  "midline": "Y+   R+R FLR +G  + C AG VI+"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|201637",
+                  "accession": "201637",
+                  "title": "Q3YX07.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Shigella sonnei Ss046]"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 3.53323,
+                  "identity": 12,
+                  "positive": 17,
+                  "query_from": 7,
+                  "query_to": 33,
+                  "hit_from": 59,
+                  "hit_to": 85,
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "YAPFNRHRCFLRFLGAPLVCFAGAVIV",
+                  "hseq": "YSGAIRYRGFLRIIGTFIGCIAGLVII",
+                  "midline": "Y+   R+R FLR +G  + C AG VI+"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|55662",
+                  "accession": "55662",
+                  "title": "C6C4L7.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Musicola paradisiaca Ech703]"
+                }
+              ],
+              "len": 651,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 5.92945,
+                  "identity": 13,
+                  "positive": 16,
+                  "query_from": 9,
+                  "query_to": 33,
+                  "hit_from": 56,
+                  "hit_to": 83,
+                  "align_len": 28,
+                  "gaps": 3,
+                  "qseq": "PFN---RHRCFLRFLGAPLVCFAGAVIV",
+                  "hseq": "PFSGAIRHRGLLRILGTFIGCFGALVII",
+                  "midline": "PF+   RHR  LR LG  + CF   VI+"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|165602",
+                  "accession": "165602",
+                  "title": "A4THF0.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Yersinia pestis Pestoides F] A7FDT6.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Yersinia pseudotuberculosis IP 31758] A9R1V8.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Yersinia pestis Angola] B1JKI3.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Yersinia pseudotuberculosis YPIII] B2K436.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Yersinia pseudotuberculosis PB1/+] Q1C1L1.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Yersinia pestis Antiqua] Q1CDW7.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Yersinia pestis Nepal516] Q665H2.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Yersinia pseudotuberculosis IP 32953] Q8ZAU8.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Yersinia pestis]"
+                }
+              ],
+              "len": 651,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 6.95425,
+                  "identity": 12,
+                  "positive": 17,
+                  "query_from": 9,
+                  "query_to": 33,
+                  "hit_from": 56,
+                  "hit_to": 83,
+                  "align_len": 28,
+                  "gaps": 3,
+                  "qseq": "PFN---RHRCFLRFLGAPLVCFAGAVIV",
+                  "hseq": "PFSGAIRHRGWLRIIGTFIGCIGGLVII",
+                  "midline": "PF+   RHR +LR +G  + C  G VI+"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|255350",
+                  "accession": "255350",
+                  "title": "B7LRL5.1 RecName: Full=p-hydroxybenzoic acid efflux pump subunit AaeB; Short=pHBA efflux pump protein B [Escherichia fergusonii ATCC 35469]"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.7942,
+                  "score": 55,
+                  "evalue": 9.47285,
+                  "identity": 12,
+                  "positive": 16,
+                  "query_from": 7,
+                  "query_to": 33,
+                  "hit_from": 59,
+                  "hit_to": 85,
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "YAPFNRHRCFLRFLGAPLVCFAGAVIV",
+                  "hseq": "YAGAIRYRGMLRIIGTFIGCIAGLVII",
+                  "midline": "YA   R+R  LR +G  + C AG VI+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 15,
+            "eff_space": 4553820466,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

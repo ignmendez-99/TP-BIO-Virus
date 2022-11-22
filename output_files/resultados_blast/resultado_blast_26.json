@@ -1,0 +1,68 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_26",
+          "query_title": "<unknown id> Protein #26 translated from XX894275 with ORF = -1",
+          "query_len": 67,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|75551",
+                  "accession": "75551",
+                  "title": "Q9FNI7.1 RecName: Full=Glucomannan 4-beta-mannosyltransferase 2; AltName: Full=Cellulose synthase-like protein A2; Short=AtCslA2; AltName: Full=Glucomannan synthase; AltName: Full=Mannan synthase 2 [Arabidopsis thaliana]"
+                }
+              ],
+              "len": 534,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.6462,
+                  "score": 65,
+                  "evalue": 1.32655,
+                  "identity": 10,
+                  "positive": 16,
+                  "query_from": 4,
+                  "query_to": 27,
+                  "hit_from": 176,
+                  "hit_to": 199,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "IKSSVHRRYIKHCEYMKSFSFNFK",
+                  "hseq": "LKEGLKRSYVKHCEYVVIFDADFQ",
+                  "midline": "+K  + R Y+KHCEY+  F  +F+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 39,
+            "eff_space": 4581311756,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

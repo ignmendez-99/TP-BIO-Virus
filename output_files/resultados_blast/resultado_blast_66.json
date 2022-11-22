@@ -1,0 +1,128 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_66",
+          "query_title": "<unknown id> Protein #66 translated from XX894275 with ORF = 1",
+          "query_len": 40,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|128317",
+                  "accession": "128317",
+                  "title": "P41440.3 RecName: Full=Reduced folate transporter; Short=FOLT; AltName: Full=Cyclic dinucleotide:anion antiporter SLC19A1; AltName: Full=Folate:anion antiporter SLC19A1; AltName: Full=Intestinal folate carrier 1; Short=IFC-1; AltName: Full=Placental folate transporter; AltName: Full=Reduced folate carrier protein; Short=RFC; Short=hRFC; AltName: Full=Reduced folate transporter 1; Short=RFT-1; AltName: Full=Solute carrier family 19 member 1; Short=hSLC19A1 [Homo sapiens]"
+                }
+              ],
+              "len": 591,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 4.53417,
+                  "identity": 11,
+                  "positive": 19,
+                  "query_from": 2,
+                  "query_to": 38,
+                  "hit_from": 101,
+                  "hit_to": 136,
+                  "align_len": 37,
+                  "gaps": 1,
+                  "qseq": "MSFICAKLMSFFAHDYKHNQIMTHLFFKTELALRVKF",
+                  "hseq": "LSFVSVWLLLLLGHSVAHMQLM-ELFYSVTMAARIAY",
+                  "midline": "+SF+   L+    H   H Q+M  LF+   +A R+ +"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|389500",
+                  "accession": "389500",
+                  "title": "Q08199.1 RecName: Full=Nucleotide exchange factor SIL1; AltName: Full=Protein SLS1; Flags: Precursor [Saccharomyces cerevisiae S288C]"
+                }
+              ],
+              "len": 421,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 5.68635,
+                  "identity": 11,
+                  "positive": 13,
+                  "query_from": 13,
+                  "query_to": 27,
+                  "hit_from": 161,
+                  "hit_to": 176,
+                  "align_len": 16,
+                  "gaps": 1,
+                  "qseq": "FAHDYKHN-QIMTHLF",
+                  "hseq": "FAHDYKHGYKIITHEF",
+                  "midline": "FAHDYKH  +I+TH F"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|203462",
+                  "accession": "203462",
+                  "title": "Q9LPL5.1 RecName: Full=2-oxoisovalerate dehydrogenase subunit alpha 1, mitochondrial; AltName: Full=Branched-chain alpha-keto acid dehydrogenase E1 component alpha chain; Short=BCKDE1A; Short=BCKDH E1-alpha; Flags: Precursor [Arabidopsis thaliana]"
+                }
+              ],
+              "len": 472,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.7942,
+                  "score": 55,
+                  "evalue": 9.65087,
+                  "identity": 8,
+                  "positive": 14,
+                  "query_from": 21,
+                  "query_to": 40,
+                  "hit_from": 141,
+                  "hit_to": 160,
+                  "align_len": 20,
+                  "gaps": 0,
+                  "qseq": "QIMTHLFFKTELALRVKFYL",
+                  "hseq": "QVMDHIFYEAQRQGRISFYL",
+                  "midline": "Q+M H+F++ +   R+ FYL"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 14,
+            "eff_space": 4566309852,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

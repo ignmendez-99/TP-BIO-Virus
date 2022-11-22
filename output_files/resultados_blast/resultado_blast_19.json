@@ -1,0 +1,368 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_19",
+          "query_title": "<unknown id> Protein #19 translated from XX894275 with ORF = 2",
+          "query_len": 85,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|355134",
+                  "accession": "355134",
+                  "title": "A5UX01.1 RecName: Full=Ribonuclease HII; Short=RNase HII [Roseiflexus sp. RS-1]"
+                }
+              ],
+              "len": 227,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.4166,
+                  "score": 67,
+                  "evalue": 1.24414,
+                  "identity": 17,
+                  "positive": 19,
+                  "query_from": 16,
+                  "query_to": 40,
+                  "hit_from": 26,
+                  "hit_to": 54,
+                  "align_len": 29,
+                  "gaps": 4,
+                  "qseq": "DRAGRA----PIAAAAVVLPHAVRDTEDV",
+                  "hseq": "DEAGRGCLAGPVVAAAVILPDAVIDTPDV",
+                  "midline": "D AGR     P+ AAAV+LP AV DT DV"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|364288",
+                  "accession": "364288",
+                  "title": "C5BQX2.1 RecName: Full=Isoleucine--tRNA ligase; AltName: Full=Isoleucyl-tRNA synthetase; Short=IleRS [Teredinibacter turnerae T7901]"
+                }
+              ],
+              "len": 934,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.0314,
+                  "score": 66,
+                  "evalue": 1.57404,
+                  "identity": 17,
+                  "positive": 26,
+                  "query_from": 2,
+                  "query_to": 47,
+                  "hit_from": 269,
+                  "hit_to": 311,
+                  "align_len": 46,
+                  "gaps": 3,
+                  "qseq": "ARILADAGVLDTDGDRAGRAPIAAAAVVLPHAVRDTEDVTIRHKFY",
+                  "hseq": "ARLLVAEALLESVGKRAG---IDTATIVGRCHGRDLENLVLQHPFY",
+                  "midline": "AR+L    +L++ G RAG   I  A +V     RD E++ ++H FY"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|340180",
+                  "accession": "340180",
+                  "title": "Q69RJ0.2 RecName: Full=Ferredoxin-dependent glutamate synthase, chloroplastic; AltName: Full=Fd-GOGAT; Flags: Precursor [Oryza sativa Japonica Group]"
+                }
+              ],
+              "len": 1615,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.6462,
+                  "score": 65,
+                  "evalue": 2.41362,
+                  "identity": 14,
+                  "positive": 30,
+                  "query_from": 6,
+                  "query_to": 49,
+                  "hit_from": 369,
+                  "hit_to": 419,
+                  "align_len": 51,
+                  "gaps": 7,
+                  "qseq": "ADAGVLDTDGD---RAGRAPIAAAAVVLPHAVRDTEDVTIRH----KFYNY",
+                  "hseq": "SDSANLDSTAELLLRSGRSPAEAMMILVPEAYKNHPTLSIKYPEVIDFYDY",
+                  "midline": "+D+  LD+  +   R+GR+P  A  +++P A ++   ++I++     FY+Y"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|55749",
+                  "accession": "55749",
+                  "title": "P23225.1 RecName: Full=Ferredoxin-dependent glutamate synthase, chloroplastic; AltName: Full=Fd-GOGAT; Flags: Precursor [Zea mays]"
+                }
+              ],
+              "len": 1616,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.6462,
+                  "score": 65,
+                  "evalue": 2.87913,
+                  "identity": 14,
+                  "positive": 30,
+                  "query_from": 6,
+                  "query_to": 49,
+                  "hit_from": 370,
+                  "hit_to": 420,
+                  "align_len": 51,
+                  "gaps": 7,
+                  "qseq": "ADAGVLDTDGD---RAGRAPIAAAAVVLPHAVRDTEDVTIRH----KFYNY",
+                  "hseq": "SDSANLDSTAELLLRSGRSPAEALMILVPEAYKNHPTLSIKYPEVTDFYDY",
+                  "midline": "+D+  LD+  +   R+GR+P  A  +++P A ++   ++I++     FY+Y"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|365259",
+                  "accession": "365259",
+                  "title": "Q5ZHT1.1 RecName: Full=Acyl-CoA dehydrogenase family member 11; Short=ACAD-11 [Gallus gallus]"
+                }
+              ],
+              "len": 777,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 3.38713,
+                  "identity": 15,
+                  "positive": 20,
+                  "query_from": 5,
+                  "query_to": 43,
+                  "hit_from": 686,
+                  "hit_to": 724,
+                  "align_len": 39,
+                  "gaps": 0,
+                  "qseq": "LADAGVLDTDGDRAGRAPIAAAAVVLPHAVRDTEDVTIR",
+                  "hseq": "LKTASKIDTLGNRKARKEVAMTKVVVPRAVLKVIDCAIQ",
+                  "midline": "L  A  +DT G+R  R  +A   VV+P AV    D  I+"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|407986",
+                  "accession": "407986",
+                  "title": "Q5BL50.1 RecName: Full=Phospholipid-transporting ATPase IC; AltName: Full=ATPase class I type 8B member 1; AltName: Full=P4-ATPase flippase complex alpha subunit atp8b1 [Xenopus tropicalis]"
+                }
+              ],
+              "len": 1250,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 4.27503,
+                  "identity": 12,
+                  "positive": 16,
+                  "query_from": 45,
+                  "query_to": 65,
+                  "hit_from": 947,
+                  "hit_to": 969,
+                  "align_len": 23,
+                  "gaps": 2,
+                  "qseq": "KFYNYTFF--ISFTIIHFFYSIF",
+                  "hseq": "KFLRYFFYKNFSFTLVHFWYSFF",
+                  "midline": "KF  Y F+   SFT++HF+YS F"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|448191",
+                  "accession": "448191",
+                  "title": "B6IMM3.1 RecName: Full=Probable inorganic carbon transporter subunit DabA [Rhodospirillum centenum SW]"
+                }
+              ],
+              "len": 811,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 7.0069,
+                  "identity": 18,
+                  "positive": 25,
+                  "query_from": 3,
+                  "query_to": 54,
+                  "hit_from": 587,
+                  "hit_to": 637,
+                  "align_len": 52,
+                  "gaps": 1,
+                  "qseq": "RILADAGVLDTDGDRAGRAPIAAAAVVLPHAVRDTEDVTIRHKFYNYTFFIS",
+                  "hseq": "RWLTSAGVL-ARGERALRLPRAARSQDIPHRARDWAELRPEWALAGCQAFVA",
+                  "midline": "R L  AGVL   G+RA R P AA +  +PH  RD  ++           F++"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|326190",
+                  "accession": "326190",
+                  "title": "O42933.1 RecName: Full=Dolichyl-phosphate-mannose--protein mannosyltransferase 4 [Schizosaccharomyces pombe 972h-]"
+                }
+              ],
+              "len": 778,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 7.20247,
+                  "identity": 17,
+                  "positive": 26,
+                  "query_from": 23,
+                  "query_to": 73,
+                  "hit_from": 621,
+                  "hit_to": 670,
+                  "align_len": 51,
+                  "gaps": 1,
+                  "qseq": "IAAAAVVLPHAVRDTEDVTIRHKFYNYTFFISFTIIHFFYSIFFLLFKSYF",
+                  "hseq": "VAAAEILLRQRGIRTLPETVRNHFYRSTMFFYMTYV-FHYLPFFIMGRQLF",
+                  "midline": "+AAA ++L      T   T+R+ FY  T F   T + F Y  FF++ +  F"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|197263",
+                  "accession": "197263",
+                  "title": "Q65DS9.1 RecName: Full=Arginine--tRNA ligase; AltName: Full=Arginyl-tRNA synthetase; Short=ArgRS [Bacillus licheniformis DSM 13 = ATCC 14580]"
+                }
+              ],
+              "len": 556,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 7.9531,
+                  "identity": 12,
+                  "positive": 20,
+                  "query_from": 30,
+                  "query_to": 63,
+                  "hit_from": 482,
+                  "hit_to": 514,
+                  "align_len": 34,
+                  "gaps": 1,
+                  "qseq": "LPHAVRDTEDVTIRHKFYNYTFFISFTIIHFFYS",
+                  "hseq": "FPEAVADAAEKRIPHRITNYIFELA-SVLHSFYN",
+                  "midline": " P AV D  +  I H+  NY F ++ +++H FY+"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|341215",
+                  "accession": "341215",
+                  "title": "Q2LVU5.1 RecName: Full=Ribonuclease HII; Short=RNase HII [Syntrophus aciditrophicus SB]"
+                }
+              ],
+              "len": 212,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 9.54306,
+                  "identity": 13,
+                  "positive": 15,
+                  "query_from": 16,
+                  "query_to": 33,
+                  "hit_from": 23,
+                  "hit_to": 44,
+                  "align_len": 22,
+                  "gaps": 4,
+                  "qseq": "DRAGRAPIA----AAAVVLPHA",
+                  "hseq": "DEAGRGPLAGPVVAAAVILPHG",
+                  "midline": "D AGR P+A    AAAV+LPH "
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|195732",
+                  "accession": "195732",
+                  "title": "O08710.3 RecName: Full=Thyroglobulin; Short=Tg; Flags: Precursor [Mus musculus]"
+                }
+              ],
+              "len": 2766,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 9.88255,
+                  "identity": 16,
+                  "positive": 25,
+                  "query_from": 31,
+                  "query_to": 79,
+                  "hit_from": 182,
+                  "hit_to": 232,
+                  "align_len": 51,
+                  "gaps": 2,
+                  "qseq": "PHAVRDTEDVTIRHKFYNYTFFISFTIIHFF--YSIFFLLFKSYFGRVAAV",
+                  "hseq": "PQCTADGEFMPVQCKFVNTTDMMIFDLIHNYNRFPDAFVTFSSFRGRFPEV",
+                  "midline": "P    D E + ++ KF N T  + F +IH +  +   F+ F S+ GR   V"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 56,
+            "eff_space": 4508112060,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_74",
+          "query_title": "<unknown id> Protein #74 translated from XX894275 with ORF = 3",
+          "query_len": 37,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|103119",
+                  "accession": "103119",
+                  "title": "Q73IG2.1 RecName: Full=ATP synthase epsilon chain; AltName: Full=ATP synthase F1 sector epsilon subunit; AltName: Full=F-ATPase epsilon subunit [Wolbachia endosymbiont of Drosophila melanogaster]"
+                }
+              ],
+              "len": 114,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 2.0143,
+                  "identity": 10,
+                  "positive": 19,
+                  "query_from": 3,
+                  "query_to": 30,
+                  "hit_from": 76,
+                  "hit_to": 103,
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "ATVLSSIVRIFNRIFADENSYSNMSISI",
+                  "hseq": "CSIITSQIQVFDRAIHDEKSFKNKRISI",
+                  "midline": " ++++S +++F+R   DE S+ N  ISI"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|58234",
+                  "accession": "58234",
+                  "title": "Q54XB0.1 RecName: Full=Putative mediator of RNA polymerase II transcription subunit 22; AltName: Full=Putative mediator complex subunit 22 [Dictyostelium discoideum]"
+                }
+              ],
+              "len": 149,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 5.13956,
+                  "identity": 12,
+                  "positive": 19,
+                  "query_from": 4,
+                  "query_to": 35,
+                  "hit_from": 93,
+                  "hit_to": 124,
+                  "align_len": 32,
+                  "gaps": 0,
+                  "qseq": "TVLSSIVRIFNRIFADENSYSNMSISIVSNLL",
+                  "hseq": "STMAEEVRIQNLVFHKENERTNKSIKLISEEL",
+                  "midline": "+ ++  VRI N +F  EN  +N SI ++S  L"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|326716",
+                  "accession": "326716",
+                  "title": "Q6KC79.2 RecName: Full=Nipped-B-like protein; AltName: Full=Delangin; AltName: Full=SCC2 homolog [Homo sapiens]"
+                }
+              ],
+              "len": 2804,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 6.00987,
+                  "identity": 9,
+                  "positive": 16,
+                  "query_from": 12,
+                  "query_to": 34,
+                  "hit_from": 2215,
+                  "hit_to": 2237,
+                  "align_len": 23,
+                  "gaps": 0,
+                  "qseq": "IFNRIFADENSYSNMSISIVSNL",
+                  "hseq": "LYNNILSDKNSSVNLKIQVLKNL",
+                  "midline": "++N I +D+NS  N+ I ++ NL"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|172886",
+                  "accession": "172886",
+                  "title": "Q6KCD5.1 RecName: Full=Nipped-B-like protein; AltName: Full=Delangin homolog; AltName: Full=SCC2 homolog [Mus musculus]"
+                }
+              ],
+              "len": 2798,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 6.44398,
+                  "identity": 9,
+                  "positive": 16,
+                  "query_from": 12,
+                  "query_to": 34,
+                  "hit_from": 2209,
+                  "hit_to": 2231,
+                  "align_len": 23,
+                  "gaps": 0,
+                  "qseq": "IFNRIFADENSYSNMSISIVSNL",
+                  "hseq": "LYNSILSDKNSSVNLKIQVLKNL",
+                  "midline": "++N I +D+NS  N+ I ++ NL"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 11,
+            "eff_space": 4603778010,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

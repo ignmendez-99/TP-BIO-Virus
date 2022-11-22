@@ -1,0 +1,98 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_75",
+          "query_title": "<unknown id> Protein #75 translated from XX894275 with ORF = -2",
+          "query_len": 36,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|414912",
+                  "accession": "414912",
+                  "title": "P0CV05.1 RecName: Full=Secreted RxLR effector protein 36; Flags: Precursor [Plasmopara viticola]"
+                }
+              ],
+              "len": 399,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 0.729747,
+                  "identity": 13,
+                  "positive": 18,
+                  "query_from": 5,
+                  "query_to": 32,
+                  "hit_from": 102,
+                  "hit_to": 129,
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "AKEIIKNFTKQLCVLNFVKLLKNTIDPT",
+                  "hseq": "AEEAIKNFKQLEPVLNMIRRKRQRIDPT",
+                  "midline": "A+E IKNF +   VLN ++  +  IDPT"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|202231",
+                  "accession": "202231",
+                  "title": "Q492S9.1 RecName: Full=ATP-dependent lipid A-core flippase; AltName: Full=Lipid A export ATP-binding/permease protein MsbA [Candidatus Blochmannia pennsylvanicus str. BPEN]"
+                }
+              ],
+              "len": 584,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 4.53516,
+                  "identity": 9,
+                  "positive": 18,
+                  "query_from": 4,
+                  "query_to": 33,
+                  "hit_from": 447,
+                  "hit_to": 476,
+                  "align_len": 30,
+                  "gaps": 0,
+                  "qseq": "YAKEIIKNFTKQLCVLNFVKLLKNTIDPTI",
+                  "hseq": "YSRESIETAARMACAMDFISQMKNGLDTII",
+                  "midline": "Y++E I+   +  C ++F+  +KN +D  I"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 10,
+            "eff_space": 4616267396,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

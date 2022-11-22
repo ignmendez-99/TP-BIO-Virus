@@ -1,0 +1,98 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_89",
+          "query_title": "<unknown id> Protein #89 translated from XX894275 with ORF = 1",
+          "query_len": 30,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|201225",
+                  "accession": "201225",
+                  "title": "Q8IWV7.1 RecName: Full=E3 ubiquitin-protein ligase UBR1; AltName: Full=N-recognin-1; AltName: Full=RING-type E3 ubiquitin transferase UBR1; AltName: Full=Ubiquitin-protein ligase E3-alpha-1; AltName: Full=Ubiquitin-protein ligase E3-alpha-I [Homo sapiens]"
+                }
+              ],
+              "len": 1749,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 0.522622,
+                  "identity": 7,
+                  "positive": 17,
+                  "query_from": 3,
+                  "query_to": 23,
+                  "hit_from": 1568,
+                  "hit_to": 1588,
+                  "align_len": 21,
+                  "gaps": 0,
+                  "qseq": "YCSNPNILDCVRVSNPILRFP",
+                  "hseq": "WCADPALLNCLKQKNTVVRYP",
+                  "midline": "+C++P +L+C++  N ++R+P"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|48511",
+                  "accession": "48511",
+                  "title": "P28999.1 RecName: Full=Inulinase; AltName: Full=2,1-beta-D-fructanfructanohydrolase; AltName: Full=Inulase; Flags: Precursor [Kluyveromyces marxianus]"
+                }
+              ],
+              "len": 555,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.7942,
+                  "score": 55,
+                  "evalue": 6.13824,
+                  "identity": 10,
+                  "positive": 15,
+                  "query_from": 2,
+                  "query_to": 28,
+                  "hit_from": 359,
+                  "hit_to": 385,
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "DYCSNPNILDCVRVSNPILRFPCSTRN",
+                  "hseq": "DFSTNPNSADVVLNSQPVLNYDALRKN",
+                  "midline": "D+ +NPN  D V  S P+L +    +N"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 5,
+            "eff_space": 4498763775,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

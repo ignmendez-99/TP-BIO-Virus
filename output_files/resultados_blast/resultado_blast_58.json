@@ -1,0 +1,158 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_58",
+          "query_title": "<unknown id> Protein #58 translated from XX894275 with ORF = 3",
+          "query_len": 44,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|4383",
+                  "accession": "4383",
+                  "title": "B3LMT5.1 RecName: Full=Structure-specific endonuclease subunit SLX1 [Saccharomyces cerevisiae RM11-1a] B5VEH8.1 RecName: Full=Structure-specific endonuclease subunit SLX1 [Saccharomyces cerevisiae AWRI1631]"
+                }
+              ],
+              "len": 304,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 2.73394,
+                  "identity": 10,
+                  "positive": 14,
+                  "query_from": 11,
+                  "query_to": 27,
+                  "hit_from": 122,
+                  "hit_to": 138,
+                  "align_len": 17,
+                  "gaps": 0,
+                  "qseq": "KHKYFQLLNLIVDNFTL",
+                  "hseq": "KHEFFQRMNLIVDVFNI",
+                  "midline": "KH++FQ +NLIVD F +"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|215612",
+                  "accession": "215612",
+                  "title": "Q9FN93.1 RecName: Full=Probable LRR receptor-like serine/threonine-protein kinase At5g59680; Flags: Precursor [Arabidopsis thaliana]"
+                }
+              ],
+              "len": 887,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 7.13974,
+                  "identity": 16,
+                  "positive": 21,
+                  "query_from": 1,
+                  "query_to": 44,
+                  "hit_from": 382,
+                  "hit_to": 425,
+                  "align_len": 44,
+                  "gaps": 0,
+                  "qseq": "MNTLKTPCSAKHKYFQLLNLIVDNFTLGPVSVTLNNSSSFFTGT",
+                  "hseq": "INWQSDPCVPQQFMWDGLNCSITDITTPPRITTLNLSSSGLTGT",
+                  "midline": "+N    PC  +   +  LN  + + T  P   TLN SSS  TGT"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|373163",
+                  "accession": "373163",
+                  "title": "A7XY94.1 RecName: Full=Glutamate receptor ionotropic, NMDA 2B; Short=GluN2B; AltName: Full=N-methyl D-aspartate receptor subtype 2B; Short=NMDAR2B; Short=NR2B; Flags: Precursor [Xenopus laevis]"
+                }
+              ],
+              "len": 1448,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 7.91184,
+                  "identity": 11,
+                  "positive": 19,
+                  "query_from": 11,
+                  "query_to": 44,
+                  "hit_from": 1278,
+                  "hit_to": 1311,
+                  "align_len": 34,
+                  "gaps": 0,
+                  "qseq": "KHKYFQLLNLIVDNFTLGPVSVTLNNSSSFFTGT",
+                  "hseq": "QHSYDTFVDLQKEDVTLAPRSVSLKDKERFLDGS",
+                  "midline": "+H Y   ++L  ++ TL P SV+L +   F  G+"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|57350",
+                  "accession": "57350",
+                  "title": "Q8NHR7.1 RecName: Full=Telomere repeats-binding bouquet formation protein 2 [Homo sapiens]"
+                }
+              ],
+              "len": 220,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 8.25982,
+                  "identity": 11,
+                  "positive": 16,
+                  "query_from": 4,
+                  "query_to": 32,
+                  "hit_from": 151,
+                  "hit_to": 179,
+                  "align_len": 29,
+                  "gaps": 0,
+                  "qseq": "LKTPCSAKHKYFQLLNLIVDNFTLGPVSV",
+                  "hseq": "IRTPVVEKQMYFPLQNYPVNNMVTGYISI",
+                  "midline": "++TP   K  YF L N  V+N   G +S+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 18,
+            "eff_space": 4516352308,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

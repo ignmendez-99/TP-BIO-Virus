@@ -1,0 +1,98 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_6",
+          "query_title": "<unknown id> Protein #6 translated from XX894275 with ORF = 3",
+          "query_len": 209,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|32963",
+                  "accession": "32963",
+                  "title": "Q54US6.1 RecName: Full=Probable inactive serine/threonine-protein kinase DDB_G0280855 [Dictyostelium discoideum]"
+                }
+              ],
+              "len": 392,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 33.4982,
+                  "score": 75,
+                  "evalue": 0.975812,
+                  "identity": 21,
+                  "positive": 33,
+                  "query_from": 51,
+                  "query_to": 127,
+                  "hit_from": 26,
+                  "hit_to": 96,
+                  "align_len": 77,
+                  "gaps": 6,
+                  "qseq": "DLVLDFAFNASVKLAIPRVFRKIIYIIVDQTVFACHRLGVIFVIFNEQTRSFYLARGERRLLFENHTHAVSMKRSVH",
+                  "hseq": "DDYTSFTFKGK-SISVPRKQR-----ITKKTIYACDINGTMFQTYNMDTNRLLIIKKISLLQFKNHLQGRMMLRNCH",
+                  "midline": "D    F F     +++PR  R     I  +T++AC   G +F  +N  T    + +    L F+NH     M R+ H"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|341790",
+                  "accession": "341790",
+                  "title": "Q8R418.3 RecName: Full=Endoribonuclease Dicer; AltName: Full=Double-strand-specific ribonuclease mDCR-1 [Mus musculus]"
+                }
+              ],
+              "len": 1916,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 31.187,
+                  "score": 69,
+                  "evalue": 8.08485,
+                  "identity": 22,
+                  "positive": 33,
+                  "query_from": 2,
+                  "query_to": 69,
+                  "hit_from": 841,
+                  "hit_to": 907,
+                  "align_len": 71,
+                  "gaps": 7,
+                  "qseq": "RMHQLNVHFQQIVFVHQLLLNMHQVAF---GGSVSFCVLGSNVVAPSGRPFLDLVLDFAFNASVKLAIPRV",
+                  "hseq": "QMLELITRLHQYIFSHILRLEKPALEFKPTGAESAYCVLPLNVVNDSG----TLDIDFKFMEDIEKSEARI",
+                  "midline": "+M +L     Q +F H L L    + F   G   ++CVL  NVV  SG     L +DF F   ++ +  R+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 112,
+            "eff_space": 12469536628,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

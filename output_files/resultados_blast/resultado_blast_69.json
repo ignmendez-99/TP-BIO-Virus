@@ -1,0 +1,218 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_69",
+          "query_title": "<unknown id> Protein #69 translated from XX894275 with ORF = -2",
+          "query_len": 39,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|273711",
+                  "accession": "273711",
+                  "title": "Q642T7.1 RecName: Full=U3 small nucleolar RNA-associated protein 25 homolog; AltName: Full=Digestive organ expansion factor homolog; AltName: Full=UTP25 small subunit processor component [Xenopus tropicalis]"
+                }
+              ],
+              "len": 765,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 0.925955,
+                  "identity": 12,
+                  "positive": 15,
+                  "query_from": 18,
+                  "query_to": 39,
+                  "hit_from": 605,
+                  "hit_to": 626,
+                  "align_len": 22,
+                  "gaps": 0,
+                  "qseq": "FFQWKILACYSDIIMPYTIVYI",
+                  "hseq": "FFTSKILPQYRDAIMSHTLIYI",
+                  "midline": "FF  KIL  Y D IM +T++YI"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|65987",
+                  "accession": "65987",
+                  "title": "Q68CQ4.2 RecName: Full=U3 small nucleolar RNA-associated protein 25 homolog; AltName: Full=Digestive organ expansion factor homolog; AltName: Full=UTP25 small subunit processor component [Homo sapiens]"
+                }
+              ],
+              "len": 756,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 3.61326,
+                  "identity": 11,
+                  "positive": 15,
+                  "query_from": 18,
+                  "query_to": 39,
+                  "hit_from": 597,
+                  "hit_to": 618,
+                  "align_len": 22,
+                  "gaps": 0,
+                  "qseq": "FFQWKILACYSDIIMPYTIVYI",
+                  "hseq": "FFVNKILPQYRDAVMSHTLIYI",
+                  "midline": "FF  KIL  Y D +M +T++YI"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|397878",
+                  "accession": "397878",
+                  "title": "Q5M9G7.1 RecName: Full=U3 small nucleolar RNA-associated protein 25 homolog; AltName: Full=Digestive organ expansion factor homolog; AltName: Full=UTP25 small subunit processor component [Rattus norvegicus]"
+                }
+              ],
+              "len": 763,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 7.32766,
+                  "identity": 10,
+                  "positive": 15,
+                  "query_from": 18,
+                  "query_to": 39,
+                  "hit_from": 604,
+                  "hit_to": 625,
+                  "align_len": 22,
+                  "gaps": 0,
+                  "qseq": "FFQWKILACYSDIIMPYTIVYI",
+                  "hseq": "FFINKILPQYRDAVMSHTLIYV",
+                  "midline": "FF  KIL  Y D +M +T++Y+"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|357935",
+                  "accession": "357935",
+                  "title": "Q8BTT6.2 RecName: Full=U3 small nucleolar RNA-associated protein 25 homolog; AltName: Full=Digestive organ expansion factor homolog; AltName: Full=UTP25 small subunit processor component [Mus musculus]"
+                }
+              ],
+              "len": 772,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 7.32802,
+                  "identity": 10,
+                  "positive": 15,
+                  "query_from": 18,
+                  "query_to": 39,
+                  "hit_from": 613,
+                  "hit_to": 634,
+                  "align_len": 22,
+                  "gaps": 0,
+                  "qseq": "FFQWKILACYSDIIMPYTIVYI",
+                  "hseq": "FFINKILPQYRDAVMSHTLIYV",
+                  "midline": "FF  KIL  Y D +M +T++Y+"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|107923",
+                  "accession": "107923",
+                  "title": "Q57366.1 RecName: Full=Dimethyl sulfoxide/trimethylamine N-oxide reductase; Short=DMSO reductase; Short=DMSOR; Short=Me2SO reductase; Short=TMAOR; Flags: Precursor [Cereibacter sphaeroides]"
+                }
+              ],
+              "len": 822,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.7942,
+                  "score": 55,
+                  "evalue": 8.3439,
+                  "identity": 9,
+                  "positive": 13,
+                  "query_from": 19,
+                  "query_to": 38,
+                  "hit_from": 502,
+                  "hit_to": 521,
+                  "align_len": 20,
+                  "gaps": 0,
+                  "qseq": "FQWKILACYSDIIMPYTIVY",
+                  "hseq": "FQWTATARHADIVLPATTSY",
+                  "midline": "FQW   A ++DI++P T  Y"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|352155",
+                  "accession": "352155",
+                  "title": "P0C105.1 RecName: Full=Glucose/galactose transporter [Brucella abortus bv. 1 str. 9-941] Q2YIJ8.1 RecName: Full=Glucose/galactose transporter [Brucella abortus 2308]"
+                }
+              ],
+              "len": 412,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.7942,
+                  "score": 55,
+                  "evalue": 9.46008,
+                  "identity": 7,
+                  "positive": 14,
+                  "query_from": 14,
+                  "query_to": 34,
+                  "hit_from": 28,
+                  "hit_to": 48,
+                  "align_len": 21,
+                  "gaps": 0,
+                  "qseq": "IVYIFFQWKILACYSDIIMPY",
+                  "hseq": "LTLLFFMWGFITCLNDILIPH",
+                  "midline": "+  +FF W  + C +DI++P+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 13,
+            "eff_space": 4578799238,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

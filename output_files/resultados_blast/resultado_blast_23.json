@@ -1,0 +1,608 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_23",
+          "query_title": "<unknown id> Protein #23 translated from XX894275 with ORF = 3",
+          "query_len": 76,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|243344",
+                  "accession": "243344",
+                  "title": "A5GQ24.1 RecName: Full=6,7-dimethyl-8-ribityllumazine synthase; Short=DMRL synthase; Short=LS; Short=Lumazine synthase [Synechococcus sp. RCC307]"
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 31.5722,
+                  "score": 70,
+                  "evalue": 0.315356,
+                  "identity": 21,
+                  "positive": 32,
+                  "query_from": 17,
+                  "query_to": 74,
+                  "hit_from": 42,
+                  "hit_to": 98,
+                  "align_len": 59,
+                  "gaps": 3,
+                  "qseq": "HGSDVVQTGADAAKLGVLHGGYEVAFLLGNKRPTAGIFPTVV-IGCVADGRNPKFDVVV",
+                  "hseq": "HGIDVAETSSQL-DLAWVPGSFEIP-LLAKRLASSGRYDVVITLGAVIRGDTPHFDVVV",
+                  "midline": "HG DV +T +    L  + G +E+  LL  +  ++G +  V+ +G V  G  P FDVVV"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|200865",
+                  "accession": "200865",
+                  "title": "A8AIG6.1 RecName: Full=Tetraacyldisaccharide 4'-kinase; AltName: Full=Lipid A 4'-kinase [Citrobacter koseri ATCC BAA-895]"
+                }
+              ],
+              "len": 325,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.4166,
+                  "score": 67,
+                  "evalue": 0.896889,
+                  "identity": 16,
+                  "positive": 23,
+                  "query_from": 32,
+                  "query_to": 74,
+                  "hit_from": 24,
+                  "hit_to": 66,
+                  "align_len": 43,
+                  "gaps": 0,
+                  "qseq": "GVLHGGYEVAFLLGNKRPTAGIFPTVVIGCVADGRNPKFDVVV",
+                  "hseq": "GLVSGGIRLCYRLGIKRAWRAPVPVVVVGNLTAGGNGKTPVVI",
+                  "midline": "G++ GG  + + LG KR      P VV+G +  G N K  VV+"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|203719",
+                  "accession": "203719",
+                  "title": "Q8D2U9.1 RecName: Full=Tetraacyldisaccharide 4'-kinase; AltName: Full=Lipid A 4'-kinase [Wigglesworthia glossinidia endosymbiont of Glossina brevipalpis]"
+                }
+              ],
+              "len": 363,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.0314,
+                  "score": 66,
+                  "evalue": 1.34326,
+                  "identity": 11,
+                  "positive": 23,
+                  "query_from": 30,
+                  "query_to": 67,
+                  "hit_from": 228,
+                  "hit_to": 265,
+                  "align_len": 38,
+                  "gaps": 0,
+                  "qseq": "KLGVLHGGYEVAFLLGNKRPTAGIFPTVVIGCVADGRN",
+                  "hseq": "KMNLYHKNYVINLLNGSKKRLNDLFPTILISGISNNKN",
+                  "midline": "K+ + H  Y +  L G+K+    +FPT++I  +++ +N"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|294274",
+                  "accession": "294274",
+                  "title": "Q64XS0.1 RecName: Full=6,7-dimethyl-8-ribityllumazine synthase; Short=DMRL synthase; Short=LS; Short=Lumazine synthase [Bacteroides fragilis YCH46]"
+                }
+              ],
+              "len": 143,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 3.0507,
+                  "identity": 13,
+                  "positive": 18,
+                  "query_from": 36,
+                  "query_to": 73,
+                  "hit_from": 43,
+                  "hit_to": 80,
+                  "align_len": 38,
+                  "gaps": 0,
+                  "qseq": "GGYEVAFLLGNKRPTAGIFPTVVIGCVADGRNPKFDVV",
+                  "hseq": "GSFELTFGANQMMENSDIDAIIIIGCVIKGDTPHFDYV",
+                  "midline": "G +E+ F        + I   ++IGCV  G  P FD V"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|441877",
+                  "accession": "441877",
+                  "title": "B5QZB9.1 RecName: Full=Tetraacyldisaccharide 4'-kinase; AltName: Full=Lipid A 4'-kinase [Salmonella enterica subsp. enterica serovar Enteritidis str. P125109] B5R8K2.1 RecName: Full=Tetraacyldisaccharide 4'-kinase; AltName: Full=Lipid A 4'-kinase [Salmonella enterica subsp. enterica serovar Gallinarum str. 287/91]"
+                }
+              ],
+              "len": 325,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 3.81604,
+                  "identity": 15,
+                  "positive": 23,
+                  "query_from": 32,
+                  "query_to": 74,
+                  "hit_from": 24,
+                  "hit_to": 66,
+                  "align_len": 43,
+                  "gaps": 0,
+                  "qseq": "GVLHGGYEVAFLLGNKRPTAGIFPTVVIGCVADGRNPKFDVVV",
+                  "hseq": "GLVSGAIRLSYKLGFKRAWRAPVPVVVVGNLTAGGNGKTPVVI",
+                  "midline": "G++ G   +++ LG KR      P VV+G +  G N K  VV+"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|280557",
+                  "accession": "280557",
+                  "title": "C0PXV2.1 RecName: Full=Tetraacyldisaccharide 4'-kinase; AltName: Full=Lipid A 4'-kinase [Salmonella enterica subsp. enterica serovar Paratyphi C str. RKS4594]"
+                }
+              ],
+              "len": 325,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 3.85383,
+                  "identity": 15,
+                  "positive": 23,
+                  "query_from": 32,
+                  "query_to": 74,
+                  "hit_from": 24,
+                  "hit_to": 66,
+                  "align_len": 43,
+                  "gaps": 0,
+                  "qseq": "GVLHGGYEVAFLLGNKRPTAGIFPTVVIGCVADGRNPKFDVVV",
+                  "hseq": "GLVSGAIRLSYKLGFKRAWRAPVPVVVVGNLTAGGNGKTPVVI",
+                  "midline": "G++ G   +++ LG KR      P VV+G +  G N K  VV+"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|308965",
+                  "accession": "308965",
+                  "title": "Q57R13.1 RecName: Full=Tetraacyldisaccharide 4'-kinase; AltName: Full=Lipid A 4'-kinase [Salmonella enterica subsp. enterica serovar Choleraesuis str. SC-B67]"
+                }
+              ],
+              "len": 325,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 3.892,
+                  "identity": 15,
+                  "positive": 23,
+                  "query_from": 32,
+                  "query_to": 74,
+                  "hit_from": 24,
+                  "hit_to": 66,
+                  "align_len": 43,
+                  "gaps": 0,
+                  "qseq": "GVLHGGYEVAFLLGNKRPTAGIFPTVVIGCVADGRNPKFDVVV",
+                  "hseq": "GLVSGAIRLSYKLGFKRAWRAPVPVVVVGNLTAGGNGKTPVVI",
+                  "midline": "G++ G   +++ LG KR      P VV+G +  G N K  VV+"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|155149",
+                  "accession": "155149",
+                  "title": "B4TDQ2.1 RecName: Full=Tetraacyldisaccharide 4'-kinase; AltName: Full=Lipid A 4'-kinase [Salmonella enterica subsp. enterica serovar Heidelberg str. SL476]"
+                }
+              ],
+              "len": 325,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 3.892,
+                  "identity": 15,
+                  "positive": 23,
+                  "query_from": 32,
+                  "query_to": 74,
+                  "hit_from": 24,
+                  "hit_to": 66,
+                  "align_len": 43,
+                  "gaps": 0,
+                  "qseq": "GVLHGGYEVAFLLGNKRPTAGIFPTVVIGCVADGRNPKFDVVV",
+                  "hseq": "GLVSGAIRLSYKLGFKRAWRAPVPVVVVGNLTAGGNGKTPVVI",
+                  "midline": "G++ G   +++ LG KR      P VV+G +  G N K  VV+"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|85388",
+                  "accession": "85388",
+                  "title": "B4T149.1 RecName: Full=Tetraacyldisaccharide 4'-kinase; AltName: Full=Lipid A 4'-kinase [Salmonella enterica subsp. enterica serovar Newport str. SL254]"
+                }
+              ],
+              "len": 325,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 3.93054,
+                  "identity": 15,
+                  "positive": 23,
+                  "query_from": 32,
+                  "query_to": 74,
+                  "hit_from": 24,
+                  "hit_to": 66,
+                  "align_len": 43,
+                  "gaps": 0,
+                  "qseq": "GVLHGGYEVAFLLGNKRPTAGIFPTVVIGCVADGRNPKFDVVV",
+                  "hseq": "GLVSGAIRLSYKLGFKRAWRAPVPVVVVGNLTAGGNGKTPVVI",
+                  "midline": "G++ G   +++ LG KR      P VV+G +  G N K  VV+"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|6950",
+                  "accession": "6950",
+                  "title": "B4TRU7.1 RecName: Full=Tetraacyldisaccharide 4'-kinase; AltName: Full=Lipid A 4'-kinase [Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633]"
+                }
+              ],
+              "len": 325,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 3.93054,
+                  "identity": 15,
+                  "positive": 23,
+                  "query_from": 32,
+                  "query_to": 74,
+                  "hit_from": 24,
+                  "hit_to": 66,
+                  "align_len": 43,
+                  "gaps": 0,
+                  "qseq": "GVLHGGYEVAFLLGNKRPTAGIFPTVVIGCVADGRNPKFDVVV",
+                  "hseq": "GLVSGAIRLSYKLGFKRAWRAPVPVVVVGNLTAGGNGKTPVVI",
+                  "midline": "G++ G   +++ LG KR      P VV+G +  G N K  VV+"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|97950",
+                  "accession": "97950",
+                  "title": "A9N7U7.1 RecName: Full=Tetraacyldisaccharide 4'-kinase; AltName: Full=Lipid A 4'-kinase [Salmonella enterica subsp. enterica serovar Paratyphi B str. SPB7] Q8ZQC2.1 RecName: Full=Tetraacyldisaccharide 4'-kinase; AltName: Full=Lipid A 4'-kinase [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]"
+                }
+              ],
+              "len": 325,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 3.96946,
+                  "identity": 15,
+                  "positive": 23,
+                  "query_from": 32,
+                  "query_to": 74,
+                  "hit_from": 24,
+                  "hit_to": 66,
+                  "align_len": 43,
+                  "gaps": 0,
+                  "qseq": "GVLHGGYEVAFLLGNKRPTAGIFPTVVIGCVADGRNPKFDVVV",
+                  "hseq": "GLVSGAIRLSYKLGFKRAWRAPVPVVVVGNLTAGGNGKTPVVI",
+                  "midline": "G++ G   +++ LG KR      P VV+G +  G N K  VV+"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|331356",
+                  "accession": "331356",
+                  "title": "Q8Z801.1 RecName: Full=Tetraacyldisaccharide 4'-kinase; AltName: Full=Lipid A 4'-kinase [Salmonella enterica subsp. enterica serovar Typhi]"
+                }
+              ],
+              "len": 325,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 4.16994,
+                  "identity": 15,
+                  "positive": 23,
+                  "query_from": 32,
+                  "query_to": 74,
+                  "hit_from": 24,
+                  "hit_to": 66,
+                  "align_len": 43,
+                  "gaps": 0,
+                  "qseq": "GVLHGGYEVAFLLGNKRPTAGIFPTVVIGCVADGRNPKFDVVV",
+                  "hseq": "GLVSGAIRLSYKLGLKRAWRAPVPVVVVGNLTAGGNGKTPVVI",
+                  "midline": "G++ G   +++ LG KR      P VV+G +  G N K  VV+"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|287090",
+                  "accession": "287090",
+                  "title": "B5BBP3.1 RecName: Full=Tetraacyldisaccharide 4'-kinase; AltName: Full=Lipid A 4'-kinase [Salmonella enterica subsp. enterica serovar Paratyphi A str. AKU_12601] Q5PGH1.1 RecName: Full=Tetraacyldisaccharide 4'-kinase; AltName: Full=Lipid A 4'-kinase [Salmonella enterica subsp. enterica serovar Paratyphi A str. ATCC 9150]"
+                }
+              ],
+              "len": 325,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 4.21124,
+                  "identity": 15,
+                  "positive": 23,
+                  "query_from": 32,
+                  "query_to": 74,
+                  "hit_from": 24,
+                  "hit_to": 66,
+                  "align_len": 43,
+                  "gaps": 0,
+                  "qseq": "GVLHGGYEVAFLLGNKRPTAGIFPTVVIGCVADGRNPKFDVVV",
+                  "hseq": "GLVSGAIRLSYKLGLKRAWRAPVPVVVVGNLTAGGNGKTPVVI",
+                  "midline": "G++ G   +++ LG KR      P VV+G +  G N K  VV+"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|346172",
+                  "accession": "346172",
+                  "title": "B5F168.1 RecName: Full=Tetraacyldisaccharide 4'-kinase; AltName: Full=Lipid A 4'-kinase [Salmonella enterica subsp. enterica serovar Agona str. SL483]"
+                }
+              ],
+              "len": 325,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 4.38056,
+                  "identity": 15,
+                  "positive": 23,
+                  "query_from": 32,
+                  "query_to": 74,
+                  "hit_from": 24,
+                  "hit_to": 66,
+                  "align_len": 43,
+                  "gaps": 0,
+                  "qseq": "GVLHGGYEVAFLLGNKRPTAGIFPTVVIGCVADGRNPKFDVVV",
+                  "hseq": "GLVSGAIRLSYKLGLKRAWRAPVPVVVVGNLTAGGNGKTPVVI",
+                  "midline": "G++ G   +++ LG KR      P VV+G +  G N K  VV+"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|318956",
+                  "accession": "318956",
+                  "title": "B5FQ58.1 RecName: Full=Tetraacyldisaccharide 4'-kinase; AltName: Full=Lipid A 4'-kinase [Salmonella enterica subsp. enterica serovar Dublin str. CT_02021853]"
+                }
+              ],
+              "len": 325,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 4.42394,
+                  "identity": 15,
+                  "positive": 23,
+                  "query_from": 32,
+                  "query_to": 74,
+                  "hit_from": 24,
+                  "hit_to": 66,
+                  "align_len": 43,
+                  "gaps": 0,
+                  "qseq": "GVLHGGYEVAFLLGNKRPTAGIFPTVVIGCVADGRNPKFDVVV",
+                  "hseq": "GLVSGAIRLSYKLGLKRAWRAPVPVVVVGNLTAGGNGKTPVVI",
+                  "midline": "G++ G   +++ LG KR      P VV+G +  G N K  VV+"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|166661",
+                  "accession": "166661",
+                  "title": "A9MHW7.1 RecName: Full=Tetraacyldisaccharide 4'-kinase; AltName: Full=Lipid A 4'-kinase [Salmonella enterica subsp. arizonae serovar 62:z4,z23:-]"
+                }
+              ],
+              "len": 325,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 4.42394,
+                  "identity": 15,
+                  "positive": 23,
+                  "query_from": 32,
+                  "query_to": 74,
+                  "hit_from": 24,
+                  "hit_to": 66,
+                  "align_len": 43,
+                  "gaps": 0,
+                  "qseq": "GVLHGGYEVAFLLGNKRPTAGIFPTVVIGCVADGRNPKFDVVV",
+                  "hseq": "GLVSGAIRLSYKLGLKRAWRAPVPVVVVGNLTAGGNGKTPVVI",
+                  "midline": "G++ G   +++ LG KR      P VV+G +  G N K  VV+"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|283396",
+                  "accession": "283396",
+                  "title": "Q8ABH7.1 RecName: Full=N-acetylmuramic acid 6-phosphate etherase; Short=MurNAc-6-P etherase; AltName: Full=N-acetylmuramic acid 6-phosphate hydrolase; AltName: Full=N-acetylmuramic acid 6-phosphate lyase [Bacteroides thetaiotaomicron VPI-5482]"
+                }
+              ],
+              "len": 277,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 5.90514,
+                  "identity": 14,
+                  "positive": 16,
+                  "query_from": 49,
+                  "query_to": 68,
+                  "hit_from": 84,
+                  "hit_to": 107,
+                  "align_len": 24,
+                  "gaps": 4,
+                  "qseq": "PTAGIFPTVVIGCVADG----RNP",
+                  "hseq": "PTFGMPPTVVIGLIAGGDTALRNP",
+                  "midline": "PT G+ PTVVIG +A G    RNP"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|29022",
+                  "accession": "29022",
+                  "title": "Q0IE03.1 RecName: Full=6,7-dimethyl-8-ribityllumazine synthase; Short=DMRL synthase; Short=LS; Short=Lumazine synthase [Synechococcus sp. CC9311]"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 9.20964,
+                  "identity": 21,
+                  "positive": 34,
+                  "query_from": 17,
+                  "query_to": 74,
+                  "hit_from": 42,
+                  "hit_to": 98,
+                  "align_len": 61,
+                  "gaps": 7,
+                  "qseq": "HGSDVVQTGADAAKLGV--LHGGYEVAFLLGNKRPTAGIFPTVV-IGCVADGRNPKFDVVV",
+                  "hseq": "HGVD---TTAESSQLDVAWVPGSFELP-LVSQNLARSGLYQVVITLGAVIRGDTPHFDVVV",
+                  "midline": "HG D   T A++++L V  + G +E+  L+      +G++  V+ +G V  G  P FDVVV"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|5736",
+                  "accession": "5736",
+                  "title": "O65554.1 RecName: Full=CBL-interacting serine/threonine-protein kinase 6; AltName: Full=SNF1-related kinase 3.14; AltName: Full=SOS2-like protein kinase PKS4; AltName: Full=SOS3-interacting protein 3 [Arabidopsis thaliana]"
+                }
+              ],
+              "len": 441,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 9.68721,
+                  "identity": 13,
+                  "positive": 20,
+                  "query_from": 18,
+                  "query_to": 46,
+                  "hit_from": 3,
+                  "hit_to": 32,
+                  "align_len": 30,
+                  "gaps": 1,
+                  "qseq": "GSDVVQTGADA-AKLGVLHGGYEVAFLLGN",
+                  "hseq": "GAKPVENGSDGGSSTGLLHGRYELGRLLGH",
+                  "midline": "G+  V+ G+D  +  G+LHG YE+  LLG+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 48,
+            "eff_space": 4460260784,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

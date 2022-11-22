@@ -1,0 +1,218 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_22",
+          "query_title": "<unknown id> Protein #22 translated from XX894275 with ORF = -1",
+          "query_len": 77,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|357226",
+                  "accession": "357226",
+                  "title": "Q10135.1 RecName: Full=Lysine-specific histone demethylase 2 [Schizosaccharomyces pombe 972h-]"
+                }
+              ],
+              "len": 1273,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 4.2328,
+                  "identity": 22,
+                  "positive": 28,
+                  "query_from": 25,
+                  "query_to": 76,
+                  "hit_from": 482,
+                  "hit_to": 539,
+                  "align_len": 60,
+                  "gaps": 10,
+                  "qseq": "GCNTLPPSYL------TVSAMAPKQ--IALAGTSLRGVSLRCKRDMPALPDMFPKSFLSK",
+                  "hseq": "GCLSFDSSFTNETNTGTTSSSASKQKTIAVVGAGLTG--LICARQLTGLFSQYSSSFLSK",
+                  "midline": "GC +   S+       T S+ A KQ  IA+ G  L G  L C R +  L   +  SFLSK"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|40211",
+                  "accession": "40211",
+                  "title": "A1JKM2.1 RecName: Full=Membrane-bound lytic murein transglycosylase F; AltName: Full=Murein lyase F; Flags: Precursor [Yersinia enterocolitica subsp. enterocolitica 8081]"
+                }
+              ],
+              "len": 486,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 5.10796,
+                  "identity": 21,
+                  "positive": 29,
+                  "query_from": 6,
+                  "query_to": 71,
+                  "hit_from": 309,
+                  "hit_to": 372,
+                  "align_len": 66,
+                  "gaps": 2,
+                  "qseq": "VRYNELKSNENAYSYTPARGCNTLPPSYLTVSAMAPKQIALAGTSLRGVSLRCKRDMPALPDMFPK",
+                  "hseq": "IAYQESHWNPQATSPTGVRGLMML--TRATASGLGVKDRVDPEESIRGGSVYLQRLMQKVPDTIPE",
+                  "midline": "+ Y E   N  A S T  RG   L  +  T S +  K       S+RG S+  +R M  +PD  P+"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|154960",
+                  "accession": "154960",
+                  "title": "Q5V4H7.1 RecName: Full=Sensory rhodopsin III; Short=HmSRIII; AltName: Full=Opsin; AltName: Full=Sensory-like rhodopsin; Short=HmSMR [Haloarcula marismortui ATCC 43049]"
+                }
+              ],
+              "len": 232,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 6.26167,
+                  "identity": 10,
+                  "positive": 19,
+                  "query_from": 1,
+                  "query_to": 24,
+                  "hit_from": 209,
+                  "hit_to": 232,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "MSIIMVRYNELKSNENAYSYTPAR",
+                  "hseq": "MSILLVRYNSVETFVDSWSVAPAK",
+                  "midline": "MSI++VRYN +++  +++S  PA+"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|306557",
+                  "accession": "306557",
+                  "title": "Q9KNR7.1 RecName: Full=Chaperonin GroEL 1; AltName: Full=60 kDa chaperonin 1; AltName: Full=Chaperonin-60 1; Short=Cpn60 1 [Vibrio cholerae O1 biovar El Tor str. N16961]"
+                }
+              ],
+              "len": 544,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 7.04787,
+                  "identity": 20,
+                  "positive": 31,
+                  "query_from": 9,
+                  "query_to": 67,
+                  "hit_from": 467,
+                  "hit_to": 534,
+                  "align_len": 68,
+                  "gaps": 9,
+                  "qseq": "NELKSNENAYSYTPARGC-------NTLPPSYLTVSAM--APKQIALAGTSLRGVSLRCKRDMPALPD",
+                  "hseq": "NNVRAGEGNYGYNAATGVYGDMIEMGILDPTKVTRSALQFAASVAGLMITTEAMITELPKKDAPAMPD",
+                  "midline": "N +++ E  Y Y  A G          L P+ +T SA+  A     L  T+   ++   K+D PA+PD"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|138626",
+                  "accession": "138626",
+                  "title": "A5F4Y1.1 RecName: Full=Chaperonin GroEL 2; AltName: Full=60 kDa chaperonin 2; AltName: Full=Chaperonin-60 2; Short=Cpn60 2 [Vibrio cholerae O395]"
+                }
+              ],
+              "len": 544,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 7.04787,
+                  "identity": 20,
+                  "positive": 31,
+                  "query_from": 9,
+                  "query_to": 67,
+                  "hit_from": 467,
+                  "hit_to": 534,
+                  "align_len": 68,
+                  "gaps": 9,
+                  "qseq": "NELKSNENAYSYTPARGC-------NTLPPSYLTVSAM--APKQIALAGTSLRGVSLRCKRDMPALPD",
+                  "hseq": "NNVRAGEGNYGYNAATGVYDDMIEMGILDPTKVTRSALQFAASVAGLMITTEAMITELPKKDAPAMPD",
+                  "midline": "N +++ E  Y Y  A G          L P+ +T SA+  A     L  T+   ++   K+D PA+PD"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|350697",
+                  "accession": "350697",
+                  "title": "Q8Y1C6.1 RecName: Full=Peptide methionine sulfoxide reductase MsrA; Short=Protein-methionine-S-oxide reductase; AltName: Full=Peptide-methionine (S)-S-oxide reductase; Short=Peptide Met(O) reductase [Ralstonia solanacearum GMI1000]"
+                }
+              ],
+              "len": 191,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 7.83019,
+                  "identity": 17,
+                  "positive": 27,
+                  "query_from": 21,
+                  "query_to": 72,
+                  "hit_from": 92,
+                  "hit_to": 144,
+                  "align_len": 53,
+                  "gaps": 1,
+                  "qseq": "TPARGCNTLPPSYLT-VSAMAPKQIALAGTSLRGVSLRCKRDMPALPDMFPKS",
+                  "hseq": "TLERQGNDIGPQYRSAVFAQSPEQFAEAGATIRALSAANVFDAPIVTEVVDAS",
+                  "midline": "T  R  N + P Y + V A +P+Q A AG ++R +S     D P + ++   S"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480361,
+            "db_len": 182352356,
+            "hsp_len": 48,
+            "eff_space": 4619555812,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}
